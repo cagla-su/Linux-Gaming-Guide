@@ -44,9 +44,9 @@ We only need to apply 3 steps:
 - *gamemoderun %command%*
 ## Performance-Boosting Environment Variables
 You can use these options for better performance while gaming:
-- **WINEDEBUG=-all**
-- **mesa_glthread=true** (Intel/AMD and OpenGL-specific)
-- **__GL_THREADED_OPTIMIZATIONS=1** (NVIDIA and OpenGL-specific)
+- **WINEDEBUG=-all**  (it suppresses all debug output of wine)
+- **mesa_glthread=true** (It improves OpenGL performance on Intel/AMD GPU)
+- **__GL_THREADED_OPTIMIZATIONS=1** (It improves OpenGL performance on NVIDIA)
 - **DXVK_ASYNC=1** (it doesn't work on Steam games)
 ### How Can We Use These Environment Variables?
 - **Steam**: You can simply use these commands in your Steam game's launch options, don't forget to add *%command%* at last

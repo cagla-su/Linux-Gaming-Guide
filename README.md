@@ -4,3 +4,4 @@
 - Other than Linux users, Windows gamers who would like to switch to Linux permanently can conquer their concerns via this guide.
 - In this repository, there won't be only a gaming guide but also installation + optimization guides for specific games that need extra configuration.
 - I hope you like and have fun while reading my guide! So, let's begin!
+- Guide starts here: [Linux Gaming Guide](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/1-Prepare-Your-System.md)

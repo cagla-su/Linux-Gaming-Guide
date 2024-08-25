@@ -102,4 +102,4 @@ Add the command for your GPU on your game's launch options and make sure it has 
  - **Heroic**: On your library, right click on your game and go to **Settings**, in the opened window, check **Use Dedicated Graphics Card** option. That's all you should do!
 
 # Last Words
-After reading this guide, you might want to check game-specific installation and optimization guides in this repository in case you'd like to play one of those games. Thank you for reading, have a nice day! 🤭
+After reading this guide, you might want to check [game-specific installation and optimization guides](https://github.com/citloveslinux/Linux-Gaming-Guide/tree/main/Game%20Specific%20Guides) in case you'd like to play one of those games. Thank you for reading, have a nice day! 🤭

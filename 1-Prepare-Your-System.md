@@ -3,25 +3,25 @@ I would like to explain to you how running Windows games on Linux works.
 - Firstly, [WINE](https://www.winehq.org/) (a compatibility layer) is directing Windows library files into Linux library files
 - Lastly, [DXVK technology](https://github.com/doitsujin/dxvk) is translating DirectX (Windows-specific graphics library) calls into Vulkan (Windows/Linux native graphics library) or OpenGL (only if you don't have Vulkan drivers installed) to make Windows games run on Linux.
 ## Things We Should Know Before Starting
-- First thing we need to know is that if you have an **NVIDIA GPU**, things you should do will be *a bit harder* because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' response to NVIDIA for not supporting Linux](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
-- Second thing we need to know is that you **must have** a Vulkan capable GPU which all modern GPUs already support. So, if you have a very old GPU, it probably doesn't support Vulkan which is not good for performance.
+- First thing we need to know is that if you have an **NVIDIA GPU**, steps you should apply will be *a bit harder* because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' response to NVIDIA for not supporting Linux in case you want to say the same thing](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
+- Second thing we need to know is that you **should have** a Vulkan capable GPU which all modern GPUs already support. So, if you have a very old GPU, it probably doesn't support Vulkan which is not good for performance.
 - You can still play windows games on Linux if you don't have a Vulkan capable GPU but in this case, DirectX calls will be translated into OpenGL instead of Vulkan which means you're going to experience lots of performance issues.
 ## Get Started
-- We only need to apply 3 steps:
-	- **1- Installing Vulkan Drivers**
-	- **2- Installing Wine and Wine Dependencies**
-	- **3- Installing Gaming Software :)**
-### Installing Vulkan Drivers
+We only need to apply 3 steps:
+- **1- Installing Vulkan Drivers**
+- **2- Installing Wine and Wine Dependencies**
+- **3- Installing Gaming Software :)**
+### 1- Installing Vulkan Drivers
 - If you are using an **NVIDIA GPU**, the best performant way is to install the **proprietary** driver from your package manager.
 - If you are using an **Intel/AMD GPU**, the best performant way is to install the **open-source** driver from your package manager.
 - Both ways are explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
 - If you don't see your distribution in the link, that means either your distribution's package manager does not include Vulkan drivers or Vulkan drivers are included preinstalled in your system such as [Fedora did for Mesa drivers](https://packages.fedoraproject.org/pkgs/mesa/mesa-vulkan-drivers/).
 
-### Installing Wine and Wine Dependencies
+### 2- Installing Wine and Wine Dependencies
 - First of all, if you're going to install your gaming software from [Flatpak](https://www.flatpak.org/), then you can skip this step as Flatpak will already install them with wine and its dependencies.
 - This step is explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/WineDependencies.md)
 
-### Installing Gaming Software
+### 3- Installing Gaming Software
 - You just completed the hardest steps! Now it's time for the last and the easiest step. Install your favourite gaming software!
 - Some gaming software you might be interested in:
 	- [Steam](https://store.steampowered.com/): Steam is natively supported on Linux
@@ -30,7 +30,7 @@ I would like to explain to you how running Windows games on Linux works.
 		- You can search for your games in the app to see if there is an already made script to install and configure your game automatically.
 		- You can install your games manually. You can also install your games via DVD.
 		- You can install your pirated games if you have setup files.
-	- **Protonup-QT**: You can install custom Wine/Proton builds for a better gameplay that are supported by Lutris, Steam and Heroic.
+	- [Protonup-QT](https://davidotek.github.io/protonup-qt/): You can install custom Wine/Proton builds for a better gameplay that are supported by Lutris, Steam and Heroic.
 ### Notes
 - You can install these software from either your package manager or Flatpak.
 - If you're using [CachyOS](https://cachyos.org/) or if you have [CachyOS repositories](https://github.com/CachyOS/linux-cachyos#cachyos-repositories) enabled in your Arch system, you can install [cachyos-gaming-meta](https://github.com/CachyOS/CachyOS-PKGBUILDS/blob/master/cachyos-gaming-meta/PKGBUILD) package to install all the necessary gaming components.
@@ -38,3 +38,43 @@ I would like to explain to you how running Windows games on Linux works.
 	- If your game is ranked as silver or lower, that means it is not supported or unplayable.
 	- You can get optimization tips if other reviewers wrote any.
 	- You can write your own review for any Steam game after logging in via your Steam account.
+# Hybrid Graphics
+- Hybrid graphics setup is not an issue on Linux at all.
+- If you have an Intel/AMD + NVIDIA setup, you can install Vulkan drivers for both hardware and set your games to run on your dedicated GPU.
+- After installing Vulkan drivers for both of your hardware:
+	- If your dedicated GPU is **AMD**, the necessary command to run the games on the dedicated GPU is:
+		- *DRI_PRIME=1*
+ 	- If your dedicated GPU is **NVIDIA**, the necessary command to run the games on the dedicated GPU is:
+  		- __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia*
+## Ways To Run Software On Dedicated GPU
+- If you're using **GNOME**, you can simply right click on the icon of the game you'd like to run on your dedicated GPU, you should see an option to run it with discrete graphics.
+- If you're **not** using **GNOME**, here are **4 ways** of running your games on your dedicated GPU:
+	- **1- Terminal Way**
+ 	- **2- Shortcut Way**
+ 	- **3- Steam Games**
+  	- **4- Lutris/Heroic Games**
+### 1- Terminal Way
+Simply, typing the command for your GPU and the package name of your game:
+- Example: DRI_PRIME=1 prismlauncher
+### 2- Shortcut Way
+- Create a .desktop file on your desktop and follow the next step.
+- I'm going to show you an example content to run **Prism Launcher** via dedicated GPU. Make sure your file also has the line that starts with *Exec* to look like this:
+	- [Desktop Entry]
+	- Version=1.0
+	- Type=Application
+	- Name=Prism Launcher
+	- Comment=Prism Launcher
+	- Exec=env __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia prismlauncher %U
+	- Icon=/path/to/your/game/icon.png
+	- Terminal=false
+	- Categories=Game;
+- Simply, we're typing *env* first and then the command for your GPU, lastly, package name of your game/app.
+### Steam Games
+On your library, right click on your game and click on **Properties**, now type the command for your GPU in **Launch Options** box and make sure it has *%command%* at last just like in the example:
+- DRI_PRIME=1 %command%
+- **NOTE**: If you're going to use gamemode and run your game on your dedicated GPU, make sure your gamemode command is written before *%command%* just like in the example:
+- DRI_PRIME=1 gamemoderun %command%
+### Lutris/Heroic Games
+- **Lutris**: On the left side bar, point your mouse cursor on **Wine**, click on the gear icon that appeared.
+	- Go to **System Options** and turn on the **Advanced** option, now scroll down a bit. You should turn on the **Use Discrete Graphics** option, after that, make sure you've picked your dedicated GPU's API on **Vulkan API** option. That's all you should do!
+ - **Heroic**: 

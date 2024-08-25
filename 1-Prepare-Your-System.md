@@ -93,3 +93,6 @@ Add the command for your GPU on your game's launch options and make sure it has 
 - **Lutris**: On the left side bar, point your mouse cursor on **Wine**, click on the gear icon that appeared.
 	- Go to **System Options** and turn on the **Advanced** option, now scroll down a bit. You should turn on the **Use Discrete Graphics** option, after that, make sure you've picked your dedicated GPU's API on **Vulkan API** section. That's all you should do! Make sure to save changes.
  - **Heroic**: On your library, right click on your game and go to **Settings**, in the opened window, check **Use Dedicated Graphics Card** option. That's all you should do!
+
+# Last Words
+After reading this guide, you might want to check game-specific installation and optimization guides in this repository in case you'd like to play one of those games. Thank you for reading, have a nice day! 🤭

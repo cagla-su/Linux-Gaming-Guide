@@ -34,7 +34,7 @@ We only need to apply 3 steps:
 ### Notes
 - You can install these software from either your package manager or Flatpak.
 - If you're using [CachyOS](https://cachyos.org/) or if you have [CachyOS repositories](https://github.com/CachyOS/linux-cachyos#cachyos-repositories) enabled in your Arch system, you can install [cachyos-gaming-meta](https://github.com/CachyOS/CachyOS-PKGBUILDS/blob/master/cachyos-gaming-meta/PKGBUILD) package to install all the necessary gaming components.
-- You can use [ProtonDB](https://www.protondb.com/) is a website that allows you to check whether your Windows games on Steam are playable on Linux.
+- You can use [ProtonDB](https://www.protondb.com) to check whether your Windows games on Steam are playable on Linux.
 	- If your game is ranked as silver or lower, that means it is not supported or unplayable.
 	- You can get optimization tips if other reviewers wrote any.
 	- You can write your own review for any Steam game after logging in via your Steam account.

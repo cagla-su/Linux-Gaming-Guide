@@ -1,7 +1,6 @@
 # Çıt's Linux Gaming Guide
-- Hello! As you can confirm, Linux gaming is improving in an accelerated way and this guide is about how you can get your Linux system ready for gaming.
-- You don't have to be an advanced user to play games on Linux. Even if you're a new Linux user, you can still follow this guide and find out it is not hard to prepare Linux for gaming.
-- Other than Linux users, Windows gamers who would like to switch to Linux permanently can conquer their concerns via this guide.
-- In this repository, there won't be only a gaming guide but also installation + optimization guides for specific games that need extra configuration.
-- I hope you like and have fun while reading my guide! So, let's begin!
-- Guide starts here: [Linux Gaming Guide](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/1-Prepare-Your-System.md)
+- Hello! 🤭❤️ I wanted to make a detailed Linux gaming guide for everyone including beginners. As you would appreciate, Linux gaming is improving in an accelerated way and it keeps earning new gamers every day. In upcoming years, it is expected to be noticed even more. If you'd like to at least try gaming on Linux but don't know where to start with, you can read my beginner friendly guides!
+# Table of Contents
+- [Prepare Your System For Gaming on Linux](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/1-Prepare-Your-System.md)
+- [Game Specific Guides](https://github.com/citloveslinux/Linux-Gaming-Guide/tree/main/Game%20Specific%20Guides)
+  - [Metin2 Installation and Optimization Guide](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)

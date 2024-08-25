@@ -60,7 +60,7 @@ You can use these options for better performance while gaming:
 	- If your dedicated GPU is **AMD**, the necessary command to run the games on the dedicated GPU is:
 		- *DRI_PRIME=1*
  	- If your dedicated GPU is **NVIDIA**, the necessary command to run the games on the dedicated GPU is:
-  		- __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia*
+  		- *__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia*
 ## Ways To Run Software On Dedicated GPU
 - If you're using **GNOME**, you can simply right click on the icon of the game you'd like to run on your dedicated GPU, you should see an option to run it with discrete graphics.
 - If you're **not** using **GNOME**, here are **4 ways** of running your games on your dedicated GPU:

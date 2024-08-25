@@ -52,7 +52,14 @@ You can use these options for better performance while gaming:
 - **Steam**: You can simply use these commands in your Steam game's launch options, don't forget to add *%command%* at last
 - **Lutris**: On **System Options** section of Lutris, there is another section called **Environment Variables**, you should type the variables like in the example:
 	- **Key**: WINEDEBUG
- 	- **Value**: -all 
+ 	- **Value**: -all
+## Disabling Compositor - X11/Xorg ONLY!!!
+**WARNING**: If you're using **Wayland**, you can't disable compositor. The steps are only available for **X11/Xorg**.
+- Disabling compositor simply disables animations, transparency and causes screen tearing which destroys visual quality while improving performance.
+- If you're using **KDE**, you can simply disable compositor using **Shift - Alt - F12** keybinds. To reenable it, apply the same keybind.
+- If you're using **XFCE**, you can disable compositor following the steps below:
+	- *Settings Manager - Window Manager Tweaks - Compositor - Enable Display Compositing (**uncheck the box**)*
+- For other desktop environments and other ways of disabling compositor, you can check [this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11))
 # Hybrid Graphics
 - Hybrid graphics setup is not an issue on Linux at all.
 - If you have an Intel/AMD + NVIDIA setup, you can install Vulkan drivers for both hardware and set your games to run on your dedicated GPU.

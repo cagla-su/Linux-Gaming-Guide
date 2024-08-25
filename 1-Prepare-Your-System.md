@@ -5,7 +5,7 @@ I would like to explain to you how running Windows games on Linux works.
 ## Things We Should Know Before Starting
 - First thing we need to know is that if you have an **NVIDIA GPU**, steps you should apply will be *a bit harder* because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' response to NVIDIA for not supporting Linux in case you want to say the same thing](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
 - Second thing we need to know is that you **should have** a Vulkan capable GPU which all modern GPUs already support. So, if you have a very old GPU, it probably doesn't support Vulkan which is not good for performance.
-- You can still play windows games on Linux if you don't have a Vulkan capable GPU but in this case, DirectX calls will be translated into OpenGL instead of Vulkan which means you're going to experience lots of performance issues.
+- You can still play windows games on Linux if you don't have a Vulkan capable GPU but in this case, DirectX calls will be translated into OpenGL instead of Vulkan via WINED3D instead of DXVK which means you're going to experience lots of performance issues.
 ## Get Started
 We only need to apply 3 steps:
 - **1- Installing Vulkan Drivers**
@@ -38,6 +38,21 @@ We only need to apply 3 steps:
 	- If your game is ranked as silver or lower, that means it is not supported or unplayable.
 	- You can get optimization tips if other reviewers wrote any.
 	- You can write your own review for any Steam game after logging in via your Steam account.
+# Optimization
+## Gamemode
+[Gamemode](https://github.com/FeralInteractive/gamemode) is a project that optimizes your gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed but on Steam, you have to manually add a command on your games' launch options like in the example:
+- *gamemoderun %command%*
+## Performance-Boosting Environment Variables
+You can use these options for better performance while gaming:
+- **WINEDEBUG=-all**
+- **mesa_glthread=true** (Intel/AMD and OpenGL-specific)
+- **__GL_THREADED_OPTIMIZATIONS=1** (NVIDIA and OpenGL-specific)
+- **DXVK_ASYNC=1** (it doesn't work on Steam games)
+### How Can We Use These Environment Variables?
+- **Steam**: You can simply use these commands in your Steam game's launch options, don't forget to add *%command%* at last
+- **Lutris**: On **System Options** section of Lutris, there is another section called **Environment Variables**, you should type the variables like in the example:
+	- **Key**: WINEDEBUG
+ 	- **Value**: -all 
 # Hybrid Graphics
 - Hybrid graphics setup is not an issue on Linux at all.
 - If you have an Intel/AMD + NVIDIA setup, you can install Vulkan drivers for both hardware and set your games to run on your dedicated GPU.
@@ -69,12 +84,12 @@ Simply, typing the command for your GPU and the package name of your game:
 	- Terminal=false
 	- Categories=Game;
 - Simply, we're typing *env* first and then the command for your GPU, lastly, package name of your game/app.
-### Steam Games
-On your library, right click on your game and click on **Properties**, now type the command for your GPU in **Launch Options** box and make sure it has *%command%* at last just like in the example:
+### 3- Steam Games
+Add the command for your GPU on your game's launch options and make sure it has *%command%* at last just like in the example:
 - DRI_PRIME=1 %command%
 - **NOTE**: If you're going to use gamemode and run your game on your dedicated GPU, make sure your gamemode command is written before *%command%* just like in the example:
 - DRI_PRIME=1 gamemoderun %command%
-### Lutris/Heroic Games
+### 4- Lutris/Heroic Games
 - **Lutris**: On the left side bar, point your mouse cursor on **Wine**, click on the gear icon that appeared.
-	- Go to **System Options** and turn on the **Advanced** option, now scroll down a bit. You should turn on the **Use Discrete Graphics** option, after that, make sure you've picked your dedicated GPU's API on **Vulkan API** option. That's all you should do!
- - **Heroic**: 
+	- Go to **System Options** and turn on the **Advanced** option, now scroll down a bit. You should turn on the **Use Discrete Graphics** option, after that, make sure you've picked your dedicated GPU's API on **Vulkan API** section. That's all you should do! Make sure to save changes.
+ - **Heroic**: On your library, right click on your game and go to **Settings**, in the opened window, check **Use Dedicated Graphics Card** option. That's all you should do!

@@ -12,8 +12,8 @@
 	- **2- Installing Wine and Wine Dependencies**
 	- **3- Installing Gaming Software :)**
 ### Installing Vulkan Drivers
-- If you are using an NVIDIA GPU, the best performant way is to install the **proprietary** driver from your package manager.
-- If you are using an Intel or AMD GPU, the best performant way is to install the **open-source** driver from your package manager.
+- If you are using an **NVIDIA GPU**, the best performant way is to install the **proprietary** driver from your package manager.
+- If you are using an **Intel/AMD GPU**, the best performant way is to install the **open-source** driver from your package manager.
 - Both ways are explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
 - If you don't see your distribution in the link, that means either your distribution's package manager does not include vulkan drivers or vulkan drivers are included preinstalled in your system such as [Fedora did for Mesa drivers](https://packages.fedoraproject.org/pkgs/mesa/mesa-vulkan-drivers/).
 

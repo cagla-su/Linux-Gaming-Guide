@@ -1,9 +1,9 @@
-# Prepare Your System
+# Things You Should Know Before Starting
 - First of all, I would like to explain to you how running Windows games on Linux works.
 	- Simply, [WINE](https://www.winehq.org/) (a compatibility layer) is directing Windows library files into Linux library files
 	- Second, [DXVK technology](https://github.com/doitsujin/dxvk) is translating DirectX (Windows-specific graphics library) calls into Vulkan (Windows/Linux native graphics library) or OpenGL if you don't have Vulkan drivers to make Windows games run on Linux.
 - To prepare our system for gaming on Linux, we have to know what do we need to know first.
-	- First thing we need to know is that if you have an NVIDIA GPU, things you should do is *a bit harder* than having an Intel/AMD GPU because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' respond to NVIDIA for not supporting Linux](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
+	- First thing we need to know is that if you have an **NVIDIA GPU**, things you should do is *a bit harder* than on having an **Intel/AMD GPU** because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' respond to NVIDIA for not supporting Linux](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
 	- Second thing we need to know is that you **must have** a Vulkan capable GPU which all modern GPUs already support. So, if you have a very old GPU, there's a chance it doesn't support Vulkan which is not good.
  	- You can still play windows games on Linux if you don't have a Vulkan capable GPU but in this case, DirectX calls will be translated into OpenGL instead of Vulkan which means you're going to experience lots of poor performance issues.
 ## Get Started

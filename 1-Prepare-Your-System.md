@@ -55,7 +55,7 @@ You can use these options for better performance while gaming:
  	- **Value**: -all
 ## Disabling Compositor - X11/Xorg ONLY!!!
 **WARNING**: If you're using **Wayland**, you can't disable compositor. The steps are only available for **X11/Xorg**.
-- Disabling compositor simply disables animations, transparency and causes screen tearing which destroys visual quality while improving performance.
+- A disabled compositor simply means disabled animations, transparency, also it causes screen tearing which destroys visual quality while improving performance.
 - If you're using **KDE**, you can simply disable compositor using **Shift - Alt - F12** keybinds. To reenable it, apply the same keybind.
 - If you're using **XFCE**, you can disable compositor following the steps below:
 	- *Settings Manager - Window Manager Tweaks - Compositor - Enable Display Compositing (**uncheck the box**)*

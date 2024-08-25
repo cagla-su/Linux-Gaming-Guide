@@ -1,11 +1,11 @@
 # Things You Should Know Before Starting
 - First of all, I would like to explain to you how running Windows games on Linux works.
-	- Simply, [WINE](https://www.winehq.org/) (a compatibility layer) is directing Windows library files into Linux library files
-	- Second, [DXVK technology](https://github.com/doitsujin/dxvk) is translating DirectX (Windows-specific graphics library) calls into Vulkan (Windows/Linux native graphics library) or OpenGL if you don't have Vulkan drivers to make Windows games run on Linux.
-- To prepare our system for gaming on Linux, we have to know what do we need to know first.
-	- First thing we need to know is that if you have an **NVIDIA GPU**, things you should do is *a bit harder* than on having an **Intel/AMD GPU** because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' respond to NVIDIA for not supporting Linux](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
-	- Second thing we need to know is that you **must have** a Vulkan capable GPU which all modern GPUs already support. So, if you have a very old GPU, there's a chance it doesn't support Vulkan which is not good.
- 	- You can still play windows games on Linux if you don't have a Vulkan capable GPU but in this case, DirectX calls will be translated into OpenGL instead of Vulkan which means you're going to experience lots of poor performance issues.
+	- Firstly, [WINE](https://www.winehq.org/) (a compatibility layer) is directing Windows library files into Linux library files
+	- Lastly, [DXVK technology](https://github.com/doitsujin/dxvk) is translating DirectX (Windows-specific graphics library) calls into Vulkan (Windows/Linux native graphics library) or OpenGL if you don't have Vulkan drivers to make Windows games run on Linux.
+- Now, let's see what we need to know!
+	- First thing we need to know is that if you have an **NVIDIA GPU**, things you should do will be *a bit harder* because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' response to NVIDIA for not supporting Linux](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
+	- Second thing we need to know is that you **must have** a Vulkan capable GPU which all modern GPUs already support. So, if you have a very old GPU, it probably doesn't support Vulkan which is not good for performance.
+ 	- You can still play windows games on Linux if you don't have a Vulkan capable GPU but in this case, DirectX calls will be translated into OpenGL instead of Vulkan which means you're going to experience lots of performance issues.
 ## Get Started
 - We only need to apply 3 steps:
 	- **1- Installing Vulkan Drivers**
@@ -34,7 +34,7 @@
 ### Notes
 - You can install these software from either your package manager or Flatpak.
 - If you're using [CachyOS](https://cachyos.org/) or if you have [CachyOS repositories](https://github.com/CachyOS/linux-cachyos#cachyos-repositories) enabled in your Arch system, you can install [cachyos-gaming-meta](https://github.com/CachyOS/CachyOS-PKGBUILDS/blob/master/cachyos-gaming-meta/PKGBUILD) package to install all the necessary gaming components.
-- You can use [ProtonDB](https://www.protondb.com/) website to check whether your Windows games on Steam are playable on Linux.
-	- If your game is ranked as silver or lower, that means it is not supported or unplayable
-	- You can also get optimization tips if other reviewers wrote any.
-	- You can also write your own review for any Steam game after logging in via your Steam account.
+- You can use [ProtonDB](https://www.protondb.com/) is a website that allows you to check whether your Windows games on Steam are playable on Linux.
+	- If your game is ranked as silver or lower, that means it is not supported or unplayable.
+	- You can get optimization tips if other reviewers wrote any.
+	- You can write your own review for any Steam game after logging in via your Steam account.

@@ -74,7 +74,8 @@ First of all, let's enable some settings for better performance.
   - [ThreadTweak](https://modrinth.com/mod/threadtweak/version/0.1.1+mc1.20.2)
   - [Zoomify](https://modrinth.com/mod/zoomify) - Optional, it allows you to zoom via C keybind.
 ### In-Game Optimized Settings
-- Click on **Options** and go to **Controls** - **Key Binds** and scroll down until you see a red key bind.
+- **If you're going to use Zoomify**:
+  - Click on **Options** and go to **Controls** - **Key Binds** and scroll down until you see a red key bind.
   - **Save Hotbar Activator** has C button as key bind, change it to something else and hit **Done**
 - Go back to **Options** and go to **Resource Packs**. Now move **Default Connected Textures** and **Glass Pane Culling Fix** from left section to right section and hit **Done**.
 - Go back to **Options** and go to **Video Settings**. These are optimized settings for performance:

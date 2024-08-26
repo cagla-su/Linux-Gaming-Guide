@@ -77,7 +77,7 @@ First of all, let's enable some settings for better performance.
 - **If you're going to use Zoomify**:
   - Click on **Options** and go to **Controls** - **Key Binds** and scroll down until you see a red key bind.
   - **Save Hotbar Activator** has C button as key bind, change it to something else and hit **Done**
-- Go back to **Options** and go to **Resource Packs**. Now move **Default Connected Textures** and **Glass Pane Culling Fix** from left section to right section and hit **Done**.
+- Go to **Options** and go to **Resource Packs**. Now move **Default Connected Textures** and **Glass Pane Culling Fix** from left section to right section and hit **Done**.
 - Go back to **Options** and go to **Video Settings**. These are optimized settings for performance:
   - **General**
     - **Render Distance**: 6 chunks

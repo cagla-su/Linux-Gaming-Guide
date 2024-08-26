@@ -15,5 +15,11 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
   - First, try 1 GB allocated RAM, if you face instability, you can try alocating 2048 or 3072 MiB RAM to configure stability.
 - After completing quick setup, add your Microsoft account to connect to your account in the launcher.
 - Now we can finally install Minecraft. Let's click on **Add Instance** button on top left and continue:
-  - On **Version** section, click on the desired version and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There are options next to the warning. We're going to choose **Fabric** and hit **OK**.
-  - Now,let's install some performance mods! I will be installing mods for **1.20.1** version, that means if you are going to use a newer version of the game, some of those mods **may not** be available for the version you play.
+  - On **Version** section, choose the version you'd like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a **Mod loader** section next to the warning. We're going to choose **Fabric** from there and hit **OK**.
+## Optimization
+- Now, let's install some performance mods! I will be installing mods for **1.20.1** version, that means if you are going to use a newer version of the game, some of those mods **may not** be available for the version you play.
+- First of all, click on your Minecraft instance once and then click on **Edit** on the right side bar.
+- In the opened page, click on **Mods** on the left side bar and click on **Download mods** on the right side bar and make sure **Modrinth** is selected. We're ready to install some mods!
+  - Don't forget to click on **Select mod for download** after selecting each mod.
+- These are the mods I suggest you to use for a smoother gameplay:
+  - 

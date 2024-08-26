@@ -74,3 +74,28 @@ First of all, let's enable some settings for better performance.
   - [ThreadTweak](https://modrinth.com/mod/threadtweak/version/0.1.1+mc1.20.2)
   - [Zoomify](https://modrinth.com/mod/zoomify) - Optional, it allows you to zoom via C keybind.
 ### In-Game Optimized Settings
+- Click on **Options** and go to **Controls** - **Key Binds** and scroll down until you see a red key bind.
+  - **Save Hotbar Activator** has C button as key bind, change it to something else and hit **Done**
+- Go back to **Options** and go to **Resource Packs**. Now move **Default Connected Textures** and **Glass Pane Culling Fix** from left section to right section and hit **Done**.
+- Go back to **Options** and go to **Video Settings**. These are optimized settings for performance:
+  - **General**
+    - **Render Distance**: 6 chunks
+    - **Max Shadow Distance**: Disabled
+    - **Simulation Distance**: 5 chunks
+    - **VSync**: Subjective
+      - In some cases, VSync can be useful, try it on both conditions and decide which one is better.
+  - **Quality**
+    - **Graphics**: Fast
+    - **Clouds**: OFF
+    - **Weather**: Fast
+    - **Leaves**: Fancy
+    - **Particles**: Decreased
+    - **Biome Blend**: 1 block(s)
+    - **Entity Distance** 50%
+    - **Entity Shadows**: OFF
+    - **Distortion Effects**: 60%
+    - **FOV Effects**: 60%
+    - **Mipmap Levels**: 2x
+- We're done!
+## Conclusion
+So, that was my Minecraft installation and optimization guide! I hope you enjoyed it while reading and I hope the guide can be useful for you. Have a nice day!

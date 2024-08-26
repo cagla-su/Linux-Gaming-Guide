@@ -11,8 +11,8 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
 ### Install Minecraft
 - When you first launched the launcher, it'll ask you what language would you like to use. After that question, you're going to see a page about Java.
 - Make sure to change **Maximum memory allocation**. Some people claim you should allocate half of your RAM but this is not good for **some cases**. If you have at least 32 GB RAM and don't perform RAM intensive tasks, you can allocate half of your RAM. However:
-  - If you have 4/6/8/12/16 GB RAM, I suggest you to allocate 1024 MiB if you're not going to install heavy mods.
-  - First, try 1 GB allocated RAM, if you face instability, you can try alocating 2048 or 3072 MiB RAM to configure stability.
+  - If you have **4/6/8/12/16 GB RAM**, I suggest you to allocate **1024 MiB** if you're not going to install heavy mods.
+  - First, try **1 GB** allocated RAM, if you face instability, you can try allocating **2048** or **3072 MiB RAM** to configure stability.
 - After completing quick setup, add your Microsoft account to connect to your account in the launcher.
 - Now we can finally install Minecraft. Let's click on **Add Instance** button on top left and continue:
   - On **Version** section, choose the version you'd like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a **Mod loader** section next to the warning. We're going to choose **Fabric** from there and hit **OK**.

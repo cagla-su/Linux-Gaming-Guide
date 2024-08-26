@@ -17,6 +17,10 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
 - Now we can finally install Minecraft. Let's click on **Add Instance** button on top left and continue:
   - On **Version** section, choose the version you'd like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a **Mod loader** section next to the warning. We're going to choose **Fabric** from there and hit **OK**.
 ## Optimization
+### Before Getting Started
+First of all, let's enable some settings for better performance.
+- Click on **Settings** and go to **Minecraft** section and click on **Tweaks**. Enable **Enable Feral GameMode** (only if you have gamemode installed) and **Use discrete GPU** (only if you have 2 GPUs).
+### Performance Mods
 - Now, let's install some performance mods! I will be installing mods for **1.20.1** version, that means if you are going to use a newer version of the game, some of those mods **may not** be available for the version you play.
 - First of all, click on your Minecraft instance once and then click on **Edit** on the right side bar.
 - In the opened page, click on **Mods** on the left side bar and click on **Download mods** on the right side bar and make sure **Modrinth** is selected. We're ready to install some mods!
@@ -69,3 +73,4 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
   - [Starlight](https://modrinth.com/mod/starlight/version/1.1.2+1.20) - Optional, it is made for rewriting the light engine to fix lighting performance and lighting errors
   - [ThreadTweak](https://modrinth.com/mod/threadtweak/version/0.1.1+mc1.20.2)
   - [Zoomify](https://modrinth.com/mod/zoomify) - Optional, it allows you to zoom via C keybind.
+### In-Game Optimized Settings

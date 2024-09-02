@@ -50,7 +50,7 @@ You are ready to play after changing some in-game settings for performance.
   - **Target shadow**: 2
   - **Shadow Quality**: Low
   - **Effects**: 3
-  - **Private Shops**: 5
+  - **Private Shops**: 3
   - **Item Drops**: 2
   - **Pets**: On
   - **NPC Names**: Off

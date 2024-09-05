@@ -18,8 +18,18 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
   - On **Version** section, choose the version you'd like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a **Mod loader** section next to the warning. We're going to choose **Fabric** from there and hit **OK**.
 ## Optimization
 ### Before Getting Started
-First of all, let's enable some settings for better performance.
-- Click on **Settings** and go to **Minecraft** section and click on **Tweaks**. Enable **Enable Feral GameMode** (only if you have gamemode installed) and **Use discrete GPU** (only if you have 2 GPUs).
+- OpenGL and Java are already better optimized on Linux. However, we can still boost our GL performance, we're going to add an **environment variable**. I'm not sure about GNOME but on XFCE and KDE, adding an environment variable is possible via these steps:
+  - Right click on Prism Launcher and go to **Properties**
+    - **For XFCE**: Make sure **command** section looks like this:
+      - **For Intel/AMD GPU**: *env mesa_glthread=true prismlauncher %U*
+      - **For NVIDIA GPU**: *env __GL_THREADED_OPTIMIZATIONS=1 prismlauncher %U*
+    - **For KDE**: Go to **Application** section and make sure **environment variables** section looks like this
+      - **For Intel/AMD GPU**: *mesa_glthread=true*
+      - **For NVIDIA GPU**: *__GL_THREADED_OPTIMIZATIONS=1*
+- Another and an easier way is to run Prism Launcher via terminal using one of the commands for your GPU like this:
+  - *mesa_glthread=true prismlauncher*
+- Now, let's enable some settings for even better performance.
+  - Click on **Settings** and go to **Minecraft** section and click on **Tweaks**. Enable **Enable Feral GameMode** (only if you have gamemode installed) and **Use discrete GPU** (only if you have 2 GPUs).
 ### Performance Mods
 - Now, let's install some performance mods! I will be installing mods for **1.20.1** version, that means if you are going to use a newer version of the game, some of those mods **may not** be available for the version you play.
 - First of all, click on your Minecraft instance once and then click on **Edit** on the right side bar.

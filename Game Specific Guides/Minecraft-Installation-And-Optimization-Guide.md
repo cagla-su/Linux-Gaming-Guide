@@ -28,7 +28,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
       - **For NVIDIA GPU**: *__GL_THREADED_OPTIMIZATIONS=1*
 - Another and an easier way is to run Prism Launcher via terminal using one of the commands for your GPU like this:
   - *mesa_glthread=true prismlauncher*
-- Now, let's enable some settings for even better performance.
+- Now, let's enable some settings for even better performance in Prism Launcher.
   - Click on **Settings** and go to **Minecraft** section and click on **Tweaks**. Enable **Enable Feral GameMode** (only if you have gamemode installed) and **Use discrete GPU** (only if you have 2 GPUs).
 ### Performance Mods
 - Now, let's install some performance mods! I will be installing mods for **1.20.1** version, that means if you are going to use a newer version of the game, some of those mods **may not** be available for the version you play.

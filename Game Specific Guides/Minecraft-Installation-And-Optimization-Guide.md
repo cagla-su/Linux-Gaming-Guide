@@ -18,7 +18,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
   - On **Version** section, choose the version you'd like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a **Mod loader** section next to the warning. We're going to choose **Fabric** from there and hit **OK**.
 ## Optimization
 ### Before Getting Started
-- **OpenGL and Java** are already **better optimized** on Linux. However, we can still boost our GL performance, we're going to add an **environment variable**. I'm not sure about GNOME but on XFCE and KDE, adding an environment variable is possible via these steps:
+- **OpenGL and Java** are already **better optimized** on Linux. However, we can still boost our GL performance, we're going to add an **environment variable**. I'm not sure about GNOME but on XFCE and KDE, adding an environment variable for **non Flatpak** version is possible via these steps:
   - Right click on Prism Launcher and go to **Properties**
     - **For XFCE**: Make sure **command** section looks like this:
       - **For Intel/AMD GPU**: *env mesa_glthread=true prismlauncher %U*
@@ -26,8 +26,29 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
     - **For KDE**: Go to **Application** section and make sure **environment variables** section looks like this
       - **For Intel/AMD GPU**: *mesa_glthread=true*
       - **For NVIDIA GPU**: *__GL_THREADED_OPTIMIZATIONS=1*
+- If you installed the launcher from **Flatpak**, you might not be able to add environment variable using the previous steps. However, you can add an environment variable via a custom **.desktop** file. You can follow these steps to do so:
+  -  Create a *.desktop* file and edit it via text editor. Paste the content below and save the file:
+  -  **For Intel/AMD GPU**
+    -  [Desktop Entry]
+    - Name=Prism Launcher
+    - Comment=Prism Launcher
+    - Exec=env mesa_glthread=true flatpak run org.prismlauncher.PrismLauncher %U
+    - Icon=/var/lib/flatpak/app/org.prismlauncher.PrismLauncher/x86_64/stable/active/files/share/app-info/icons/flatpak/64x64@2/org.prismlauncher.PrismLauncher.png
+    - Terminal=false
+    - Type=Application
+    - Categories=Game;
+  - **For NVIDIA GPU**
+    - [Desktop Entry]
+    - Name=Prism Launcher
+    - Comment=Prism Launcher
+    - Exec=env __GL_THREADED_OPTIMIZATIONS=1 flatpak run org.prismlauncher.PrismLauncher %U
+    - Icon=/var/lib/flatpak/app/org.prismlauncher.PrismLauncher/x86_64/stable/active/files/share/app-info/icons/flatpak/64x64@2/org.prismlauncher.PrismLauncher.png
+    - Terminal=false
+    - Type=Application
+    - Categories=Game;
 - Another and an easier way is to run Prism Launcher via terminal using one of the commands for your GPU like this:
-  - *mesa_glthread=true prismlauncher*
+  - **For non Flatpak version**: *mesa_glthread=true prismlauncher*
+  - **For Flatpak version**: *mesa_glthread=true flatpak run org.prismlauncher.PrismLauncher*
 - Now, let's enable some settings for even better performance in Prism Launcher.
   - Click on **Settings** and go to **Minecraft** section and click on **Tweaks**. Enable **Enable Feral GameMode** (only if you have gamemode installed) and **Use discrete GPU** (only if you have 2 GPUs).
 ### Performance Mods

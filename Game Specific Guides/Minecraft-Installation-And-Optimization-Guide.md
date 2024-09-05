@@ -33,7 +33,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
     - Name=Prism Launcher
     - Comment=Prism Launcher
     - Exec=env mesa_glthread=true flatpak run org.prismlauncher.PrismLauncher %U
-    - Icon=/var/lib/flatpak/app/org.prismlauncher.PrismLauncher/x86_64/stable/active/files/share/app-info/icons/flatpak/64x64@2/org.prismlauncher.PrismLauncher.png
+    - Icon=org.prismlauncher.PrismLauncher
     - Terminal=false
     - Type=Application
     - Categories=Game;
@@ -42,7 +42,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
     - Name=Prism Launcher
     - Comment=Prism Launcher
     - Exec=env __GL_THREADED_OPTIMIZATIONS=1 flatpak run org.prismlauncher.PrismLauncher %U
-    - Icon=/var/lib/flatpak/app/org.prismlauncher.PrismLauncher/x86_64/stable/active/files/share/app-info/icons/flatpak/64x64@2/org.prismlauncher.PrismLauncher.png
+    - Icon=org.prismlauncher.PrismLauncher
     - Terminal=false
     - Type=Application
     - Categories=Game;

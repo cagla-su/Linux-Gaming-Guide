@@ -18,7 +18,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
   - On **Version** section, choose the version you'd like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a **Mod loader** section next to the warning. We're going to choose **Fabric** from there and hit **OK**.
 ## Optimization
 ### Before Getting Started
-- OpenGL and Java are already better optimized on Linux. However, we can still boost our GL performance, we're going to add an **environment variable**. I'm not sure about GNOME but on XFCE and KDE, adding an environment variable is possible via these steps:
+- **OpenGL and Java** are already **better optimized** on Linux. However, we can still boost our GL performance, we're going to add an **environment variable**. I'm not sure about GNOME but on XFCE and KDE, adding an environment variable is possible via these steps:
   - Right click on Prism Launcher and go to **Properties**
     - **For XFCE**: Make sure **command** section looks like this:
       - **For Intel/AMD GPU**: *env mesa_glthread=true prismlauncher %U*

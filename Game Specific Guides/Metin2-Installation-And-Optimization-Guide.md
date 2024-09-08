@@ -35,7 +35,7 @@ Optimizing Metin2 is the funniest part 🤭 I have lots of fun during this step.
 You are ready to play after changing some in-game settings for performance.
 - **Game Options**
   - **Chat Line**: Hide
-  - **Name**: Always
+  - **Name**: Limited (you can enable it while farming)
   - **Hit Info**: Hide
   - **Animations**: Performance
   - **Shop name**: Hide
@@ -49,10 +49,10 @@ You are ready to play after changing some in-game settings for performance.
   - **Snow**: Off
   - **Target shadow**: 2
   - **Shadow Quality**: Low
-  - **Effects**: 3
-  - **Private Shops**: 3
+  - **Effects**: 3 (you can use 1 too if you want to see metin stone animations)
+  - **Private Shops**: 3 (you can use 5 if you want)
   - **Item Drops**: 2
   - **Pets**: On
-  - **NPC Names**: Off
+  - **NPC Names**: Off (you can enable it if you're mining)
 # Conclusion
 So, this was my Metin2 installation and optimization guide. I hope the guide helped you to play Metin2 on Linux with optimized settings! Have a nice day! 🤭

@@ -1,7 +1,6 @@
 ## Table of Contents
 - [Prepare Your System For Gaming on Linux](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Linux-Gaming-Guide.md)
 - [Game Specific Guides](https://github.com/citloveslinux/Linux-Gaming-Guide/tree/main/Game%20Specific%20Guides)
-  - [(Not A Game) Photoshop Installation Guide](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Photoshop-Installation-Guide.md)
   -  [Minecraft Installation and Optimization Guide](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
   - [Metin2 Installation and Optimization Guide](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)
   - [The Sims 2 Installation and Optimization Guide](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)

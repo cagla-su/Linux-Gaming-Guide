@@ -22,7 +22,7 @@ Optimizing Metin2 is the funniest part 🤭 I have lots of fun during this step.
   - **Value**: 1
 - **Step 5**: Click on Gameforge Client in your Lutris library. Click on the triangle next to wine icon next to **Play** button and go to **Wine configuration**.
   - Change **Windows Version** to **Windows XP** and save changes.
-  - Don't forget to apply the same steps for the second client.
+  - Don't forget to apply the same for the second client.
 - **Step 6**: Open your file manager and follow the directory:
   - /home/yourname/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm
     - After reaching *bgm* folder, delete everything in the folder permanently, don't delete the folder itself, only delete the files inside. We just deleted music files that run in the background while playing which might use CPU and reduce performance.

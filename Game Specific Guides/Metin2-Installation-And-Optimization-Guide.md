@@ -21,8 +21,7 @@ Optimizing Metin2 is the funniest part 🤭 I have lots of fun during this step.
   - **Key**: DXVK_ASYNC
   - **Value**: 1
 - **Step 5**: Click on Gameforge Client in your Lutris library. Click on the triangle next to wine icon next to **Play** button and go to **Wine configuration**.
-  - Now in the opened window, go to **Libraries** section.
-  - Add new overrides for the library **d3d9, d3dx9_43 and d3dcompiler_47** and edit them all to be set as **Windows (Native)** and save changes.
+  - Change **Windows Version** to **Windows XP** and save changes.
   - Don't forget to apply the same steps for the second client.
 - **Step 6**: Open your file manager and follow the directory:
   - /home/yourname/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm

@@ -17,11 +17,11 @@ Optimizing Metin2 is the funniest part 🤭 I have lots of fun during this step.
 - **Step 1**: Install **Protonup-QT** and open it. Make sure **Lutris** is chosen in **Install for:** section.
 - **Step 2**: Click on **Add version** and choose **DXVK Async** in **Compatibility tool:** section, install the latest version.
 - **Step 3**: After DXVK Async is installed, open Lutris and point your mouse on **Wine** on the left sidebar. Click on the gear icon that appeared.
-- **Step 4**: Make sure you turned on **Advanced** option. Now change **DXVK version** to **dxvk-gplasync** and go to **System options**. Scroll down a bit and find **Environment variables** section. Make sure you added a variable like in the example and save it:
-  - **Key**: DXVK_ASYNC
-  - **Value**: 1
+- **Step 4**: Make sure you turned on **Advanced** option. Now go to **System options**. Scroll down a bit and find **Environment variables** section. Make sure you change the **DXVK_HUD** variable like in the example and save it:
+  - **Key**: DXVK_HUD
+  - **Value**: 66 (For 60 hz screen, type 66 for the lowest latency. If your screen refresh rate is different, add some more numbers to it)
 - **Step 5**: Click on Gameforge Client in your Lutris library. Click on the triangle next to wine icon next to **Play** button and go to **Wine configuration**.
-  - Change **Windows Version** to **Windows XP** and save changes.
+  - Change **Windows Version** to **Windows 7** and save changes.
   - Don't forget to apply the same for the second client.
 - **Step 6**: Open your file manager and follow the directory:
   - /home/yourname/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm

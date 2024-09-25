@@ -15,13 +15,17 @@ Installing Metin2 is not hard. Simply log in and install Metin2. However, the in
 ## Optimize Metin2
 Metin2 is not a good optimized game at all. So if you're using **Wayland**, your performance in game will be very poor. That's why, I suggest you to use **X11**.
 - **Step 1**: In Lutris, right click on Gameforge Client and go to **Configure**
-- **Step 2**: Go to **System options** and enable **Advanced** option on top right. Scroll down a bit and find **Environment variables** section. Make sure you change the **DXVK_HUD** variable like in the example and save it:
+- **Step 2**: Go to **System options** and enable **Advanced** option on top right. Scroll down a bit and find **Environment variables** section. Make sure you add these variables like in the examples and save it:
   - **Key**: DXVK_HUD
   - **Value**: 66 (For 60 hz screen, type 66 for the lowest latency. If your screen refresh rate is different, add some more numbers to it)
-- **Step 5**: Click on Gameforge Client in your Lutris library. Click on the triangle next to wine icon next to **Play** button and go to **Wine configuration**.
+  - **Key**: WINEDEBUG
+  - **Value**: -all
+  - **Key**: mesa_glthread (or __GL_THREADED_OPTIMIZATIONS if you're using an NVIDIA GPU)
+  - **Value**: true (or 1 if you're using an NVIDIA GPU)
+- **Step 3**: Click on Gameforge Client in your Lutris library. Click on the triangle next to wine icon next to **Play** button and go to **Wine configuration**.
   - Change **Windows Version** to **Windows 7 (you can try Windows XP too)** and save changes.
   - Don't forget to apply the same for the second client.
-- **Step 6**: Open your file manager and follow the directory:
+- **Step 4**: Open your file manager and follow the directory:
   - /home/yourname/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm
     - After reaching *bgm* folder, delete everything in the folder permanently, don't delete the folder itself, only delete the files inside. We just deleted music files that run in the background while playing which might use CPU and reduce performance.
     - Now go back to *en-GB* folder and delete *logo1.avi* and *logo2.avi*

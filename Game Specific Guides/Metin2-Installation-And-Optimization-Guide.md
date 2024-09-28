@@ -22,10 +22,8 @@ Metin2 is not a good optimized game at all. So if you're using **Wayland**, your
   - **Value**: -all
   - **Key**: mesa_glthread (or __GL_THREADED_OPTIMIZATIONS if you're using an NVIDIA GPU)
   - **Value**: true (or 1 if you're using an NVIDIA GPU)
-- **Step 3**: Click on Gameforge Client in your Lutris library. Click on the triangle next to wine icon next to **Play** button and go to **Wine configuration**.
-  - Change **Windows Version** to **Windows 7 (you can try Windows XP too)** and save changes.
   - Don't forget to apply the same for the second client.
-- **Step 4**: Open your file manager and follow the directory:
+- **Step 3**: Open your file manager and follow the directory:
   - /home/yourname/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm
     - After reaching *bgm* folder, delete everything in the folder permanently, don't delete the folder itself, only delete the files inside. We just deleted music files that run in the background while playing which might use CPU and reduce performance.
     - Now go back to *en-GB* folder and delete *logo1.avi* and *logo2.avi*

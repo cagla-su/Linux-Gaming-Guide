@@ -1,7 +1,7 @@
 # Minecraft
 So, Minecraft is actually a **Linux-native** game that works with OpenGL. We won't get tired while configuring Minecraft. This is going to be fun!
 ## Get Started
-First of all, I definitely suggest you to use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open-source** and provides more options than original launcher.
+First of all, I definitely suggest you to use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open-source** and provides more options than the original launcher.
 ### Install Prism Launcher
 You can install Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/linux/), the recommended way is installing it from Flatpak and it will configure everything itself including Java builds.
 ### Install Java

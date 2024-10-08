@@ -115,8 +115,8 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
     - **Render Distance**: 6 chunks
     - **Max Shadow Distance**: Disabled
     - **Simulation Distance**: 5 chunks
-    - **VSync**: Subjective
-      - In some cases, VSync can be useful, try it on both conditions and decide which one is better.
+    - **VSync**: OFF
+    - Max Framerate: Same number as your monitor's refresh rate
   - **Quality**
     - **Graphics**: Fast
     - **Clouds**: OFF
@@ -132,6 +132,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
 - We're done!
 ## Optifine Method
 - If you're using Optifine, you're probably playing the game cracked. **I don't guarantee anything to work!** However, if your game is original, let's continue.
+- Before continuing, I want to tell you that I will show you the steps for Optifine with **Fabric** instead of **Forge** because I find Fabric better and I'm not sure if all those mods are compatible with Forge. Thank you for your understanding.
 - First of all, install [Optifine](https://optifine.net/downloads) and [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric/files/all?page=1&pageSize=20) for the Minecraft version you want to play.
   - If OptiFabric is not compatible with the Minecraft version you want to play, skip to **In Game Optimized Settings** but before that, delete **Fabric Loader** and install **Forge Loader** instead. If OptiFabric is compatible with the Minecraft version you want to play, let's continue.
 - Next, click on your Minecraft instance once and then click on **Edit** on the right side bar.
@@ -140,6 +141,76 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
   - Don't forget to click on **Select mod for download** after selecting each mod.
 - These are the mods I suggest you:
   - Alternate Current
-  - 
+  - Async Locator
+  - BadOptimizations
+  - Disable Custom Worlds Advice
+  - EntityCulling
+  - Exordium
+  - Fabric API
+  - Fabric Language Kotlin
+  - Faster Random
+  - FerriteCore
+  - Icterine
+  - Ksyxis
+  - LazyDFU
+  - Let Me Despawn
+  - Memory Leak Fix
+  - No Chat Reports
+  - No Resource Pack Warnings
+  - Skip Transitions
+  - Starlight
+### Optifine - In Game Optimized Settings
+- Go to options
+  - **Video Settings**
+    - **Graphics**: Fast
+    - **Smooth Lighting**: ON
+    - **Smooth Lighting Level**: 50%
+    - **Render Distance**: 6 chunks
+    - **Simulation Distance**: 5 chunks
+    - **Max Framerate**: Same number as your monitor's refresh rate
+    - **Entity Shadows**: OFF
+    - **Quality...**
+      - **Mipmap Levels**: 1
+      - **Emissive Textures**: OFF
+      - **Custom Fonts**: OFF
+      - **Connected Textures**: Fast
+      - **Custom Sky**: OFF
+      - **Custom Entity Models**: OFF
+      - **Random Entities**: OFF
+      - **Custom Colors**: OFF
+      - **Natural Textures**: OFF
+      - **Custom Items**: OFF
+      - **Custom GUIs**: OFF
+      - **Distortion Effects**: 60%
+      - **FOV Effects**: 60%
+    - **Details...**
+      - **Clouds**: OFF
+      - **Trees**: Fancy
+      - **Fog**: OFF
+      - **View Bobbing**: OFF
+      - **Vignette**: Fast
+      - **Rain & Snow**: Fast
+      - **Stars**: Subjective
+      - **Swamp Colors**: OFF
+      - **Alternate Blocks**: OFF
+      - **Entity Distance**: 50%
+      - **Biome Blend**: 3x3
+    - **Performance...**
+      - **Render Regions**: OFF
+      - **Smart Animations**: ON
+      - **Smooth FPS**: ON
+      - **Fast Render**: ON
+      - **Fast Math**: ON
+      - **Smooth World**: ON
+    - **Animations...**
+      - **Redstone Animated**: OFF
+      - **Rain Splash**: OFF
+      - **Lava Animated**: OFF
+      - **Dripping Water/Lava**: OFF
+      - **Textures Animated**: OFF
+      - **Particles****: Decreased
+    - **Other...**
+      - **Telemetry**: OFF
+- We're done! 
 ## Conclusion
 So, that was my Minecraft installation and optimization guide! I hope you enjoyed it while reading and I hope the guide can be useful for you. Have a nice day!

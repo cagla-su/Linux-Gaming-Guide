@@ -61,7 +61,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
   - Async Locator
   - BadOptimizations
   - Bedrodium
-  - Capes - Optional, it allows you to use capes. However, I suggest you to use MinecraftCapes Mod with it if you don't have your own capes because this mod allows you to have capes for free. You can check [their website](https://minecraftcapes.net/) for more information.
+  - Capes - Optional, it allows you to use capes. However, I suggest you to use **MinecraftCapes** Mod with it if you don't have your own capes because this mod allows you to use capes for free. You can check [their website](https://minecraftcapes.net/) for more information.
   - Cloth Config
   - Concurrent Chunk Management Engine
   - Continuity - Optional, it provides connected textures feature just like how Optifine does.

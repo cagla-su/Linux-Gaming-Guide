@@ -20,14 +20,14 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
 - **OpenGL and Java** are already **better optimized** on Linux. However, we can still boost our GL performance, we're going to add an **environment variable**. I'm not sure about GNOME but on XFCE and KDE, adding an environment variable for **non Flatpak** version is possible via these steps:
   - Right click on Prism Launcher and go to **Properties**
     - **For XFCE**: Make sure **command** section looks like this:
-      - **For Intel/AMD GPU**: *env mesa_glthread=true prismlauncher %U*
-      - **For NVIDIA GPU**: *env __GL_THREADED_OPTIMIZATIONS=1 prismlauncher %U*
+      - **For Intel/AMD GPUs**: *env mesa_glthread=true prismlauncher %U*
+      - **For NVIDIA GPUs**: *env __GL_THREADED_OPTIMIZATIONS=1 prismlauncher %U*
     - **For KDE**: Go to **Application** section and make sure **environment variables** section looks like this
-      - **For Intel/AMD GPU**: *mesa_glthread=true*
-      - **For NVIDIA GPU**: *__GL_THREADED_OPTIMIZATIONS=1*
+      - **For Intel/AMD GPUs**: *mesa_glthread=true*
+      - **For NVIDIA GPUs**: *__GL_THREADED_OPTIMIZATIONS=1*
 - If you installed the launcher from **Flatpak**, you might not be able to add environment variable using the previous steps. However, you can add an environment variable via a custom **.desktop** file. You can follow these steps to do so:
   -  Create a *.desktop* file and edit it via text editor. Paste the content below and save the file:
-  -  **For Intel/AMD GPU**
+  -  **For Intel/AMD GPUs**
     -  [Desktop Entry]
     - Name=Prism Launcher
     - Comment=Prism Launcher
@@ -36,7 +36,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
     - Terminal=false
     - Type=Application
     - Categories=Game;
-  - **For NVIDIA GPU**
+  - **For NVIDIA GPUs**
     - [Desktop Entry]
     - Name=Prism Launcher
     - Comment=Prism Launcher
@@ -131,8 +131,8 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
     - **Mipmap Levels**: 1x
 - We're done!
 ## Optifine Method
-- If you're using Optifine, you're probably playing the game cracked. **I don't guarantee anything to work!** However, if your game is original, let's continue.
-- Before continuing, I want to tell you that I will show you the steps for Optifine with **Fabric** instead of **Forge** because I find Fabric better and I'm not sure if all those mods are compatible with Forge. Thank you for your understanding.
+- If you're using Optifine, you're probably playing the game cracked and **I don't guarantee anything to work!** However, if your game is original, let's continue.
+- Before we continue, I want to tell you that I will show you the steps for Optifine with **Fabric** instead of **Forge** because I find Fabric better and I'm not sure if all those mods are compatible with Forge. Thank you for your understanding.
 - First of all, install [Optifine](https://optifine.net/downloads) and [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric/files/all?page=1&pageSize=20) for the Minecraft version you want to play.
   - If OptiFabric is not compatible with the Minecraft version you want to play, skip to [In Game Optimized Settings](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optifine---in-game-optimized-settings) but before that, delete **Fabric Loader** and install **Forge Loader** instead. If OptiFabric is compatible with the Minecraft version you want to play, let's continue.
 - Next, click on your Minecraft instance once and then click on **Edit** on the right side bar.

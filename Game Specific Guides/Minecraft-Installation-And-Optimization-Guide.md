@@ -116,7 +116,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
     - **Max Shadow Distance**: Disabled
     - **Simulation Distance**: 5 chunks
     - **VSync**: OFF
-    - Max Framerate: Same number as your monitor's refresh rate
+    - **Max Framerate**: Same number as your monitor's refresh rate
   - **Quality**
     - **Graphics**: Fast
     - **Clouds**: OFF

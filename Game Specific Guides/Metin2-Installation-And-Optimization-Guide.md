@@ -16,11 +16,9 @@ Installing Metin2 is not hard. Simply log in and install Metin2. However, the in
 Metin2 is not a good optimized game at all. So if you're using **Wayland**, your performance in game will be very poor. That's why, I suggest you to use **X11**.
 - **Step 1**: In Lutris, right click on Gameforge Client and go to `Configure`
 - **Step 2**: Go to `System options` and enable `Advanced` option on top right. Scroll down a bit and find `Environment variables` section. Make sure you add these variables like in the examples and save it:
-```
-Key: DXVK_HUD | Value: 66 (For 60 hz screen, type 66 for the lowest latency. If your screen refresh rate is different, add some more numbers to it)
-Key: WINEDEBUG | Value: -all
-Key: mesa_glthread (__GL_THREADED_OPTIMIZATIONS for NVIDIA GPUs) | Value: true (or 1 if you're using an NVIDIA GPU)
-```
+`Key`: DXVK_HUD | `Value`: 66 (For 60 hz screen, type 66 for the lowest latency. If your screen refresh rate is different, add some more numbers to it)
+`Key`: WINEDEBUG | `Value`: -all
+`Key`: mesa_glthread (__GL_THREADED_OPTIMIZATIONS for NVIDIA GPUs) | `Value`: true (or 1 if you're using an NVIDIA GPU)
   - Don't forget to apply the same for the second client.
 - **Step 3**: Open your file manager and follow the directory:
 `/home/yourname/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm`
@@ -32,29 +30,25 @@ Key: mesa_glthread (__GL_THREADED_OPTIMIZATIONS for NVIDIA GPUs) | Value: true (
 ### Optimize In-Game Settings
 You are ready to play after changing some in-game settings for performance.
 - **Game Options**
-```
-Chat Line: Hide
-Name: Limited (you can enable it while farming if you need to collect some items)
-Hit Info: Hide
-Animations: Performance
-Shop name: Hide
-Monster info: Level (uncheck)
-Decoration: Hide
-```
+  - `Chat Line`: Hide
+  - `Name`: Limited (you can enable it while farming if you need to collect some items)
+  - `Hit Info`: Hide
+  - `Animations`: Performance
+  - `Shop name`: Hide
+  - `Monster info`: Level (uncheck)
+  - `Decoration`: Hide
 - **System Options**
-```
-Camera: Subjective
-Fog: Off
-Night: Subjective
-Snowfall: Off
-Snow: Off
-Target shadow: 2
-Shadow Quality: Low
-Effects: 3 (you can use 1 too if you want to see metin stone animations)
-Private Shops: 3 (you can use 5 if you want)
-Item Drops: 2
-Pets: On
-NPC Names: Off (you can enable it if you're mining)
-```
+  - `Camera`: Subjective
+  - `Fog`: Off
+  - `Night`: Subjective
+  - `Snowfall`: Off
+  - `Snow`: Off
+  - `Target shadow`: 2
+  - `Shadow Quality`: Low
+  - `Effects`: 3 (you can use 1 too if you want to see metin stone animations)
+  - `Private Shops`: 3 (you can use 5 if you want)
+  - `Item Drops`: 2
+  - `Pets`: On
+  - `NPC Names`: Off (you can enable it if you're mining)
 # Conclusion
 So, this was my Metin2 installation and optimization guide. I hope the guide helped you to play Metin2 on Linux with optimized settings! Have a nice day! 🤭

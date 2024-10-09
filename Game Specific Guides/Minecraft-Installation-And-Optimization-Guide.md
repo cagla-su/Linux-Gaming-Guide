@@ -57,9 +57,9 @@ Categories=Game;
 - If you reached here, you are ready to play vanilla Minecraft. However since this guide is also an optimization guide, I assume that you'd like to continue reading. Next, I will show you how to optimize your game via **Sodium** or **Optifine**. Let's go!
 ## Sodium Method
 - Now, let's install some performance mods! I will be installing mods for **1.20.1** version, that means if you are going to use a newer version of the game, some of those mods **may not** be available for the version you play.
-- First of all, click on your Minecraft instance once and then click on **Edit** on the right side bar.
-- In the opened page, click on **Mods** on the left side bar and click on **Download mods** on the right side bar and make sure **Modrinth** is selected. We're ready to install some mods!
-  - Don't forget to click on **Select mod for download** after selecting each mod.
+- First of all, click on your Minecraft instance once and then click on `Edit` from the right side bar.
+- In the opened page, click on `Mods` from the left side bar and click on `Download mods` from the right side bar and make sure `Modrinth` is selected. We're ready to install some mods!
+  - Don't forget to click on `Select mod for download` after selecting each mod.
 - These are the mods I suggest you to use for a smoother gameplay with similar features of Optifine:
   - `Alternate Current`
   - `Async Locator`

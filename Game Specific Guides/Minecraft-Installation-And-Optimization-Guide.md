@@ -142,7 +142,7 @@ Categories=Game;
 - Next, click on your Minecraft instance once and then click on `Edit` from the right side bar.
 - In the opened page, click on `Mods` from the left side bar and drag **Optifine and OptiFabric .jar files** into the page.
 - Next, click on `Download mods` from the right side bar and make sure `Modrinth` is selected. We're ready to install some mods that will help with better performance alongside Optifine!
-  - Don't forget to click on **Select mod for download** after selecting each mod.
+  - Don't forget to click on `Select mod for download` after selecting each mod.
 - These are the mods I suggest you:
   - `Alternate Current`
   - `Async Locator`

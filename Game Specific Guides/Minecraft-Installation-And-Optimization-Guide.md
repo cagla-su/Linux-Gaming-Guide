@@ -38,7 +38,6 @@ Terminal=false
 Type=Application
 Categories=Game;
 ```
-
   - **For NVIDIA GPUs**
   ```
 [Desktop Entry]

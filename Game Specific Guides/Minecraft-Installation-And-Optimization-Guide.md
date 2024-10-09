@@ -139,9 +139,9 @@ Categories=Game;
 - First of all, install [Optifine](https://optifine.net/downloads) and [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric/files/all?page=1&pageSize=20) for the Minecraft version you want to play.
   - If OptiFabric is not compatible with the Minecraft version you want to play, skip to [In Game Optimized Settings](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optifine---in-game-optimized-settings) but before that, delete **Fabric Loader** and install **Forge Loader** instead. If OptiFabric is compatible with the Minecraft version you want to play, let's continue.
 - I will be installing mods for **1.20.1** version, that means if you are going to use a newer version of the game, some of those mods **may not** be available for the version you play.
-- Next, click on your Minecraft instance once and then click on `Edit` on the right side bar.
+- Next, click on your Minecraft instance once and then click on `Edit` from the right side bar.
 - In the opened page, click on `Mods` from the left side bar and drag **Optifine and OptiFabric .jar files** into the page.
-- Next, click on `Download mods` on the right side bar and make sure `Modrinth` is selected. We're ready to install some mods that will help with better performance alongside Optifine!
+- Next, click on `Download mods` from the right side bar and make sure `Modrinth` is selected. We're ready to install some mods that will help with better performance alongside Optifine!
   - Don't forget to click on **Select mod for download** after selecting each mod.
 - These are the mods I suggest you:
   - `Alternate Current`

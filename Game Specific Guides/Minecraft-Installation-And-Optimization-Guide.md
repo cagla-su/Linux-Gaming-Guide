@@ -27,7 +27,7 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
       - **For NVIDIA GPUs**: `__GL_THREADED_OPTIMIZATIONS=1`
 - If you installed the launcher from **Flatpak**, you might not be able to add environment variable using the previous steps. However, you can add an environment variable via a custom **.desktop** file. You can follow these steps to do so:
   -  Create a *.desktop* file and edit it via text editor. Paste the content below and save the file:
-  -  **For Intel/AMD GPUs**
+-  **For Intel/AMD GPUs**
 ```
 [Desktop Entry]
 Name=Prism Launcher

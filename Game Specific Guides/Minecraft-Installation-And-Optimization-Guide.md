@@ -28,23 +28,28 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
 - If you installed the launcher from **Flatpak**, you might not be able to add environment variable using the previous steps. However, you can add an environment variable via a custom **.desktop** file. You can follow these steps to do so:
   -  Create a *.desktop* file and edit it via text editor. Paste the content below and save the file:
   -  **For Intel/AMD GPUs**
-    -  [Desktop Entry]
-    - Name=Prism Launcher
-    - Comment=Prism Launcher
-    - Exec=env mesa_glthread=true flatpak run org.prismlauncher.PrismLauncher %U
-    - Icon=org.prismlauncher.PrismLauncher
-    - Terminal=false
-    - Type=Application
-    - Categories=Game;
+```
+[Desktop Entry]
+   Name=Prism Launcher
+   Comment=Prism Launcher
+   Exec=env mesa_glthread=true flatpak run org.prismlauncher.PrismLauncher %U
+   Icon=org.prismlauncher.PrismLauncher
+   Terminal=false
+   Type=Application
+   Categories=Game;
+```
+
   - **For NVIDIA GPUs**
-    - [Desktop Entry]
-    - Name=Prism Launcher
-    - Comment=Prism Launcher
-    - Exec=env __GL_THREADED_OPTIMIZATIONS=1 flatpak run org.prismlauncher.PrismLauncher %U
-    - Icon=org.prismlauncher.PrismLauncher
-    - Terminal=false
-    - Type=Application
-    - Categories=Game;
+  ```
+[Desktop Entry]
+  Name=Prism Launcher
+  Comment=Prism Launcher
+  Exec=env __GL_THREADED_OPTIMIZATIONS=1 flatpak run org.prismlauncher.PrismLauncher %U
+  Icon=org.prismlauncher.PrismLauncher
+  Terminal=false
+  Type=Application
+  Categories=Game;
+```
 - Another and an easier way is to run Prism Launcher via terminal using one of the commands for your GPU like this:
   - **For non Flatpak version**: *mesa_glthread=true prismlauncher*
   - **For Flatpak version**: *mesa_glthread=true flatpak run org.prismlauncher.PrismLauncher*
@@ -57,14 +62,14 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
 - In the opened page, click on **Mods** on the left side bar and click on **Download mods** on the right side bar and make sure **Modrinth** is selected. We're ready to install some mods!
   - Don't forget to click on **Select mod for download** after selecting each mod.
 - These are the mods I suggest you to use for a smoother gameplay with similar features of Optifine:
-  - Alternate Current
-  - Async Locator
-  - BadOptimizations
-  - Bedrodium
-  - Capes - Optional, it allows you to use capes. However, I suggest you to use **MinecraftCapes** Mod with it if you don't have your own capes because this mod allows you to use capes for free. You can check [their website](https://minecraftcapes.net/) for more information.
-  - Cloth Config
-  - Concurrent Chunk Management Engine
-  - Continuity - Optional, it provides connected textures feature just like how Optifine does.
+  - `Alternate Current`
+  - `Async Locator`
+  - `BadOptimizations`
+  - `Bedrodium`
+  - `Capes` - Optional, it allows you to use capes. However, I suggest you to use **MinecraftCapes** Mod with it if you don't have your own capes because this mod allows you to use capes for free. You can check [their website](https://minecraftcapes.net/) for more information.
+  - `Cloth Config`
+  - Concurrent Chunk Management Engine`
+  - Continuity` - Optional, it provides connected textures feature just like how Optifine does.
   - CoroUtil
   - Cull Less Leaves
   - Disable Custom Worlds Advice

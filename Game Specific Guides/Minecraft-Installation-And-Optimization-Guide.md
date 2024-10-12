@@ -134,7 +134,6 @@ Categories=Game;
     - `Mipmap Levels`: 1x
 - We're done!
 ## Optifine Method - Recommended For Version 1.16.2 And Earlier
-- If you're using Optifine, you're probably playing the game cracked and **I don't guarantee anything to work for cracked launchers!**
 - Before we continue, I want to tell you that I will show you the steps for Optifine with **Fabric** instead of **Forge** because I find Fabric better and I'm not sure if all those mods are compatible with Forge. Thank you for your understanding.
 - First of all, install [Optifine](https://optifine.net/downloads) and [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric/files/all?page=1&pageSize=20) for the Minecraft version you want to play.
   - If OptiFabric is not compatible with the Minecraft version you want to play, skip to [In Game Optimized Settings](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optifine---in-game-optimized-settings) but before that, delete **Fabric Loader** and install **Forge Loader** instead. If OptiFabric is compatible with the Minecraft version you want to play, let's continue.

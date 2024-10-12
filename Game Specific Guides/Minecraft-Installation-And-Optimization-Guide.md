@@ -55,7 +55,7 @@ Categories=Game;
 - Now, let's enable some settings for even better performance in Prism Launcher.
   - Click on `Settings` and go to `Minecraft` section and click on `Tweaks`. Enable `Enable Feral GameMode` (only if you have gamemode installed) and `Use discrete GPU` (only if you have 2 GPUs).
 - If you reached here, you are ready to play vanilla Minecraft. However since this guide is also an optimization guide, I assume that you'd like to continue reading. Next, I will show you how to optimize your game via **Sodium** or **Optifine**. Let's go!
-## Sodium Method
+## Sodium Method - Recommended For Version 1.16.3 And Later
 - Now, let's install some performance mods! I will be installing mods for **1.20.1** version, that means if you are going to use a newer version of the game, some of those mods **may not** be available for the version you play.
 - First of all, click on your Minecraft instance once and then click on `Edit` from the right side bar.
 - In the opened page, click on `Mods` from the left side bar and click on `Download mods` from the right side bar and make sure `Modrinth` is selected. We're ready to install some mods!
@@ -133,7 +133,7 @@ Categories=Game;
     - `FOV Effects`: 60%
     - `Mipmap Levels`: 1x
 - We're done!
-## Optifine Method
+## Optifine Method - Recommended For Version 1.16.2 And Earlier
 - If you're using Optifine, you're probably playing the game cracked and **I don't guarantee anything to work for cracked launchers!**
 - Before we continue, I want to tell you that I will show you the steps for Optifine with **Fabric** instead of **Forge** because I find Fabric better and I'm not sure if all those mods are compatible with Forge. Thank you for your understanding.
 - First of all, install [Optifine](https://optifine.net/downloads) and [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric/files/all?page=1&pageSize=20) for the Minecraft version you want to play.

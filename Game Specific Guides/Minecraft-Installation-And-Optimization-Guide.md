@@ -65,12 +65,14 @@ Categories=Game;
   - `Async Locator`
   - `BadOptimizations`
   - `Bedrodium`
+  - `Blanket`
   - `Capes` - Optional, it allows you to use capes. However, I suggest you to use **MinecraftCapes** Mod with it if you don't have your own capes because this mod allows you to use capes for free. You can check [their website](https://minecraftcapes.net/) for more information.
   - `Cloth Config`
+  - `Clumps`
   - `Concurrent Chunk Management Engine`
   - `Continuity` - Optional, it provides connected textures feature just like how Optifine does.
   - `CoroUtil`
-  - `Cull Less Leaves`
+  - `Cull Leaves`
   - `Disable Custom Worlds Advice`
   - `Dynamic FPS`
   - `Enhanced Block Entities`
@@ -80,18 +82,22 @@ Categories=Game;
   - `Fabric Language Kotlin`
   - `Fast Items`
   - `Faster Random`
+  - `FastQuit`
   - `FerriteCore`
   - `Fzzy Config`
   - `Icterine`
   - `ImmediatelyFast`
   - `Indium`
   - `Iris` - Optional, it allows you to use shaders just like how Optifine does.
+  - `Krypton`
   - `Ksyxis`
+  - `LambDynamicLights` - Optional, it allows you to use dynamic lighting just like how Optifine does.
   - `LazyDFU`
   - `Let Me Despawn`
   - `Lithum`
   - `Memory Leak Fix`
   - `Mobtimizations`
+  - `Model Gap Fix`
   - `ModernFix`
   - `More Culling`
   - `More Culling Extra`
@@ -99,6 +105,8 @@ Categories=Game;
   - `No Report Button`
   - `No Resource Pack Warnings`
   - `No Telemetry`
+  - `Noisium`
+  - `Noxesium`
   - `Particle Core`
   - `Reese's Sodium Options`
   - `Remove Reloading Screen`
@@ -106,6 +114,7 @@ Categories=Game;
   - `Sodium`
   - `Sodium Extra`
   - `Starlight`
+  - `StutterFix`
   - `ThreadTweak`
   - `Zoomify` - Optional, it allows you to zoom via C keybind just like how Optifine does.
 ### Sodium - In Game Optimized Settings

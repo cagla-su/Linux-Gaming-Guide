@@ -41,8 +41,9 @@ We only need to apply 3 steps:
 	- You can write your own review for any Steam game after logging in via your Steam account.
 # Optimization
 ## Gamemode
-[Gamemode](https://github.com/FeralInteractive/gamemode) is a project that optimizes your gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed but on Steam, you have to manually add a command on your games' launch options like in the example:
+- [Gamemode](https://github.com/FeralInteractive/gamemode) is a project that optimizes your gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed but on Steam, you have to manually add a command on your games' launch options like in the example:
 `gamemoderun %command%`
+- After installing gamemode, install [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move it to `/etc/` via `sudo mv gamemode.ini /etc/` after opening terminal in the location where the file is located in.
 ## Performance-Boosting Environment Variables
 You can use these options for better performance while gaming:
 - `WINEDEBUG=-all`  - It suppresses all debug output of wine
@@ -58,7 +59,7 @@ You can use these options for better performance while gaming:
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which destroys visual quality while improving performance.
 - If you're using **KDE**, you can simply disable compositor using `Shift - Alt - F12` keybinds. To reenable it, apply the same keybind.
 - If you're using **XFCE**, you can disable compositor following the steps below:
-	- `Settings Manager` - `Window Manager Tweaks` - `Compositor` - `Enable Display Compositing` (**uncheck the box**)*
+	- `Settings Manager` - `Window Manager Tweaks` - `Compositor` - `Enable Display Compositing (uncheck the box)`
 - For other desktop environments and other ways of disabling compositor, you can check [this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11))
 # Hybrid Graphics
 - Hybrid graphics setup is not an issue on Linux at all.

@@ -158,6 +158,7 @@ Categories=Game;
   - `Async Locator`
   - `BadOptimizations`
   - `Blanket`
+  - `Cloth Config`
   - `Clumps`
   - `CoroUtil`
   - `Cull Leaves`

@@ -128,12 +128,12 @@ Categories=Game;
     - `Max Shadow Distance`: Disabled
     - `Simulation Distance`: 5 chunks
     - `VSync`: OFF
-    - `Max Framerate`: Same number as your monitor's refresh rate
+    - `Max Framerate`: Same number as your monitor's refresh rate (for 60 hz screens, change the value to 70)
   - **Quality**
     - `Graphics`: Fast
     - `Clouds`: OFF
     - `Weather`: Fast
-    - `Leaves`: Fancy
+    - `Leaves`: Fast
     - `Particles`: Decreased
     - `Biome Blend`: 1 block(s)
     - `Entity Distance`: 50%
@@ -179,7 +179,7 @@ Categories=Game;
     - `Smooth Lighting Level`: 50%
     - `Render Distance`: 6 chunks
     - `Simulation Distance`: 5 chunks
-    - `Max Framerate`: Same number as your monitor's refresh rate
+    - `Max Framerate`: Same number as your monitor's refresh rate (for 60 hz screens, change the value to 70)
     - `Entity Shadows`: OFF
     - **Quality...**
       - `Mipmap Levels`: 1
@@ -197,7 +197,7 @@ Categories=Game;
       - `FOV Effects`: 60%
     - **Details...**
       - `Clouds`: OFF
-      - `Trees`: Fancy
+      - `Trees`: Fast
       - `Fog`: OFF
       - `View Bobbing`: OFF
       - `Vignette`: Fast

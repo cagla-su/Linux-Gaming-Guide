@@ -153,25 +153,40 @@ Categories=Game;
 - We're ready to install some mods that will help with better performance alongside Optifine!
   - Don't forget to click on `Select mod for download` after selecting each mod.
 - These are the mods I suggest you:
+  - `Almanac`
   - `Alternate Current`
   - `Async Locator`
   - `BadOptimizations`
+  - `Blanket`
+  - `Clumps`
+  - `CoroUtil`
+  - `Cull Leaves`
   - `Disable Custom Worlds Advice`
   - `EntityCulling`
   - `Exordium`
   - `Fabric API`
   - `Fabric Language Kotlin`
+  - `Fast Items`
   - `Faster Random`
+  - `FastQuit`
   - `FerriteCore`
   - `Icterine`
+  - `Krypton`
   - `Ksyxis`
   - `LazyDFU`
   - `Let Me Despawn`
   - `Memory Leak Fix`
+  - `Mobtimizations`
+  - `Model Gap Fix`
+  - `ModernFix`
   - `No Chat Reports`
+  - `No Report Button`
   - `No Resource Pack Warnings`
+  - `Noisium`
+  - `Remove Reloading Screen`
   - `Skip Transitions`
   - `Starlight`
+  - `StutterFix`
 ### Optifine - In Game Optimized Settings
 - Go to options
   - **Video Settings**

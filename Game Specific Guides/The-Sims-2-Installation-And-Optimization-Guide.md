@@ -11,12 +11,12 @@
 - Click on `Plus (+)` on top left and go to `Install a Windows game from an executable`.
 - Now simply type **The Sims 2** on `Game name` section and continue until `Select the setup file` section.
 - Now click on `...` button and click on your setup file (probably setup.exe) and let the installation begin, complete the installation like how you would do on Windows.
-- After installation is completed, we can install [Graphics Rules Maker](https://github.com/voicemxil/TS2-Starter-Pack/blob/main/components/GraphicsRulesMaker-2.3.0-win64.exe).
+- After installation is completed, we can install [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
 - After installing GRM, follow the next steps:
   - Open Lutris and click on `Plus (+)`, then go to `Install a Windows game from an executable`.
   - Give it any name you want and continue until `Select installation directory` section. Click on `...` button and choose `/home/yourname/Games/the-sims-2/` and continue.
   - Now click on `...` button and click on your setup file and let the installation begin, complete the installation like how you would do on Windows.
-  - After GRM is installed, we can launch it but if you have 2 GPUs, make sure Lutris is running GRM via your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/citloveslinux/Linux-Gaming-Guide/blob/main/1-Prepare-Your-System.md#4--lutrisheroic-games) to run Lutris games on your dedicated GPU.
+  - After GRM is installed, we can launch it but if you have 2 GPUs, make sure Lutris is running GRM via your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Linux-Gaming-Guide.md#hybrid-graphics) to run Lutris games on your dedicated GPU.
   - After launching GRM, you can follow [these steps to optimize your game](https://docs.google.com/document/d/1UT0HX3cO4xLft2KozGypU_N7ZcGQVr-54QD9asFsx5U/edit#heading=h.6jnaz4t6d3vx).
     - If GRM cannot detect the folder of the installed game, try `Mansion and Garden Stuff` folder.
 - Now you're ready to go!

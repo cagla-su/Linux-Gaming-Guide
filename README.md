@@ -1,6 +1,6 @@
 ## Table of Contents
 - **Set Up Your System For Gaming on Linux:** [Linux Gaming Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Linux-Gaming-Guide.md)
-- [Game Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide/tree/main/Game%20Specific%20Guides)
+- **Game Specific Guides:** [Go to Game Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide/tree/main/Game%20Specific%20Guides)
   - **Minecraft on Linux Guide:** [Go to the Minecraft Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
   - **Metin2 on Linux Guide:** [Go to the Metin2 Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)
   - **The Sims 2 on Linux Guide:** [Go to The Sims 2 Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)

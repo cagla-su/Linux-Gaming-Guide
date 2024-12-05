@@ -1,6 +1,6 @@
 # How Does Linux Gaming Work?
 I would like to explain to you how running Windows games on Linux works.
-- Firstly, [WINE](https://www.winehq.org/) (a compatibility layer) is directing **Windows library files** into **Linux library files** just like **the compatibility mode in Windows**
+- Firstly, [WINE](https://www.winehq.org/) (a compatibility layer) is directing **Windows library files** into **Linux library files** just like **the compatibility mode in Windows when you want to play an old game on newer Windows versions**
 - Lastly, [DXVK technology](https://github.com/doitsujin/dxvk) is translating **DirectX** (Windows-specific graphics library) calls into **Vulkan** (Windows/Linux native graphics library) **or OpenGL** (only if you don't have Vulkan drivers installed) to make Windows games run on Linux.
 ## Things We Should Know Before Starting
 - First thing we need to know is that if you have an **NVIDIA GPU**, steps you should apply will be *a bit harder* because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' response to NVIDIA for not supporting Linux in case you want to say the same thing](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
@@ -43,7 +43,7 @@ We only need to apply 3 steps:
 ## Gamemode
 - [Gamemode](https://github.com/FeralInteractive/gamemode) is a project that optimizes your gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed but on Steam, you have to manually add a command on your games' launch options like in the example:
 `gamemoderun %command%`
-- After installing gamemode, install [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move it to `/etc/` via `sudo mv gamemode.ini /etc/` after opening terminal in the location where the file is located in.
+- After installing gamemode, install [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move it to `/etc/` via executing `sudo mv gamemode.ini /etc/` command after opening terminal in the location where the file is located in.
 ## Performance-Boosting Environment Variables
 You can use these options for better performance while gaming:
 - `WINEDEBUG=-all`  - It suppresses all debug output of wine
@@ -53,11 +53,11 @@ You can use these options for better performance while gaming:
 ### How Can We Use These Environment Variables?
 - **Steam**: You can simply use these commands in your Steam game's launch options, don't forget to add `%command%` at last
 - **Lutris**: On `System Options` section of Lutris, there is another section called `Environment Variables`, you should type the variables like in the example:
-`Key`: WINEDEBUG | `Value`: -all
+ - `Key`: WINEDEBUG | `Value`: -all
 ## Disabling Compositor - X11/Xorg ONLY!!!
 **WARNING**: If you're using **Wayland**, you can't disable compositor. The steps are only available for **X11/Xorg**.
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which destroys visual quality while improving performance.
-- If you're using **KDE**, you can simply disable compositor using `Shift - Alt - F12` keybinds. To reenable it, apply the same keybind.
+- If you're using **KDE**, you can simply disable compositor using `Shift - Alt - F12` keybind. To reenable it, apply the same keybind.
 - If you're using **XFCE**, you can disable compositor following the steps below:
 	- `Settings Manager` - `Window Manager Tweaks` - `Compositor` - `Enable Display Compositing (uncheck the box)`
 - For other desktop environments and other ways of disabling compositor, you can check [this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11))
@@ -73,13 +73,13 @@ You can use these options for better performance while gaming:
 - If you're using **GNOME**, you can simply right click on the icon of the game you'd like to run on your dedicated GPU, you should see an option to run it with discrete graphics.
 - If you're **not** using **GNOME**, here are **4 ways** of running your games on your dedicated GPU:
 	- **1-** `Terminal Way`
- 	- **2-** `Shortcut Way`
+ 	- **2-** `Desktop Shortcut Way`
  	- **3-** `Steam Games`
   	- **4-** `Lutris/Heroic Games`
 ### 1- Terminal Way
 Simply, typing the command for your GPU and the package name of your game:
 - **Example:** `DRI_PRIME=1 prismlauncher`
-### 2- Shortcut Way
+### 2- Desktop Shortcut Way
 - Create a **.desktop** file on your desktop and follow the next step.
 - I'm going to show you an example content to run **Prism Launcher** via dedicated GPU. Make sure your file also has the line that starts with `Exec` to look like this:
 ```

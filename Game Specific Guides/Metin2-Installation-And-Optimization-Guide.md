@@ -39,7 +39,7 @@ You are ready to play after changing some in-game settings for performance.
     - `Snowfall` **:** `Off`
     - `Snow` **:** `Off`
     - `Target Shadow` **:** `1` - **or** `2` **if you'd like**
-    - `Private Shops` **:** `5` **or** `3` **if you'd like**
+    - `Private Shops` **:** `5` - **or** `3` **if you'd like**
     - `Item Drops` **:** `2 - Yang enabled`
   - **Game Tab**
     - `Name` **:** `Subjective`

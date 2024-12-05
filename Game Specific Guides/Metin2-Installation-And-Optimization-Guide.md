@@ -13,7 +13,7 @@ Metin2 is an old MMORPG game. Even though it doesn't have players as much as it 
 ## Installing Metin2
 Installing Metin2 is not hard. Simply log in and install Metin2. However, the installer will be stuck at 95%, 97% etc. and in this case, all you have to do is to stop Gameforge Client in Lutris. When you open the client again, you're going to see that the game is installed successfully. Also, once you launch the game and close it, you'll keep seeing `in-game` sign in client because like I said, it is buggy on Linux.
 ## Optimize Metin2
-Metin2 is not a good optimized game at all. So if you're using **Wayland**, your performance in game will be very poor. That's why, I suggest you to use **X11**.
+Metin2 is not a good optimized game at all. So if you're using **Wayland**, your performance in game will be very poor because WINE on Wayland is **not native** (it will be native soon). That's why, I suggest you to use **X11**.
 - **Step 1**: In Lutris, right click on Gameforge Client and go to `Configure`
 - **Step 2**: Go to `System options` and enable `Advanced` option on top right. Scroll down a bit and find `Environment variables` section. Make sure you add these variables like in the examples and save it:
   - `Key` **:** `DXVK_HUD` | `Value` **:** `66` - **The value is for 60 hz screen. If your screen refresh rate is different, add some more numbers to it**

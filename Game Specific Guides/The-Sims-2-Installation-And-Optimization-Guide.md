@@ -21,4 +21,4 @@
     - If GRM cannot detect the folder of the installed game, try `Mansion and Garden Stuff` folder.
 - Now you're ready to go!
 ## Conclusion
-This guide was actually a bit short because [Sims 2 Subreddit](https://www.reddit.com/r/sims2/) did a great job while preparing the guide for 3 major operating systems. You can join their subreddit if you're interested. Dag dag Simmers. Have a nice day!
+This guide was actually a bit short because [Sims 2 Subreddit](https://www.reddit.com/r/sims2/) did a great job while preparing the guide for 3 major operating systems. You can join their subreddit if you're interested. Dag dag Simmers. Have a nice day! 🐧

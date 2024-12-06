@@ -1,5 +1,5 @@
 # Minecraft
-Minecraft is actually a **Linux-native** game that works with **OpenGL**. We won't get tired while configuring Minecraft. This is going to be fun!
+Minecraft is a **Linux-native** game that works using **OpenGL**.
 ## Get Started
 First of all, I definitely suggest you to use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open-source** and provides more options than the original launcher.
 ### Install Prism Launcher
@@ -242,4 +242,4 @@ Categories=Game;
       - `Telemetry`: OFF
 - We're done! 
 ## Conclusion
-So, that was my Minecraft installation and optimization guide! I hope you enjoyed it while reading and I hope the guide can be useful for you. Have a nice day!
+So, that was my Minecraft installation and optimization guide! I hope you enjoyed it while reading and I hope the guide can be useful for you. Have a nice day! 🐧

@@ -51,4 +51,4 @@ You are ready to play after changing some in-game settings for performance.
       - `Monster Names` - **keep it enabled if you'd like**
       - `HP Bar`
 # Conclusion
-So, this was my Metin2 installation and optimization guide. I hope the guide helped you to play Metin2 on Linux with optimized settings! Have a nice day! 🤭
+So, this was my Metin2 installation and optimization guide. I hope the guide helped you to play Metin2 on Linux with optimized settings! Have a nice day! 🐧

@@ -20,26 +20,26 @@ You should **skip** this step if you chose to install the launcher from **Flatpa
 - **OpenGL and Java** are already **better optimized** on Linux. However, we can still boost our GL performance, we're going to add an **environment variable**. I'm not sure about GNOME but on XFCE and KDE, adding an environment variable for **non Flatpak** version is possible via these steps:
   - Right click on Prism Launcher and go to `Properties`
     - **For XFCE**: Make sure `command` section looks like this:
-      - **For Intel/AMD GPUs**:
+      - **For Intel/AMD GPUs:**
       ```
       env mesa_glthread=true prismlauncher %U
       ```
-      - **For NVIDIA GPUs**:
+      - **For NVIDIA GPUs:**
       ```
       env __GL_THREADED_OPTIMIZATIONS=1 prismlauncher %U
       ```
     - **For KDE**: Go to `Application` section and make sure `environment variables` section looks like this
-      - **For Intel/AMD GPUs**:
+      - **For Intel/AMD GPUs:**
       ```
       mesa_glthread=true
       ```
-      - **For NVIDIA GPUs**:
+      - **For NVIDIA GPUs:**
       ```
       __GL_THREADED_OPTIMIZATIONS=1
       ```
 - If you installed the launcher from **Flatpak**, you might not be able to add environment variable using the previous steps. However, you can add an environment variable via a custom **.desktop** file. You can follow these steps to do so:
   -  Create a *.desktop* file and edit it via text editor. Paste the content below and save the file:
--  **For Intel/AMD GPUs**
+-  **For Intel/AMD GPUs:**
 ```
 [Desktop Entry]
 Name=Prism Launcher
@@ -50,7 +50,7 @@ Terminal=false
 Type=Application
 Categories=Game;
 ```
-  - **For NVIDIA GPUs**
+  - **For NVIDIA GPUs:**
   ```
 [Desktop Entry]
 Name=Prism Launcher
@@ -62,8 +62,14 @@ Type=Application
 Categories=Game;
 ```
 - Another and an easier way is to run Prism Launcher via terminal using one of the commands for your GPU like this:
-  - **For non Flatpak version**: `mesa_glthread=true prismlauncher`
-  - **For Flatpak version**: `mesa_glthread=true flatpak run org.prismlauncher.PrismLauncher`
+  - **For non Flatpak version:**
+  ```
+  mesa_glthread=true prismlauncher
+  ```
+  - **For Flatpak version:**
+  ```
+  mesa_glthread=true flatpak run org.prismlauncher.PrismLauncher
+  ```
 - Now, let's enable some settings for even better performance in Prism Launcher.
   - Click on `Settings` and go to `Minecraft` section and click on `Tweaks`. Enable `Enable Feral GameMode` (only if you have gamemode installed) and `Use discrete GPU` (only if you have 2 GPUs).
 - If you reached here, you are ready to play vanilla Minecraft. However since this guide is also an optimization guide, I assume that you'd like to continue reading. Next, I will show you how to optimize your game via **Sodium** or **Optifine**. Let's go!

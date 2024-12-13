@@ -34,7 +34,6 @@ We only need to apply 3 steps:
 ### Notes
 - You can install these software from either your **package manager** or **Flatpak**.
 - If you're using [CachyOS](https://cachyos.org/) or if you have [CachyOS repositories](https://github.com/CachyOS/linux-cachyos#cachyos-repositories) enabled in your **Arch system**, you can install [cachyos-gaming-meta](https://github.com/CachyOS/CachyOS-PKGBUILDS/blob/master/cachyos-gaming-meta/PKGBUILD) package to install all the necessary gaming components.
-	- You can do so via `sudo pacman -S cachyos-gaming-meta` command
 - You can use [ProtonDB](https://www.protondb.com) to check whether your Windows games on Steam are playable on Linux.
 	- If your game is ranked as **silver or lower**, that means it is **not supported or unplayable**.
 	- You can get optimization tips if other reviewers wrote any.
@@ -43,7 +42,8 @@ We only need to apply 3 steps:
 ## Gamemode
 - [Gamemode](https://github.com/FeralInteractive/gamemode) is a project that optimizes your gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed but on Steam, you have to manually add a command on your games' launch options like in the example:
 `gamemoderun %command%`
-- After installing gamemode, install [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move it to `/etc/` via executing `sudo mv gamemode.ini /etc/` command after opening terminal in the location where the file is located in.
+- After installing gamemode, install [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move it to `/etc/` via executing the command after opening terminal in the location where the file is located in:
+```sudo mv gamemode.ini /etc/```
 ## Performance-Boosting Environment Variables
 You can use these options for better performance while gaming:
 - `WINEDEBUG=-all`  - It suppresses all debug output of wine
@@ -66,9 +66,9 @@ You can use these options for better performance while gaming:
 - If you have an **Intel/AMD + NVIDIA** setup, you can install Vulkan drivers for both hardware and set your games to run on your dedicated GPU.
 - After installing Vulkan drivers for both of your hardware:
 	- If your dedicated GPU is **AMD**, the necessary command to run the games on the dedicated GPU is:
-		- `DRI_PRIME=1`
+```DRI_PRIME=1```
  	- If your dedicated GPU is **NVIDIA**, the necessary command to run the games on the dedicated GPU is:
-  		- `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`
+```__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia```
 ## Ways To Run Software On Dedicated GPU
 - If you're using **GNOME**, you can simply right click on the icon of the game you'd like to run on your dedicated GPU, you should see an option to run it with discrete graphics.
 - If you're **not** using **GNOME**, here are **4 ways** of running your games on your dedicated GPU:
@@ -78,7 +78,8 @@ You can use these options for better performance while gaming:
   	- **4-** `Lutris/Heroic Games`
 ### 1- Terminal Way
 Simply, typing the command for your GPU and the package name of your game:
-- **Example:** `DRI_PRIME=1 prismlauncher`
+- **Example:**
+```DRI_PRIME=1 prismlauncher```
 ### 2- Desktop Shortcut Way
 - Create a **.desktop** file on your desktop and follow the next step.
 - I'm going to show you an example content to run **Prism Launcher** via dedicated GPU. Make sure your file also has the line that starts with `Exec` to look like this:
@@ -96,9 +97,9 @@ Categories=Game;
 - Simply, we're typing `env` first and then the command for your GPU, lastly, package name of your game/app.
 ### 3- Steam Games
 Add the command for your GPU on your game's launch options and make sure it has `%command%` at last just like in the example:
-`DRI_PRIME=1 %command%`
+```DRI_PRIME=1 %command%```
 - **NOTE**: If you're going to use gamemode and run your game on your dedicated GPU, make sure your gamemode command is written before `%command%` just like in the example:
-`DRI_PRIME=1 gamemoderun %command%`
+```DRI_PRIME=1 gamemoderun %command%```
 ### 4- Lutris/Heroic Games
 - **Lutris**: On the left side bar, point your mouse cursor on `Wine`, click on the **gear icon** that appeared.
 	- Go to `System Options` and turn on the `Advanced` option, now scroll down a bit. You should turn on the `Use Discrete Graphics` option, after that, make sure you've picked your dedicated GPU's API on `Vulkan API` section. That's all you should do! Make sure to save changes.

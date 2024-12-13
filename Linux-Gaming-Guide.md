@@ -68,8 +68,7 @@ You can use these options for better performance while gaming:
 # Hybrid Graphics
 - Hybrid graphics setup is not an issue on Linux at all.
 - If you have an **Intel/AMD + NVIDIA** setup, you can install Vulkan drivers for both hardware and set your games to run on your dedicated GPU.
-- After installing Vulkan drivers for both of your hardware:
-	- If your dedicated GPU is **AMD**, the necessary command to run the games on the dedicated GPU is:
+- If your dedicated GPU is **AMD**, the necessary command to run the games on the dedicated GPU is:
 ```
 DRI_PRIME=1
 ```

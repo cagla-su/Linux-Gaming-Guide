@@ -73,7 +73,7 @@ You can use these options for better performance while gaming:
 ```
 DRI_PRIME=1
 ```
- 	- If your dedicated GPU is **NVIDIA**, the necessary command to run the games on the dedicated GPU is:
+ - If your dedicated GPU is **NVIDIA**, the necessary command to run the games on the dedicated GPU is:
 ```
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```

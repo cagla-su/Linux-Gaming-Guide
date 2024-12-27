@@ -14,7 +14,7 @@
 - After installation is completed, we can install [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
 - After installing GRM, follow the next steps:
   - Open Lutris and click on `Plus (+)`, then go to `Install a Windows game from an executable`.
-  - Give it any name you want and continue until `Select installation directory` section. Click on `...` button and choose `/home/yourname/Games/the-sims-2/` and continue.
+  - Give it any name you want and continue until `Select installation directory` section. Click on `...` button and choose `~/Games/the-sims-2/` and continue.
   - Now click on `...` button and click on your setup file and let the installation begin, complete the installation like how you would do on Windows.
   - After GRM is installed, we can launch it but if you have 2 GPUs, make sure Lutris is running GRM via your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Linux-Gaming-Guide.md#hybrid-graphics) to run Lutris games on your dedicated GPU.
   - After launching GRM, you can follow [these steps to optimize your game](https://docs.google.com/document/d/1UT0HX3cO4xLft2KozGypU_N7ZcGQVr-54QD9asFsx5U/edit#heading=h.6jnaz4t6d3vx).

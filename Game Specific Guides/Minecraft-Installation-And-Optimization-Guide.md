@@ -10,8 +10,8 @@ Prism Launcher now allows you to install Java inside the app instead of installi
   - After installing Java, if Minecraft doesn't launch, change the instance's Java build to the relevant one.
     - **For 1.20.5 and above:** Java 21
     - **From 1.18 to 1.20.4:** Java 17
-    - **For 1.17:** Java 16 - but in the app, there is no Java 16 in Adoptium, so you might want to install another Java build if you want to play the specific version.
-    - **For 1.16 and below:** Java 8
+    - **For 1.17 and 1.17.1:** Java 16 - but in the app, there is no Java 16 in Adoptium, so you might want to install another Java build if you want to play the specific version.
+    - **For 1.16.5 and below:** Java 8
 ### Install Minecraft
 - When you first launched the launcher, it'll ask you what language would you like to use. After that question, you're going to see a page about Java.
 - Make sure to change `Maximum memory allocation`. Some people claim you should allocate half your RAM but this is not good for **some cases**. If you have at least 32 GB RAM and don't perform RAM intensive tasks, you can allocate half your RAM. However:

@@ -17,7 +17,7 @@ Installing Metin2 is not hard. Simply log in and install Metin2. However, the in
     - Be careful, if the latest version has the abbreviation **rc**, it means **release candidate** which means **it isn't ready to use yet**. So in this case, prefer a previous build.
 - **Step 2:** In Lutris, left click on Gameforge Client and click on the **triangle** icon next to the **wine** icon that's next to **Play** button and click on `Wine configuration` and change the Windows version to `Windows XP 64` and save changes.
 - **Step 3:** Open your file manager and follow the directory:
-`/home/yourname/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm`
+`~/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm`
     - After reaching `bgm` folder, delete everything in the folder permanently, don't delete the folder itself, only delete the files inside. We just deleted music files that run in the background while playing which might **consume much CPU** and reduce performance.
     - Now go back to `en-GB` folder and delete `logo1.avi` and `logo2.avi`.
     - Open `config.exe` once and hit `OK`, this will create `metin2.cfg`. Now open `metin2.cfg` via a text editor.

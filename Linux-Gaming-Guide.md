@@ -39,6 +39,10 @@ We only need to apply 3 steps:
 	- You can get optimization tips if other reviewers wrote any.
 	- You can write your own review for any Steam game after logging in via your Steam account.
 # Optimization
+## Using A Performance Kernel
+- **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
+- **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
+- **For Debian/Ubuntu and Derivatives:** [XanMod Kernel](https://xanmod.org/)
 ## Gamemode
 - [Gamemode](https://github.com/FeralInteractive/gamemode) is a project that optimizes your gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed but on Steam, you have to manually add a command on your games' launch options like in the example:
 ```

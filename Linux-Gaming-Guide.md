@@ -25,7 +25,9 @@ We only need to apply 3 steps:
 ### 3- Installing Gaming Software
 - You just completed the hardest steps! Now it's time for the last and the easiest step. Install your favourite gaming software!
 - Some gaming software you might be interested in:
-	- [Steam](https://store.steampowered.com/): Steam is natively supported on Linux
+	- [Steam](https://store.steampowered.com/): Steam is natively supported on Linux.
+ 		- Don't forget to enable **Proton** for Steam. To do so, follow the steps below:
+   			- `Steam - Settings - Compatibility - Enable Steam Play for all other titles - Restart Steam`
 	- [Heroic Games Launcher](https://heroicgameslauncher.com/): Heroic is made for installing and playing your favourite games in Epic Games and GOG.
 	- [Lutris](https://lutris.net/): Lutris is made for installing and playing your favourite Windows games.
 		- You can search for your games in the app to see if there is an already made script to install and configure your game automatically.

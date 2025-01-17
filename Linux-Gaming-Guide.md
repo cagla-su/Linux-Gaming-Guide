@@ -1,7 +1,8 @@
 # How Does Linux Gaming Work?
 I would like to explain to you how running Windows games on Linux works.
 - Firstly, [WINE](https://www.winehq.org/) (a compatibility layer) is directing **Windows library files** into **Linux library files** just like **the compatibility mode in Windows when you want to play an old game on newer Windows versions**
-- Lastly, [DXVK technology](https://github.com/doitsujin/dxvk) is translating **DirectX** (Windows-specific graphics library) calls into **Vulkan** (Windows/Linux native graphics library) **or OpenGL** (only if you don't have Vulkan drivers installed) to make Windows games run on Linux.
+- Lastly, [DXVK technology](https://github.com/doitsujin/dxvk) is translating **DirectX** (Windows-specific graphics library) calls into **Vulkan** (Windows/Linux native graphics library) to make Windows games run on Linux.
+	- If you don't have Vulkan drivers installed or if your GPU doesn't support Vulkan, **WINED3D** is in use instead of DXVK, it directs **DirectX** calls into **OpenGL**.
 ## Things We Should Know Before Starting
 - First thing we need to know is that if you have an **NVIDIA GPU**, steps you should apply will be *a bit harder* because NVIDIA doesn't want to support Linux at all. This was [Linus Torvalds' response to NVIDIA for not supporting Linux in case you want to say the same thing](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
 - Second thing we need to know is that you should have a **Vulkan capable GPU** for the best performance which all modern GPUs already support. So, if you have a very old GPU, it probably doesn't support Vulkan which is not good for performance.

@@ -61,7 +61,7 @@ sudo mv gamemode.ini /etc/
 ```
 ## Performance-Boosting Environment Variables
 You can use these options for better performance while gaming:
-- `WINEDEBUG=-all`  - It suppresses all debug output of wine
+- `WINEDEBUG=-all`  - It suppresses all debug outputs of wine
 - `mesa_glthread=true` - It improves **OpenGL performance** on **Intel/AMD GPUs**
 - `__GL_THREADED_OPTIMIZATIONS=1` - It improves **OpenGL performance** on **NVIDIA GPUs**
 - `DXVK_ASYNC=1` - It **doesn't work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on games from other platforms.
@@ -125,7 +125,7 @@ DRI_PRIME=1 %command%
 DRI_PRIME=1 gamemoderun %command%
 ```
 ### 4- Lutris/Heroic Games
-- **Lutris**: On the left side bar, point your mouse cursor on `Wine`, click on the **gear icon** that appeared.
+- **Lutris**: On the left side bar, point your mouse cursor on `Wine`, click on the **gear icon** that appears.
 	- Go to `System Options` and turn on the `Advanced` option, now scroll down a bit. You should turn on the `Use Discrete Graphics` option, after that, make sure you've picked your dedicated GPU's API on `Vulkan API` section. That's all you should do! Make sure to save changes.
  - **Heroic**: On your library, right click on your game and go to `Settings`, in the opened window, check `Use Dedicated Graphics Card` option. That's all you should do!
 # Conclusion

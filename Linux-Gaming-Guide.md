@@ -42,8 +42,9 @@ We only need to apply 3 steps:
 	- You can get optimization tips if other reviewers wrote any.
 	- You can write your own review for any Steam game after logging in via your Steam account.
 # Optimization
-## Reducing Your Games' Resolutions
+## Reducing Screen Resolution and Using The Lowest Graphics Settings
 - Playing a game in fullscreen using **FSR** and a lower resolution is probably the most effective way of increasing gaming performance **alongside lowering graphics settings**.
+- If you're gaming on an **iGPU**, you can try reducing your monitor's native resolution. Especially, if your native resolution is **1920x1080**, reducing it to **1366x768** or **1280x720** will drastically increase your gaming performance.
 ## Using A Performance Kernel
 - **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
 - **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)

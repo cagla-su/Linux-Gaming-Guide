@@ -1,24 +1,30 @@
 # The Sims 2
-- The Sims 2 is the game of most of our childhood and it is surprisingly running on Linux better than The Sims 3 (The Sims 3 can't even run properly on Windows either, it's a weird game).
+- The Sims 2 is the game of our childhood and it is surprisingly running on Linux better than The Sims 3 (The Sims 3 can't even run properly on Windows either, it's a weird version).
 - On my previous low end laptop and the laptop I'm currently using, I didn't experience any performance differences and I can say that the game runs with **native performance** on Linux.
-- The Sims 2 is now an **abandonware** which means installing The Sims 2 **for free is not pirating** at all.
-- The recommended way is [following this guide](https://github.com/voicemxil/TS2-Starter-Pack/wiki/Linux-Specifc-Setup-Steps), they also made a Lutris script for this web installer.
-  - You can reach the Lutris script for searching `The Sims 2 - osab's TS2 Starter Pack` inside Lutris which is the easiest way. After the game is installed, it should launch **Graphics Rules Maker**, you should follow [these steps for it](https://docs.google.com/document/d/1UT0HX3cO4xLft2KozGypU_N7ZcGQVr-54QD9asFsx5U/edit#heading=h.6jnaz4t6d3vx).
-- However, if you have a setup file or a DVD, I'm going to show you the manual steps.
-- Let's begin!
+- Since The Sims 2 is an abandonware, we can't get it through legal ways. That's why you should either have the cracked file or the DVD to install the game.
+- So, let's begin the guide!
 ## Get Started
 - First of all, extract files inside the DVD into a folder and open Lutris.
-- Click on `Plus (+)` on top left and go to `Install a Windows game from an executable`.
+- Click `Plus (+)` on top left and go to `Install a Windows game from an executable`.
 - Now simply type **The Sims 2** on `Game name` section and continue until `Select the setup file` section.
-- Now click on `...` button and click on your setup file (probably setup.exe) and let the installation begin, complete the installation like how you would do on Windows.
-- After installation is completed, we can install [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
-- After installing GRM, follow the next steps:
-  - Open Lutris and click on `Plus (+)`, then go to `Install a Windows game from an executable`.
-  - Give it any name you want and continue until `Select installation directory` section. Click on `...` button and choose `~/Games/the-sims-2/` and continue.
-  - Now click on `...` button and click on your setup file and let the installation begin, complete the installation like how you would do on Windows.
+- Now click `...` button and click on your setup file (probably setup.exe) and let the installation begin, complete the installation like how you would do on Windows.
+- After installation is completed, make sure to locate the game to the correct file to be able to run the game. To do so:
+  - `The Sims 2 (right click) - Configure - Game Options - Executable`
+    - The location is generally `~/Games/the-sims-2/drive_c/Program Files (x86)/The Sims 2 Ultimate Collection/The Sims 2 Mansion and Garden Stuff/TSBin/Sims2EP9.exe` 
+### Graphics Rules Maker Setup
+- To prevent/fix incompatibility issues, we should download [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
+- After downloading GRM, follow the next steps:
+  - Open Lutris and click `Plus (+)`, then go to `Install a Windows game from an executable`.
+  - Give it any name you want and continue until `Select installation directory` section. Click `...` button and choose `~/Games/the-sims-2/`, then continue.
+  - Now click `...` button, choose your setup file and let the installation begin, complete the installation like how you would do it on Windows.
+    - At the last step, you should see an option that says "Launch Graphics Rules Maker.", make sure to untick that box before completing installation.
+  - Don't forget to locate to the correct file to be able to run the app. To do so:
+    - `GRM (right click) - Configure - Game Options - Executable`
+    - The location is `~/Games/the-sims-2/drive_c/Program Files/Graphics Rules Maker/bin/GraphicsRulesMakerUi.exe`
   - After GRM is installed, we can launch it but if you have 2 GPUs, make sure Lutris is running GRM via your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Linux-Gaming-Guide.md#hybrid-graphics) to run Lutris games on your dedicated GPU.
-  - After launching GRM, you can follow [these steps to optimize your game](https://docs.google.com/document/d/1UT0HX3cO4xLft2KozGypU_N7ZcGQVr-54QD9asFsx5U/edit#heading=h.6jnaz4t6d3vx).
-    - If GRM cannot detect the folder of the installed game, try `Mansion and Garden Stuff` folder.
-- Now you're ready to go!
+  - After GRM is launched, choose `The Sims 2` from `Game` tab. It should detect your Sims folder automatically but if it can't, try `Mansion and Garden Stuff` folder.
+  - Now click `Auto-detect`. If you have iGPU, change `Force texture memory` value to **512** or **1024** to your liking.
+  - As the last step, click `Save Files...`. Don't forget to perform the same steps for `The Sims 2 Body Shop`.
+- Now all you should do is running The Sims 2! 😊
 ## Conclusion
 This guide was actually a bit short because [Sims 2 Subreddit](https://www.reddit.com/r/sims2/) did a great job while preparing the guide for 3 major operating systems. You can join their subreddit if you're interested. Dag dag Simmers. Have a nice day! 🐧

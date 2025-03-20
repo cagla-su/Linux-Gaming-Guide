@@ -6,7 +6,7 @@
 Hello 🤭. In this guide, you will be informed about **how does gaming on Linux work, how to prepare your system for gaming on Linux and optimization suggestions**.
 ## Before Starting
 - Linux gaming is improving in an accelerated way and as the days go by, more gamers keep switching to Linux. In upcoming years, Linux gaming is expected to be noticed even more.
-- My beginner friendly guide is useful for everyone who wants to play games on Linux but don't know where to start with. After reading the guide, you might want to check my game-specific guides on **Table of Contents**.
+- My beginner friendly guide is useful for everyone who wants to play games on Linux but don't know where to start with. After reading the guide, you might want to check my [Game Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides).
 - So, let's begin!
 # How Does Linux Gaming Work?
 I would like to explain to you how running Windows games on Linux works.
@@ -18,9 +18,9 @@ I would like to explain to you how running Windows games on Linux works.
 - Also, **do not use Wayland** if you have an **NVIDIA GPU** because it is likely for you to get glitches or performance issues. Using **X11** is a better option for now.
 ## Get Started
 We only need to apply 3 steps:
-- **1-** `Installing Vulkan Drivers`
-- **2-** `Installing Wine and Wine Dependencies`
-- **3-** `Installing Gaming Software :)`
+- **1-** [Installing Vulkan Drivers](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#1--installing-vulkan-drivers)
+- **2-** [Installing Wine and Wine Dependencies](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#2--installing-wine-and-wine-dependencies)
+- **3-** [Installing Gaming Software](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#3--installing-gaming-software)
 ### 1- Installing Vulkan Drivers
 - If you are using an **NVIDIA GPU**, the best way is to install the **proprietary** driver from your package manager.
 - If you are using an **Intel/AMD GPU**, the best way is to install the **open-source** driver from your package manager.
@@ -98,10 +98,10 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ## Ways To Run Software On Dedicated GPU
 - If you're using **GNOME**, you can simply right click on the icon of the game you'd like to run on your dedicated GPU, you should see an option to run it with discrete graphics.
 - If you're **not** using **GNOME**, here are **4 ways** of running your games on your dedicated GPU:
-	- **1-** `Terminal Way`
- 	- **2-** `Desktop Shortcut Way`
- 	- **3-** `Steam Games`
-  	- **4-** `Lutris/Heroic Games`
+	- **1-** [Terminal Way](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#1--terminal-way)
+ 	- **2-** [Desktop Shortcut Way](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#2--desktop-shortcut-way)
+ 	- **3-** [Steam Games](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#3--steam-games)
+  	- **4-** [Lutris/Heroic Games](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#4--lutrisheroic-games)
 ### 1- Terminal Way
 Simply, typing the command for your GPU and the package name of your game:
 - **Example:**
@@ -137,5 +137,5 @@ DRI_PRIME=1 gamemoderun %command%
 	- Go to `System Options` and turn on the `Advanced` option, now scroll down a bit. You should turn on the `Use Discrete Graphics` option, after that, make sure you've picked your dedicated GPU's API on `Vulkan API` section. That's all you should do! Make sure to save changes.
  - **Heroic**: On your library, right click on your game and go to `Settings`, in the opened window, check `Use Dedicated Graphics Card` option. That's all you should do!
 # Conclusion
-After reading this guide, you might want to check [game-specific installation and optimization guides](https://github.com/cutiepenguins/Linux-Gaming-Guide/tree/main/Game%20Specific%20Guides) in case you'd like to play one of those games. Thank you for reading, have a nice day! 🐧
+I hope this guide was useful for you. Thank you for reading, have a nice day! 🐧
 

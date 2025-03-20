@@ -6,7 +6,7 @@
 Hello 🤭. In this guide, you will be informed about **how does gaming on Linux work, how to prepare your system for gaming on Linux and optimization suggestions**.
 ## Before Starting
 - Linux gaming is improving in an accelerated way and as the days go by, more gamers keep switching to Linux. In upcoming years, Linux gaming is expected to be noticed even more.
-- My beginner friendly guide is useful for everyone who wants to play games on Linux but don't know where to start with. After reading the guide, you might want to check my [Game Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides).
+- My beginner friendly guide is useful for everyone who wants to play games on Linux but doesn't know where to start with. After reading the guide, you might want to check my [Game Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides).
 - So, let's begin!
 # How Does Linux Gaming Work?
 I would like to explain to you how running Windows games on Linux works.

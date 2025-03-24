@@ -7,7 +7,7 @@ You can install Prism Launcher following [these steps according to your distribu
 ### Install Java
 Prism Launcher now allows you to install Java inside the app instead of installing manually. To do so, follow the steps below:
 - `Settings - Java - Management - Download - Adoptium - Install the latest builds of all 3 Java versions`
-  - After installing Java, if Minecraft doesn't launch, change the instance's Java build to the relevant one.
+  - After installing Java, if Minecraft doesn't launch, change your Minecraft instance's Java version to the relevant one.
     - **For 1.20.5 and above:** Java 21
     - **From 1.18 to 1.20.4:** Java 17
     - **For 1.17 and 1.17.1:** Java 16 - but in the app, there is no Java 16 in Adoptium, so you might want to install another Java build if you want to play the specific version.
@@ -22,15 +22,14 @@ Prism Launcher now allows you to install Java inside the app instead of installi
 ## Optimization
 - Click `Settings`, go to `Minecraft` section and click `Tweaks`. Enable `Enable Feral GameMode` (you need to install gamemode package first) and `Use discrete GPU` (only if you have 2 GPUs).
 - Next, from `Settings` menu, go to `Environment Variables` and click `Add`.
-  - Type `mesa_glthread` in `Name` and `true` in `Value` sections.
-    - If you're using NVIDIA, you should type `__GL_THREADED_OPTIMIZATIONS` in `Name` and `1` in `Value` sections instead.
+  - Type `mesa_glthread` in **Name** and `true` in **Value** sections.
+    - If you're using NVIDIA, you should type `__GL_THREADED_OPTIMIZATIONS` in **Name** and `1` in **Value** sections instead.
 - Generally these steps are enough to play a better Minecraft. However, we can still increase performance with mods.
 ## Sodium Method - Recommended For Version 1.16.3 And Later
 - First, right click your Minecraft instance and click `Edit`.
 - In the opened page, click `Mods` from the left side bar and click `Download mods` from the right side bar.
 - The mods I suggest you are:
   - `BadOptimizations`
-  - `Capes` - Optional, it allows you to use capes. However, I suggest you to use **MinecraftCapes** Mod with it if you don't have your own capes because this mod allows you to use capes for free. You can check [their website](https://minecraftcapes.net/) for more information.
   - `Cloth Config`
   - `Concurrent Chunk Management Engine`
   - `Dynamic FPS`
@@ -50,7 +49,7 @@ Prism Launcher now allows you to install Java inside the app instead of installi
   - `ThreadTweak`
 - There are lots of other performance boosting mods. However, the mods above can **significantly** increase performance while other mods do not at all. That's why, installing the mods above is generally pretty much enough.
 ### Optifine-like Experience on Sodium
-On Optifine, there are some cool features that are not about increasing performance such as zooming, being able to use shaders, dynamic lighting and connected textures**. We can have the same features on Sodium thanks to the mods below:
+On Optifine, there are some cool features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. We can have the same features on Sodium thanks to the mods below:
 - **Zooming Feature -** `Zoomify`
 - **Shaders Feature -** `Iris`
 - **Dynamic Lighting Feature -** `LambDynamicLights`
@@ -79,7 +78,6 @@ On Optifine, there are some cool features that are not about increasing performa
     - `Distortion Effects`: 60%
     - `FOV Effects`: 60%
     - `Mipmap Levels`: 1x
-- We're done!
 ## Optifine Method - Recommended For Version 1.16.2 And Earlier
 - For Optifine, you should use **Forge** mod loader instead of **Fabric**.
 - First of all, install [Optifine](https://optifine.net/downloads) for the Minecraft version you want to play.
@@ -138,4 +136,4 @@ On Optifine, there are some cool features that are not about increasing performa
     - **Other...**
       - `Telemetry`: OFF
 ## Conclusion
-So, that was my Minecraft installation and optimization guide! I hope you enjoyed it while reading and I hope the guide can be useful for you. Have a nice day! 🐧
+So, this was my Minecraft installation and optimization guide! I hope you enjoyed it while reading and I hope the guide was useful for you. Have a nice day! 🐧

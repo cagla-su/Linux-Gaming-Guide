@@ -1,13 +1,13 @@
 # Metin2
 Metin2 is an old MMORPG game. Even though it doesn't have players as much as it used to have in the past, I still play it and found ways to optimize it. I don't think any Linux user is playing Metin2 but I still wanted to document it in case there are people thinking of playing it on Linux.
 ## Get Started
-- First of all, make sure your system is ready for gaming following [my guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Linux-Gaming-Guide.md).
+- First of all, make sure your system is ready for gaming following [my guide](https://github.com/cutiepenguins/Linux-Gaming-Guide).
 - Now, we're going to be using **Lutris** to install and play Metin2. There is a Lutris script for **Gameforge Client** which means it is easier to install than you thought, we're going to be using that script.
 - However, I suggest you to install Gameforge Client **twice** using different names for your shop and main accounts because Gameforge Client runs very **buggy** on Linux and the client simply doesn't launch Metin2 anymore after launching the game several times on the same client which forces you to close the whole client and reopen it. That can be annoying, so to avoid problems, I suggest you to install the client twice.
 ## Install Gameforge Client
 - **Step 1**: Open `Lutris` (surprisingly)
-- **Step 2**: Click on the `Plus (+)` button on top left of the app.
-- **Step 3**: Click on `Search the Lutris website for installer` and type gameforge.
+- **Step 2**: Click the `Plus (+)` button on top left of the app.
+- **Step 3**: Click `Search the Lutris website for installer` and type gameforge.
 - **Step 4**: Now, install the script.
 - **Step 5**: Apply the same steps for the second client I suggested you to install. Simply install it again but make sure you changed the folder name in `Select installation directory` step.
 ## Installing Metin2
@@ -15,8 +15,7 @@ Installing Metin2 is not hard. Simply log in and install Metin2. However, the in
 ## Optimize Metin2
 - **Step 1:** You can prefer using **wine-ge** build that's preinstalled with the client. However, if you want to get better performance, I suggest you to install the latest **wine-X.XX-staging-tkg-amd64-wow64.tar.xz** file [from this link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the file to `~/.local/share/lutris/runners/wine/`. If you're using Lutris from Flatpak, the location is `~/.var/app/net.lutris.Lutris/runners/wine`.
     - Be careful, if the latest version has the abbreviation **rc**, it means **release candidate** which means **it isn't ready to use yet**. So in this case, prefer a previous build that isn't release candidate.
-- **Step 2:** In Lutris, left click on Gameforge Client and click on the **triangle** icon next to the **wine** icon that's next to **Play** button and click on `Wine configuration` and change the Windows version to `Windows XP 64` and save changes.
-- **Step 3:** Open your file manager and follow the directory:
+- **Step 2:** Open your file manager and follow the directory:
 `~/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm`
     - After reaching `bgm` folder, delete everything in the folder permanently, don't delete the folder itself, only delete the files inside. We just deleted music files that run in the background while playing which might **consume much CPU** and reduce performance.
     - Now go back to `en-GB` folder and delete `logo1.avi` and `logo2.avi`.

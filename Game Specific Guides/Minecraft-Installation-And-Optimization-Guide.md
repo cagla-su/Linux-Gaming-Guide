@@ -37,15 +37,11 @@ Prism Launcher now allows you to install Java inside the app instead of installi
   - `Fabric API`
   - `Fabric Language Kotlin`
   - `FerriteCore`
-  - `LazyDFU`
   - `Lithum`
-  - `Memory Leak Fix`
   - `No Telemetry`
   - `Reese's Sodium Options`
   - `Sodium`
   - `Sodium Extra`
-  - `Starlight`
-  - `ThreadTweak`
 - There are lots of other performance boosting mods. However, the mods above can **significantly** increase performance while other mods do not at all. That's why, installing the mods above is generally pretty much enough.
 ### Optifine-like Experience on Sodium
 On Optifine, there are some cool features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. We can have the same features on Sodium thanks to the mods below:

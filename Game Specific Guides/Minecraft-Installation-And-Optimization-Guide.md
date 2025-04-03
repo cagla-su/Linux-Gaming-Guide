@@ -37,7 +37,6 @@ Prism Launcher now allows you to install Java inside the app instead of installi
   - `Fabric API`
   - `Fabric Language Kotlin`
   - `FerriteCore`
-  - `Indium`
   - `LazyDFU`
   - `Lithum`
   - `Memory Leak Fix`

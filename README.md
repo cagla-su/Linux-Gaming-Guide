@@ -45,7 +45,7 @@ We only need to apply 3 steps:
 	- [Protonup-QT](https://davidotek.github.io/protonup-qt/): You can install custom Wine/Proton builds for a better gameplay that are supported by Lutris, Steam and Heroic.
 ### Notes
 - You can install these software from either your **package manager** or **Flatpak**.
-- If you're using [CachyOS](https://cachyos.org/) or if you have [CachyOS repositories](https://github.com/CachyOS/linux-cachyos#cachyos-repositories) enabled in your **Arch system**, you can install [cachyos-gaming-meta](https://github.com/CachyOS/CachyOS-PKGBUILDS/blob/master/cachyos-gaming-meta/PKGBUILD) package to install all the necessary gaming components.
+- If you're using [CachyOS](https://cachyos.org/) or if you have [CachyOS repositories](https://github.com/CachyOS/linux-cachyos#cachyos-repositories) enabled in your **Arch system**, you can install [cachyos-gaming-applications](https://github.com/CachyOS/CachyOS-PKGBUILDS/blob/master/cachyos-gaming-applications/PKGBUILD) package to install all the necessary gaming components.
 - You can use [ProtonDB](https://www.protondb.com) to check whether your Windows games on Steam are playable on Linux.
 	- If your game is ranked as **silver or lower**, that means it is **not supported or unplayable**.
 	- You can get optimization tips if other reviewers wrote any.
@@ -54,6 +54,7 @@ We only need to apply 3 steps:
 ## Reducing Screen Resolution and Using The Lowest Graphics Settings
 - Playing a game in fullscreen using **FSR** and a lower resolution is probably the most effective way of increasing gaming performance **alongside lowering graphics settings**.
 - If you're gaming on an **iGPU**, you can try reducing your monitor's native resolution. Especially, if your native resolution is **1920x1080**, reducing it to **1366x768** or **1280x720** will drastically increase your gaming performance.
+	- To explain it better, on my **Intel UHD 620** with **1920x1080** screen resolution, even using my monitor as **1600x900** drastically improves performance in games I play in windowed/borderless mode. If you are playing all your games in fullscreen, reducing the game's resolution should be enough and easier.
 ## Using A Performance Kernel
 - **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
 - **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)

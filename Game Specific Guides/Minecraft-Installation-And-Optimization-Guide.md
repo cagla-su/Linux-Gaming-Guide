@@ -1,11 +1,11 @@
 # Minecraft
 Minecraft is a **Linux-native** game that works using **OpenGL**.
 ## Get Started
-First of all, I definitely suggest you to use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open-source** and provides more options than the original launcher.
+First of all, I definitely suggest you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open-source** and provides more options than the original launcher.
 ### Install Prism Launcher
 You can install Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/linux/).
 ### Install Java
-Prism Launcher now allows you to install Java inside the app instead of installing manually. To do so, follow the steps below:
+Prism Launcher now allows you to install Java inside the app instead of installing it manually. To do so, follow the steps below:
 - `Settings - Java - Management - Download - Adoptium - Install the latest builds of all 3 Java versions`
   - After installing Java, if Minecraft doesn't launch, change your Minecraft instance's Java version to the relevant one.
     - **For 1.20.5 and above:** Java 21
@@ -13,17 +13,17 @@ Prism Launcher now allows you to install Java inside the app instead of installi
     - **For 1.17 and 1.17.1:** Java 16 - but in the app, there is no Java 16 in Adoptium, so you might want to install another Java build if you want to play the specific version.
     - **For 1.16.5 and below:** Java 8
 ### Install Minecraft
-- When you first launched the launcher, it will ask you what language would you like to use. After that question, you're going to see a page about Java.
+- When you first launch the launcher, it will ask you what language you would like to use. After that question, you are going to see a page about Java.
 - Make sure to change `Maximum memory allocation`. Some people claim you should allocate half your RAM but this is not good for **some cases**. If you have at least 32 GB RAM and don't perform RAM intensive tasks, you can allocate half your RAM. However:
-  - If your RAM is between **4-16 GB**, I suggest you to allocate **2048 MiB** if you're not going to install heavy mods or shaders. However, you should allocate at least **3072 MiB** RAM if you're going to use Optifine without mods.
+  - If you have RAM that is between **4-16 GB**, I suggest you allocate **2048 MiB** if you are not going to install heavy mods or shaders. However, you should allocate at least **3072 MiB** RAM if you are going to use Optifine without mods.
 - After completing quick setup, add your Microsoft account to connect to your account in the launcher.
-- Now we can finally install Minecraft. Click `Add Instance` button on top left and continue:
-  - On `Version` section, choose the version you'd like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a `Mod loader` section next to the warning. We're going to choose `Fabric` from there and hit `OK`.
+- Now we can finally install Minecraft. Click `Add Instance` button on the top left and continue:
+  - In `Version` section, select the version you would like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a `Mod loader` section next to the warning. Select `Fabric` from there and click `OK`.
 ## Optimization
-- Click `Settings`, go to `Minecraft` section and click `Tweaks`. Enable `Enable Feral GameMode` (you need to install gamemode package first) and `Use discrete GPU` (only if you have 2 GPUs).
+- Click `Settings`, go to `Minecraft` section and click `Tweaks`. Enable `Enable Feral GameMode` (you need to install gamemode package first) and `Use discrete GPU` (only if you have two GPUs).
 - Next, from `Settings` menu, go to `Environment Variables` and click `Add`.
   - Type `mesa_glthread` in **Name** and `true` in **Value** sections.
-    - If you're using NVIDIA, you should type `__GL_THREADED_OPTIMIZATIONS` in **Name** and `1` in **Value** sections instead.
+    - If you are using NVIDIA, you should type `__GL_THREADED_OPTIMIZATIONS` in **Name** and `1` in **Value** sections instead.
 - Generally these steps are enough to play a better Minecraft. However, we can still increase performance with mods.
 ## Sodium Method - Recommended For Version 1.16.3 And Later
 - First, right click your Minecraft instance and click `Edit`.
@@ -42,7 +42,7 @@ Prism Launcher now allows you to install Java inside the app instead of installi
   - `Reese's Sodium Options`
   - `Sodium`
   - `Sodium Extra`
-- There are lots of other performance boosting mods. However, the mods above can **significantly** increase performance while other mods do not at all. That's why, installing the mods above is generally pretty much enough.
+- There are lots of other performance boosting mods. However, the mods above can **significantly** increase performance while other mods don't at all. That's why installing the mods above is generally pretty much enough.
 ### Optifine-like Experience on Sodium
 On Optifine, there are some cool features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. We can have the same features on Sodium thanks to the mods below:
 - **Zooming Feature -** `Zoomify`
@@ -74,8 +74,8 @@ On Optifine, there are some cool features that are not about increasing performa
     - `FOV Effects`: 60%
     - `Mipmap Levels`: 1x
 ## Optifine Method - Recommended For Version 1.16.2 And Earlier
-- For Optifine, you should use **Forge** mod loader instead of **Fabric**.
-- First of all, install [Optifine](https://optifine.net/downloads) for the Minecraft version you want to play.
+- For Optifine, you should install **Forge** mod loader instead of **Fabric**.
+- First of all, install [Optifine](https://optifine.net/downloads) for the Minecraft version you would like to play.
 - Next, right click your Minecraft instance and click `Edit`.
 - In the opened page, click `Mods` from the left side bar and drag **Optifine file** into the page.
 ### Optifine - In Game Optimized Settings
@@ -131,4 +131,4 @@ On Optifine, there are some cool features that are not about increasing performa
     - **Other...**
       - `Telemetry`: OFF
 ## Conclusion
-So, this was my Minecraft installation and optimization guide! I hope you enjoyed it while reading and I hope the guide was useful for you. Have a nice day! 🐧
+This was my Minecraft installation and optimization guide! I hope you enjoyed reading it and found the guide useful. Have a nice day! 🐧

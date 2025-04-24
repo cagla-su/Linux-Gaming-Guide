@@ -10,11 +10,11 @@ Metin2 is an old legendary MMORPG game.
 - **Step 2**: Click the `Plus (+)` button on the top left.
 - **Step 3**: Click `Search the Lutris website for installer` and type gameforge.
 - **Step 4**: Now, install the `Gameforge Client` script.
-- **Step 5**: Apply the same steps for the **second (or/and third)** client I suggested you to install. Simply install it again but make sure you changed the folder name in the `Select installation directory` step.
+- **Step 5**: Apply the same steps for the **second (or/and third)** client I suggested you install. Simply install it again but make sure you changed the folder name in the `Select installation directory` step.
 ## Installing Metin2
-Installing Metin2 is not hard. Simply log in and install Metin2. However, the installer will be stuck at 95%, 97% etc. and in this case, all you have to do is stop Gameforge Client from Lutris. When you launch the client again, you are going to see that the game is installed successfully. Also, once you launch the game and shut it down, you will see that your game account is stuck at `in-game` sign due to the bug.
+Installing Metin2 is not hard. Simply log in and install Metin2. However, the installer will be stuck at 95%, 97% etc. and in this case, all you have to do is stop Gameforge Client from Lutris. When you launch the client again, you are going to see that the game is installed successfully. Also, once you launch the game and shut it down, you will see that your game account is stuck at `in-game` sign due to the bug. You can ignore it.
 ## Optimize Metin2
-- **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you to install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`.
+- **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`.
     - If you are using Lutris from Flatpak, the location is `~/.var/app/net.lutris.Lutris/runners/wine`.
 - **Step 2:** Open your file manager and follow the directory:
 `~/Games/gameforge-client/drive_c/your-games-location/metin2/en-GB(or another code for your server)/bgm`
@@ -35,8 +35,8 @@ You are ready to play after changing some in-game settings for high performance.
     - `Fog` **:** `Off`
     - `Snowfall` **:** `Off`
     - `Snow` **:** `Off`
-    - `Target Shadow` **:** `1` - **or** `2` **if you'd like**
-    - `Private Shops` **:** `5` - **or** `3` **if you'd like**
+    - `Target Shadow` **:** `1` - **or** `2` **if you would like**
+    - `Private Shops` **:** `5` - **or** `3` **if you would like**
     - `Item Drops` **:** `2 - Yang enabled`
   - **Game Tab**
     - `Name` **:** `Subjective`
@@ -45,7 +45,7 @@ You are ready to play after changing some in-game settings for high performance.
     - `Show` **:** **Uncheck** these options:
       - `Chat Line`
       - `Shop name`
-      - `Monster Names` - **keep it enabled if you'd like**
+      - `Monster Names` - **keep it enabled if you would like**
       - `HP Bar`
 # Conclusion
 I hope this guide helped you to play Metin2 on Linux with optimized settings! Have a nice day! 🐧

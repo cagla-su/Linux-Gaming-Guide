@@ -136,5 +136,5 @@ DRI_PRIME=1 gamemoderun %command%
 	- Go to `System Options` and turn on the `Advanced` option, now scroll down a bit. You should turn on the `Use Discrete Graphics` option, after that, make sure you've picked your dedicated GPU's API on `Vulkan API` section. That's all you should do! Make sure to save changes.
  - **Heroic**: On your library, right click your game and go to `Settings`, in the opened window, check `Use Dedicated Graphics Card` option. That's all you should do!
 # Conclusion
-This guide was about Linux gaming. I hope the guide has been useful for you. Thank you for reading, have a nice day! 🐧
+This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
 

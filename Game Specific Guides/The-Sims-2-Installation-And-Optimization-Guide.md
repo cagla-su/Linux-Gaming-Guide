@@ -26,4 +26,4 @@
   - As the last step, click `Save Files...`. Don't forget to perform the same steps for `The Sims 2 Body Shop`.
 - Now all you need to do is run The Sims 2! 😊
 ## Conclusion
-I hope this guide was useful for you. Dag dag Simmers. Have a nice day! 🐧
+This guide was about The Sims 2 installation and optimization! I hope the guide has been useful. Thank you for reading, have a nice day! 🐧

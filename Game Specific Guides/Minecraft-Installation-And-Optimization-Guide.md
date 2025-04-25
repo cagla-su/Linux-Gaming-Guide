@@ -131,4 +131,4 @@ On Optifine, there are some cool features that are not about increasing performa
     - **Other...**
       - `Telemetry`: OFF
 ## Conclusion
-This was my Minecraft installation and optimization guide! I hope you enjoyed reading it and found the guide useful. Have a nice day! 🐧
+This guide was about Minecraft installation and optimization guide! I hope the guide has been useful. Thank you for reading, have a nice day! 🐧

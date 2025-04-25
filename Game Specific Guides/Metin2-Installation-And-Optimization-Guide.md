@@ -48,4 +48,4 @@ You are ready to play after changing some in-game settings for high performance.
       - `Monster Names` - **keep it enabled if you would like**
       - `HP Bar`
 # Conclusion
-I hope this guide helped you to play Metin2 on Linux with optimized settings! Have a nice day! 🐧
+This guide was about Metin2 installation and optimization! I hope the guide has been useful. Thank you for reading, have a nice day! 🐧

@@ -11,6 +11,12 @@ Metin2 is an old legendary MMORPG game.
 - **Step 3**: Click `Search the Lutris website for installer` and type gameforge.
 - **Step 4**: Now, install the `Gameforge Client` script.
 - **Step 5**: Apply the same steps for the **second (or/and third)** client I suggested you install. Simply install it again but make sure you changed the folder name in the `Select installation directory` step.
+- **Step 6 - For Turkish Players Only**: For Turkish keyboard layout, you should add an environment variable after installing the client. Otherwise, you will be able to see the special characters like `ğ,ş,İ,ı` texted by other players on your screen but when you try to use those letters, you will see `g,s,I,i` as the output.
+    - What you should do is **right clicking** Gameforge Client in your Lutris library and go to `Configure`.
+        - Now go to `System options` and scroll down a bit until you see the `Environment variables` section.
+        - In `Environment variables` section, click `Add` and add the environment variable below:
+        - `Key:` **LC_ALL** | `Value:` **tr_TR.UTF-8**
+        - After clicking `Save` from the top right of the window, you're ready to go!
 ## Installing Metin2
 Installing Metin2 is not hard. Simply log in and install Metin2. However, the installer will be stuck at 95%, 97% etc. and in this case, all you have to do is stop Gameforge Client from Lutris. When you launch the client again, you are going to see that the game is installed successfully. Also, once you launch the game and shut it down, you will see that your game account is stuck at `in-game` sign due to the bug. You can ignore it.
 ## Optimize Metin2

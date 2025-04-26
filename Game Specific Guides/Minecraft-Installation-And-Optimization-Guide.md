@@ -28,18 +28,25 @@ Prism Launcher now allows you to install Java inside the app instead of installi
 ## Sodium Method - Recommended For Version 1.16.3 And Later
 - First, right click your Minecraft instance and click `Edit`.
 - In the opened page, click `Mods` from the left side bar and click `Download mods` from the right side bar.
-- The mods I suggest you are:
-  - `BadOptimizations`
+- **Suggested Performance Mods and Dependencies**
   - `Cloth Config`
   - `Concurrent Chunk Management Engine`
+  - `Debugify`
   - `Dynamic FPS`
   - `EntityCulling`
   - `Fabric API`
   - `Fabric Language Kotlin`
+  - `FastQuit`
   - `FerriteCore`
+  - `ImmediatelyFast`
   - `Lithum`
+  - `ModernFix`
+  - `More Culling`
+  - `No Chat Reports`
   - `No Telemetry`
+  - `OptiGUI`
   - `Reese's Sodium Options`
+  - `Remove Reloading Screen`
   - `Sodium`
   - `Sodium Extra`
 - There are lots of other performance boosting mods. However, the mods above can **significantly** increase performance while other mods don't at all. That's why installing the mods above is generally pretty much enough.

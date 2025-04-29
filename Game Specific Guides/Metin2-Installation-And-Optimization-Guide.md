@@ -31,12 +31,13 @@
     - The `en-GB` folder's name might be something different if you are playing on another server such as Türkiye (`tr-TR`) server.
     - After reaching `bgm` folder, delete everything in the folder permanently without deleting the folder. This will help with performance as the music files that run in the background while playing the game are **CPU-intensive** and might reduce performance.
     - Go back to `en-GB` folder and delete `logo1.avi` and `logo2.avi`.
-    - Open `config.exe` once and click `OK`, this will create `metin2.cfg`. Now open `metin2.cfg` via a text editor.
-    - `Width` **:** `1280`
-    - `Height` **:** `720`
-    - `BPP` **:** `16`
-    - `PRE_LOADING_DELAY_TIME` **:** `0`
-      - *save the file*
+    - Open `config.exe` once and click `OK`, this will create `metin2.cfg`.
+    - Now edit `metin2.cfg` via a text editor.
+        - `Width` **:** `1280`
+        - `Height` **:** `720`
+        - `BPP` **:** `16`
+        - `PRE_LOADING_DELAY_TIME` **:** `0`
+        - *save the file*
     - Don't forget to apply the same steps for the other client(s).
 ### Optimize In-Game Settings
 - **System Options**

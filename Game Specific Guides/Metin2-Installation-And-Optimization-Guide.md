@@ -24,7 +24,7 @@
     - You will be asked if you want to replace files. You should let your file manager replace the file.
     - When you launch the client, you will see that the responsiveness issue doesn't exist anymore.
 ## Optimize Metin2
-- **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`.
+- **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`. Files that have **tkg-ntsync-amd64-wow64** in their names are the ones that grant the highest performance.
     - If you are using Lutris from Flatpak, the location is `~/.var/app/net.lutris.Lutris/runners/wine`.
 - **Step 2:** Open your file manager and follow the directory:
 `~/Games/gameforge-client/drive_c/Program Files/metin2/en-GB/bgm`

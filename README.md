@@ -135,7 +135,7 @@ DRI_PRIME=1 gamemoderun %command%
 - **Lutris**: On the left side bar, point your mouse cursor on `Wine` and click the **gear icon** that appears.
 	- Go to `System Options` and enable the `Advanced` option.
  	- Enable the `Use Discrete Graphics` option. After enabling, make sure you have picked your dedicated GPU's API in `Vulkan API` section and save the changes.
- - **Heroic**: On your library, right click your game and go to `Settings`.
+ - **Heroic**: In your library, right click your game and go to `Settings`.
  	- In the opened window, check `Use Dedicated Graphics Card` option and save the changes.
 # Conclusion
 This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧

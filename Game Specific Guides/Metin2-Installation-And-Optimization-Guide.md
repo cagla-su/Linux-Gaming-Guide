@@ -21,7 +21,7 @@
 - Once you launch the game and exit, you will see that your game account is stuck at `in-game` sign. You can ignore it as Gameforge Client allows you to run another section from the same game account.
 - If the client doesn't respond properly:
     - Download Gameforge Client setup file from the [website](https://gameforge.com/en-US/download) and move the file to `~/Games/gameforge-client/drive_c/`
-    - You will be asked if you want to replace files. You should let your file manager to replace the file.
+    - You will be asked if you want to replace files. You should let your file manager replace the file.
     - When you launch the client, you will see that the responsiveness issue doesn't exist anymore.
 ## Optimize Metin2
 - **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`.

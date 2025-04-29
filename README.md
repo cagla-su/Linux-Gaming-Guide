@@ -122,7 +122,7 @@ Terminal=false
 Categories=Game;
 ```
 - Simply, we're typing `env` first and the command for your GPU. Lastly, the package name of your game/app.
-### 3- Steam Games
+### 3- Steam Games Method
 Add the command for your GPU on your game's launch options and make sure it has `%command%` at last just like in the example:
 ```
 DRI_PRIME=1 %command%
@@ -131,7 +131,7 @@ DRI_PRIME=1 %command%
 ```
 DRI_PRIME=1 gamemoderun %command%
 ```
-### 4- Lutris/Heroic Games
+### 4- Lutris/Heroic Games Method
 - **Lutris**: On the left side bar, point your mouse cursor on `Wine`, click the **gear icon** that appears.
 	- Go to `System Options` and turn on the `Advanced` option, now scroll down a bit. You should turn on the `Use Discrete Graphics` option, after that, make sure you've picked your dedicated GPU's API on `Vulkan API` section. That's all you should do! Make sure to save changes.
  - **Heroic**: On your library, right click your game and go to `Settings`, in the opened window, check `Use Dedicated Graphics Card` option. That's all you should do!

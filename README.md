@@ -10,7 +10,7 @@ Hello 🤭. In this guide, you will be informed about **how does gaming on Linux
 - So, let's begin!
 # How Does Linux Gaming Work?
 I would like to explain to you how running Windows games on Linux works.
-- Firstly, [WINE](https://www.winehq.org/) (a compatibility layer) is directing **Windows library files** into **Linux library files** just like **the compatibility mode in Windows when you want to play an old game on newer Windows versions**.
+- Firstly, [WINE](https://www.winehq.org/) (a compatibility layer) is directing **Windows library files** into **Linux library files** just like **the compatibility mode on Windows when you want to play an old game on newer Windows versions**.
 - Lastly, [DXVK technology](https://github.com/doitsujin/dxvk) is translating **DirectX 8/9/10/11** (Windows-specific graphics library) calls into **Vulkan** (Windows/Linux native graphics library) with WINE to make Windows games run on Linux.
 	- **Tools That Perform the Same Purpose as DXVK**
  		- [VKD3D](https://gitlab.winehq.org/wine/vkd3d)**:** translates **DirectX 12** calls into **Vulkan**.
@@ -27,10 +27,10 @@ We only have 3 steps:
 - If you are using an **NVIDIA GPU**, the recommended way is to install the **proprietary** driver from your package manager.
 - If you are using an **Intel/AMD GPU**, the recommended way is to install the **open-source** driver from your package manager.
 - Both ways are explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
-- If you don't see your distribution in the link, that means either your distribution's package manager doesn't include Vulkan drivers or Vulkan drivers are preinstalled (only for Mesa (Intel/AMD) drivers) in your system such as [Fedora did for Mesa drivers](https://packages.fedoraproject.org/pkgs/mesa/mesa-vulkan-drivers/).
+- If you don't see your distribution in the page, that means either your distribution's package manager doesn't include Vulkan drivers or Vulkan drivers are preinstalled (only for Mesa (Intel/AMD) drivers) in your system such as [Fedora did for Mesa drivers](https://packages.fedoraproject.org/pkgs/mesa/mesa-vulkan-drivers/).
 
 ### 2- Installing Wine and Wine Dependencies
-- First of all, if you are going to install your gaming software from [Flathub](https://flathub.org/), you can skip this step as Flatpak will already install them with WINE and its dependencies.
+- First of all, if you are going to install your gaming software from [Flathub](https://flathub.org/), you can skip this step as Flatpak will already install WINE with its dependencies.
 - This step is explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/WineDependencies.md)
 
 ### 3- Installing Gaming Software
@@ -46,15 +46,15 @@ We only have 3 steps:
 	- [Protonup-QT](https://davidotek.github.io/protonup-qt/): You can install custom WINE/Proton builds for a better gameplay that are supported by Lutris, Steam and Heroic.
 ### Notes
 - You can install the software from either your **package manager** or **Flatpak**.
-- If you're using [CachyOS](https://cachyos.org/) or if you have [CachyOS repositories](https://github.com/CachyOS/linux-cachyos#cachyos-repositories) enabled in your **Arch system**, you can install [cachyos-gaming-applications](https://github.com/CachyOS/CachyOS-PKGBUILDS/blob/master/cachyos-gaming-applications/PKGBUILD) package to install all the necessary gaming components.
+- If you're using [CachyOS](https://cachyos.org/) or if you have [CachyOS repositories](https://github.com/CachyOS/linux-cachyos#cachyos-repositories) enabled on your **Arch system**, you can install [cachyos-gaming-applications](https://github.com/CachyOS/CachyOS-PKGBUILDS/blob/master/cachyos-gaming-applications/PKGBUILD) package to install all the necessary gaming components.
 - You can check [ProtonDB](https://www.protondb.com) to see whether your Windows games on Steam are playable on Linux.
 	- If the game you searched for is ranked as **silver or lower**, that means it is either **not supported** or **unplayable**.
-	- You can get optimization tips if other reviewers wrote any. You can also write your own reviews for any Steam game.
+	- You can get optimization tips if other reviewers wrote any. You can also write your own reviews for any Steam game you want.
 # Optimization
 ## Reducing Screen Resolution and Using The Lowest Graphics Settings
 - Playing a game in fullscreen using **FSR** and a lower resolution is probably the most effective way of increasing gaming performance **alongside lowering graphics settings**.
 - If you're gaming on an **iGPU**, you can try reducing your monitor's resolution.
-	- To explain it better, on my **Intel UHD 620** with **1920x1080** screen resolution, even reducing my monitor resolution to **1600x900** drastically improves performance in games I play in **windowed/borderless** mode. If you are playing all your games in fullscreen mode, only reducing the game's resolution should be enough and easier.
+	- To explain it better, on my **Intel UHD 620** with **1920x1080** screen resolution, even reducing my monitor resolution to **1600x900** drastically improves performance in games I play in **windowed/borderless** mode. If you are playing all your games in **fullscreen mode**, you can just reduce the game's resolution instead.
 ## Using A Performance Kernel
 - **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
 - **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
@@ -68,18 +68,18 @@ gamemoderun %command%
 ```
 sudo mv gamemode.ini /etc/
 ```
-## Performance-Boosting Environment Variables
+## Performance-Increasing Environment Variables
 You can use these options for better performance while gaming:
 - `WINEDEBUG=-all`  - It suppresses all debug outputs of WINE
 - `mesa_glthread=true` - It improves **OpenGL performance** on **Intel/AMD GPUs**
 - `__GL_THREADED_OPTIMIZATIONS=1` - It improves **OpenGL performance** on **NVIDIA GPUs**
-- `DXVK_ASYNC=1` - It **doesn't work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from your online games that you play**. That's why, it is recommended for **offline games only**.
+- `DXVK_ASYNC=1` - It **doesn't work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games you play**. That's why, it is recommended for **offline games only**.
 ### How Can You Use These Environment Variables?
 - **Steam**: You can simply use these commands in your Steam game's launch options, don't forget to add `%command%` at last
-- **Lutris**: In `System Options` section of Lutris, there is another section called `Environment Variables`, you should type the variables like in the example:
+- **Lutris**: In `System Options` section of Lutris, there is another section called `Environment Variables`, you should add the variables like in the example:
  - `Key`: WINEDEBUG | `Value`: -all
 ## Disabling Compositor - X11/Xorg ONLY!!!
-**WARNING**: If you're using **Wayland**, you can't disable the compositor. These steps are only available for **X11/Xorg**.
+**WARNING**: If you are using **Wayland**, you can't disable the compositor. These steps are only available for **X11/Xorg**.
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **destroys visual quality while improving performance**.
 - If you're using **KDE**, you can simply disable the compositor using `Shift - Alt - F12` keybind. To reenable, apply the same keybind.
 - If you're using **XFCE**, you can disable the compositor following the steps below:
@@ -109,7 +109,7 @@ DRI_PRIME=1 prismlauncher
 ```
 ### 2- Desktop Shortcut Method
 - Create a **.desktop** file on your desktop and follow the next step.
-- I'm going to show you an example content to run **Prism Launcher** via dedicated GPU. The line you should pay attention to is the line that starts with `Exec`:
+- I am going to show you an example content to run **Prism Launcher** via dedicated GPU. The line you should pay attention to is the line that starts with `Exec`:
 ```
 [Desktop Entry]
 Version=1.0
@@ -121,9 +121,9 @@ Icon=/path/to/your/game/icon.png
 Terminal=false
 Categories=Game;
 ```
-- Simply, we're typing `env` first and the command for your GPU. Lastly, the package name of your game/app.
+- Simply, typing `env` first and the command for your GPU. Lastly, the package name of the game/app.
 ### 3- Steam Games Method
-Add the command for your GPU on your game's launch options and make sure it has `%command%` at last just like in the example:
+Add the command for your GPU in your game's launch options and make sure it has `%command%` at last just like in the example:
 ```
 DRI_PRIME=1 %command%
 ```
@@ -132,7 +132,7 @@ DRI_PRIME=1 %command%
 DRI_PRIME=1 gamemoderun %command%
 ```
 ### 4- Lutris/Heroic Games Method
-- **Lutris**: On the left side bar, point your mouse cursor on `Wine`, click the **gear icon** that appears.
+- **Lutris**: On the left side bar, point your mouse cursor on `Wine` and click the **gear icon** that appears.
 	- Go to `System Options` and enable the `Advanced` option.
  	- Enable the `Use Discrete Graphics` option. After enabling, make sure you have picked your dedicated GPU's API in `Vulkan API` section and save the changes.
  - **Heroic**: On your library, right click your game and go to `Settings`.

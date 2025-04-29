@@ -99,8 +99,8 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 - There are **4 ways** of running your games on your dedicated GPU:
 	- **1-** [Terminal Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#1--terminal-method)
  	- **2-** [Desktop Shortcut Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#2--desktop-shortcut-method)
- 	- **3-** [Steam Games Method](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#3--steam-games)
-  	- **4-** [Lutris/Heroic Games Method](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#4--lutrisheroic-games)
+ 	- **3-** [Steam Games Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#3--steam-games-method)
+  	- **4-** [Lutris/Heroic Games Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#4--lutrisheroic-games-method)
 ### 1- Terminal Method
 Simply, typing the command for your GPU and the package name of your game:
 - **Example:**
@@ -133,8 +133,10 @@ DRI_PRIME=1 gamemoderun %command%
 ```
 ### 4- Lutris/Heroic Games Method
 - **Lutris**: On the left side bar, point your mouse cursor on `Wine`, click the **gear icon** that appears.
-	- Go to `System Options` and turn on the `Advanced` option, now scroll down a bit. You should turn on the `Use Discrete Graphics` option, after that, make sure you've picked your dedicated GPU's API on `Vulkan API` section. That's all you should do! Make sure to save changes.
- - **Heroic**: On your library, right click your game and go to `Settings`, in the opened window, check `Use Dedicated Graphics Card` option. That's all you should do!
+	- Go to `System Options` and enable the `Advanced` option.
+ 	- Enable the `Use Discrete Graphics` option. After enabling, make sure you have picked your dedicated GPU's API in `Vulkan API` section and save the changes.
+ - **Heroic**: On your library, right click your game and go to `Settings`.
+ 	- In the opened window, check `Use Dedicated Graphics Card` option and save the changes.
 # Conclusion
 This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
 

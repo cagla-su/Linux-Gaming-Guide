@@ -97,9 +97,9 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
 ## Ways To Run Software On Dedicated GPU
 - There are **4 ways** of running your games on your dedicated GPU:
-	- **1-** [Terminal Method](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#1--terminal-way)
- 	- **2-** [Desktop Shortcut Method](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#2--desktop-shortcut-way)
- 	- **3-** [Steam Method](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#3--steam-games)
+	- **1-** [Terminal Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#1--terminal-method)
+ 	- **2-** [Desktop Shortcut Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#2--desktop-shortcut-method)
+ 	- **3-** [Steam Games Method](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#3--steam-games)
   	- **4-** [Lutris/Heroic Games Method](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#4--lutrisheroic-games)
 ### 1- Terminal Method
 Simply, typing the command for your GPU and the package name of your game:

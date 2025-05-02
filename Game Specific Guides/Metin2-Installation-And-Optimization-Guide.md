@@ -48,7 +48,7 @@
     - `Snow` **:** `Off`
     - `Target Shadow` **:** `1` - **or** `2` **if you would like**
     - `Private Shops` **:** `5` - **or** `3` **if you would like**
-    - `Item Drops` **:** `2 - Yang enabled`
+    - `Item Drops` **:** `2`
   - **Game Tab**
     - `Name` **:** `Subjective`
     - `Monster info` **:** `Level (uncheck)`

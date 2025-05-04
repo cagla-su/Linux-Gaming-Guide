@@ -7,15 +7,15 @@ You can install Prism Launcher following [these steps according to your distribu
 ### Install Java
 Prism Launcher now allows you to install Java inside the app instead of installing it manually. To do so, follow the steps below:
 - `Settings - Java - Management - Download - Adoptium - Install the latest builds of all 3 Java versions`
-  - After installing Java, if Minecraft doesn't launch, change your Minecraft instance's Java version to the relevant one.
+  - After installing Java, if Minecraft does not launch, change your Minecraft instance's Java version to the relevant one.
     - **For 1.20.5 and above:** Java 21
     - **From 1.18 to 1.20.4:** Java 17
     - **For 1.17 and 1.17.1:** Java 16 - but in the app, there is no Java 16 in Adoptium, so you might want to install another Java build if you want to play the specific version.
     - **For 1.16.5 and below:** Java 8
 ### Install Minecraft
 - When you first launch the launcher, it will ask you what language you would like to use. After that question, you are going to see a page about Java.
-- Make sure to change `Maximum memory allocation`. Some people claim you should allocate half your RAM but this is not good for **some cases**. If you have at least 32 GB RAM and don't perform RAM intensive tasks, you can allocate half your RAM. However:
-  - If you have RAM that is between **4-16 GB**, I suggest you allocate **2048 MiB** if you are not going to install heavy mods or shaders. However, you should allocate at least **3072 MiB** RAM if you are going to use Optifine without mods.
+- Make sure to change `Maximum memory allocation`. Some people claim you should allocate half your RAM but this is not good for **some cases**. If you have at least 32 GB RAM and if you do not perform memory-intensive tasks, you can allocate half your RAM. However:
+  - If you have RAM between **4-16 GB**, I suggest you allocate **2048 MiB** if you are not going to install heavy mods or shaders. However, you should allocate at least **3072 MiB** RAM if you are going to use Optifine without mods.
 - After completing quick setup, add your Microsoft account to connect to your account in the launcher.
 - Now we can finally install Minecraft. Click `Add Instance` button on the top left and continue:
   - In `Version` section, select the version you would like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a `Mod loader` section next to the warning. Select `Fabric` from there and click `OK`.
@@ -49,19 +49,19 @@ Prism Launcher now allows you to install Java inside the app instead of installi
   - `Remove Reloading Screen`
   - `Sodium`
   - `Sodium Extra`
-- There are lots of other performance boosting mods. However, the mods above can **significantly** increase performance while other mods don't at all. That's why installing the mods above is generally pretty much enough.
-### Optifine-like Experience on Sodium
-On Optifine, there are some cool features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. We can have the same features on Sodium thanks to the mods below:
+- There are lots of other performance boosting mods. However, the mods above can **significantly** increase performance while other mods do not at all. That is why installing the mods above is generally enough.
+### Optifine Features Without Optifine
+In Optifine, there are some cool features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. We can get the same features without Optifine through the mods below:
 - **Zooming Feature -** `Zoomify`
 - **Shaders Feature -** `Iris`
 - **Dynamic Lighting Feature -** `LambDynamicLights`
 - **Connected Textures Feature -** `Continuity`
 ### Sodium - In Game Optimized Settings
-- **If you're going to use Zoomify**:
+- **If you are going to use Zoomify**:
   - Click `Options`, go to `Controls` - `Key Binds` and scroll down until you see a red key bind.
-  - `Save Hotbar Activator` has C button as a key bind, change it to something else and hit `Done`
-- Go to `Options` and go to `Resource Packs`. Now move `Default Connected Textures` and `Glass Pane Culling Fix` from left section to right section and hit `Done`.
-- Go back to `Options` and go to `Video Settings`. These are optimized settings for performance:
+  - `Save Hotbar Activator` has C button as a key bind, change it to something else and click `Done`
+- Go to `Options` and `Resource Packs`. Now move `Default Connected Textures` and `Glass Pane Culling Fix` from the left section to the right section and click `Done`.
+- Go back to `Options` and `Video Settings`. These are the optimized settings for performance:
   - **General**
     - `Render Distance`: 6 chunks
     - `Max Shadow Distance`: Disabled

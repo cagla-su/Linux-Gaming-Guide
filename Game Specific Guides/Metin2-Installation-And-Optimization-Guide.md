@@ -3,7 +3,7 @@
 - First of all, make sure your system is prepared for gaming following [my guide](https://github.com/cutiepenguins/Linux-Gaming-Guide).
 - The software that will be guided in this guide is **Lutris**.
 - If you are playing Metin2 mainly with **multiple sections**, you might want to install the client on Lutris **twice** or even **thrice** according to how many sections you are running simultaneously.
-    - It is because Gameforge Client runs buggy on Linux. When you launch the game multiple times in the same client, it doesn't let you launch any more sections which gives you no choice but killing Gameforge Client from Lutris, which also will kill all the running Metin2 sections of the same client. To prevent such issues, installing the client multiple times is helpful. 
+    - It is because Gameforge Client runs buggy on Linux. When you launch the game multiple times in the same client, it does not let you launch any more sections which gives you no choice but killing Gameforge Client from Lutris, which also will kill all the running Metin2 sections of the same client. To prevent such issues, installing the client multiple times is helpful. 
 ## Install Gameforge Client
 - **Step 1**: Open `Lutris` (surprisingly)
 - **Step 2**: Click the `(+)` button on the top left.
@@ -19,12 +19,12 @@
 ## Installing Metin2
 - After logging in and downloading the game, the installer will be stuck at a certain value like `97%`. In this case, all you have to do is stop Gameforge Client from Lutris. When you launch the client again, you are going to see that the game is installed successfully.
 - Once you launch the game and exit, you will see that your game account is stuck at `in-game` sign. You can ignore it as Gameforge Client allows you to run another section from the same game account.
-- If the client doesn't respond properly:
-    - Download Gameforge Client setup file from the [website](https://gameforge.com/en-US/download) and move the file to `~/Games/gameforge-client/drive_c/`
+- If the client does not respond properly:
+    - Download Gameforge Client setup file from the [website](https://gameforge.com/en-US/download) and move it to `~/Games/gameforge-client/drive_c/`
     - You will be asked if you want to replace files. You should let your file manager replace the file.
-    - When you launch the client, you will see that the responsiveness issue doesn't exist anymore.
+    - When you launch the client, you will see that the responsiveness issue does not exist anymore.
 ## Optimize Metin2
-- **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`. Files that have **staging-tkg-ntsync-amd64-wow64** in their names are the ones that grant the highest performance.
+- **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`. The file that has **staging-tkg-ntsync-amd64-wow64** in its name is the one that grants the highest performance.
     - If you are using Lutris from Flatpak, the location is `~/.var/app/net.lutris.Lutris/runners/wine`.
 - **Step 2:** Open your file manager and follow the directory:
 `~/Games/gameforge-client/drive_c/Program Files/metin2/en-GB/bgm`

@@ -16,13 +16,10 @@
         - In `Environment variables` section, click `Add` and add the environment variable below:
         - `Key:` **LC_ALL** | `Value:` **tr_TR.UTF-8**
         - Make sure to save the changes.
+            - Just a little warning for **Fedora** users. If you are unable to use Turkish letters while playing Metin2 even though you applied all the steps properly, it might be because you have a missing package which you can get executing `sudo dnf install glibc-langpack-tr` command in terminal.
 ## Installing Metin2
 - After logging in and downloading the game, the installer will be stuck at a certain value like `97%`. In this case, all you have to do is stop Gameforge Client from Lutris. When you launch the client again, you are going to see that the game is installed successfully.
 - Once you launch the game and exit, you will see that your game account is stuck at `in-game` sign. You can ignore it as Gameforge Client allows you to run another section from the same game account.
-- If the client does not respond properly:
-    - Download Gameforge Client setup file from the [website](https://gameforge.com/en-US/download) and move it to `~/Games/gameforge-client/drive_c/`
-    - You will be asked if you want to replace files. You should let your file manager replace the file.
-    - When you launch the client, you will see that the responsiveness issue does not exist anymore.
 ## Optimize Metin2
 - **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`. The file that has **staging-tkg-ntsync-amd64-wow64** in its name is the one that grants the highest performance.
     - If you are using Lutris from Flatpak, the location is `~/.var/app/net.lutris.Lutris/runners/wine`.

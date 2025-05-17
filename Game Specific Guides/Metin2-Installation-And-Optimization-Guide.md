@@ -36,26 +36,10 @@
         - `PRE_LOADING_DELAY_TIME` **:** `0`
         - *save the file*
     - Don't forget to apply the same steps for the other client(s).
-### Optimize In-Game Settings
-- **System Options**
-  - **System Tab**
-![image](https://github.com/user-attachments/assets/51d573ae-0719-467b-ae0d-9b0bea7df67e)
-
-    - `View Distance` **:** `1`
-    - `Fog` **:** `Off`
-    - `Snowfall` **:** `Off`
-    - `Snow` **:** `Off`
-    - `Target Shadow` **:** `1` - **or** `2` **if you would like**
-    - `Private Shops` **:** `5` - **or** `3` **if you would like**
-    - `Item Drops` **:** `2`
-  - **Game Tab**
-    - `Name` **:** `Subjective`
-    - `Monster info` **:** `Level (uncheck)`
-    - `Animations` **:** `Performance`
-    - `Show` **:** **Uncheck** these options:
-      - `Chat Line`
-      - `Shop name`
-      - `Monster Names` - **keep it enabled if you would like**
-      - `HP Bar`
+### Optimized In-Game Settings You Can Apply
+- ![a](https://github.com/user-attachments/assets/92f5060c-eadf-4d70-88e8-11dbf212c6a0)
+- ![b](https://github.com/user-attachments/assets/d503705a-d671-476c-9c9a-ae381648c421)
+- ![c](https://github.com/user-attachments/assets/c3166494-01e0-4963-8fa4-088f05a08863)
+- ![d](https://github.com/user-attachments/assets/8a78ec23-24e4-43da-b764-17d8c03f195d)
 # Conclusion
 This guide was about Metin2 installation and optimization! I hope the guide has been useful. Thank you for reading, have a nice day! 🐧

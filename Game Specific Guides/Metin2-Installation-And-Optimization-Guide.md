@@ -39,6 +39,8 @@
 ### Optimize In-Game Settings
 - **System Options**
   - **System Tab**
+![image](https://github.com/user-attachments/assets/51d573ae-0719-467b-ae0d-9b0bea7df67e)
+
     - `View Distance` **:** `1`
     - `Fog` **:** `Off`
     - `Snowfall` **:** `Off`

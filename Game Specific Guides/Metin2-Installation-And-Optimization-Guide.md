@@ -21,8 +21,8 @@
 - After logging in and downloading the game, the installer will be stuck at a certain value like `97%`. In this case, all you have to do is stop Gameforge Client from Lutris. When you launch the client again, you are going to see that the game is installed successfully.
 - Once you launch the game and exit, you will see that your game account is stuck at `in-game` sign. You can ignore it as Gameforge Client allows you to run another section from the same game account.
 ## Optimize Metin2
-- **Step 1:** You might prefer using **wine-ge** build that is preinstalled with the client. However, if you want to get better performance specifically on Metin2, I suggest you install the **latest stable custom WINE build** [from the link](https://github.com/Kron4ek/Wine-Builds/releases) and extract the folder to `~/.local/share/lutris/runners/wine/`. The file that has **staging-tkg-ntsync-amd64-wow64** in its name is the one that grants the highest performance.
-    - If you are using Lutris from Flatpak, the location is `~/.var/app/net.lutris.Lutris/runners/wine`.
+- **Step 1:** When you install the client, a **wine-ge** build will be preinstalled and set as the default runner. However, Lutris now supports [umu-launcher](https://github.com/Open-Wine-Components/umu-launcher) so you might want to switch to it for better compatibility and performance. Do not be confused with its name, you will not be installing an application. UMU is a **built-in feature in Lutris**.
+    - All you have to do is **right clicking Gameforge Client** in Lutris library and changing **Wine version** to **"GE-Proton (Latest)"** in `Runner options`.
 - **Step 2:** Open your file manager and follow the directory:
 `~/Games/gameforge-client/drive_c/Program Files/metin2/en-GB/bgm`
     - The `en-GB` folder's name might be something different if you are playing on another server such as Türkiye (`tr-TR`) server.

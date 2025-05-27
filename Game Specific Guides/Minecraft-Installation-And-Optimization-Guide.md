@@ -5,17 +5,12 @@ First of all, I definitely suggest you use [Prism Launcher](https://github.com/P
 ### Install Prism Launcher
 You can install Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/linux/).
 ### Install Java
-Prism Launcher now allows you to install Java inside the app instead of installing it manually. To do so, follow the steps below:
-- `Settings - Java - Management - Download - Adoptium - Install the latest builds of all 3 Java versions`
-  - After installing Java, if Minecraft does not launch, change your Minecraft instance's Java version to the relevant one.
-    - **For 1.20.5 and above:** Java 21
-    - **From 1.18 to 1.20.4:** Java 17
-    - **For 1.17 and 1.17.1:** Java 16 - but in the app, there is no Java 16 in Adoptium, so you might want to install another Java build if you want to play the specific version.
-    - **For 1.16.5 and below:** Java 8
+Prism Launcher now automatically installs Java for you.
 ### Install Minecraft
 - When you first launch the launcher, it will ask you what language you would like to use. After that question, you are going to see a page about Java.
 - Make sure to change `Maximum memory allocation`. Some people claim you should allocate half your RAM but this is not good for **some cases**. If you have at least 32 GB RAM and if you do not perform memory-intensive tasks, you can allocate half your RAM. However:
-  - If you have RAM between **4-16 GB**, I suggest you allocate **2048 MiB** if you are not going to install heavy mods or shaders. However, you should allocate at least **3072 MiB** RAM if you are going to use Optifine without mods.
+  - I suggest you experiment different RAM allocations for the best smoothness possible. When you play the game, press **F3** and check the RAM usage, if it is generally between **30-70%**, it's the perfect value. If the RAM usage of allocated RAM is too low (such as between **5-30%**) or too high (such as between **60-90%**), this will negatively affect the smoothness of the game.
+    - On my laptop with 16 GB RAM and Minecraft performance mods installed, **2 GB allocated RAM** is the best value in terms of smoothness for me.
 - After completing quick setup, add your Microsoft account to connect to your account in the launcher.
 - Now we can finally install Minecraft. Click `Add Instance` button on the top left and continue:
   - In `Version` section, select the version you would like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a `Mod loader` section next to the warning. Select `Fabric` from there and click `OK`.

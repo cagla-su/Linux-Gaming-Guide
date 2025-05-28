@@ -9,8 +9,11 @@
 - **Step 2**: Click the `(+)` button on the top left.
 - **Step 3**: Click `Search the Lutris website for installer` and type gameforge.
 - **Step 4**: Now, install the `Gameforge Client` script.
-- **Step 5**: Apply the same steps for the **second (or/and third)** client(s) I suggested you install. But make sure you changed the folder name in the `Select installation directory` step before the installation of the other client(s).
-- **Step 6 - For Turkish Players Only**: For Turkish keyboard layout, you should add an environment variable after installing the client. Otherwise, you will be able to see the special characters like `ğ,ş,İ,ı` texted by other players on your screen but when you try to use the same letters, you will see `g,s,I,i` as the output.
+- **Step 5**: **Right click** Gameforge Client in your Lutris library and go to `Configure`.
+    - Now go to `Game options` and change `Prefix architecture` value as **64-bit**.
+    - Make sure to save the changes.
+- **Step 6**: Apply the same steps for the **second (or/and third)** client(s) I suggested you install. But make sure you changed the folder name in the `Select installation directory` step before the installation of the other client(s).
+- **Step 7 - For Turkish Players Only**: For Turkish keyboard layout, you should add an environment variable after installing the client. Otherwise, you will be able to see the special characters like `ğ,ş,İ,ı` texted by other players on your screen but when you try to use the same letters, you will see `g,s,I,i` as the output.
     - What you should do is **right click** Gameforge Client in your Lutris library and go to `Configure`.
         - Now go to `System options` and scroll down a bit until you see the `Environment variables` section.
         - In `Environment variables` section, click `Add` and add the environment variable below:
@@ -23,6 +26,8 @@
 ## Optimize Metin2
 - **Step 1:** When you install the client, a **wine-ge** build will be preinstalled and set as the default runner. However, Lutris now supports [umu-launcher](https://github.com/Open-Wine-Components/umu-launcher) so you might want to switch to it for better compatibility and performance. Do not be confused with its name, you will not be installing an application. UMU is a **built-in feature in Lutris**.
     - All you have to do is **right clicking Gameforge Client** in Lutris library and changing **Wine version** to **"GE-Proton (Latest)"** in `Runner options`.
+    - However, if UMU does not work properly for you, you can prefer [this custom WINE build](https://github.com/Kron4ek/Wine-Builds/releases) instead. If you do not know which file to download, `wine-X.X-staging-tkg-ntsync-amd64-wow64.tar.xz` is the most performant one.
+        - After downloading the custom WINE build, extract the file and move the extracted folder to `~/.local/share/lutris/runners/wine/` and change the client's Wine version accordingly.
 - **Step 2:** Open your file manager and follow the directory:
 `~/Games/gameforge-client/drive_c/Program Files/metin2/en-GB/bgm`
     - The `en-GB` folder's name might be something different if you are playing on another server such as Türkiye (`tr-TR`) server.

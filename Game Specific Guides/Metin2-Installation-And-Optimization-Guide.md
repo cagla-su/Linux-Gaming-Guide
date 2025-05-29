@@ -2,8 +2,8 @@
 ## Get Started
 - First of all, make sure your system is prepared for gaming following [my guide](https://github.com/cutiepenguins/Linux-Gaming-Guide).
 - The software that will be guided in this guide is **Lutris**.
-- If you are playing Metin2 mainly with **multiple sections**, you might want to install the client on Lutris **twice** or even **thrice** according to how many sections you are running simultaneously.
-    - It is because Gameforge Client runs buggy on Linux. When you launch the game multiple times in the same client, it does not let you launch any more sections which gives you no choice but killing Gameforge Client from Lutris, which also will kill all the running Metin2 sections of the same client. To prevent such issues, installing the client multiple times is helpful. 
+- Gameforge Client is very buggy on Linux. However, a new technology called [umu-launcher](https://github.com/Open-Wine-Components/umu-launcher) **solves almost all incompatibility issues** such as **making the game font better aligned, letting you launch as much as game sections you want under the same client and fixing item shop being unable to function after teleporting bug**. The installation steps are explained in [optimization](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md#optimize-metin2) section.
+    - In optimization section, an alternative is also explained in case UMU may not work on your system. If UMU does not work on your system and you have to use the alternative Wine build, you are going to be **unable** to launch multiple sections under the same client. That's why you should install Gameforge Client **twice** or even **thrice** in Lutris if that is the case for you.
 ## Install Gameforge Client
 - **Step 1**: Open `Lutris` (surprisingly)
 - **Step 2**: Click the `(+)` button on the top left.
@@ -24,10 +24,11 @@
 - After logging in and downloading the game, the installer will be stuck at a certain value like `97%`. In this case, all you have to do is stop Gameforge Client from Lutris. When you launch the client again, you are going to see that the game is installed successfully.
 - Once you launch the game and exit, you will see that your game account is stuck at `in-game` sign. You can ignore it as Gameforge Client allows you to run another section from the same game account.
 ## Optimize Metin2
-- **Step 1:** When you install the client, a **wine-ge** build will be preinstalled and set as the default runner. However, Lutris now supports [umu-launcher](https://github.com/Open-Wine-Components/umu-launcher) so you might want to switch to it for better compatibility and performance. Do not be confused with its name, you will not be installing an application. UMU is a **built-in feature in Lutris**. Also when I played the game with UMU, I experienced the game's font was better aligned and I was able to launch as much as game sections I want (this might not be the same for you but if it is, that means you do not have to create a second or third client to be able to run multiple games simultaneously).
-    - All you have to do is **right clicking Gameforge Client** in Lutris library and changing **Wine version** to **"GE-Proton (Latest)"** in `Runner options`.
+- **Step 1:** When you install the client, a **wine-ge** build will be preinstalled and set as the default runner. However, Lutris now supports [umu-launcher](https://github.com/Open-Wine-Components/umu-launcher) so you might want to switch to it for better compatibility and performance. Do not be confused with its name, you will not be installing an application. UMU is a **built-in feature in Lutris**.
+    - All you have to do is **right click Gameforge Client** in Lutris library and changing **Wine version** to **"GE-Proton (Latest)"** in `Runner options`.
     - However, if UMU does not work properly for you, you can prefer [this custom WINE build](https://github.com/Kron4ek/Wine-Builds/releases) instead. If you do not know which file to download, `wine-X.X-staging-tkg-ntsync-amd64-wow64.tar.xz` is the most performant one.
         - After downloading the custom WINE build, extract the file and move the extracted folder to `~/.local/share/lutris/runners/wine/` and change the client's Wine version accordingly.
+        - If you installed Lutris from Flatpak, the location is `~/.var/app/net.lutris.Lutris/data/lutris/runners/wine/` for you.
 - **Step 2:** Open your file manager and follow the directory:
 `~/Games/gameforge-client/drive_c/Program Files/metin2/en-GB/bgm`
     - The `en-GB` folder's name might be something different if you are playing on another server such as Türkiye (`tr-TR`) server.

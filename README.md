@@ -56,8 +56,8 @@ If you want to use an external disk to run your games from, it will not be ready
 - First of all, install `gnome-disk-utility` package using your package manager.
 - Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
 - After the installation, launch `Disks` app from your application launcher.
-	- Then, find your external disk from the menu on the left and click the button under `Volumes`
-![image](https://github.com/user-attachments/assets/5f2a8782-17e1-4b31-bbb6-a8683ed4d660)
+	- Then, find your external disk from the menu on the left and click the button under `Volumes`.
+ ![image](https://github.com/user-attachments/assets/5f2a8782-17e1-4b31-bbb6-a8683ed4d660)
 	- From the menu, click `Take Ownership` first and confirm.
  	- After taking the ownership, open the same menu and click `Edit Mount Options`.
   		- Now disable `User Session Defaults` and tick `Mount at system startup`.

@@ -1,5 +1,5 @@
 ## Game Specific Guides
-- ![Minecraft](https://github.com/user-attachments/assets/2ece4fcc-25b9-47c9-a8d2-5d48c406b938) **Minecraft** : [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
+-  ![Minecraft](https://github.com/user-attachments/assets/3dd086b5-0be3-4cc9-ab2f-e01243845930) **Minecraft** : [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
 - ![Metin2](https://github.com/user-attachments/assets/c887fc49-cc62-4450-81ab-7ebdfe0087df) **Metin2** : [Metin2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)
 - ![Sims 2](https://github.com/user-attachments/assets/5e79e395-066b-46df-85a4-a72f73d8aad8) **The Sims 2** : [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
 # Linux Gaming Guide
@@ -61,11 +61,12 @@ If you want to use an external disk to run your games from, it will not be ready
 	- From the menu, click `Take Ownership` first and confirm.
  	- After taking the ownership, open the same menu and click `Edit Mount Options`.
   		- Now disable `User Session Defaults` and tick `Mount at system startup`.
-    		- Lastly, find the box that doesn't have a label which is under `Symbolic Icon Name` box and make sure it includes these mount options:
+    		- Lastly, find the box that does not have a label which is under `Symbolic Icon Name` box and make sure it includes these mount options:
       			- `nofail,x-gvfs-show,rw,user,exec`
-         	- If you are going to use your previous external disk that you used on Windows, in other words as NTFS, additionally include this option:
+         	- If you are going to use your previous external disk that you were using on Windows, in other words as NTFS, additionally include this option:
           		- `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
             	- Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
+![image](https://github.com/user-attachments/assets/2a5d5461-2c0b-499b-875c-bc51afcf88a5)
 - Now you are ready to use your external disk! 
 # Optimization
 ## Reducing Screen Resolution and Using The Lowest Graphics Settings

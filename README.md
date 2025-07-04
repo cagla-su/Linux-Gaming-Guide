@@ -1,5 +1,5 @@
 ## Game Specific Guides
-- **Minecraft** : [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
+- ![MC](https://github.com/user-attachments/assets/71618cab-2818-411a-8e73-9a54f4e72437) **Minecraft** : [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
 - **Metin2** : [Metin2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)
 - **The Sims 2** : [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
 # Linux Gaming Guide
@@ -53,8 +53,8 @@ We only have 3 steps:
 # External Disk Setup
 If you want to use an external disk to run your games from, it will not be ready for use out of the box. That's why it should be configured before using.
 ## How to Configure External Disk on Linux?
-- First of all, install `gnome-disk-utility` and package using your package manager.
-- Also, if you are going to use your previous external disk that you were using on Windows, in other words as NTFS, make sure to install `ntfs-3g` package using your package manager.
+- First of all, install `gnome-disk-utility` package using your package manager.
+- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
 - After the installation, launch `Disks` app from your application launcher.
 	- Then, find your external disk from the menu on the left and click the button under `Volumes`
 ![image](https://github.com/user-attachments/assets/5f2a8782-17e1-4b31-bbb6-a8683ed4d660)
@@ -65,7 +65,7 @@ If you want to use an external disk to run your games from, it will not be ready
       			- `nofail,x-gvfs-show,rw,user,exec`
          	- If you are going to use your previous external disk that you used on Windows, in other words as NTFS, additionally include this option:
           		- `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
-            	- Lastly, change `Identify As` value to **/dev/disk/by-label/*your-disk*** and click OK.
+            	- Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
 - Now you are ready to use your external disk! 
 # Optimization
 ## Reducing Screen Resolution and Using The Lowest Graphics Settings

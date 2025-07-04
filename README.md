@@ -70,15 +70,15 @@ If you want to use an external disk to run your games from, it will not be ready
 - Now you are ready to use your external disk! 
 # Optimization
 ## Reducing Screen Resolution and Using The Lowest Graphics Settings
-- Playing a game in fullscreen using **FSR** and a lower resolution is probably the most effective way of increasing gaming performance **alongside lowering graphics settings**.
-- If you are gaming on an **iGPU**, you can try reducing your monitor's resolution.
-	- To explain it better, on my **Intel UHD 620** with **1920x1080** screen resolution, even reducing my monitor resolution to **1600x900** drastically improves performance in games I play in **windowed/borderless** mode. If you are playing all your games in **fullscreen mode**, you can just reduce the game's resolution instead.
+- When you reduce the game's resolution, less pixels will be rendered and this will cause less loads on your CPU and GPU which will help with higher performance.
+- When you play with the lowest graphics settings, less details will be rendered and this will help with higher performance.
+- Both are going to increase performance while reducing visual quality. You can try and find your own balanced settings.
 ## Using A Performance Kernel
 - **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
 - **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
 - **For Debian/Ubuntu and Derivatives:** [XanMod Kernel](https://xanmod.org/)
 ## Gamemode
-- [Gamemode](https://github.com/FeralInteractive/gamemode) is a project that optimizes your gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed. But on Steam, you have to manually add a command in your games' launch options like in the example:
+- [Gamemode](https://github.com/FeralInteractive/gamemode) is a tool that optimizes your gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed. But on Steam, you have to manually add a command in your games' launch options like in the example:
 ```
 gamemoderun %command%
 ```

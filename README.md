@@ -50,6 +50,23 @@ We only have 3 steps:
 - You can check [ProtonDB](https://www.protondb.com) to see whether your Windows games on Steam are playable on Linux.
 	- If the game you searched for is ranked as **silver or lower**, that means it is either **not supported** or **unplayable**.
 	- You can get optimization tips if other reviewers wrote any. You can also write your own reviews for any Steam game you want.
+# External Disk Setup
+If you want to use an external disk to run your games from, it will not be ready for use out of the box. That's why it should be configured before using.
+## How to Configure External Disk on Linux?
+- First of all, install `gnome-disk-utility` and package using your package manager.
+- Also, if you are going to use your previous external disk that you were using on Windows, in other words as NTFS, make sure to install `ntfs-3g` package using your package manager.
+- After the installation, launch `Disks` app from your application launcher.
+	- Then, find your external disk from the menu on the left and click the button under `Volumes`
+![image](https://github.com/user-attachments/assets/5f2a8782-17e1-4b31-bbb6-a8683ed4d660)
+	- From the menu, click `Take Ownership` first and confirm.
+ 	- After taking the ownership, open the same menu and click `Edit Mount Options`.
+  		- Now disable `User Session Defaults` and tick `Mount at system startup`.
+    		- Lastly, find the box that doesn't have a label which is under `Symbolic Icon Name` box and make sure it includes these mount options:
+      			- `nofail,x-gvfs-show,rw,user,exec`
+         	- If you are going to use your previous external disk that you used on Windows, in other words as NTFS, additionally include this option:
+          		- `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
+            	- Lastly, change `Identify As` value to **/dev/disk/by-label/*your-disk*** and click OK.
+- Now you are ready to use your external disk! 
 # Optimization
 ## Reducing Screen Resolution and Using The Lowest Graphics Settings
 - Playing a game in fullscreen using **FSR** and a lower resolution is probably the most effective way of increasing gaming performance **alongside lowering graphics settings**.

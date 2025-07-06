@@ -3,33 +3,36 @@
 - ![Metin2](https://github.com/user-attachments/assets/c887fc49-cc62-4450-81ab-7ebdfe0087df) **Metin2** : [Metin2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)
 - ![Sims 2](https://github.com/user-attachments/assets/5e79e395-066b-46df-85a4-a72f73d8aad8) **The Sims 2** : [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
 # Linux Gaming Guide
-Hello 🤭. In this guide, you will be informed about **how does gaming on Linux work, how to prepare your system for gaming on Linux and optimization suggestions**.
+Hello. In this guide, you will be informed about how **gaming on Linux works**, how to **prepare your system for gaming on Linux** and how to **optimize your Linux system for higher performance**. If you are ready, let's begin.
 ## Before Starting
-- Linux gaming is improving in an accelerated way. As the days go by, more gamers keep switching to Linux and in upcoming years, Linux gaming is expected to be noticed even more.
-- My beginner friendly guide is useful for everyone who wants to play games on Linux but does not know where to start with. After reading the guide, you might want to check my [Game Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides).
-- So, let's begin!
-# How Does Linux Gaming Work?
-I would like to explain to you how running Windows games on Linux works.
-- Firstly, [WINE](https://www.winehq.org/) (a compatibility layer) is directing **Windows library files** into **Linux library files** just like **the compatibility mode on Windows when you want to play an old game on newer Windows versions**.
-- Lastly, [DXVK technology](https://github.com/doitsujin/dxvk) is translating **DirectX 8/9/10/11** (Windows-specific graphics library) calls into **Vulkan** (Windows/Linux native graphics library) with WINE to make Windows games run on Linux.
-	- **Tools That Perform the Same Purpose as DXVK**
- 		- [VKD3D](https://gitlab.winehq.org/wine/vkd3d)**:** translates **DirectX 12** calls into **Vulkan**.
-		- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d)**:** translates **DirectX 8/9/10/11** calls into **OpenGL** if you do not have Vulkan driver installed on your device. 
+- Linux gaming is improving in an accelerated way. As the days go by, more users keep switching to Linux and the market share of Linux gaming is increasing.
+- My guide is useful for everyone who wants to play games on Linux but does not know where to start.
+- After reading the guide, I suggest that you read [Game Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides).
+# How Linux Gaming Works
+- You can play Windows games on Linux. However, this does not mean that there are not any Linux native games. **Some** Linux native games are:
+	- Minecraft, Terraria etc.
+ 	- Valve's games: Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
+  	- Stardew Valley
+  	- Euro Truck Simulator 2
+- Generally, Linux native games do not require any tinkerings as long as they do not require Vulkan. If they do, you need to install Vulkan drivers which will be explained in this guide.
+- Windows games require some essential tools in order to run on Linux and these tools are:
+	- [WINE](https://www.winehq.org/)**:** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**.
+	- [DXVK](https://github.com/doitsujin/dxvk)**:** DXVK translates **DirectX 8/9/10/11** calls into **Vulkan** calls to make Windows games run on Linux. DXVK is included in WINE, so you do not have to manually install DXVK.
+		- There are some other tools that are used for a similar purpose as DXVK and these tools are:
+ 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d)**:** VKD3D translates **DirectX 12** calls into **Vulkan** that DXVK cannot. Just like DXVK, VKD3D is included in WINE.
+			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d)**:** WINED3D translates **DirectX 8/9/10/11** calls into **OpenGL** instead of **Vulkan**. This is the default translation tool if your system does not have Vulkan drivers installed. However, since DirectX calls will be translated into OpenGL, you are likely going to get poor performance because OpenGL is deprecated. Just like DXVK and VKD3D, WINED3D is included in WINE.
 ## A Little Warning For NVIDIA Users
-- If you have an **NVIDIA GPU**, steps you should apply will be *a bit harder* because NVIDIA does not want to support Linux at all. This was [Linus Torvalds' response to NVIDIA for not supporting Linux in case you want to say the same](https://www.youtube.com/watch?v=_36yNWw_07g) :)))
-- Also, **do not use Wayland** if you have an **NVIDIA GPU** because it is likely for you to experience glitches or performance issues. Using **X11** is a better option for now.
+- NVIDIA is phasing out the **proprietary** drivers for their **4xxx** and **5xxx** series because they are attempting to be more open source for their recent and future cards. However, for older cards, you still have to use **proprietary** drivers.
+- Also, **do not use Wayland** if you have one of those older NVIDIA GPUs because it is likely for you to experience glitches or performance issues. Using **X11** is a better option for now.
 ## Get Started
-We only have 3 steps:
 - **1-** [Installing Vulkan Drivers](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#1--installing-vulkan-drivers)
-- **2-** [Installing Wine and Wine Dependencies](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#2--installing-wine-and-wine-dependencies)
+- **2-** [Installing WINE and WINE Dependencies](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#2--installing-wine-and-wine-dependencies)
 - **3-** [Installing Gaming Software](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#3--installing-gaming-software)
 ### 1- Installing Vulkan Drivers
-- If you are using an **NVIDIA GPU**, the recommended way is to install the **proprietary** driver from your package manager.
-- If you are using an **Intel/AMD GPU**, the recommended way is to install the **open-source** driver from your package manager.
-- Both ways are explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
-- If you do not see your distribution in the page, that means either your distribution's package manager does not include Vulkan drivers or Vulkan drivers are preinstalled (only for Mesa (Intel/AMD) drivers) in your system such as [Fedora did for Mesa drivers](https://packages.fedoraproject.org/pkgs/mesa/mesa-vulkan-drivers/).
+- This step is explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
+- If you do not see your distribution in the page, that probably means Vulkan drivers are preinstalled.
 
-### 2- Installing Wine and Wine Dependencies
+### 2- Installing WINE and WINE Dependencies
 - First of all, if you are going to install your gaming software from [Flathub](https://flathub.org/), you can skip this step as Flatpak will already install WINE with its dependencies.
 - This step is explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/WineDependencies.md)
 
@@ -51,7 +54,7 @@ We only have 3 steps:
 	- If the game you searched for is ranked as **silver or lower**, that means it is either **not supported** or **unplayable**.
 	- You can get optimization tips if other reviewers wrote any. You can also write your own reviews for any Steam game you want.
 # External Disk Setup
-If you want to use an external disk to run your games from, it will not be ready for use out of the box. That's why it should be configured before using.
+If you want to use an external disk to run your games, it will not be ready for use out of the box. That's why it should be configured before using.
 ## How to Configure External Disk on Linux?
 - First of all, install `gnome-disk-utility` package using your package manager.
 - Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.

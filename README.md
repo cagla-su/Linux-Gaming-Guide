@@ -22,9 +22,9 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
  			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d)**:** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot. This is the default translation tool if the game you are trying to play is a DirectX 12 game. Just like DXVK, VKD3D is included in WINE.
 			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d)**:** WINED3D translates **DirectX 8/9/10/11** calls into **OpenGL** instead of **Vulkan**. This is the default translation tool if your system does not have Vulkan drivers installed. However, since DirectX calls will be translated into OpenGL, you are likely going to get poor performance because OpenGL is deprecated. Just like DXVK and VKD3D, WINED3D is included in WINE.
 ```
-+------------------+           DirectX: Windows-specific graphics library
-|       WINE       |           Vulkan: Both Windows & Linux native graphics library
-+------------------+           OpenGL: Both Windows & Linux native graphics library (deprecated)
++------------------+   DirectX: Windows-specific graphics library
+|       WINE       |   Vulkan: Both Windows & Linux native graphics library
++------------------+   OpenGL: Both Windows & Linux native graphics library (deprecated)
          ||
          ||
 +----------------------+------------------------------+

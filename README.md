@@ -10,17 +10,15 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 - After reading the guide, I suggest that you read [Game Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides).
 # How Linux Gaming Works
 - You can play Windows games on Linux. However, this does not mean that there are not any Linux native games. **Some** Linux native games are:
-	- Minecraft, Terraria etc.
+	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 and more
  	- Valve's games: Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
-  	- Stardew Valley
-  	- Euro Truck Simulator 2
 - Generally, Linux native games do not require any tinkerings as long as they do not require Vulkan. If they do, you need to install Vulkan drivers which will be explained in this guide.
 - Windows games require some essential tools in order to run on Linux and these tools are:
 	- [WINE](https://www.winehq.org/)**:** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**.
-	- [DXVK](https://github.com/doitsujin/dxvk)**:** DXVK translates **DirectX 8/9/10/11** calls into **Vulkan** calls to make Windows games run on Linux. DXVK is included in WINE, so you do not have to manually install DXVK.
+	- [DXVK](https://github.com/doitsujin/dxvk)**:** DXVK translates **DirectX 8-11** calls into **Vulkan** calls to make Windows games run on Linux. DXVK is included in WINE, so you do not have to manually install DXVK.
 		- There are some other tools that are used for similar purposes as DXVK, and these tools are:
  			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d)**:** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot. This is the default translation tool if the game you are trying to play is a DirectX 12 game. Just like DXVK, VKD3D is included in WINE.
-			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d)**:** WINED3D translates **DirectX 8/9/10/11** calls into **OpenGL** instead of **Vulkan**. This is the default translation tool if your system does not have Vulkan drivers installed. However, since DirectX calls will be translated into OpenGL, you are likely going to get poor performance because OpenGL is deprecated. Just like DXVK and VKD3D, WINED3D is included in WINE.
+			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d)**:** WINED3D translates **DirectX 8-11** calls into **OpenGL** instead of **Vulkan**. This is the default translation tool if your system does not have Vulkan drivers installed. However, since DirectX calls will be translated into OpenGL, you are likely going to get poor performance because OpenGL is deprecated. Just like DXVK and VKD3D, WINED3D is included in WINE.
 ```
 +------------------+   DirectX: Windows-specific graphics library
 |       WINE       |   Vulkan: Both Windows & Linux native graphics library
@@ -66,7 +64,7 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 ### Notes
 - You can install these software from either your **package manager** or **Flatpak**.
 - You can check [ProtonDB](https://www.protondb.com) to see whether your Windows games on Steam are playable on Linux.
-	- If the game you searched for is ranked as **silver or lower**, that means it is either **not supported** or **unplayable**.
+	- If the game you searched for is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if other reviewers wrote any. If you wish, you can write your own reviews for any Steam game you want.
 # External Disk Setup
 If you want to use an external disk to run your games, it will not be ready for use out of the box. That's why it should be configured before using.

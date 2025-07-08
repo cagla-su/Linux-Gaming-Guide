@@ -40,16 +40,11 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use the recent NVIDIA GPUs that are mentioned because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
 # Get Started
-- **1-** [Installing Vulkan Drivers](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#1--installing-vulkan-drivers)
-- **2-** [Installing WINE and WINE Dependencies](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#2--installing-wine-and-wine-dependencies)
-- **3-** [Installing Gaming Software](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#3--installing-gaming-software)
+- **1-** [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
+- **2-** [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
 - If you do not see your Linux distribution in the page, that probably means Vulkan drivers are preinstalled on your Linux distribution.
-
-## Installing WINE and WINE Dependencies
-- First of all, if you are going to install your gaming software from [Flathub](https://flathub.org/), you can skip this step since Flatpak installs WINE with its dependencies automatically.
-- This step is explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/WineDependencies.md)
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
@@ -132,10 +127,10 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
 ## Ways to Run Software on the Dedicated GPU
 - There are **4 ways** of running your games on your dedicated GPU:
-	- **1-** [Terminal Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#1--terminal-method)
- 	- **2-** [Desktop Shortcut Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#2--desktop-shortcut-method)
- 	- **3-** [Steam Games Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#3--steam-games-method)
-  	- **4-** [Lutris/Heroic Games Method](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#4--lutrisheroic-games-method)
+	- **1-** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
+ 	- **2-** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#desktop-shortcut-method)
+ 	- **3-** [For Steam Games](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#3--steam-games-method)
+  	- **4-** [For Lutris/Heroic Games](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/README.md#4--lutrisheroic-games-method)
 ### Terminal Method
 Simply, open terminal and execute the command for your GPU like in the example:
 - **Example:**
@@ -157,7 +152,7 @@ Terminal=false
 Categories=Game;
 ```
 - Simply, you should add `env` first and the command for your GPU. Lastly, the package name of the game.
-### Steam Games Method
+### For Steam Games
 Add the command for your GPU in your game's launch options and make sure it has `%command%` at last just like in the example:
 ```
 DRI_PRIME=1 %command%
@@ -166,7 +161,7 @@ DRI_PRIME=1 %command%
 ```
 DRI_PRIME=1 gamemoderun %command%
 ```
-### Lutris/Heroic Games Method
+### For Lutris/Heroic Games
 - **Lutris**: On the left side bar, point your mouse cursor on `Wine` and click the **gear icon** that appears.
 	- Go to `System Options` and enable the `Advanced` option.
  	- Enable the `Use Discrete Graphics` option. After enabling, make sure that you selected your dedicated GPU's API in `Vulkan API` section and save the changes.

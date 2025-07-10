@@ -1,7 +1,7 @@
 # Minecraft
-Minecraft is a **Linux-native** game that works using **OpenGL**.
+Minecraft is a **native Linux** game that works using **OpenGL**.
 ## Get Started
-First of all, I definitely suggest that you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open-source** and provides more options than the original launcher.
+First of all, I definitely suggest that you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the original launcher.
 ### Install Prism Launcher
 You can install Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/?from=button).
 ### Install Java

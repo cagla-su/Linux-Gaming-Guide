@@ -22,6 +22,7 @@ Prism Launcher automatically installs Java for you.
 - `Settings` **-** `Minecraft` **-** `Tweaks` **-** `Enable Feral GameMode` **&** `Use discrete GPU (only if you have hybrid graphics setup)`
 - `Settings` **-** `Environment Variables` **-** `Add` **-** `mesa_glthread=true`
 <img width="731" height="96" alt="image" src="https://github.com/user-attachments/assets/3cd34257-d1cf-4509-8967-d8499e61318a" />
+
 - If you are using NVIDIA, you should use the `__GL_THREADED_OPTIMIZATIONS=1` environment variable instead.
 - You are ready to play Minecraft now. However, the performance of the game can still be increased through performance mods and optimized in-game settings.
 ## Sodium Method - Recommended For Version 1.16.3 and Later

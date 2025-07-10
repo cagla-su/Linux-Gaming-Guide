@@ -9,7 +9,7 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 - This guide is aimed to be useful for everyone who wants to play games on Linux but does not know where to start.
 - After reading this guide, I suggest that you read [Game-Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) if you see any game that you desire to play on the list.
 # How Linux Gaming Works
-- You can play Windows games on Linux. However, this **does not** mean that there are not any native Linux games. **Some** native Linux games are:
+- You can play Windows games on Linux. However, this **does not mean** that there are not any native Linux games. **Some** native Linux games are:
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 and more
  	- **Valve's games:** Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
 - Generally, native Linux games **do not** require any tinkerings **as long as they do not require Vulkan**. If they do, you need to install Vulkan drivers which will be explained in this guide.
@@ -36,27 +36,27 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 +--------------------------+
 
 ```
-- You **do not** have to do anything to install WINE. WINE is installed automatically when you install a gaming software.
+- You **do not** have to do anything to install WINE. WINE is installed **automatically** when you install a gaming software.
 ## Warning For NVIDIA Users
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
-- Also, you **should not use Wayland** unless you use the recent NVIDIA GPUs that are mentioned because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
+- Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
 # Get Started
 - **1 -** [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
 - **2 -** [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
 ## Installing Vulkan Drivers
-- This step is explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
+- This step is explained in [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
 - If you do not see your Linux distribution in the page, that probably means Vulkan drivers are preinstalled on your Linux distribution.
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
-	- [Steam](https://store.steampowered.com/): Steam is natively supported on Linux.
+	- [Steam](https://store.steampowered.com/) **-** Steam is natively supported on Linux.
  		- Do not forget to enable **Proton** for Steam. To do so, follow the steps below:
-   			- `Steam - Settings - Compatibility - Enable Steam Play for all other titles - Restart Steam`
-	- [Heroic Games Launcher](https://heroicgameslauncher.com/): Heroic is a nice game launcher for playing games from **Epic Games and GOG**.
-	- [Lutris](https://lutris.net/): Lutris is a nice game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net etc.** and run them using Lutris but you can also play games that do not belong to a certain platform using Lutris.
+   			- `Steam` **-** `Settings` **-** `Compatibility` **-** `Enable Steam Play for all other titles` **-** `Restart Steam`
+	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a nice game launcher for playing games from **Epic Games and GOG**.
+	- [Lutris](https://lutris.net/) **-** Lutris is a nice game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net etc.** and run them using Lutris but you can also play games that do not belong to a certain platform using Lutris.
 		- Lutris provides community-made installation scripts for a huge amount of games and software.
 		- You can also install your games (including DVD games) manually if you have the setup files.
-	- [ProtonPlus](https://protonplus.vysp3r.com/): You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
+	- [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
 ### Notes
 - You can install these software from either your **package manager** or **Flatpak**.
 - You can check [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
@@ -82,10 +82,10 @@ If you want to use an external disk to run your games, it will not be ready for 
 - Now you are ready to use your external disk! 
 # Optimization
 ## Reducing Screen Resolution and Using the Lowest Graphics Settings
-- When you reduce the game's resolution, less pixels will be rendered and it will result in less loads on your hardware which means higher performance.
-- When you play with the lowest graphics settings, less details will be rendered which means higher performance.
+- When you reduce the game's resolution, less pixels will be rendered and it will result in less loads on your hardware which leads to higher performance.
+- When you play with the lowest graphics settings, less details will be rendered which leads to higher performance.
 - Both are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
-## Using A Performance Kernel
+## Using a Performance Kernel
 - **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
 - **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
 - **For Debian/Ubuntu and Derivatives:** [XanMod Kernel](https://xanmod.org/)
@@ -99,14 +99,14 @@ gamemoderun %command%
 sudo mv gamemode.ini /etc/
 ```
 ## Performance-Increasing Environment Variables
-You can use these options for better performance while gaming:
-- `WINEDEBUG=-all`  - It suppresses all debug outputs of WINE
-- `mesa_glthread=true` - It improves **OpenGL performance** on **Intel/AMD GPUs**
-- `__GL_THREADED_OPTIMIZATIONS=1` - It improves **OpenGL performance** on **NVIDIA GPUs**
-- `DXVK_ASYNC=1` - It **does not work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games you play**. That's why, it is only recommended for **offline games**.
+You can use these environment variables for better performance while gaming:
+- `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE
+- `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**
+- `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**
+- `DXVK_ASYNC=1` **-** It **does not work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games you play**. That's why, it is only recommended for **offline games**.
 ### How Can You Use These Environment Variables?
-- **Steam**: You can simply use these commands in your Steam game's launch options, do not forget to add `%command%` at last.
-- **Lutris**: In `System Options` section of Lutris, there is another section called `Environment Variables`, you should add the variables like in the example:
+- **Steam -** You can simply use these commands in your Steam game's launch options, do not forget to add `%command%` at last.
+- **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 ![image](https://github.com/user-attachments/assets/97d7ad5d-1bd4-48f2-a543-d9d9ef3166b1)
 
 ## Disabling Compositor - X11 ONLY!!!
@@ -114,7 +114,7 @@ You can use these options for better performance while gaming:
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.
 - If you are using **KDE**, you can simply disable the compositor using `Shift - Alt - F12` keybind. To reenable, apply the same keybind.
 - If you are using **XFCE**, you can disable the compositor following the steps below:
-	- `Settings Manager` - `Window Manager Tweaks` - `Compositor` - `Enable Display Compositing (uncheck the box)`
+	- `Settings Manager` **-** `Window Manager Tweaks` **-** `Compositor` **-** `Enable Display Compositing (uncheck the box)`
 - For other desktop environments and other ways of disabling compositor, you can check [this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11))
 # Hybrid Graphics
 - If you have **hybrid graphics** setup, you can install Vulkan drivers for both hardware and set your games to run on your dedicated GPU.
@@ -163,11 +163,9 @@ DRI_PRIME=1 %command%
 DRI_PRIME=1 gamemoderun %command%
 ```
 ### For Lutris/Heroic Games
-- **Lutris**: On the left side bar, point your mouse cursor on `Wine` and click the **gear icon** that appears.
-	- Go to `System Options` and enable the `Advanced` option.
- 	- Enable the `Use Discrete Graphics` option. After enabling, make sure that you selected your dedicated GPU's API in `Vulkan API` section and save the changes.
- - **Heroic**: In your library, right click your game and go to `Settings`.
- 	- In the opened window, check `Use Dedicated Graphics Card` option and save the changes.
+- **Lutris -** On the left side bar, point your mouse cursor on `Wine` and click the **gear icon** that appears.
+	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
+ - **Heroic -** `Library` **-** `Right click game` **-** `Settings` **-** `Use Dedicated Graphics Card`
 # Conclusion
 This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
 

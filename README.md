@@ -1,7 +1,7 @@
 ## Game-Specific Guides
--  ![Minecraft](https://github.com/user-attachments/assets/3dd086b5-0be3-4cc9-ab2f-e01243845930) **Minecraft :** [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
-- ![Metin2](https://github.com/user-attachments/assets/c887fc49-cc62-4450-81ab-7ebdfe0087df) **Metin2 :** [Metin2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)
-- ![Sims 2](https://github.com/user-attachments/assets/5e79e395-066b-46df-85a4-a72f73d8aad8) **The Sims 2 :** [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
+-  ![Minecraft](https://github.com/user-attachments/assets/3dd086b5-0be3-4cc9-ab2f-e01243845930) **Minecraft -** [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
+- ![Metin2](https://github.com/user-attachments/assets/c887fc49-cc62-4450-81ab-7ebdfe0087df) **Metin2 -** [Metin2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)
+- ![Sims 2](https://github.com/user-attachments/assets/5e79e395-066b-46df-85a4-a72f73d8aad8) **The Sims 2 -** [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
 # Linux Gaming Guide
 Hello. In this guide, you will be informed about how **gaming on Linux works**, how to **prepare your system for gaming on Linux** and how to **optimize your Linux system for higher performance**. If you are ready, let's begin!
 ## Before Starting
@@ -12,13 +12,13 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 - You can play Windows games on Linux. However, this **does not** mean that there are not any native Linux games. **Some** native Linux games are:
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 and more
  	- **Valve's games:** Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
-- Generally, native Linux games **do not** require any tinkerings **as long as they do not** require Vulkan. If they do, you need to install Vulkan drivers which will be explained in this guide.
+- Generally, native Linux games **do not** require any tinkerings **as long as they do not require Vulkan**. If they do, you need to install Vulkan drivers which will be explained in this guide.
 - Windows games require some **essential tools** in order to run on Linux and these tools are:
-	- [WINE](https://www.winehq.org/)**:** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**.
-	- [DXVK](https://github.com/doitsujin/dxvk)**:** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **included** in WINE, so you **do not** have to manually install DXVK.
+	- [WINE](https://www.winehq.org/)/[Proton](https://github.com/ValveSoftware/Proton)**-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is a **fork of WINE** that is forked by Valve and it is specifically configured for **Steam games**.
+	- [DXVK](https://github.com/doitsujin/dxvk)**-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **included** in WINE, so you **do not** have to manually install DXVK.
 		- There are some **other tools** that are used for **similar purposes** as DXVK, and these tools are:
- 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d)**:** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot. This is the **default** translation tool if the game you are trying to play is a **DirectX 12** game. Just like DXVK, VKD3D is **included** in WINE.
-			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d)**:** WINED3D translates **DirectX 8-11** calls into **OpenGL instead of Vulkan**. This is the **default** translation tool if your system **does not** have Vulkan drivers installed. However, since DirectX calls will be translated into OpenGL, you are likely going to get **poor performance** because OpenGL is **deprecated**. Just like DXVK and VKD3D, WINED3D is **included** in WINE.
+ 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d)**-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot. This is the **default** translation tool if the game you are trying to play is a **DirectX 12** game. Just like DXVK, VKD3D is **included** in WINE.
+			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d)**-** WINED3D translates **DirectX 8-11** calls into **OpenGL instead of Vulkan**. This is the **default** translation tool if your system **does not** have Vulkan drivers installed. However, since DirectX calls will be translated into OpenGL, you are likely going to get **poor performance** because OpenGL is **deprecated**. Just like DXVK and VKD3D, WINED3D is **included** in WINE.
 ```
 +------------------+   DirectX: Windows-specific graphics library
 |       WINE       |   Vulkan: Both Windows & Linux native graphics library
@@ -36,12 +36,13 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 +--------------------------+
 
 ```
+- You **do not** have to do anything to install WINE. WINE is installed automatically when you install a gaming software.
 ## Warning For NVIDIA Users
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use the recent NVIDIA GPUs that are mentioned because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
 # Get Started
-- **1-** [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
-- **2-** [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
+- **1 -** [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
+- **2 -** [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
 - If you do not see your Linux distribution in the page, that probably means Vulkan drivers are preinstalled on your Linux distribution.
@@ -127,10 +128,10 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
 ## Ways to Run Software on the Dedicated GPU
 - There are **4 ways** of running your games on your dedicated GPU:
-	- **1-** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
- 	- **2-** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#desktop-shortcut-method)
- 	- **3-** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games)
-  	- **4-** [For Lutris/Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutrisheroic-games)
+	- **1 -** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
+ 	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#desktop-shortcut-method)
+ 	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games)
+  	- **4 -** [For Lutris/Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutrisheroic-games)
 ### Terminal Method
 Simply, open terminal and execute the command for your GPU like in the example:
 - **Example:**

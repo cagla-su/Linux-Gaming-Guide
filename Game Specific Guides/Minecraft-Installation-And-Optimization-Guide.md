@@ -1,49 +1,63 @@
 # Minecraft
 Minecraft is a **Linux-native** game that works using **OpenGL**.
 ## Get Started
-First of all, I definitely suggest you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open-source** and provides more options than the original launcher.
+First of all, I definitely suggest that you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open-source** and provides more options than the original launcher.
 ### Install Prism Launcher
-You can install Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/linux/).
+You can install Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/?from=button).
 ### Install Java
 Prism Launcher now automatically installs Java for you.
 ### Install Minecraft
-- When you first launch the launcher, it will ask you what language you would like to use. After that question, you are going to see a page about Java.
-- Make sure to change `Maximum memory allocation`. There is a rumor that if you allocate half your RAM, you are going to get good performance. It is wrong:
-  - When you play Minecraft, the game creates many temporary things in memory, like blocks, mobs, particles, or chunks. After some time, the game does not need some of these things anymore. That's why Minecraft (or more correctly, Java) cleans up memory and this is called **garbage collection**.
+- When you first launch the launcher, simply continue until memory allocation step.
+- Then, make sure to change `Maximum memory allocation` value. There is a rumor that if you allocate half your RAM, you are going to get good performance. However, this is wrong because:
+  - When you play Minecraft, the game creates many temporary things in memory, like blocks, mobs, particles, chunks etc. and after some time, the game does not need some of these things anymore. That's why Minecraft (or more correctly, Java) cleans up memory and this is called **garbage collection**.
   - Garbage collection finds the things that are no longer used and removes them from memory. This helps the game free up space and avoid memory problems.
   - However, if you allocate too much RAM, Java will wait longer between garbage collection cycles. But each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
   - For smaller lag spikes, you should allocate **less RAM** and not more. However, do not allocate too little RAM either because in that case, Java will perform garbage collection too often and this will cause big lag spikes again.
-  - When Minecraft is using between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. You can check RAM usage during playing by pressing `F3`.
-  - For my case with performance mods, allocating `3456 MiB` is the ideal value to keep RAM usage between `50-75%`. However, I suggest you experiment different values yourself to find your ideal value.
+  - When Minecraft is using between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. You can check RAM usage by pressing `F3` during the gameplay.
+  - For my case with performance mods, allocating `3456 MiB` is the ideal value to keep RAM usage between `50-75%`. However, I suggest that you experiment different values yourself to find your ideal value.
 - After completing quick setup, add your Microsoft account to connect to your account in the launcher.
-- Now we can finally install Minecraft. Click `Add Instance` button on the top left and continue:
+- Lastly, create a minecraft instance by clicking `Add Instance` on the top left and continue:
   - In `Version` section, select the version you would like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a `Mod loader` section next to the warning. Select `Fabric` from there and click `OK`.
 ## Optimization
-- Click `Settings`, go to `Minecraft` section and click `Tweaks`. Enable `Enable Feral GameMode` (you need to install gamemode package first) and `Use discrete GPU` (only if you have two GPUs).
+- Click `Settings`, go to `Minecraft` section and click `Tweaks`. Enable `Enable Feral GameMode` (you need to install `gamemode` package first using your package manager) and `Use discrete GPU` (only if you have two GPUs).
 - Next, from `Settings` menu, go to `Environment Variables` and click `Add`.
-  - Type `mesa_glthread` in **Name** and `true` in **Value** sections.
-    - If you are using NVIDIA, you should type `__GL_THREADED_OPTIMIZATIONS` in **Name** and `1` in **Value** sections instead.
-- Generally these steps are enough to play a better Minecraft. However, we can still increase performance with mods.
+  - Now add the environment variable `mesa_glthread=true` to the section accordingly
+  <img width="741" height="140" alt="image" src="https://github.com/user-attachments/assets/63b13b64-a98b-4ad2-81c5-2710efa6b514" />
+     - If you are using NVIDIA, you should use the `__GL_THREADED_OPTIMIZATIONS=1` environment variable instead.
+- You are ready to play Minecraft now. However, the performance of the game can still be increased through performance mods.
 ## Sodium Method - Recommended For Version 1.16.3 And Later
 - First, right click your Minecraft instance and click `Edit`.
 - In the opened page, click `Mods` from the left side bar and click `Download mods` from the right side bar.
 - **Suggested Performance Mods and Dependencies**
+  - `Almanac`
+  - `Alternate Current`
+  - `AsyncParticles`
+  - `BadOptimizations`
+  - `Better Biome Reblend`
   - `Cloth Config`
+  - `Clumps`
   - `Concurrent Chunk Management Engine`
-  - `Debugify`
   - `Dynamic FPS`
   - `EntityCulling`
   - `Fabric API`
   - `Fabric Language Kotlin`
+  - `Fast Item Frames`
   - `FastQuit`
   - `FerriteCore`
+  - `Forge Config API Port`
+  - `Fzzy Config`
   - `ImmediatelyFast`
+  - `Krypton`
+  - `Ksyxis`
+  - `Let Me Despawn`
   - `Lithum`
-  - `ModernFix`
-  - `More Culling`
-  - `No Chat Reports`
+  - `Model Gap Fix`
   - `No Telemetry`
+  - `Noisium`
   - `OptiGUI`
+  - `PacketFixer`
+  - `Particle Core`
+  - `Puzzles Lib`
   - `Reese's Sodium Options`
   - `Remove Reloading Screen`
   - `Sodium`
@@ -63,10 +77,9 @@ In Optifine, there are some cool features that are not about increasing performa
 - Go back to `Options` and `Video Settings`. These are the optimized settings for performance:
   - **General**
     - `Render Distance`: 6 chunks
-    - `Max Shadow Distance`: Disabled
     - `Simulation Distance`: 5 chunks
     - `VSync`: OFF
-    - `Max Framerate`: Same number as your monitor's refresh rate (for 60 hz screens, change the value to 70)
+    - `Max Framerate`: Unlimited grants the smoothest experience but if you experience overheating, you can try 120.
   - **Quality**
     - `Graphics`: Fast
     - `Clouds`: OFF
@@ -92,7 +105,7 @@ In Optifine, there are some cool features that are not about increasing performa
     - `Smooth Lighting Level`: 50%
     - `Render Distance`: 6 chunks
     - `Simulation Distance`: 5 chunks
-    - `Max Framerate`: Same number as your monitor's refresh rate (for 60 hz screens, change the value to 70)
+    - `Max Framerate`: Unlimited grants the smoothest experience but if you experience overheating, you can try 120.
     - `Entity Shadows`: OFF
     - **Quality...**
       - `Mipmap Levels`: 1
@@ -128,10 +141,6 @@ In Optifine, there are some cool features that are not about increasing performa
       - `Fast Math`: ON
       - `Smooth World`: ON
     - **Animations...**
-      - `Redstone Animated`: OFF
-      - `Rain Splash`: OFF
-      - `Lava Animated`: OFF
-      - `Dripping Water/Lava`: OFF
       - `Textures Animated`: OFF
       - `Particles`: Decreased
     - **Other...**

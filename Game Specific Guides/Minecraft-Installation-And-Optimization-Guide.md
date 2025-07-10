@@ -89,10 +89,8 @@ In Optifine, there are some cool features that do not aim to increase performanc
     - `FOV Effects` **:** 60%
     - `Mipmap Levels` **:** 1x
 ## Optifine Method - Recommended For Version 1.16.2 and Earlier
-- For Optifine, you should install **Forge** mod loader instead of **Fabric**.
-- First of all, install [Optifine](https://optifine.net/downloads) for the Minecraft version you would like to play.
-- Next, right click your Minecraft instance and click `Edit`.
-- In the opened page, click `Mods` from the left side bar and drag **Optifine file** into the page.
+- If you want to use Optifine, I suggest that you use **the official Minecraft launcher** instead because it is going to be hard and meaningless to use Optifine through Prism Launcher.
+- Simply, download [Optifine](https://optifine.net/downloads) for the Minecraft version you would like to play and click `Install` after running the **.jar** file you downloaded.
 ### Optifine - In Game Optimized Settings
 - Go to options
   - **Video Settings**

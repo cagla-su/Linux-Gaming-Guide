@@ -1,7 +1,7 @@
 # Minecraft
 Minecraft is a **native Linux** sandbox game that works using **OpenGL**.
 ## Get Started
-First of all, I definitely suggest that you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the original launcher.
+First of all, I definitely suggest that you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the official Minecraft launcher.
 ### Install Prism Launcher
 You can install Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/?from=button).
 ### Install Java
@@ -15,8 +15,7 @@ Prism Launcher automatically installs Java for you.
       - If you allocate **too little** RAM, Java will perform garbage collection too often and this will cause big lag spikes again.
     - When Minecraft uses between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. I suggest that you experiment different values yourself to find your ideal value. You can check RAM usage by pressing `F3` during the gameplay.
 - After completing quick setup, add your Microsoft account in the launcher.
-- Lastly, create a minecraft instance by clicking `Add Instance` on the top left and continue:
-  - In `Version` section, select the version you would like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a `Mod loader` section next to the warning. Select `Fabric` from there and click `OK`.
+- `Add Instance` **-** `Version` **-** `Select the version you desire and scroll down` **-** `Select "Fabric" as the mod loader` **-** `OK`
 ## Optimization
 - `Settings` **-** `Minecraft` **-** `Tweaks` **-** `Enable Feral GameMode` **&** `Use discrete GPU (only if you have hybrid graphics setup)`
 - `Settings` **-** `Environment Variables` **-** `Add` **-** `mesa_glthread=true`
@@ -74,7 +73,7 @@ In Optifine, there are some cool features that do not aim to increase performanc
     - `Render Distance` **:** 6 chunks
     - `Simulation Distance` **:** 5 chunks
     - `VSync` **:** OFF
-    - `Max Framerate` **:** Unlimited grants the smoothest experience but if you experience overheating, you can try 120.
+    - `Max Framerate` **:** *Unlimited* grants the smoothest experience but if you experience overheating, you can try *120*
   - **Quality**
     - `Graphics` **:** Fast
     - `Clouds` **:** OFF
@@ -90,15 +89,15 @@ In Optifine, there are some cool features that do not aim to increase performanc
 ## Optifine Method - Recommended For Version 1.16.2 and Earlier
 - If you want to use Optifine, I suggest that you use **the official Minecraft launcher** instead because it is going to be hard and meaningless to use Optifine through Prism Launcher.
 - Simply, download [Optifine](https://optifine.net/downloads) for the Minecraft version you would like to play and click `Install` after running the **.jar** file you downloaded.
-### Optifine - In Game Optimized Settings
-- Go to options
+### Optifine - In-Game Optimized Settings
+- `Options`
   - **Video Settings**
     `Graphics` **:** Fast
     - `Smooth Lighting` **:** ON
     - `Smooth Lighting Level` **:** 50%
     - `Render Distance` **:** 6 chunks
     - `Simulation Distance` **:** 5 chunks
-    - `Max Framerate` **:** Unlimited grants the smoothest experience but if you experience overheating, you can try 120.
+    - `Max Framerate` **:** *Unlimited* grants the smoothest experience but if you experience overheating, you can try *120*
     - `Entity Shadows` **:** OFF
     - **Quality...**
       - `Mipmap Levels` **:** 1
@@ -139,4 +138,4 @@ In Optifine, there are some cool features that do not aim to increase performanc
     - **Other...**
       - `Telemetry` **:** OFF
 ## Conclusion
-This guide was about Minecraft installation and optimization! I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
+This guide was about Minecraft installation and optimization on Linux. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧

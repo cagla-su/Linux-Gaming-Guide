@@ -1,5 +1,5 @@
 # Minecraft
-Minecraft is a **native Linux** game that works using **OpenGL**.
+Minecraft is a **native Linux** sandbox game that works using **OpenGL**.
 ## Get Started
 First of all, I definitely suggest that you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the original launcher.
 ### Install Prism Launcher
@@ -7,25 +7,25 @@ You can install Prism Launcher following [these steps according to your distribu
 ### Install Java
 Prism Launcher now automatically installs Java for you.
 ### Install Minecraft
-- When you first launch the launcher, simply continue until memory allocation step.
+- When you first launch the launcher, simply continue until the **memory allocation** step.
 - Then, make sure to change `Maximum memory allocation` value. There is a rumor that if you allocate half your RAM, you are going to get good performance. However, this is wrong because:
   - When you play Minecraft, the game creates many temporary things in memory, like blocks, mobs, particles, chunks etc. and after some time, the game does not need some of these things anymore. That's why Minecraft (or more correctly, Java) cleans up memory and this is called **garbage collection**.
-  - Garbage collection finds the things that are no longer used and removes them from memory. This helps the game free up space and avoid memory problems.
-  - However, if you allocate too much RAM, Java will wait longer between garbage collection cycles. But each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
-  - For smaller lag spikes, you should allocate **less RAM** and not more. However, do not allocate too little RAM either because in that case, Java will perform garbage collection too often and this will cause big lag spikes again.
-  - When Minecraft is using between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. You can check RAM usage by pressing `F3` during the gameplay.
-  - For my case with performance mods, allocating `3456 MiB` is the ideal value to keep RAM usage between `50-75%`. However, I suggest that you experiment different values yourself to find your ideal value.
-- After completing quick setup, add your Microsoft account to connect to your account in the launcher.
+    - Garbage collection finds and removes the things that are no longer used from memory. This helps the game free up space and avoid memory issues.
+    - However, if you allocate too much RAM, Java will wait longer between garbage collection cycles. In this case, each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
+    - For smaller lag spikes, you should allocate **less RAM** and not more. However, do not allocate too little RAM either because in that case, Java will perform garbage collection too often and this will cause big lag spikes again.
+    - When Minecraft is using between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. You can check RAM usage by pressing `F3` during the gameplay.
+    - For my case with performance mods, allocating `3456 MiB` is the ideal value to keep RAM usage between `50-75%`. However, I suggest that you experiment different values yourself to find your ideal value.
+- After completing quick setup, add your Microsoft account in the launcher.
 - Lastly, create a minecraft instance by clicking `Add Instance` on the top left and continue:
   - In `Version` section, select the version you would like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a `Mod loader` section next to the warning. Select `Fabric` from there and click `OK`.
 ## Optimization
 - Click `Settings`, go to `Minecraft` section and click `Tweaks`. Enable `Enable Feral GameMode` (you need to install `gamemode` package first using your package manager) and `Use discrete GPU` (only if you have two GPUs).
 - Next, from `Settings` menu, go to `Environment Variables` and click `Add`.
-  - Now add the environment variable `mesa_glthread=true` to the section accordingly
+  - Now add the environment variable `mesa_glthread=true` to the section accordingly.
   <img width="741" height="140" alt="image" src="https://github.com/user-attachments/assets/63b13b64-a98b-4ad2-81c5-2710efa6b514" />
-     - If you are using NVIDIA, you should use the `__GL_THREADED_OPTIMIZATIONS=1` environment variable instead.
-- You are ready to play Minecraft now. However, the performance of the game can still be increased through performance mods.
-## Sodium Method - Recommended For Version 1.16.3 And Later
+- If you are using NVIDIA, you should use the `__GL_THREADED_OPTIMIZATIONS=1` environment variable instead.
+- You are ready to play Minecraft now. However, the performance of the game can still be increased through performance mods and optimized in-game settings.
+## Sodium Method - Recommended For Version 1.16.3 and Later
 - First, right click your Minecraft instance and click `Edit`.
 - In the opened page, click `Mods` from the left side bar and click `Download mods` from the right side bar.
 - **Suggested Performance Mods and Dependencies**
@@ -62,7 +62,6 @@ Prism Launcher now automatically installs Java for you.
   - `Remove Reloading Screen`
   - `Sodium`
   - `Sodium Extra`
-- There are lots of other performance boosting mods. However, the mods above can **significantly** increase performance while other mods do not at all. That is why installing the mods above is generally enough.
 ### Optifine Features Without Optifine
 In Optifine, there are some cool features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. We can get the same features without Optifine through the mods below:
 - **Zooming Feature -** `Zoomify`
@@ -92,7 +91,7 @@ In Optifine, there are some cool features that are not about increasing performa
     - `Distortion Effects`: 60%
     - `FOV Effects`: 60%
     - `Mipmap Levels`: 1x
-## Optifine Method - Recommended For Version 1.16.2 And Earlier
+## Optifine Method - Recommended For Version 1.16.2 and Earlier
 - For Optifine, you should install **Forge** mod loader instead of **Fabric**.
 - First of all, install [Optifine](https://optifine.net/downloads) for the Minecraft version you would like to play.
 - Next, right click your Minecraft instance and click `Edit`.

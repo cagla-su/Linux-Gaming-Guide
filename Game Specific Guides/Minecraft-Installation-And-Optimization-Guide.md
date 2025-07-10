@@ -9,12 +9,11 @@ Prism Launcher automatically installs Java for you.
 ### Install Minecraft
 - When you first launch the launcher, simply continue until the **memory allocation** step.
 - Then, make sure to change `Maximum memory allocation` value. There is a rumor that if you allocate half your RAM, you are going to get good performance. However, this is wrong because:
-  - When you play Minecraft, the game creates many temporary things like blocks, mobs, particles, chunks etc. in memory. After some time, the game does not need some of these things anymore. That's why Minecraft (more correctly, Java) cleans up memory and this is called **garbage collection**.
-    - Garbage collection finds and removes the things that are no longer used from memory. This helps the game free up space and avoid memory issues.
-    - However, if you allocate too much RAM, Java will wait longer between garbage collection cycles. In this case, each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
-    - For smaller lag spikes, you should allocate **less RAM** and not more. However, do not allocate too little RAM either because in that case, Java will perform garbage collection too often and this will cause big lag spikes again.
-    - When Minecraft is using between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. You can check RAM usage by pressing `F3` during the gameplay.
-    - For my case with performance mods, allocating `3456 MiB` is the ideal value to keep RAM usage between `50-75%`. However, I suggest that you experiment different values yourself to find your ideal value.
+  - When you play Minecraft, the game (more correctly, Java) tries to free up allocated memory that is no longer used by objects to avoid memory issues and this is called **garbage collection**.
+    - However, you **should not** allocate **too much or too little** RAM, because:
+      - If you allocate **too much** RAM, Java will wait longer between garbage collection cycles and each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
+      - If you allocate **too little** RAM, Java will perform garbage collection too often and this will cause big lag spikes again.
+    - When Minecraft uses between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. I suggest that you experiment different values yourself to find your ideal value. You can check RAM usage by pressing `F3` during the gameplay.
 - After completing quick setup, add your Microsoft account in the launcher.
 - Lastly, create a minecraft instance by clicking `Add Instance` on the top left and continue:
   - In `Version` section, select the version you would like to play and scroll down a bit. You should see a big "**No mod loader is selected.**" warning. There is a `Mod loader` section next to the warning. Select `Fabric` from there and click `OK`.
@@ -68,7 +67,7 @@ In Optifine, there are some cool features that do not aim to increase performanc
 - **Dynamic Lighting Feature -** `LambDynamicLights`
 - **Connected Textures Feature -** `Continuity`
 ### Sodium - In Game Optimized Settings
-- **If you are going to use Zoomify :** `Options` **-** `Controls` **-** `Key Binds` **-** `Change key bind of Save Hotbar Activator to something else` **-** `Done`
+- **If you are going to use Zoomify :** `Options` **-** `Controls` **-** `Key Binds` **-** `Change key bind of "Save Hotbar Activator" to something else` **-** `Done`
 - `Options` **-** `Resource Packs` **-** `Move "Default Connected Textures" and "Glass Pane Culling Fix" to right` **-** `Done`
 - `Options` **-** `Video Settings`
   - **General**

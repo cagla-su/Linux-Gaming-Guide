@@ -9,13 +9,13 @@ Prism Launcher automatically installs Java for you.
 ### Install Minecraft
 - When you first launch the launcher, simply continue until the **memory allocation** step.
 - Then, make sure to change `Maximum memory allocation` value. There is a rumor that if you allocate half your RAM, you are going to get good performance. However, this is wrong because:
-  - When you play Minecraft, the game (more correctly, Java) tries to free up allocated memory that is no longer used by objects to avoid memory issues and this is called **garbage collection**.
+  - When you play Minecraft, the game, or Java, tries to free up allocated memory that is no longer used by objects to avoid memory issues. This is called **garbage collection**.
     - However, you **should not** allocate **too much or too little** RAM, because:
       - If you allocate **too much** RAM, Java will wait longer between garbage collection cycles and each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
       - If you allocate **too little** RAM, Java will perform garbage collection too often and this will cause big lag spikes again.
     - When Minecraft uses between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. I suggest that you experiment different values yourself to find your ideal value. You can check RAM usage by pressing `F3` during the gameplay.
 - After completing quick setup, add your Microsoft account in the launcher.
-- `Add Instance` **-** `Version` **-** `Select the version you desire and scroll down` **-** `Select "Fabric" as the mod loader` **-** `OK`
+- **Next** : `Add Instance` **-** `Version` **-** `Select the version you desire and scroll down` **-** `Select "Fabric" as the mod loader` **-** `OK`
 ## Optimization
 - `Settings` **-** `Minecraft` **-** `Tweaks` **-** `Enable Feral GameMode` **&** `Use discrete GPU (only if you have hybrid graphics setup)`
 - `Settings` **-** `Environment Variables` **-** `Add` **-** `mesa_glthread=true`
@@ -60,14 +60,14 @@ Prism Launcher automatically installs Java for you.
   - `Sodium`
   - `Sodium Extra`
 ### Optifine Features Without Optifine
-In Optifine, there are some cool features that do not aim to increase performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. You can get the same features without Optifine through the mods below:
+In Optifine, there are some nice features that do not aim to increase performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. You can get the same features without Optifine through the mods below:
 - **Zooming Feature -** `Zoomify`
 - **Shaders Feature -** `Iris`
 - **Dynamic Lighting Feature -** `LambDynamicLights`
 - **Connected Textures Feature -** `Continuity`
 ### Sodium - In Game Optimized Settings
 - **If you are going to use Zoomify :** `Options` **-** `Controls` **-** `Key Binds` **-** `Change key bind of "Save Hotbar Activator" to something else` **-** `Done`
-- `Options` **-** `Resource Packs` **-** `Move "Default Connected Textures" and "Glass Pane Culling Fix" to right` **-** `Done`
+- `Options` **-** `Resource Packs` **-** `Move "Default Connected Textures" and "Glass Pane Culling Fix" to the right section` **-** `Done`
 - `Options` **-** `Video Settings`
   - **General**
     - `Render Distance` **:** 6 chunks

@@ -1,8 +1,8 @@
 # The Sims 2
-- The Sims 2 is abandonware, that's it is not legally obtainable. So, you should either have the setup file or the DVD to install the game.
+- The Sims 2 is abandonware, that's why it is not legally obtainable. So, you should either have the setup file or the DVD to install the game.
 - If you are ready, let's begin!
 ## Get Started
-- First of all, extract the files from the DVD into a folder and open Lutris.
+- First of all, extract the files from your DVD into a folder and open Lutris.
 - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: The Sims 2` **-** `Continue until the "Select the setup file" step` **-** `Select the setup file` **-** `Complete the installation`
 - After installation is complete, make sure the game is located correctly. To do so:
   - `Right click The Sims 2` **-** `Configure` **-** `Game Options` **-** `Executable`

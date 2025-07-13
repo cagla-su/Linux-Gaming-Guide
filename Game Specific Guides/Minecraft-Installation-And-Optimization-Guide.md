@@ -138,4 +138,4 @@ In Optifine, there are some nice features that do not aim to increase performanc
     - **Other...**
       - `Telemetry` **:** OFF
 ## Conclusion
-This guide was about Minecraft installation and optimization on Linux. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
+This guide was about Minecraft installation and optimization on Linux. I hope the guide has been useful. Thank you for reading, happy gaming! 🐧

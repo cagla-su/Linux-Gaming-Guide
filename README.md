@@ -165,5 +165,5 @@ DRI_PRIME=1 gamemoderun %command%
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Library` **-** `Right click game` **-** `Settings` **-** `Use Dedicated Graphics Card`
 # Conclusion
-This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
+This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, happy gaming! 🐧
 

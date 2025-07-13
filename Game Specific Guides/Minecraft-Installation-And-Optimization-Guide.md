@@ -137,5 +137,5 @@ In Optifine, there are some nice features that do not aim to increase performanc
       - `Particles` **:** Decreased
     - **Other...**
       - `Telemetry` **:** OFF
-## Conclusion
+# Conclusion
 This guide was about Minecraft installation and optimization on Linux. I hope the guide has been useful. Thank you for reading, happy gaming! 🐧

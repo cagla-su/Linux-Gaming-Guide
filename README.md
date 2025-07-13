@@ -6,16 +6,16 @@
 Hello. In this guide, you will be informed about how **gaming on Linux works**, how to **prepare your system for gaming on Linux** and how to **optimize your Linux system for higher performance**. If you are ready, let's begin!
 ## Before Starting
 - Linux gaming is swiftly improving. Every passing day, more users start switching to Linux. Also, the market share of Linux gaming is increasing in this context.
-- This guide is aimed to be useful for everyone who wants to play games on Linux but does not know where to start.
+- This guide aims to be useful for everyone who wants to play games on Linux but does not know where to start.
 - After reading this guide, I suggest that you read [Game-Specific Guides](https://github.com/cutiepenguins/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) if you see any game on the list that you desire to play.
 # How Linux Gaming Works
 - You can play Windows games on Linux. However, this **does not mean** that there **are not any native Linux games**. **Some native Linux games** are:
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 and more
  	- **Valve's games:** Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
-- Generally, native Linux games **do not require** any tinkerings **as long as they do not require Vulkan**. If they do, you need to install Vulkan drivers which will be explained in this guide.
+- Generally, native Linux games **do not require** any tinkerings **as long as they do not require Vulkan**. If they do, you need to install Vulkan drivers which is explained in this guide.
 - Windows games require some **essential tools** in order to run on Linux and these tools are:
 	- [WINE](https://www.winehq.org/) / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is a **fork of WINE** that is forked by Valve and it is specifically configured for **Steam games**.
-	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **included** in WINE, so you **do not** have to manually install DXVK.
+	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **included** in WINE, so you **do not have to manually install** DXVK.
 		- There are some **other tools** that are used for **similar purposes** as DXVK, these tools are:
  			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot yet. This is the **default** translation tool if the game you are trying to play is a **DirectX 12 game**. Just like DXVK, VKD3D is **included** in WINE.
 			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d) **-** WINED3D translates **DirectX 8-11** calls into **OpenGL instead of Vulkan**. This is the **default** translation tool if your system **does not have Vulkan drivers installed**. However, since DirectX calls will be translated into OpenGL, you are likely going to get **poor performance** because OpenGL is **deprecated**. Just like DXVK and VKD3D, WINED3D is **included** in WINE.
@@ -45,15 +45,16 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 - **2 -** [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
-- If you do not see your Linux distribution in the page, that probably means Vulkan drivers are preinstalled on your Linux distribution.
+- If you do not see your Linux distribution in the page, that probably means Mesa (default Intel/AMD GPU driver) Vulkan drivers are preinstalled on your Linux distribution.
+	- However, if you do not see your distribution in the page and if you are using NVIDIA, I suggest that you find a different documentation for installation steps or switch to one of the distributions that are mentioned in the page above.
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
 	- [Steam](https://store.steampowered.com/) **-** Steam is natively supported on Linux.
 	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a nice game launcher for playing games from **Epic Games, GOG and Prime Gaming**.
 	- [Lutris](https://lutris.net/) **-** Lutris is a nice game launcher for playing Windows games. You can **directly** install some gaming software such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that do not belong to a certain platform using Lutris.
-		- Lutris provides community-made installation scripts for a huge amount of games and software.
-		- You can also install your games (including DVD games) manually if you have the setup files.
+		- Lutris provides **community-made installation scripts** for a huge amount of games and software.
+		- You can also install your games, including DVD games, manually if you have the setup files.
 	- [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
 ### Notes
 - You can install these software from either your **package manager** or **Flatpak**.
@@ -92,7 +93,7 @@ If you want to use an external disk to run your games, it will not be ready for 
 ```
 gamemoderun %command%
 ```
-- After installing gamemode, install [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move it to `/etc/` via executing the command after opening terminal in the location where the file is located:
+- After installing gamemode, download [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move the file to `/etc/` via executing the command after opening terminal in the location where the file is located:
 ```
 sudo mv gamemode.ini /etc/
 ```
@@ -161,7 +162,7 @@ DRI_PRIME=1 %command%
 DRI_PRIME=1 gamemoderun %command%
 ```
 ### For Lutris/Heroic Games
-- **Lutris -** On the left side bar, click the **gear icon** that appears after pointing your mouse cursor on `Wine`.
+- **Lutris -** On the left side bar, click the **gear icon** that appears when you point your mouse cursor on `Wine`.
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Library` **-** `Right click game` **-** `Settings` **-** `Use Dedicated Graphics Card`
 # Conclusion

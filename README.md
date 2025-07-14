@@ -46,7 +46,7 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
 - If you do not see your Linux distribution in the page, that probably means Mesa (default Intel/AMD GPU driver) Vulkan drivers are preinstalled on your Linux distribution.
-	- However, if you do not see your distribution in the page and if you are using NVIDIA, I suggest that you find a different documentation for installation steps or switch to one of the distributions that are mentioned in the page above.
+	- However, if you do not see your distribution in the page and if you are using NVIDIA, I suggest that you find a different documentation for installation steps or switch to one of the distributions that are mentioned in the page.
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
@@ -68,7 +68,7 @@ If you want to use an external disk to run your games, it will not be ready for 
 	- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
 - After the installation, launch `Disks` app from your application launcher.
 	- Then, find your external disk from the menu on the left and click this button under `Volumes`.
- ![image](https://github.com/user-attachments/assets/5f2a8782-17e1-4b31-bbb6-a8683ed4d660)
+<img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
 	- From the menu, click `Take Ownership` and confirm.
  	- After taking the ownership, open the same menu and click `Edit Mount Options`.
   		- Now disable `User Session Defaults` and check `Mount at system startup`.
@@ -77,7 +77,7 @@ If you want to use an external disk to run your games, it will not be ready for 
          	- If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
           		- `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
             	- Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
-![image](https://github.com/user-attachments/assets/2a5d5461-2c0b-499b-875c-bc51afcf88a5)
+<img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
 - Now you are ready to use your external disk! 
 # Optimization
 ## Reducing Game Resolution and Using the Lowest Graphics Settings

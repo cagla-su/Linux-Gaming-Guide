@@ -106,7 +106,7 @@ You can use these environment variables for better performance while gaming:
 ### How Can You Use These Environment Variables?
 - **Steam -** You can simply use these commands in launch options of the games you want to play. Do not forget to add `%command%` at last.
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
-![image](https://github.com/user-attachments/assets/97d7ad5d-1bd4-48f2-a543-d9d9ef3166b1)
+<img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 
 ## Disabling Compositor - X11 ONLY!!!
 **WARNING**: If you are using **Wayland**, you **cannot** disable the compositor. These steps are only available for **X11**.

@@ -70,14 +70,14 @@ If you want to use an external disk to run your games, it will not be ready for 
 	- Then, find your external disk from the menu on the left and click this button under `Volumes`.
 <img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
 
-	- From the menu, click `Take Ownership` and confirm.
- 	- After taking the ownership, open the same menu and click `Edit Mount Options`.
-  		- Now disable `User Session Defaults` and check `Mount at system startup`.
-    		- Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
-      			- `nofail,x-gvfs-show,rw,user,exec`
-         	- If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
-          		- `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
-            	- Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
+- From the menu, click `Take Ownership` and confirm.
+- After taking the ownership, open the same menu and click `Edit Mount Options`.
+  - Now disable `User Session Defaults` and check `Mount at system startup`.
+    - Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
+      - `nofail,x-gvfs-show,rw,user,exec`
+      - If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
+        - `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
+      - Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
 <img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
 
 - Now you are ready to use your external disk! 

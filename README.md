@@ -67,7 +67,7 @@ If you want to use an external disk to run your games, it will not be ready for 
 - First of all, install `gnome-disk-utility` package using your package manager.
 	- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
 - After the installation, launch `Disks` app from your application launcher.
-	- Then, find your external disk from the menu on the left and click this button under `Volumes`.
+- Then, find your external disk from the menu on the left and click this button under `Volumes`.
 <img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
 
 - From the menu, click `Take Ownership` and confirm.

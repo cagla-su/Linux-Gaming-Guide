@@ -75,7 +75,7 @@ If you want to use an external disk to run your games, it will not be ready for 
   - Now disable `User Session Defaults` and check `Mount at system startup`.
   - Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
   	- `nofail,x-gvfs-show,rw,user,exec`
-	- If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
+   - If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
         - `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
    - Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
 <img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />

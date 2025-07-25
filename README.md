@@ -166,7 +166,7 @@ DRI_PRIME=1 gamemoderun %command%
 ### For Lutris/Heroic Games
 - **Lutris -** On the left side bar, click the **gear icon** that appears when you point your mouse cursor on `Wine`.
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
- - **Heroic -** `Library` **-** `Right click game` **-** `Settings` **-** `Use Dedicated Graphics Card`
+ - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
 # Conclusion
 This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, happy gaming! 🐧
 

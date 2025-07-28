@@ -73,7 +73,7 @@ In Optifine, there are some nice features that do not aim to increase performanc
     - `Render Distance` **:** 6 chunks
     - `Simulation Distance` **:** 5 chunks
     - `VSync` **:** OFF
-    - `Max Framerate` **:** *Unlimited* grants the smoothest experience but if you experience overheating, you can try *120*
+    - `Max Framerate` **:** Same value as your **monitor's refresh rate**. If your monitor's refresh rate is **lower than 144 Hz**, try either *unlimited* (might cause overheating) or *double your monitor's refresh rate* (e.g., 120 FPS for 60 Hz screen)
   - **Quality**
     - `Graphics` **:** Fast
     - `Clouds` **:** OFF
@@ -97,7 +97,7 @@ In Optifine, there are some nice features that do not aim to increase performanc
     - `Smooth Lighting Level` **:** 50%
     - `Render Distance` **:** 6 chunks
     - `Simulation Distance` **:** 5 chunks
-    - `Max Framerate` **:** *Unlimited* grants the smoothest experience but if you experience overheating, you can try *120*
+    - `Max Framerate` **:** Same value as your **monitor's refresh rate**. If your monitor's refresh rate is **lower than 144 Hz**, try either *unlimited* (might cause overheating) or *double your monitor's refresh rate* (e.g., 120 FPS for 60 Hz screen)
     - `Entity Shadows` **:** OFF
     - **Quality...**
       - `Mipmap Levels` **:** 1

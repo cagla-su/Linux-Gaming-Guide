@@ -67,66 +67,7 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 - You can check [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
 	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
-# External Disk Setup
-- If your external disk is **natively** connected, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
-- The same steps **should be valid** if your disk is **natively connected** but **you still are not able to use it**.
-## Get Started: GParted
-- If you would like to format your disk to change its file system from **NTFS** to a **Linux-compatible** one, install `gparted` package using your package manager and follow the next steps, making sure your external disk is unmounted.
-	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
- 	- **Next:** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
-  	- **Lastly:** `Apply All Operations`
-## How to Configure External Disks on Linux?
-- First of all, install `gnome-disk-utility` package using your package manager.
-	- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
-- After the installation, launch `Disks` app from your application launcher.
-- Then, find your external disk from the menu on the left and click this button under `Volumes`.
-<img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
-
-- From the menu, click `Take Ownership` and confirm.
-- After taking the ownership, open the same menu and click `Edit Mount Options`.
-  - Now disable `User Session Defaults` and check `Mount at system startup`.
-  - Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
-  	- `nofail,x-gvfs-show,rw,user,exec`
-   - If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
-        - `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
-   - Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
-<img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
-
-- Now you are ready to use your external disk! 
-# Optimization
-## Reducing Game Resolution and Using the Lowest Graphics Settings
-- When you reduce the game's resolution, less pixels will be rendered and it will result in less loads on your hardware which leads to higher performance.
-- When you play with the lowest graphics settings, less details will be rendered which leads to higher performance.
-- Both are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
-## Using a Performance Kernel
-- **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
-- **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
-- **For Debian/Ubuntu and Derivatives:** [XanMod Kernel](https://xanmod.org/)
-## Gamemode
-- [Gamemode](https://github.com/FeralInteractive/gamemode) is a tool that **temporarily** changes your system settings to increase performance during the gameplay. Generally, gaming software like Lutris enable it by default. But on Steam, you have to manually add a command in your game's launch options like in the example:
-```
-gamemoderun %command%
-```
-- After installing gamemode, download [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move the file to `/etc/` via executing the command below after locating the terminal to your Downloads directory:
-```
-sudo mv gamemode.ini /etc/
-```
-## Performance-Increasing Environment Variables
-You can use these environment variables for better performance while gaming:
-- `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *low effect on performance*
-- `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *high effect on performance*
-- `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**. - *high effect on performance*
-- `DXVK_ASYNC=1` **-** It **does not work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games you play**. That's why, it is only recommended for **offline games**. - *depending on the game, generally low effect on performance*
-### How Can You Use These Environment Variables?
-- **Steam -** You can simply use these commands in launch options of the games you want to play. Do not forget to add `%command%` at last.
-- **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
-<img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
-
-## Disabling Compositor - X11 ONLY!!!
-**WARNING**: If you are using **Wayland**, you **cannot** disable the compositor. These steps are only available for **X11**.
-- A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.
-- This step is explained [in this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
-# Hybrid Graphics
+# Hybrid Graphics Setup
 - If you have **hybrid graphics** setup, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
 - If your dedicated GPU is **AMD**, the necessary command to run games through your dedicated GPU is:
 ```
@@ -175,6 +116,65 @@ DRI_PRIME=1 gamemoderun %command%
 - **Lutris -** On the left side bar, click the **gear icon** that appears when you point your mouse cursor on `Wine`.
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
+# External Disk Setup
+- If your external disk is **natively** connected, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
+- The same steps **should be valid** if your disk is **natively connected** but **you still are not able to use it**.
+## Get Started: GParted
+- If you would like to format your disk to change its file system from **NTFS** to a **Linux-compatible** one, install `gparted` package using your package manager and follow the next steps, making sure your external disk is unmounted.
+	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
+ 	- **Next:** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
+  	- **Lastly:** `Apply All Operations`
+## How to Configure External Disks on Linux?
+- First of all, install `gnome-disk-utility` package using your package manager.
+	- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
+- After the installation, launch `Disks` app from your application launcher.
+- Then, find your external disk from the menu on the left and click this button under `Volumes`.
+<img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
+
+- From the menu, click `Take Ownership` and confirm.
+- After taking the ownership, open the same menu and click `Edit Mount Options`.
+  - Now disable `User Session Defaults` and check `Mount at system startup`.
+  - Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
+  	- `nofail,x-gvfs-show,rw,user,exec`
+   - If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
+        - `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
+   - Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
+<img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
+
+- Now you are ready to use your external disk! 
+# Optimization Tips
+## Reducing Game Resolution and Using the Lowest Graphics Settings
+- When you reduce the game's resolution, less pixels will be rendered and it will result in less loads on your hardware which leads to higher performance.
+- When you play with the lowest graphics settings, less details will be rendered which leads to higher performance.
+- Both are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
+## Using a Performance Kernel
+- **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
+- **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
+- **For Debian/Ubuntu and Derivatives:** [XanMod Kernel](https://xanmod.org/)
+## Gamemode
+- [Gamemode](https://github.com/FeralInteractive/gamemode) is a tool that **temporarily** changes your system settings to increase performance during the gameplay. Generally, gaming software like Lutris enable it by default. But on Steam, you have to manually add a command in your game's launch options like in the example:
+```
+gamemoderun %command%
+```
+- After installing gamemode, download [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move the file to `/etc/` via executing the command below after locating the terminal to your Downloads directory:
+```
+sudo mv gamemode.ini /etc/
+```
+## Performance-Increasing Environment Variables
+You can use these environment variables for better performance while gaming:
+- `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *low effect on performance*
+- `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *high effect on performance*
+- `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**. - *high effect on performance*
+- `DXVK_ASYNC=1` **-** It **does not work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games you play**. That's why, it is only recommended for **offline games**. - *depending on the game, generally low effect on performance*
+### How Can You Use These Environment Variables?
+- **Steam -** You can simply use these commands in launch options of the games you want to play. Do not forget to add `%command%` at last.
+- **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
+<img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
+
+## Disabling Compositor - X11 ONLY!!!
+**WARNING**: If you are using **Wayland**, you **cannot** disable the compositor. These steps are only available for **X11**.
+- A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.
+- This step is explained [in this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
 # Conclusion
 This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, happy gaming! 🐧
 

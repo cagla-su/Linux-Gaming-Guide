@@ -14,7 +14,7 @@
   - Make sure the app is located correctly. To do so:
     - `Right click GRM` **-** `Configure` **-** `Game Options` **-** `Executable`
     - The location is `~/Games/the-sims-2/drive_c/Program Files/Graphics Rules Maker/bin/GraphicsRulesMakerUi.exe`
-  - After GRM is installed, you can launch it. However if you have two GPUs, make sure Lutris is running GRM via your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics) to see how to play games through your dedicated GPU.
+  - After GRM is installed, you can launch it. However if you have two GPUs, make sure Lutris is running GRM via your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#hybrid-graphics-setup) to see how to play games through your dedicated GPU.
   - After GRM is launched, select `The Sims 2` from the `Game` tab. It should detect your Sims folder automatically but if it cannot, try `Mansion and Garden Stuff` folder.
   - Now click `Auto-detect`. If you have an iGPU, change the `Force texture memory` value to **512** or **1024** to your liking.
   - As the last step, click `Save Files...`. Do not forget to perform the same steps for `The Sims 2 Body Shop`.

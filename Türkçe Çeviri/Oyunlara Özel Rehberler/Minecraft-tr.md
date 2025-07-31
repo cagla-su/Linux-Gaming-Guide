@@ -1,15 +1,15 @@
 # Minecraft
 Minecraft **OpenGL** ile çalışan **Linux uyumlu** bir sandbox oyunudur.
 ## Başlangıç
-Öncelikle, [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) kullanmanızı öneriyorum çünkü **açık kaynaktır** ve resmi Minecraft başlatıcısından daha fazla seçenek sunuyor.
+Öncelikle, [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) kullanmanızı öneriyorum çünkü Prism Launcher **açık kaynaktır** ve resmi Minecraft başlatıcısından daha fazla seçenek sunmaktadır.
 ### Prism Launcher kurulumu
-Prism Launcher'ı yükleme adımlarına Linux dağıtımınıza göre [buradaki bağlantıdan](https://prismlauncher.org/download/?from=button) ulaşabilirsiniz.
+Prism Launcher'ı yükleme adımlarına [buradaki bağlantıdan](https://prismlauncher.org/download/?from=button) ulaşabilirsiniz.
 ### Java kurulumu
 Prism Launcher sizin için Java'yı otomatik olarak kurar.
 ### Minecraft kurulumu
 - Prism Launcher'ı çalıştırın ve **hafıza paylaşımı** adımına kadar devam edin.
 - Ardından, `En fazla hafıza paylaşımı` değerini değiştirdiğinizden emin olun. İnternette oyuna RAM'inizin yarısı kadar RAM paylaştırırsanız iyi performans alacağınıza dair bir söylenti var. Fakat bu yanlıştır çünkü:
-  - Minecraft oynarken oyun, veya Java, hafıza sorunlarını önlemek için nesneler tarafından artık kullanılmayan paylaşılan hafızayı temizlemeye çalışır. Buna **garbage collection (çöp toplama)** denir.
+  - Minecraft oynarken oyun, daha doğrusu Java, hafıza sorunlarını önlemek için nesneler tarafından artık kullanılmayan paylaşılan hafızayı temizlemeye çalışır. Buna **garbage collection (çöp toplama)** denir.
     - Ancak, **çok fazla veya çok az** RAM **paylaştırmamalısınız** çünkü:
       - Eğer **çok fazla** RAM paylaştırırsanız, Java çöp toplama döngüleri arasında daha fazla bekleyecek ve her döngünün tamamlanması daha uzun sürecek. Bundan dolayı daha büyük takılmalarla karşılaşacaksınız.
       - Eğer **çok az** RAM paylaştırırsanız, Java çöp toplama işlemini daha sık gerçekleştirecek ve bu da büyük takılmalara sebep olacak.
@@ -74,11 +74,11 @@ Optifine'da performans arttırma hakkında olmayan diğer güzel özellikler var
     - `Simülasyon Mesafesi` **:** 5 yığın
     - `Dikey Senkronizasyon` **:** KAPALI
     - `En Fazla Kare Hızı` **:** **Monitörünüzün yenileme hızıyla** aynı değeri girin. Eğer monitörünüzün yenileme hızı **144 Hz'den düşükse** ya *sınırsız* olarak değiştirin (aşırı ısınmaya yol açabilir) ya da *monitörünüzün yenileme hızının iki katı* bir değer seçin (örneğin 60 Hz ekran için 120 FPS).
-  - **Quality**
+  - **Kalite**
     - `Grafikler` **:** Hızlı
     - `Bulutlar` **:** KAPALI
-    - `Hava Durumu` **:** Fast
-    - `Leaves` **:** Hızlı
+    - `Hava Durumu` **:** Hızlı
+    - `Leaves (Yapraklar)` **:** Hızlı
     - `Parçacıklar` **:** Azaltılmış
     - `Biyom Karışımı` **:** 1 block(s)
     - `Varlık Mesafesi` **:** 50%
@@ -88,7 +88,7 @@ Optifine'da performans arttırma hakkında olmayan diğer güzel özellikler var
     - `Mipmap Düzeyleri` **:** 1x
 ## Optifine yöntemi - 1.16.2 ve önceki sürümler için tavsiye edilir
 - Optifine kullanmak istiyorsanız **resmi Minecraft başlatıcısını** kullanmanızı tavsiye ediyorum çünkü Optifine'ı Prism Launcher aracılığıyla kullanmak hem zor hem de anlamsız olacaktır.
-- Kısaca, [Optifine'ın](https://optifine.net/downloads) oynamak istediğiniz Minecraft sürümüyle uyumlu olan bir sürümünü indirin ve indirdiğiniz **.jar** dosyasını çalıştırdıktan sonra `Yükle`'ye tıklayın. 
+- Kısaca, oynamak istediğiniz sürümü bir kez çalıştırın ve [Optifine'ın](https://optifine.net/downloads) oynamak istediğiniz Minecraft sürümüyle uyumlu olan bir sürümünü indirin. Son olarak, indirdiğiniz **.jar** dosyasını çalıştırdıktan sonra `Yükle`'ye tıklayın. 
 ### Optifine - oyun içi iyileştirilmiş ayarlar
 - `Ayarlar`
   - **Görüntü Ayarları**

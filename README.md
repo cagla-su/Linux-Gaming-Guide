@@ -130,7 +130,7 @@ DRI_PRIME=1
 ```
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
-## Ways to Run Software Through the Dedicated GPU
+## Ways to Run Games Through the Dedicated GPU
 - There are **4 ways** of running games through your dedicated GPU:
 	- **1 -** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
  	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#desktop-shortcut-method)

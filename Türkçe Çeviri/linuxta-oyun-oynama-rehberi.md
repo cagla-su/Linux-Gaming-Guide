@@ -1,21 +1,21 @@
 # İçindekiler
-- [Linux'ta oyun oynama](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#how-linux-gaming-works)
-- [Vulkan sürücülerini yükleme](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
-- [Oyun oynama yazılımı yükleme](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
-- [Hibrit grafik sistemi yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics-setup)
-- [Harici disk yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#external-disk-setup)
-- [Optimizasyon tavsiyeleri](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#optimization-tips)
+- [Linux'ta oyunlar nasıl çalışır?](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#linuxta-oyunlar-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r)
+- [Vulkan sürücülerini yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#vulkan-s%C3%BCr%C3%BCc%C3%BClerini-y%C3%BCkleme)
+- [Oyun oynama yazılımı yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyun-oynama-yaz%C4%B1l%C4%B1m%C4%B1-y%C3%BCkleme)
+- [Hibrit grafik sistemi yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#hibrit-grafik-sistemi-yap%C4%B1land%C4%B1rmas%C4%B1)
+- [Harici disk yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#harici-disk-yap%C4%B1land%C4%B1rmas%C4%B1)
+- [Optimizasyon tavsiyeleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#optimizasyon-tavsiyeleri)
 ## Oyunlara Özel Rehberler
-- ![Metin2](https://github.com/user-attachments/assets/c887fc49-cc62-4450-81ab-7ebdfe0087df) **Metin2 -** [Metin2 Linux rehberi](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Metin2-Installation-And-Optimization-Guide.md)
--  ![Minecraft](https://github.com/user-attachments/assets/3dd086b5-0be3-4cc9-ab2f-e01243845930) **Minecraft -** [Minecraft Linux rehberi](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
-- ![Sims 2](https://github.com/user-attachments/assets/5e79e395-066b-46df-85a4-a72f73d8aad8) **The Sims 2 -** [The Sims 2 Linux rehberi](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
+- ![Metin2](https://github.com/user-attachments/assets/c887fc49-cc62-4450-81ab-7ebdfe0087df) **Metin2 -** [Metin2 Linux rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Metin2-tr.md)
+-  ![Minecraft](https://github.com/user-attachments/assets/3dd086b5-0be3-4cc9-ab2f-e01243845930) **Minecraft -** [Minecraft Linux rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md)
+- ![Sims 2](https://github.com/user-attachments/assets/5e79e395-066b-46df-85a4-a72f73d8aad8) **The Sims 2 -** [The Sims 2 Linux rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md)
 # Linux'ta oyun oynama rehberi
 Merhaba. Bu rehberde **Linux'ta oyunların nasıl çalıştığı**, **sisteminizi Linux'ta oynamaya hazır hale nasıl getirebileceğiniz** ve **Linux sisteminizi daha yüksek performans için nasıl optimize edebileceğiniz** konuları hakkında bilgilendirileceksiniz. Hazırsanız, başlayalım!
 ## Başlamadan önce
 - Linux, oyun oynama konusunda hızlı bir şekilde geliştiriliyor. Her geçen gün, daha fazla kullanıcı Linux'a geçmeye başlıyor. Ayrıca, Linux'un piyasa payı da bu bağlamda artıyor.
 - Bu rehber Linux'ta oyun oynamak isteyip nereden başlayacağını bilmeyen herkes için kullanışlı olmayı amaçlıyor.
 - Son olarak, Linux kullanırken sistem dilini İngilizce yapmanızda fayda var çünkü genel olarak Türkçe çeviriler eksiktir ve bazı uygulamalarda bazı yazılar Türkçe iken bazı yazılar İngilizce görünebilir.
-- Bu rehberi okuduktan sonra içinde oynamak istediğiniz bir oyun varsa, [Oyunlara Özel Rehberleri]() de okumanızı tavsiye ediyorum.
+- Bu rehberi okuduktan sonra içinde oynamak istediğiniz bir oyun varsa, [Oyunlara Özel Rehberleri](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler) de okumanızı tavsiye ediyorum.
 # Linux'ta oyunlar nasıl çalışır?
 - Windows oyunlarını Linux'ta oynayabilirsiniz. Ancak, bu **hiçbir Linux uyumlu oyunun olmadığı** anlamına gelmez. **Bazı Linux uyumlu oyunlar** şunlardır: 
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 ve fazlası
@@ -79,10 +79,10 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
 ## Oyunları harici ekran kartıyla çalıştırmanın yolları
 - Oyunları harici ekran kartınızla çalıştırmanız için **dört yol** vardır:
-	- **1 -** [Terminal yolu](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
- 	- **2 -** [Masaüstü kısayol yolu](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#desktop-shortcut-method)
- 	- **3 -** [Steam oyunları için](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games)
-  	- **4 -** [Lutris/Heroic oyunları için](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutrisheroic-games)
+	- **1 -** [Terminal yolu](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#terminal-yolu)
+ 	- **2 -** [Masaüstü kısayol yolu](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#masa%C3%BCst%C3%BC-k%C4%B1sayol-yolu)
+ 	- **3 -** [Steam oyunları için](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#steam-oyunlar%C4%B1-i%C3%A7in)
+  	- **4 -** [Lutris/Heroic oyunları için](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#lutrisheroic-oyunlar%C4%B1-i%C3%A7in)
 ### Terminal yolu
 Kısaca terminali çalıştırın ve örnekteki gibi ekran kartınız için olan komutu çalıştırın:
 ```

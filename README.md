@@ -138,13 +138,12 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
   	- **4 -** [For Lutris/Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutrisheroic-games)
 ### Terminal Method
 Simply, launch terminal and execute the command for your GPU like in the example:
-- **Example:**
 ```
 DRI_PRIME=1 prismlauncher
 ```
 ### Desktop Shortcut Method
-- Create a **.desktop** file on your desktop and follow the next step.
-- This is an example .desktop file to run Prism Launcher on an NVIDIA GPU. The line you should pay attention is the line that starts with `Exec`:
+- Create a **.desktop** file on your desktop.
+- This is an example .desktop file content to run Prism Launcher on an NVIDIA GPU. The line you should pay attention is the line that starts with `Exec`:
 ```
 [Desktop Entry]
 Version=1.0

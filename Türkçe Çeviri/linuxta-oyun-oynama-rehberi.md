@@ -14,6 +14,7 @@ Merhaba. Bu rehberde **Linux'ta oyunların nasıl çalıştığı**, **sistemini
 ## Başlamadan önce
 - Linux, oyun oynama konusunda hızlı bir şekilde geliştiriliyor. Her geçen gün, daha fazla kullanıcı Linux'a geçmeye başlıyor. Ayrıca, Linux'un piyasa payı da bu bağlamda artıyor.
 - Bu rehber Linux'ta oyun oynamak isteyip nereden başlayacağını bilmeyen herkes için kullanışlı olmayı amaçlıyor.
+- Son olarak, Linux kullanırken sistem dilini İngilizce yapmanızda fayda var çünkü genel olarak Türkçe çeviriler eksiktir ve bazı uygulamalarda bazı yazılar Türkçe iken bazı yazılar İngilizce görünebilir.
 - Bu rehberi okuduktan sonra içinde oynamak istediğiniz bir oyun varsa, [Oyunlara Özel Rehberleri]() de okumanızı tavsiye ediyorum.
 # Linux'ta oyunlar nasıl çalışır?
 - Windows oyunlarını Linux'ta oynayabilirsiniz. Ancak, bu **hiçbir Linux uyumlu oyunun olmadığı** anlamına gelmez. **Bazı Linux uyumlu oyunlar** şunlardır: 
@@ -45,7 +46,7 @@ Merhaba. Bu rehberde **Linux'ta oyunların nasıl çalıştığı**, **sistemini
 ```
 - WINE, bir oyun oynama yazılımı kurduğunuzda **otomatik olarak** yüklenir.
 ## NVIDIA kullanıcıları için bir uyarı
-- VIDIA **4xxx** ve **5xxx** modelleri için **özel mülkiyet** sürücülerini **aşamalı olarak devre dışı bırakıyor**, çünkü NVIDIA **son çıkan ve gelecekteki kartları için daha fazla açık kaynak** olmaya çalışıyor. Ancak **daha eski kartlar için** hâlâ **özel mülkiyet** sürücüleri kullanmalısınız. Böylece **daha iyi uyumluluk ve performansa** sahip olursunuz. 
+- NVIDIA **4xxx** ve **5xxx** modelleri için **özel mülkiyet** sürücülerini **aşamalı olarak devre dışı bırakıyor**, çünkü NVIDIA **son çıkan ve gelecekteki kartları için daha fazla açık kaynak** olmaya çalışıyor. Ancak **daha eski kartlar için** hâlâ **özel mülkiyet** sürücüleri kullanmalısınız. Böylece **daha iyi uyumluluk ve performansa** sahip olursunuz. 
 - Ayrıca, yukarıda bahsedilen son NVIDIA ekran kartlarından birini kullanmadığınız takdirde **Wayland kullanmamalısınız** çünkü bu durumda **ekranda bozukluklar ve/veya performans sorunları** ile karşılaşabilirsiniz. **X11** kullanmak şimdilik daha iyi bir seçenektir.
 # Başlangıç
 ## Vulkan sürücülerini yükleme
@@ -112,69 +113,69 @@ DRI_PRIME=1 %command%
 DRI_PRIME=1 gamemoderun %command%
 ```
 ### Lutris/Heroic oyunları için
-- **Lutris -** On the left side bar, click the **gear icon** that appears when you point your mouse cursor on `Wine`.
+- **Lutris -** Sol yan menüde, `Wine` yazan yere fare imlecini götürdükten sonra çıkan ayarlar butonuna tıklayın.
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
-# External Disk Setup
-- If your external disk is **natively** connected, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
-- The same steps **should be valid** if your disk is **natively connected** but **you still are not able to use it**.
-## Get Started: GParted
-- If you would like to format your disk to change its file system from **NTFS** to a **Linux-compatible** one, install `gparted` package using your package manager and follow the next steps, making sure your external disk is unmounted.
-	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
- 	- **Next:** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
-  	- **Lastly:** `Apply All Operations`
-## How to Configure External Disks on Linux?
-- First of all, install `gnome-disk-utility` package using your package manager.
-	- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
-- After the installation, launch `Disks` app from your application launcher.
-- Then, find your external disk from the menu on the left and click this button under `Volumes`.
+# Harici disk yapılandırması
+- Harici diskiniz **anakarta doğrudan bağlıysa**, Linux dağıtımınıza bağlı olarak **ek yapılandırma gerektirmeden** çalıştırabilirsiniz. Ancak, harici diskiniz **SSD kutusu (USB)** aracılığıyla bağlıysa onu el ile yapılandırmalısınız.
+- Aynı adımlar diskiniz **anakarta doğrudan bağlıysa** fakat **yine de kullanamıyorsanız geçerli olmalıdır**.
+## Başlangıç: GParted
+- Diskinizin dosya sistemini **NTFS'ten Linux uyumlu olan bir dosya sistemiyle** değiştirmek için biçimlendirmek isterseniz, paket yöneticiniz aracılığıyla `gparted` paketini yükleyin ve harici diskinizin hâla bağlıyken sistem tarafından bağlanmamış olduğundan emin olun.
+	- `GParted'ı çalıştırın` **-** `sağ üstten harici diskinizi seçin` **-** `tüm bölümleri silin` **-** `Add`
+ 	- **Sonra:** `File system: ext4` **-** `Label: istediğiniz herhangi bir başlık` **-** `Add`
+  	- **Son olarak:** `Apply All Operations`
+## Linux'ta harici diskler nasıl yapılandırılır?
+- Öncelikle, paket yöneticiniz aracılığıyla `gnome-disk-utility` paketini yükleyin.
+	- Ayrıca, daha önceden Windows'ta kullandığınız harici diskinizi kullanacaksanız, diğer bir deyişle **NTFS olarak** kullanacaksanız, paket yöneticiniz aracılığıyla `ntfs-3g` paketini yükleyin.
+- Yükleme bittikten sonra uygulama başlatıcınızdan `Disks` uygulamasını çalıştırın.
+- Sonrasında, sol taraftaki menüden harici diskinizi bulun ve `Volumes` kısmının altında bulunan şu butona tıklayın:
 <img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
 
-- From the menu, click `Take Ownership` and confirm.
-- After taking the ownership, open the same menu and click `Edit Mount Options`.
-  - Now disable `User Session Defaults` and check `Mount at system startup`.
-  - Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
+- Çıkan menüden `Take Ownership`'e tıklayın ve onaylayın.
+- Sahiplik yetkisini aldıktan sonra aynı menüyü açın ve `Edit Mount Options`'a tıklayın.
+  - Şimdi `User Session Defaults`'u devre dışı bırakın ve `Mount at system startup`'ı etkin hale getirin.
+  - Ardından, `Symbolic Icon Name` kutusunun altında bulunan ve bir başlığı olmayan kutuyu bulup içeriğinde yalnızca bu seçeneklerin olduğundan emin olun:
   	- `nofail,x-gvfs-show,rw,user,exec`
-   - If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
+   - Eğer daha önceden Windows'ta kullandığınız harici diskinizi kullanacaksanız, diğer bir deyişle **NTFS olarak** kullanacaksanız, ayrıyeten şu seçeneği de ekleyin:
         - `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
-   - Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
+   - Son olarak, `Identify As` değerini `/dev/disk/by-label/diskinizin-adi` olarak ayarlayıp değişiklikleri kaydedin.
 <img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
 
-- Now you are ready to use your external disk! 
-# Optimization Tips
-## Reducing Game Resolution and Using the Lowest Graphics Settings
-- When you reduce the game's resolution, less pixels will be rendered and it will result in less loads on your hardware which leads to higher performance.
-- When you play with the lowest graphics settings, less details will be rendered which leads to higher performance.
-- Both are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
-## Using a Performance Kernel
-- **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
-- **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
-- **For Debian/Ubuntu and Derivatives:** [XanMod Kernel](https://xanmod.org/)
+- Artık harici diskinizi kullanmak için hazırsınız!
+# Optimizasyon tavsiyeleri
+## Oyun çözünürlüğünü düşürmek ve en düşük grafik ayarlarını kullanmak
+- Oyunun çözünürlüğünü düşürdüğünüzde daha az piksel işlenecek ve bu donanımlarınıza daha az yük bindirerek daha yüksek performans almanızı sağlayacak.
+- En düşük grafik ayarlarıyla oyun oynadığınızda daha az detay işlenecek ve daha yüksek performans almanızı sağlayacak.
+- İkisi de görsel kaliteyi düşürürken performansı arttıracaktır. Kendi dengeli ayarlarınızı bulmak için deneyler yapabilirsiniz.
+## Performans çekirdeği kullanmak
+- **Arch Linux ve Arch Linux tabanlı Linux dağıtımları için:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
+- **Fedora Linux ve Fedora Linux tabanlı Linux dağıtımları için:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
+- **Debian/Ubuntu Linux ve Debian/Ubuntu Linux tabanlı Linux dağıtımları için:** [XanMod Kernel](https://xanmod.org/)
 ## Gamemode
-- [Gamemode](https://github.com/FeralInteractive/gamemode) is a tool that **temporarily** changes your system settings to increase performance during the gameplay. Generally, gaming software like Lutris enable it by default. But on Steam, you have to manually add a command in your game's launch options like in the example:
+- [Gamemode](https://github.com/FeralInteractive/gamemode) siz oyun oynarken performansı arttırmak için sistem ayarlarınızda **geçici olarak** değişiklikler yapan bir araçtır. Genellikle Lutris gibi oyun oynama yazılımları bunu varsayılan olarak etkinleştirir. Fakat Steam'de örnekteki gibi oyununuzun başlatma seçeneklerine bir komut eklemelisiniz:
 ```
 gamemoderun %command%
 ```
-- After installing gamemode, download [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move the file to `/etc/` via executing the command below after locating the terminal to your Downloads directory:
+- Gamemode'u yükledikten sonra, [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) dosyasını indirin ve dosyayı terminalinizi "İndirilenler" dizininde açtıktan sonra `/etc` konumuna taşıyın:
 ```
 sudo mv gamemode.ini /etc/
 ```
-## Performance-Increasing Environment Variables
-You can use these environment variables for better performance while gaming:
-- `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *low effect on performance*
-- `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *high effect on performance*
-- `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**. - *high effect on performance*
-- `DXVK_ASYNC=1` **-** It **does not work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games you play**. That's why, it is only recommended for **offline games**. - *depending on the game, generally low effect on performance*
-### How Can You Use These Environment Variables?
-- **Steam -** You can simply use these commands in launch options of the games you want to play. Do not forget to add `%command%` at last.
+## Performans arttıran çevre değişkenleri
+Oyun oynarken daha iyi performans için bu çevre değişkenlerini kullanabilirsiniz:
+- `WINEDEBUG=-all` **-** WINE'ın bütün hata ayıklama çıktılarını engeller. - *performansa etkisi düşük*
+- `mesa_glthread=true` **-** **Intel/AMD ekran kartlarında OpenGL performansını** arttırır. - *performansa etkisi yüksek*
+- `__GL_THREADED_OPTIMIZATIONS=1` **-** **NVIDIA ekran kartlarında OpenGL performansını** arttırır. - *performansa etkisi yüksek*
+- `DXVK_ASYNC=1` **-** **Steam oyunlarında işe yaramaz** ancak **gölgelendiricilerin derlenmesini beklemeden kareleri gösterir** ve bu Lutris ile Heroic'te çalışır. Ancak, async kullanmak **oynadığınız çevrimiçi oyunlardan yasaklanmanıza sebep olabilir**. Bu yüzden bu yalnızca **çevrimdışı oyunlar** için önerilir. - *oyuna bağlı olarak performansa etkisi düşük*
+### Bu çevre değişkenlerini nasıl kullanabilirsiniz?
+- **Steam -** Oynamak istediğiniz oyunların başlatma seçeneklerinde bu komutları kullanabilirsiniz. En sona `%command%` eklemeyi unutmayın.
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 
-## Disabling Compositor - X11 ONLY!!!
-**WARNING**: If you are using **Wayland**, you **cannot** disable the compositor. These steps are only available for **X11**.
-- A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.
-- This step is explained [in this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
-# Conclusion
-This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, happy gaming! 🐧
+## Ekran kompozisyonunu devre dışı bırakmak - YALNIZCA X11 İÇİN!!!
+**UYARI**: Eğer **Wayland** kullanıyorsanız, ekran kompozisyonunu devre dışı **bırakamazsınız**. Bu adımlar yalnızca **X11** için geçerlidir.
+- A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**. Devre dışı bırakılmış bir ekran kompozisyonu kısaca devre dışı bırakılmış animasyonlar ve saydamlık demektir. Ayrıca, ekran yırtılmasına sebep olur ve bu **performansı arttırırken görsel kaliteyi düşürür**.
+- Bu adım [bu rehberde](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)) anlatılmıştır.
+# Son
+Bu rehber Linux'ta oyun oynama hakkındaydı. Umarım bu rehber sizin için faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! 🐧
 
 

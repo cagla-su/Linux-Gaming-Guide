@@ -9,7 +9,7 @@
     - The location is generally `~/Games/the-sims-2/drive_c/Program Files (x86)/The Sims 2 Ultimate Collection/The Sims 2 Mansion and Garden Stuff/TSBin/Sims2EP9.exe` 
 ## Graphics Rules Maker Setup
 - To prevent or fix compatibility issues, you should download [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
-- After downloading GRM, open Lutris and follow the steps below:
+- After downloading GRM, launch Lutris and follow the steps below:
   - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: *anything you wish*` **-** `Change the installation directory as "~/Games/the-sims-2/")` **-** `Select the setup file` **-** `Complete the installation`
   - Make sure the app is located correctly. To do so:
     - `Right click GRM` **-** `Configure` **-** `Game Options` **-** `Executable`

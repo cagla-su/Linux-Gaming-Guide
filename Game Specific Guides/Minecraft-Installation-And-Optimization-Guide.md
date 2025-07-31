@@ -7,7 +7,7 @@ You can install Prism Launcher following [these steps according to your distribu
 ### Install Java
 Prism Launcher automatically installs Java for you.
 ### Install Minecraft
-- When you first launch the launcher, simply continue until the **memory allocation** step.
+- Launch Prism Launcher and continue until the **memory allocation** step.
 - Then, make sure to change `Maximum memory allocation` value. There is a rumor that if you allocate half your RAM, you are going to get good performance. However, this is wrong because:
   - When you play Minecraft, the game, or Java, tries to free up allocated memory that is no longer used by objects to avoid memory issues. This is called **garbage collection**.
     - However, you **should not** allocate **too much or too little** RAM, because:
@@ -17,7 +17,7 @@ Prism Launcher automatically installs Java for you.
 - After completing quick setup, add your Microsoft account in the launcher.
 - **Next** : `Add Instance` **-** `Version` **-** `Select the version you desire and scroll down` **-** `Select "Fabric" as the mod loader` **-** `OK`
 ## Optimization
-- `Settings` **-** `Minecraft` **-** `Tweaks` **-** `Enable Feral GameMode` **&** `Use discrete GPU (only if you have hybrid graphics setup)`
+- `Settings` **-** `Minecraft` **-** `Tweaks` **-** `Enable Feral GameMode` **&** `Use discrete GPU (only if you have two GPUs)`
 - `Settings` **-** `Environment Variables` **-** `Add` **-** `mesa_glthread=true`
 <img width="731" height="96" alt="image" src="https://github.com/user-attachments/assets/3cd34257-d1cf-4509-8967-d8499e61318a" />
 
@@ -60,7 +60,7 @@ Prism Launcher automatically installs Java for you.
   - `Sodium`
   - `Sodium Extra`
 ### Optifine Features Without Optifine
-In Optifine, there are some nice features that do not aim to increase performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. You can get the same features without Optifine through the mods below:
+In Optifine, there are some other nice features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. You can get the same features without Optifine through the mods below:
 - **Zooming Feature -** `Zoomify`
 - **Shaders Feature -** `Iris`
 - **Dynamic Lighting Feature -** `LambDynamicLights`

@@ -45,24 +45,30 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 - **2 -** [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
-- If you do not see your Linux distribution in the page, that probably means Mesa (default Intel/AMD GPU driver) Vulkan drivers are preinstalled on your Linux distribution.
+- If you do not see your Linux distribution in the page, that probably means Mesa **(the default Intel/AMD GPU driver)** Vulkan drivers are preinstalled on your Linux distribution.
 	- However, if you do not see your distribution in the page and if you are using NVIDIA, I suggest that you find a different documentation for installation steps or switch to one of the distributions that are mentioned in the page.
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
 	- [Steam](https://store.steampowered.com/) **-** Steam is natively supported on Linux.
 	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a nice game launcher for playing games from **Epic Games, GOG and Prime Gaming**.
-	- [Lutris](https://lutris.net/) **-** Lutris is a nice game launcher for playing Windows games. You can **directly** install some gaming software such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that do not belong to a certain platform using Lutris.
-		- Lutris provides **community-made installation scripts** for a huge amount of games and software.
-		- You can also install your games, including DVD games, manually if you have the setup files.
+	- [Lutris](https://lutris.net/) **-** Lutris is a nice game launcher for playing Windows games. You can **directly** install some gaming software such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that do not belong to a certain platform.
+		- Lutris provides **community-made installation scripts** for huge amount of games and software.
+		- You can also install your games manually, including DVD games, if you have the setup files.
 	- [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
 ### Notes
-- You can install these software from either your **package manager** or **Flatpak**.
+- You can install these software from either your **package manager** or [Flatpak](https://flatpak.org).
 - You can check [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
 	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
 # External Disk Setup
-If you want to use an external disk to run your games, it will not be ready for use out of the box. That's why it should be configured before using.
+- If your external disk is **natively** connected, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
+- The same steps **should be valid** if your disk is **natively connected** but **you still are not able to use it**.
+## Get Started: GParted
+- If you would like to format your disk to change its file system from **NTFS** to a **Linux-compatible** one, install `gparted` package using your package manager and follow the next steps, making sure your external disk is unmounted.
+	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
+ 	- **Next:** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
+  	- **Lastly:** `Apply All Operations`
 ## How to Configure External Disks on Linux?
 - First of all, install `gnome-disk-utility` package using your package manager.
 	- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
@@ -91,11 +97,11 @@ If you want to use an external disk to run your games, it will not be ready for 
 - **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
 - **For Debian/Ubuntu and Derivatives:** [XanMod Kernel](https://xanmod.org/)
 ## Gamemode
-- [Gamemode](https://github.com/FeralInteractive/gamemode) is a tool that **temporarily** changes your system settings to increase performance during the gameplay. Generally, gaming software like Lutris have it enabled by default for your games if you have gamemode installed. But on Steam, you have to manually add a command in your games' launch options like in the example:
+- [Gamemode](https://github.com/FeralInteractive/gamemode) is a tool that **temporarily** changes your system settings to increase performance during the gameplay. Generally, gaming software like Lutris enable it by default. But on Steam, you have to manually add a command in your game's launch options like in the example:
 ```
 gamemoderun %command%
 ```
-- After installing gamemode, download [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move the file to `/etc/` via executing the command after opening terminal in the location where the file is located:
+- After installing gamemode, download [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move the file to `/etc/` via executing the command below after locating the terminal to your Downloads directory:
 ```
 sudo mv gamemode.ini /etc/
 ```
@@ -113,10 +119,7 @@ You can use these environment variables for better performance while gaming:
 ## Disabling Compositor - X11 ONLY!!!
 **WARNING**: If you are using **Wayland**, you **cannot** disable the compositor. These steps are only available for **X11**.
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.
-- If you are using **KDE**, you can simply disable the compositor using `Shift - Alt - F12` keybind. To reenable, apply the same keybind.
-- If you are using **XFCE**, you can disable the compositor following the steps below:
-	- `Settings Manager` **-** `Window Manager Tweaks` **-** `Compositor` **-** `Enable Display Compositing (uncheck the box)`
-- For other desktop environments and other ways of disabling compositor, you can check [this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11))
+- This step is explained [in this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
 # Hybrid Graphics
 - If you have **hybrid graphics** setup, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
 - If your dedicated GPU is **AMD**, the necessary command to run games through your dedicated GPU is:
@@ -134,7 +137,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
  	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games)
   	- **4 -** [For Lutris/Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutrisheroic-games)
 ### Terminal Method
-Simply, open terminal and execute the command for your GPU like in the example:
+Simply, launch terminal and execute the command for your GPU like in the example:
 - **Example:**
 ```
 DRI_PRIME=1 prismlauncher

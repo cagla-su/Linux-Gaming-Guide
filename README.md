@@ -48,8 +48,6 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
 # Get Started
-- **1 -** [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
-- **2 -** [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
 - If you do not see your Linux distribution in the page, that probably means Mesa **(the default Intel/AMD GPU driver)** Vulkan drivers are preinstalled on your Linux distribution.
@@ -69,7 +67,7 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
 # Hybrid Graphics Setup
-- If you have **hybrid graphics** setup, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
+- If your system has **two GPUs**, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
 - If your dedicated GPU is **AMD**, the necessary command to run games through your dedicated GPU is:
 ```
 DRI_PRIME=1

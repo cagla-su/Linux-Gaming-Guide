@@ -103,15 +103,15 @@ Categories=Game;
 ```
 - Kısaca, en başa `env` ve devamına ekran kartınız için olan komutu ekleyin. Son olarak da oyununuzun paket adını ekleyin.
 ### Steam oyunları için
-Add the command for your GPU in your launch options of the games you want to play. Do not forget to add `%command%` at last like in the example:
+Ekran kartınız için olan komutu oynamak istediğiniz oyunların başlatma seçeneklerine ekleyin. Sonuna örnekteki gibi %command% eklemeyi unutmayın:
 ```
 DRI_PRIME=1 %command%
 ```
-- **NOTE**: If you are going to use gamemode and run games through your dedicated GPU, make sure that all the commands are written before `%command%` like in the example:
+- **NOT**: Eğer gamemode kullanacaksanız ve oyunlarınızı harici ekran kartınızla çalıştıracaksanız, bütün komutların `%command%`'den önce yazıldığından emin olun:
 ```
 DRI_PRIME=1 gamemoderun %command%
 ```
-### For Lutris/Heroic Games
+### Lutris/Heroic oyunları için
 - **Lutris -** On the left side bar, click the **gear icon** that appears when you point your mouse cursor on `Wine`.
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`

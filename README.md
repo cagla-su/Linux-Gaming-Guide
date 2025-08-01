@@ -14,7 +14,7 @@
 Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
 # Linux Gaming Guide
 Hello! This guide will help you understand **how gaming on Linux works**, **how to prepare your system**, and **how to optimize it for better performance**. If you are ready, let's begin!
-## Before Starting
+# Before Starting
 - Linux gaming is swiftly improving. Every passing day, more users switch to Linux. In this context, the market share of Linux gaming is increasing.
 - This guide aims to be useful for everyone who wants to play games on Linux but does not know where to start.
 - After reading this guide, feel free to check out the [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) section if any of the listed games interest you.
@@ -50,6 +50,19 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 ## Warning for NVIDIA Users
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
+## What are the issues of gaming on Linux?
+- There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**. Some examples of kernel-level anti-cheat systems are:
+	- **VANGUARD**
+	- **Easy Anti-Cheat**
+	- **BattlEye**
+	- **XIGNCODE3**
+	- **nProtect GameGuard**
+- **Easy Anti-Cheat** and **BattlEye** have **Linux-compatible** versions. That's why some developers **may enable Linux compatibility** with their anti-cheat systems **specifically for WINE/Proton**.
+	- However, some games such as **Fortnite** and **Apex Legends** do not enable Linux support in their anti-cheat configuration. That's why **they do not run on Linux**.
+- In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.
+- Except **VANGUARD**, we cannot make a definitive statement about playability of a game using one of the anti-cheat systems mentioned above.
+	- The case is different for VANGUARD because no games using VANGUARD are able to run on Linux. This is because VANGUARD is only used by the games of **Riot Games**, which **do not intend to support** Linux players at all.
+- To check the playability of the game you desire to play, you can check [ProtonDB](https://www.protondb.com) as it is [mentioned in this guide](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#%EF%B8%8F).
 # Get Started
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
@@ -59,7 +72,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
 	- [Steam](https://store.steampowered.com/) **-** Steam is natively supported on Linux.
-	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a capable game launcher for playing games from **Epic Games, GOG and Prime Gaming**.
+	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a useful game launcher for playing games from **Epic Games, GOG and Prime Gaming**.
 	- [Lutris](https://lutris.net/) **-** Lutris is a feature-rich game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that are not tied to a certain platform.
 		- Lutris provides **community-made installation scripts** for a large number of games and software.
 		- You can also install your games manually, including DVD games, if you have the setup files.
@@ -104,7 +117,7 @@ Icon=/path/to/your/game/icon.png
 Terminal=false
 Categories=Game;
 ```
-- Simply, you should add `env` first and the command for your GPU. Lastly, the package name of the game.
+- Simply, you should add `env` first and the command for your GPU. Finally, the package name of the game.
 ### For Steam Games
 Add the command for your GPU in the launch options of the games you want to play. Do not forget to add `%command%` at last like in the example:
 ```
@@ -146,9 +159,9 @@ DRI_PRIME=1 gamemoderun %command%
 - Now you are ready to use your external disk(s)! 
 # Optimization Tips
 ## Reducing Game Resolution and Using the Lowest Graphics Settings
-- When you reduce the resolution of the game you want to play, less pixels will be rendered and it will result in less loads on your hardware, leading to higher performance.
+- When you reduce the resolution a the game, less pixels will be rendered and it will result in less loads on your hardware, leading to higher performance.
 - When you play with the lowest graphics settings, less details will be rendered, leading to higher performance.
-- Both are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
+- Both ways are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
 ## Using a Performance Kernel
 - **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
 - **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
@@ -171,14 +184,14 @@ You can use these environment variables for better performance while gaming:
 	- It works on Lutris and Heroic while it **does not work on Steam games**.
  	- Additionally, using DXVK Async can **get you banned from online games**. That's why, it is only recommended for **offline games**. 
 ### How Can You Use These Environment Variables?
-- **Steam -** You can simply use these commands in launch options that are mentioned above.
+- **Steam -** You can simply use these commands in launch options that is previously mentioned above.
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 
 ## Disabling Compositor - X11 ONLY!!!
-**⚠️ -** If you are using **Wayland**, disabling the compositor is not possible. These steps are only available for **X11**.
+**⚠️ -** If you are using **Wayland**, disabling the compositor is **not possible**. These steps are only available for **X11**.
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.
-- This step is explained [in this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
+- This step is explained [in Linux Gaming wiki](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
 # Conclusion
 This guide was about Linux gaming. Thank you for reading. I hope this guide has helped you prepare your system for gaming on Linux. Happy gaming! 🐧
 

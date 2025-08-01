@@ -12,22 +12,22 @@
 ## Türkçe Çeviri 🇹🇷
 Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
 # Linux Gaming Guide
-Hello. In this guide, you will be informed about how **gaming on Linux works**, how to **prepare your system for gaming on Linux** and how to **optimize your Linux system for higher performance**. If you are ready, let's begin!
+Hello! This guide will help you understand how gaming on Linux works, how to prepare your system, and how to optimize it for better performance. If you are ready, let's begin!
 ## Before Starting
 - Linux gaming is swiftly improving. Every passing day, more users switch to Linux. In this context, the market share of Linux gaming is increasing.
 - This guide aims to be useful for everyone who wants to play games on Linux but does not know where to start.
-- After reading this guide, I suggest that you read [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) if you see any game on the list that you desire to play.
+- After reading this guide, feel free to check out the [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) section if any of the listed games interest you.
 # How Linux Gaming Works
-- You can play Windows games on Linux. However, this **does not mean** that there **are not any native Linux games**. **Some native Linux games** are:
+- You can play Windows games on Linux. However, this **does not mean** that there are **no native Linux games**. **Some native Linux games** are:
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 and more
- 	- **Valve's games:** Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
-- Generally, native Linux games **do not require** any extra steps **as long as they do not require Vulkan**. If they do, you need to install Vulkan drivers which is explained in this guide.
+ 	- Valve games such as Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
+- Generally, native Linux games **do not require** any extra steps **unless they do not require Vulkan**. If they do, you need to install Vulkan drivers which is explained in this guide.
 - Windows games require some **essential tools** in order to run on Linux and these tools are:
 	- [WINE](https://www.winehq.org/) / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is Valve's **fork of WINE** and it is specifically configured for **Steam games**.
-	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **included** in WINE, so you **do not have to manually install** DXVK.
+	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **included** in WINE, so you **do not need to install DXVK manually**.
 		- There are some **other tools** that are used for **similar purposes** as DXVK, these tools are:
- 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot yet. This is the **default** translation tool if the game you are trying to play is a **DirectX 12 game**. Just like DXVK, VKD3D is **included** in WINE.
-			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d) **-** WINED3D translates **DirectX 8-11** calls into **OpenGL instead of Vulkan**. This is the **default** translation tool if your system **does not have Vulkan drivers installed**. However, since DirectX calls will be translated into OpenGL, you are likely going to experience **poor performance** because OpenGL is **deprecated**. Just like DXVK and VKD3D, WINED3D is **included** in WINE.
+ 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot yet. VKD3D **serves as the fallback** if the game you are trying to play is a **DirectX 12 game**. Just like DXVK, VKD3D is **included** in WINE.
+			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d) **-** WINED3D translates **DirectX 8-11** calls into **OpenGL instead of Vulkan**. WINED3D **serves as the fallback** if your system **does not have Vulkan drivers installed**. However, since DirectX calls will be translated into OpenGL, you are likely to experience **poor performance** because OpenGL is **deprecated**. Just like DXVK and VKD3D, WINED3D is **included** in WINE.
 ```
 +------------------+   DirectX: Windows-specific graphics library
 |       WINE       |   Vulkan: Both Windows & Linux native graphics library
@@ -45,8 +45,8 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 +--------------------------+
 
 ```
-- You **do not have to do anything** to install WINE. WINE is installed **automatically** when you install a gaming software.
-## Warning For NVIDIA Users
+- You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as Lutris.
+## Warning for NVIDIA Users
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
 # Get Started
@@ -58,23 +58,23 @@ Hello. In this guide, you will be informed about how **gaming on Linux works**, 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
 	- [Steam](https://store.steampowered.com/) **-** Steam is natively supported on Linux.
-	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a nice game launcher for playing games from **Epic Games, GOG and Prime Gaming**.
-	- [Lutris](https://lutris.net/) **-** Lutris is a nice game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that do not belong to a certain platform.
-		- Lutris provides **community-made installation scripts** for huge amount of games and software.
+	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a capable game launcher for playing games from **Epic Games, GOG and Prime Gaming**.
+	- [Lutris](https://lutris.net/) **-** Lutris is a feature-rich game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that are not tied to a certain platform.
+		- Lutris provides **community-made installation scripts** for a large number of games and software.
 		- You can also install your games manually, including DVD games, if you have the setup files.
 	- [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
-### Notes
+### ⚠️
 - You can install these software through either your **package manager** or [Flatpak](https://flatpak.org).
 - You can check [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
 	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
 # Hybrid Graphics Setup
 - If your system has **two GPUs**, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
-- If your dedicated GPU is **AMD**, the necessary command to run games through your dedicated GPU is:
+- To run games using your dedicated **AMD** GPU, use the following command:
 ```
 DRI_PRIME=1
 ```
- - If your dedicated GPU is **NVIDIA**, the necessary command to run games through your dedicated GPU is:
+ - To run games using your **NVIDIA** GPU, use the following command:
 ```
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
@@ -109,7 +109,7 @@ Add the command for your GPU in the launch options of the games you want to play
 ```
 DRI_PRIME=1 %command%
 ```
-- **NOTE**: If you are going to additionally use other launch options and run games through your dedicated GPU, make sure that all the commands are written before `%command%` like in the example:
+- **⚠️ -** If you are going to additionally use other launch options and run games through your dedicated GPU, make sure that all the commands are written before `%command%` like in the example:
 ```
 DRI_PRIME=1 gamemoderun %command%
 ```
@@ -118,13 +118,13 @@ DRI_PRIME=1 gamemoderun %command%
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
 # External Disk Setup
-- If your external disk is **natively** connected, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
-- The same steps **should be valid** if your disk is **natively connected** but **you still are not able to use it**.
+- If your external disk is **internally connected**, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
+- These steps also apply if your disk is **internally connected** but still **not working properly.**.
 ## Get Started: GParted
 - If you would like to format your disk to change its file system from **NTFS** to a **Linux-compatible** one, install `gparted` using your package manager and follow the next steps, making sure your external disk is unmounted while it is physically connected.
 	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
- 	- **Next:** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
-  	- **Lastly:** `Apply All Operations`
+ 	- **Next -** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
+  	- **Finally -** `Apply All Operations`
 ## How to Configure External Disks on Linux?
 - First of all, install `gnome-disk-utility` package using your package manager.
 	- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
@@ -137,9 +137,9 @@ DRI_PRIME=1 gamemoderun %command%
   - Now disable `User Session Defaults` and check `Mount at system startup`.
   - Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
   	- `nofail,x-gvfs-show,rw,user,exec`
-   - If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, additionally include this option:
+   - If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, you should also include this option:
         - `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
-   - Lastly, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
+   - Finally, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
 <img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
 
 - Now you are ready to use your external disk(s)! 
@@ -157,25 +157,25 @@ DRI_PRIME=1 gamemoderun %command%
 ```
 gamemoderun %command%
 ```
-- After installing gamemode, download [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move the file to `/etc/` directory via executing the command below after locating the terminal to your "Downloads" directory:
+- After installing gamemode, download [gamemode.ini](https://github.com/FeralInteractive/gamemode/blob/master/example/gamemode.ini) and move it to the `/etc/` directory using the following command after navigating to your "Downloads" folder in the terminal:
 ```
 sudo mv gamemode.ini /etc/
 ```
 ## Performance-Increasing Environment Variables
 You can use these environment variables for better performance while gaming:
-- `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *low impact on performance*
-- `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *high impact on performance*
-- `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**. - *high impact on performance*
-- `DXVK_ASYNC=1` **-** It **does not work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games you play**. That's why, it is only recommended for **offline games**. - *depending on the game, generally low impact on performance*
+- `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *Low impact on performance*
+- `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *High impact on performance*
+- `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**. - *High impact on performance*
+- `DXVK_ASYNC=1` **-** It **does not work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games**. That's why, it is only recommended for **offline games**. - *Variable impact depending on the game, generally low.*
 ### How Can You Use These Environment Variables?
 - **Steam -** You can simply use these commands in launch options I mentioned above.
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 
 ## Disabling Compositor - X11 ONLY!!!
-**WARNING**: If you are using **Wayland**, you **cannot** disable the compositor. These steps are only available for **X11**.
+**⚠️ -** If you are using **Wayland**, disabling the compositor is not possible. These steps are only available for **X11**.
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.
 - This step is explained [in this guide](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
 # Conclusion
-This guide was about Linux gaming. I hope the guide has been useful. Thank you for reading, happy gaming! 🐧
+This guide was about Linux gaming. Thank you for reading. I hope this guide has helped you prepare your system for gaming on Linux. Happy gaming! 🐧
 

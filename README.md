@@ -64,7 +64,9 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
 ## Issues of Linux Gaming
-- There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**. Some examples of kernel-level anti-cheat systems are:
+- There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
+	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
+- Some examples of kernel-level anti-cheat systems are:
 	- **VANGUARD**
 	- **Easy Anti-Cheat**
 	- **BattlEye**

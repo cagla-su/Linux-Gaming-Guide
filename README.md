@@ -62,7 +62,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.
 - Except **VANGUARD**, we cannot make a definitive statement about playability of a game using one of the anti-cheat systems mentioned above.
 	- The case is different for VANGUARD because no games using VANGUARD are able to run on Linux. This is because VANGUARD is only used by the games of **Riot Games**, which **do not intend to support** Linux players at all.
-- To check the playability of the game you desire to play, you can check [ProtonDB](https://www.protondb.com) as it is [mentioned in this guide](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#%EF%B8%8F).
+- To check the playability of a game, you can check [ProtonDB](https://www.protondb.com) as it is [mentioned in this guide](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#%EF%B8%8F).
 # Get Started
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).

@@ -12,12 +12,12 @@
 ## Türkçe Çeviri 🇹🇷
 Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
 # Linux Gaming Guide
-Hello! This guide will help you understand how gaming on Linux works, how to prepare your system, and how to optimize it for better performance. If you are ready, let's begin!
+Hello! This guide will help you understand **how gaming on Linux works**, **how to prepare your system**, and **how to optimize it for better performance**. If you are ready, let's begin!
 ## Before Starting
 - Linux gaming is swiftly improving. Every passing day, more users switch to Linux. In this context, the market share of Linux gaming is increasing.
 - This guide aims to be useful for everyone who wants to play games on Linux but does not know where to start.
 - After reading this guide, feel free to check out the [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) section if any of the listed games interest you.
-# How Linux Gaming Works
+## How Linux Gaming Works
 - You can play Windows games on Linux. However, this **does not mean** that there are **no native Linux games**. **Some native Linux games** are:
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 and more
  	- Valve games such as Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
@@ -166,9 +166,11 @@ You can use these environment variables for better performance while gaming:
 - `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *Low impact on performance*
 - `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *High impact on performance*
 - `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**. - *High impact on performance*
-- `DXVK_ASYNC=1` **-** It **does not work on Steam games** but it **displays frames without waiting for shaders to be compiled** which works on Lutris and Heroic. However, using async can **get you banned from online games**. That's why, it is only recommended for **offline games**. - *Variable impact depending on the game, generally low.*
+- `DXVK_ASYNC=1` **-** It **displays frames without waiting for shaders to be compiled**. - *Variable impact depending on the game, generally low.*
+	- It works on Lutris and Heroic while it **does not work on Steam games**.
+ 	- Additionally, using DXVK Async can **get you banned from online games**. That's why, it is only recommended for **offline games**. 
 ### How Can You Use These Environment Variables?
-- **Steam -** You can simply use these commands in launch options I mentioned above.
+- **Steam -** You can simply use these commands in launch options that are mentioned above.
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 

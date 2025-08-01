@@ -65,7 +65,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
 ## Issues of Linux Gaming
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
-	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
+	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
 - Some examples of kernel-level anti-cheat systems are:
 	- **VANGUARD**
 	- **Easy Anti-Cheat**

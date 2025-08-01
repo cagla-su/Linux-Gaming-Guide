@@ -49,6 +49,20 @@ Merhaba! Bu rehber size **Linux'ta oyunların nasıl çalıştığı**, **sistem
 ## NVIDIA kullanıcıları için bir uyarı
 - NVIDIA **4xxx** ve **5xxx** modelleri için **özel mülkiyet** sürücülerini **aşamalı olarak devre dışı bırakıyor**, çünkü NVIDIA **son çıkan ve gelecekte çıkaracakları kartları için daha fazla açık kaynak** olmaya çalışıyor. Ancak **daha eski kartlar için** hâlâ **özel mülkiyet** sürücüleri kullanmalısınız. Böylece **daha iyi uyumluluk ve performansa** sahip olursunuz. 
 - Ayrıca, yukarıda bahsedilen son NVIDIA ekran kartlarından birini kullanmadığınız takdirde **Wayland kullanmamalısınız** çünkü bu durumda **ekranda bozukluklar ve/veya performans sorunları** ile karşılaşabilirsiniz. **X11** kullanmak şimdilik daha iyi bir seçenektir.
+## Linux'ta oyun oynama konusundaki engeller
+- Linux'ta oyun oynama konusunda pek fazla sorun yoktur. Ancak, en büyük sorun **çekirdek seviyesinde çalışan anti-hile sistemleridir**.
+	- Bu anti-hile sistemleri Linux'ta çalışmaz çünkü Windows oyunu için geliştirilmiş bir anti-hile sisteminin çekirdek seviyesinde çalışması demek o anti-hile sisteminin **yalnızca Windows'a ait olan "Windows NT" çekirdeğine ihtiyaç duyması** demektir.
+- Bazı çekirdek seviyesinde çalışan anti-hile sistem örnekleri şunlardır:
+	- **VANGUARD**
+	- **Easy Anti-Cheat**
+	- **BattlEye**
+	- **XIGNCODE3**
+	- **nProtect GameGuard**
+- **Easy Anti-Cheat** ve **BattlEye** anti-hile sistemlerinin **Linux uyumlu** sürümleri mevcuttur. Bu yüzden bazı geliştiriciler **özel olarak WINE/Proton için** kendi anti-hile sistemlerinde **Linux uyumluluğunu etkin hale getirebilir**.
+	- Ancak, **Fortnite** ve **Apex Legends** gibi bazı oyunlar kendi anti-hile yapılandırmalarında Linux desteğini etkinleştirmez. Bu yüzden bu oyunlar **Linux'ta çalışmaz**.
+- Linux uyumlu yapılandırmaları etkinleştirmenin yanı sıra, bazı oyunlar bu anti-hile sistemlerinin yalnızca **user-mode modülünü** kullanır. Bu da o oyunları Linux'ta oynanabilir kılar.
+- **VANGUARD** dışında, bir oyun eğer yukarıda bahsedilen anti-hile sistemlerinden birini kullanıyorsa o oyunun Linux'ta oynanabilirliği hakkında kesin bir yorum yapamayız.
+	- Durum VANGUARD için farklıdır çünkü VANGUARD kullanan hiçbir oyun Linux'ta çalışmaz. Bunun sebebi VANGUARD'ın yalnızca **Riot Games** tarafından geliştirilen oyunlar tarafından kullanılması ve Riot Games'in **Linux oyuncularını desteklemek istememesidir**.
 # Başlangıç
 ## Vulkan sürücülerini yükleme
 - Bu adım [Lutris'in topluluk rehberinde](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) açıklanmıştır.

@@ -9,24 +9,24 @@
 - ![Metin2](https://github.com/user-attachments/assets/c887fc49-cc62-4450-81ab-7ebdfe0087df) **Metin2 -** [Metin2 Linux rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Metin2-tr.md)
 -  ![Minecraft](https://github.com/user-attachments/assets/3dd086b5-0be3-4cc9-ab2f-e01243845930) **Minecraft -** [Minecraft Linux rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md)
 - ![Sims 2](https://github.com/user-attachments/assets/5e79e395-066b-46df-85a4-a72f73d8aad8) **The Sims 2 -** [The Sims 2 Linux rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md)
-# Linux'ta oyun oynama rehberi
-Merhaba. Bu rehberde **Linux'ta oyunların nasıl çalıştığı**, **sisteminizi Linux'ta oynamaya hazır hale nasıl getirebileceğiniz** ve **Linux sisteminizi daha yüksek performans için nasıl optimize edebileceğiniz** hakkında bilgilendirileceksiniz. Hazırsanız, başlayalım!
+# Linux'ta Oyun Oynama Rehberi
+Merhaba! Bu rehber size **Linux'ta oyunların nasıl çalıştığı**, **sisteminizi Linux'ta oyun oynamaya nasıl hazır hale getirebileceğiniz** ve **Linux sisteminizi daha yüksek performans için nasıl optimize edebileceğiniz** konularını anlamanızda yardımcı olacaktır. Hazırsanız, başlayalım!
 ## Başlamadan önce
-- Linux, oyun oynama konusunda hızlı bir şekilde geliştiriliyor. Her geçen gün, daha fazla kullanıcı Linux'a geçiyor. Ayrıca, Linux'un piyasa payı da bu bağlamda artıyor.
+- Linux, oyun oynama konusunda hızlı bir şekilde geliştiriliyor. Her geçen gün, daha fazla kullanıcı Linux'a geçiyor. Bu bağlamda da Linux'un piyasa payı artıyor.
 - Bu rehber Linux'ta oyun oynamak isteyip nereden başlayacağını bilmeyen herkes için kullanışlı olmayı amaçlayan bir rehberdir.
-- Linux kullanırken sistem dilini **İngilizce** yapmanızda fayda var çünkü genel olarak Türkçe çeviriler eksiktir ve bazı uygulamalarda bazı yazılar Türkçe iken bazı yazılar İngilizce görünmektedir.
-- Bu rehberi okuduktan sonra içinde oynamak istediğiniz bir oyun varsa, [oyunlara özel rehberleri](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler) de okumanızı tavsiye ediyorum.
-# Linux'ta oyunlar nasıl çalışır?
+- Linux kullanırken sistem dilini **İngilizce** yapmanızda fayda var çünkü genel olarak sistemde Türkçe çeviriler eksiktir ve bazı uygulamalarda bazı yazılar Türkçe iken bazı yazılar İngilizce görünmektedir.
+- Bu rehberi okuduktan sonra içinde oynamayı düşündüğünüz bir oyun varsa, [oyunlara özel rehberleri](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler) de okumanızı tavsiye ediyorum.
+## Linux'ta oyunlar nasıl çalışır?
 - Windows oyunlarını Linux'ta oynayabilirsiniz. Ancak, bu **hiçbir oyunun orijinal olarak Linux'u desteklemediği** anlamına gelmez. **Bazı Linux uyumlu oyunlar** şunlardır: 
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 ve fazlası
  	- **Valve oyunları:** Counter-Strike serisi, Team Fortress 2, Dota 2, Portal vb.
-- Genellikle Linux uyumlu oyunlar **Vulkan gerektirmediği** takdirde **herhangi bir yapılandırma** gerektirmez. Eğer gerektiriyorsa bu rehberde açıklandığı üzere, Vulkan sürücülerini kurmalısınız.
-- Windows oyunları Linux'ta çalışmak için bazı **gerekli araçlar** gerektirir ve bu araçlar şunlardır:
+- Genellikle Linux uyumlu oyunlar **Vulkan gerektirmediği** takdirde **herhangi bir ek adım** gerektirmez. Eğer gerektiriyorsa bu rehberde açıklandığı üzere, Vulkan sürücülerini kurmalısınız.
+- Windows oyunları Linux'ta çalışmak için bazı **araçlar** gerektirir ve bu araçlar şunlardır:
 	- [WINE](https://www.winehq.org/) / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE **Windows kütüphane dosyalarını Linux kütüphane dosyalarına** yönlendiren bir uyumluluk katmanıdır. **Windows'taki uyumluluk modu** ile aynı mantıkta çalışır. Proton ise **WINE'ın çatallanmış halidir** ve Valve tarafından geliştirilmektedir. Özel olarak **Steam oyunları** için yapılandırılmıştır.
 	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK Windows oyunlarını Linux'ta çalıştırmak için **DirectX 8-11** çağrılarını **Vulkan'a** çevirir. DXVK, WINE'ın **içinde bulunur**, yani **el ile kurulum yapmak zorunda değilsiniz**.
 		- DXVK ile **benzer amaçlar** taşıyan **bazı diğer araçlar** da vardır ve bu araçlar şunlardır:
- 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D, DXVK'in henüz yapamadığı **DirectX 12** çağrılarını **Vulkan'a** çevirme işlevini görür. Oynamaya çalıştığınız oyun **DirectX 12 oyunu** ise bu araç **varsayılan** araçtır. Tıpkı DXVK gibi, VKD3D WINE'ın **içinde bulunur**.
-			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d) **-** WINED3D, **DirectX 8-11** çağrılarını **Vulkan yerine OpenGL'e** çevirir. Sisteminizde **Vulkan sürücüleri yüklü değilse** bu araç **varsayılan** araçtır. Ancak, DirectX çağrıları OpenGL'e çevirileceği için **daha düşük performans** almanız muhtemeldir çünkü OpenGL **artık geliştirilmiyor**. Tıpkı DXVK ve VKD3D gibi, WINED3D WINE'ın **içinde bulunur**.
+ 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D, DXVK'in henüz yapamadığı **DirectX 12** çağrılarını **Vulkan'a** çevirme işlevini görür. Oynamaya çalıştığınız oyun **DirectX 12 oyunu** ise VKD3D **varsayılan olarak** devreye girer. Tıpkı DXVK gibi, VKD3D WINE'ın **içinde bulunur**.
+			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d) **-** WINED3D, **DirectX 8-11** çağrılarını **Vulkan yerine OpenGL'e** çevirir. Sisteminizde **Vulkan sürücüleri yüklü değilse** WINED3D **varsayılan olarak** devreye girer. Ancak, DirectX çağrıları OpenGL'e çevirileceği için **daha düşük performans** almanız muhtemeldir çünkü OpenGL **artık geliştirilmiyor**. Tıpkı DXVK ve VKD3D gibi, WINED3D WINE'ın **içinde bulunur**.
 ```
 +------------------+   DirectX: Windows'a özgü grafik kütüphanesi
 |       WINE       |   Vulkan: Hem Windows hem de Linux'a özgü grafik kütüphanesi
@@ -46,7 +46,7 @@ Merhaba. Bu rehberde **Linux'ta oyunların nasıl çalıştığı**, **sistemini
 ```
 - WINE, bir oyun oynama yazılımı kurduğunuzda **otomatik olarak** yüklenir.
 ## NVIDIA kullanıcıları için bir uyarı
-- NVIDIA **4xxx** ve **5xxx** modelleri için **özel mülkiyet** sürücülerini **aşamalı olarak devre dışı bırakıyor**, çünkü NVIDIA **son çıkan ve gelecekteki kartları için daha fazla açık kaynak** olmaya çalışıyor. Ancak **daha eski kartlar için** hâlâ **özel mülkiyet** sürücüleri kullanmalısınız. Böylece **daha iyi uyumluluk ve performansa** sahip olursunuz. 
+- NVIDIA **4xxx** ve **5xxx** modelleri için **özel mülkiyet** sürücülerini **aşamalı olarak devre dışı bırakıyor**, çünkü NVIDIA **son çıkan ve gelecekte çıkaracakları kartları için daha fazla açık kaynak** olmaya çalışıyor. Ancak **daha eski kartlar için** hâlâ **özel mülkiyet** sürücüleri kullanmalısınız. Böylece **daha iyi uyumluluk ve performansa** sahip olursunuz. 
 - Ayrıca, yukarıda bahsedilen son NVIDIA ekran kartlarından birini kullanmadığınız takdirde **Wayland kullanmamalısınız** çünkü bu durumda **ekranda bozukluklar ve/veya performans sorunları** ile karşılaşabilirsiniz. **X11** kullanmak şimdilik daha iyi bir seçenektir.
 # Başlangıç
 ## Vulkan sürücülerini yükleme
@@ -57,38 +57,38 @@ Merhaba. Bu rehberde **Linux'ta oyunların nasıl çalıştığı**, **sistemini
 ## Oyun oynama yazılımı yükleme
 - Linux uyumlu bazı popüler oyun oynama yazılımları şunlardır:
 	- [Steam](https://store.steampowered.com/) **-** Steam, Linux ile uyumludur.
-	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic, **Epic Games, GOG ve Prime Gaming** oyunlarını oynamanıza olanak tanıyan güzel bir oyun başlatma platformudur.
-	- [Lutris](https://lutris.net/) **-** Lutris, Windows oyunlarını oynamak için güzel bir oyun başlatma platformudur. **Epic Games, Battle.net, Ubisoft vb.** gibi bazı oyun oynama yazılımlarını **direkt olarak** yükleyip çalıştırabilirsiniz fakat aynı zamanda belirli bir platforma ait olmayan oyunları da Lutris aracılığıyla çalıştırabilirsiniz.
+	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic, **Epic Games, GOG ve Prime Gaming** platformlarına ait oyunları oynamanıza olanak tanıyan özellik bakımından zengin bir oyun başlatma platformudur.
+	- [Lutris](https://lutris.net/) **-** Lutris, Windows oyunlarını oynamak için özellik bakımından zengin bir oyun başlatma platformudur. **Epic Games, Battle.net, Ubisoft vb.** gibi bazı oyun oynama platformlarını **doğrudan** yükleyip çalıştırabilirsiniz fakat aynı zamanda belirli bir platforma ait olmayan oyunları da Lutris aracılığıyla çalıştırabilirsiniz.
 		- Lutris, oldukça büyük miktarda oyun ve yazılım için **topluluk tarafından hazırlanmış betik dosyaları** sunar.
 		- Eğer kurulum dosyanız varsa, DVD oyunları da dahil, oyunlarınızı el ile kurabilirsiniz.
 	- [ProtonPlus](https://protonplus.vysp3r.com/) **-** ProtonPlus'ı kullanarak daha iyi uyumluluk ve performans için özel WINE/Proton sürümleri yükleyebilirsiniz. Özel WINE/Proton sürümleri Lutris, Steam ve Heroic tarafından desteklenir.
-### Notlar
+### ⚠️
 - Bu yazılımları **paket yöneticiniz** veya [Flatpak](https://flatpak.org) aracılığıyla yükleyebilirsiniz.
 - Steam oyunlarınızın Linux'ta oynanabilirliğini görebilmek için [ProtonDB'yi](https://www.protondb.com) kullanabilirsiniz.
 	- Adını arattığınız oyun **gümüşten daha düşük** bir kademede ise, bu o oyunun **oynanabilir olmadığı** anlamına gelir.
 	- Oyununuz için herhangi bir değerlendirme yazılmışsa optimizasyon tavsiyeleri alabilirsiniz. Dilerseniz istediğiniz herhangi bir Steam oyunu için kendi değerlendirmelerinizi de yazabilirsiniz.
-# Hibrit grafik sistemi yapılandırması
+# Hibrit Grafik Sistemi Yapılandırması
 - Eğer sisteminizde **iki adet ekran kartı** bulunuyorsa, iki ekran kartı için de Vulkan sürücülerinin kurulması ve oyunlarınızın harici ekran kartıyla çalışması için ayarlanması önerilir.
-- Harici ekran kartınız **AMD** ise oyunlarınızı harici ekran kartıyla çalıştırmak için gerekli olan komut şudur:
+- Oyunları harici **AMD** ekran kartıyla çalıştırmak için şu komutu kullanın:
 ```
 DRI_PRIME=1
 ```
- - Harici ekran kartınız **NVIDIA** ise oyunlarınızı harici ekran kartıyla çalıştırmak için gerekli olan komut şudur:
+ - Oyunları **NVIDIA** ekran kartıyla çalıştırmak için şu komutu kullanın:
 ```
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
 ## Oyunları harici ekran kartıyla çalıştırmanın yolları
-- Oyunları harici ekran kartınızla çalıştırmanız için **dört yol** vardır:
-	- **1 -** [Terminal yolu](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#terminal-yolu)
- 	- **2 -** [Masaüstü kısayol yolu](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#masa%C3%BCst%C3%BC-k%C4%B1sayol-yolu)
+- Oyunları harici ekran kartınızla çalıştırmanız için **dört yöntem** vardır:
+	- **1 -** [Terminal yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#terminal-yolu)
+ 	- **2 -** [Masaüstü kısayolu yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#masa%C3%BCst%C3%BC-k%C4%B1sayol-yolu)
  	- **3 -** [Steam oyunları için](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#steam-oyunlar%C4%B1-i%C3%A7in)
   	- **4 -** [Lutris/Heroic oyunları için](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#lutrisheroic-oyunlar%C4%B1-i%C3%A7in)
-### Terminal yolu
+### Terminal yöntemi
 Kısaca terminali çalıştırın ve örnekteki gibi ekran kartınız için olan komutu çalıştırın:
 ```
 DRI_PRIME=1 prismlauncher
 ```
-### Masaüstü kısayol yolu
+### Masaüstü kısayolu yöntemi
 - Masaüstünüzde bir **.desktop** dosyası oluşturun.
 - Bu, NVIDIA ekran kartıyla Prism Launcher çalıştırmak için oluşturulmuş örnek bir .desktop dosyasının içeriğidir. Dikkat etmeniz gereken satır `Exec` ile başlayan satırdır:
 ```
@@ -116,11 +116,11 @@ DRI_PRIME=1 gamemoderun %command%
 - **Lutris -** Sol yan menüde, `Wine` yazan yere fare imlecinizi götürdükten sonra çıkan ayarlar butonuna tıklayın.
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
-# Harici disk yapılandırması
+# Harici Disk Yapılandırması
 - Harici diskiniz **anakarta doğrudan bağlıysa**, Linux dağıtımınıza bağlı olarak **ek yapılandırma gerektirmeden** çalıştırabilirsiniz. Ancak, harici diskiniz **SSD kutusu (USB)** aracılığıyla bağlıysa onu el ile yapılandırmalısınız.
-- Aynı adımlar diskiniz **anakarta doğrudan bağlıysa** fakat **yine de kullanamıyorsanız geçerli olmalıdır**.
+- Aynı adımlar diskiniz **anakarta doğrudan bağlıysa** fakat **yine de kullanamıyorsanız geçerlidir**.
 ## Başlangıç: GParted
-- Diskinizin dosya sistemini **NTFS'ten Linux uyumlu olan bir dosya sistemiyle** değiştirmek için biçimlendirmek isterseniz, paket yöneticiniz aracılığıyla `gparted` paketini yükleyin ve harici diskinizin hâla bağlıyken sistem tarafından bağlanmamış olduğundan emin olun.
+- Diskinizin dosya sistemini **NTFS'ten Linux uyumlu olan bir dosya sistemiyle** değiştirmek için biçimlendirmek isterseniz, paket yöneticiniz aracılığıyla `gparted` paketini yükleyin ve harici diskinizin hâlâ bağlıyken sistem tarafından bağlanmamış olduğundan emin olun.
 	- `GParted'ı çalıştırın` **-** `sağ üstten harici diskinizi seçin` **-** `tüm bölümleri silin` **-** `Add`
  	- **Sonra:** `File system: ext4` **-** `Label: istediğiniz herhangi bir başlık` **-** `Add`
   	- **Son olarak:** `Apply All Operations`
@@ -142,7 +142,7 @@ DRI_PRIME=1 gamemoderun %command%
 <img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
 
 - Artık harici diskinizi kullanmak için hazırsınız!
-# Optimizasyon tavsiyeleri
+# Optimizasyon Tavsiyeleri
 ## Oyun çözünürlüğünü düşürmek ve en düşük grafik ayarlarını kullanmak
 - Oyunun çözünürlüğünü düşürdüğünüzde daha az piksel işlenecek ve bu donanımlarınıza daha az yük bindirerek daha yüksek performans almanızı sağlayacak.
 - En düşük grafik ayarlarıyla oyun oynadığınızda daha az detay işlenecek ve bu daha yüksek performans almanızı sağlayacak.
@@ -161,21 +161,23 @@ gamemoderun %command%
 sudo mv gamemode.ini /etc/
 ```
 ## Performans arttıran başlatma seçenekleri
-Oyun oynarken daha iyi performans için bu başlatma seçeneklerini kullanabilirsiniz:
+Oyun oynarken daha yüksek performans alabilmek için bu başlatma seçeneklerini kullanabilirsiniz:
 - `WINEDEBUG=-all` **-** WINE'ın bütün hata ayıklama çıktılarını engeller. - *performansa etkisi düşük*
 - `mesa_glthread=true` **-** **Intel/AMD ekran kartlarında OpenGL performansını** arttırır. - *performansa etkisi yüksek*
 - `__GL_THREADED_OPTIMIZATIONS=1` **-** **NVIDIA ekran kartlarında OpenGL performansını** arttırır. - *performansa etkisi yüksek*
-- `DXVK_ASYNC=1` **-** **Steam oyunlarında işe yaramaz** ancak **gölgelendiricilerin derlenmesini beklemeden kareleri gösterir** ve bu Lutris ile Heroic'te çalışır. Ancak, DXVK Async kullanmak **oynadığınız çevrimiçi oyunlardan yasaklanmanıza sebep olabilir**. Bu yüzden bu yalnızca **çevrimdışı oyunlar** için önerilir. - *oyuna bağlı olarak performansa etkisi düşük*
+- `DXVK_ASYNC=1` **-** **Gölgelendiricilerin derlenmesini beklemeden kareleri gösterir**. - *oyuna bağlı olarak performansa etkisi düşük*
+	- Bu özellik Lutris ile Heroic'te çalışırken **Steam oyunlarında işe yaramaz**.
+ 	- Ayrıyeten, DXVK Async kullanmak **oynadığınız çevrimiçi oyunlardan yasaklanmanıza sebep olabilir**. Bu yüzden yalnızca **çevrimdışı oyunlar** için kullanmanız önerilir. 
 ### Bu başlatma seçeneklerini nasıl kullanabilirsiniz?
-- **Steam -** Oynamak istediğiniz oyunların başlatma seçeneklerinde bu komutları kullanabilirsiniz. En sona `%command%` eklemeyi unutmayın.
+- **Steam -** Yukarıda bahsedildiği üzere oynamak istediğiniz oyunların başlatma seçeneklerinde bu komutları kullanabilirsiniz.
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 
 ## Ekran kompozisyonunu devre dışı bırakmak - YALNIZCA X11 İÇİN!!!
-**UYARI**: Eğer **Wayland** kullanıyorsanız, ekran kompozisyonunu devre dışı **bırakamazsınız**. Bu adımlar yalnızca **X11** için geçerlidir.
+**UYARI**: Eğer **Wayland** kullanıyorsanız, ekran kompozisyonunu devre dışı bırakamanız **imkânsızdır**. Bu adımlar yalnızca **X11** için geçerlidir.
 - Devre dışı bırakılmış bir ekran kompozisyonu kısaca devre dışı bırakılmış animasyonlar ve saydamlık demektir. Ayrıca, ekran yırtılmasına sebep olur ve bu **performansı arttırırken görsel kaliteyi düşürür**.
 - Bu adım, [bu rehberde](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)) anlatılmıştır.
 # Son
-Bu rehber Linux'ta oyun oynama hakkındaydı. Umarım bu rehber sizin için faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! 🐧
+Bu rehber Linux'ta oyun oynama hakkındaydı. Okuduğunuz için teşekkürler. Umarım bu rehber sisteminizi Linux'ta oyun oynamaya hazır hale getirmenizde yardımcı olmuştur. İyi oyunlar! 🐧
 
 

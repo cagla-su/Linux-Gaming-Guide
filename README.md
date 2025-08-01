@@ -75,7 +75,6 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.
 - Except **VANGUARD**, we cannot make a definitive statement about playability of a game that uses one of the anti-cheat systems mentioned above.
 	- The case is different for VANGUARD because no games using VANGUARD are able to run on Linux. This is because VANGUARD is only used by the games of **Riot Games**, which **do not intend to support** Linux players at all.
-- To check the playability of a game, you can check [ProtonDB](https://www.protondb.com) as it is [mentioned in this guide](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#%EF%B8%8F).
 # Get Started
 ## Installing Vulkan Drivers
 - This step is explained in [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
@@ -118,7 +117,7 @@ DRI_PRIME=1 prismlauncher
 ```
 ### Desktop Shortcut Method
 - Create a **.desktop** file on your desktop.
-- This is an example .desktop file content to run Prism Launcher on an NVIDIA GPU. The line you should pay attention is the line that starts with `Exec`:
+- This is an example .desktop file content to run Prism Launcher through an NVIDIA GPU. The line you should pay attention is the line that starts with `Exec`:
 ```
 [Desktop Entry]
 Version=1.0
@@ -146,7 +145,7 @@ DRI_PRIME=1 gamemoderun %command%
  - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
 # External Disk Setup
 - If your external disk is **internally connected**, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
-- These steps also apply if your disk is **internally connected** but still **not working properly.**.
+- These steps also apply if your disk is **internally connected** but still **not working properly**.
 ## Get Started: GParted
 - If you would like to format your disk to change its file system from **NTFS** to a **Linux-compatible** one, install `gparted` using your package manager and follow the next steps, making sure your external disk is unmounted while it is physically connected.
 	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
@@ -172,7 +171,7 @@ DRI_PRIME=1 gamemoderun %command%
 - Now you are ready to use your external disk(s)! 
 # Optimization Tips
 ## Reducing Game Resolution and Using the Lowest Graphics Settings
-- When you reduce the resolution a the game, less pixels will be rendered and it will result in less loads on your hardware, leading to higher performance.
+- When you reduce the resolution of a game, less pixels will be rendered and it will result in less loads on your hardware, leading to higher performance.
 - When you play with the lowest graphics settings, less details will be rendered, leading to higher performance.
 - Both ways are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
 ## Using a Performance Kernel
@@ -197,7 +196,7 @@ You can use these environment variables for better performance while gaming:
 	- It works on Lutris and Heroic while it **does not work on Steam games**.
  	- Additionally, using DXVK Async can **get you banned from online games**. That's why, it is only recommended for **offline games**. 
 ### How Can You Use These Environment Variables?
-- **Steam -** You can simply use these commands in launch options that is previously mentioned above.
+- **Steam -** You can simply use these commands in launch options that is previously mentioned.
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 

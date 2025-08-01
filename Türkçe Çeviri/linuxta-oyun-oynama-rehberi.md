@@ -1,10 +1,11 @@
 # İçindekiler
 - [Linux'ta oyunlar nasıl çalışır?](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#linuxta-oyunlar-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r)
-- [Vulkan sürücülerini yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#vulkan-s%C3%BCr%C3%BCc%C3%BClerini-y%C3%BCkleme)
-- [Oyun oynama yazılımı yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyun-oynama-yaz%C4%B1l%C4%B1m%C4%B1-y%C3%BCkleme)
-- [Hibrit grafik sistemi yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#hibrit-grafik-sistemi-yap%C4%B1land%C4%B1rmas%C4%B1)
-- [Harici disk yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#harici-disk-yap%C4%B1land%C4%B1rmas%C4%B1)
-- [Optimizasyon tavsiyeleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#optimizasyon-tavsiyeleri)
+- [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#ba%C5%9Flang%C4%B1%C3%A7)
+	- [Vulkan sürücülerini yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#vulkan-s%C3%BCr%C3%BCc%C3%BClerini-y%C3%BCkleme)
+	- [Oyun oynama yazılımı yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyun-oynama-yaz%C4%B1l%C4%B1m%C4%B1-y%C3%BCkleme)
+- [Hibrit Grafik Sistemi Yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#hibrit-grafik-sistemi-yap%C4%B1land%C4%B1rmas%C4%B1)
+- [Harici Disk Yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#harici-disk-yap%C4%B1land%C4%B1rmas%C4%B1)
+- [Optimizasyon Tavsiyeleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#optimizasyon-tavsiyeleri)
 ## Oyunlara Özel Rehberler
 - ![Metin2](https://github.com/user-attachments/assets/c887fc49-cc62-4450-81ab-7ebdfe0087df) **Metin2 -** [Metin2 Linux rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Metin2-tr.md)
 -  ![Minecraft](https://github.com/user-attachments/assets/3dd086b5-0be3-4cc9-ab2f-e01243845930) **Minecraft -** [Minecraft Linux rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md)
@@ -79,8 +80,8 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
 ## Oyunları harici ekran kartıyla çalıştırmanın yolları
 - Oyunları harici ekran kartınızla çalıştırmanız için **dört yöntem** vardır:
-	- **1 -** [Terminal yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#terminal-yolu)
- 	- **2 -** [Masaüstü kısayolu yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#masa%C3%BCst%C3%BC-k%C4%B1sayol-yolu)
+	- **1 -** [Terminal yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#terminal-y%C3%B6ntemi)
+ 	- **2 -** [Masaüstü kısayolu yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#masa%C3%BCst%C3%BC-k%C4%B1sayolu-y%C3%B6ntemi)
  	- **3 -** [Steam oyunları için](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#steam-oyunlar%C4%B1-i%C3%A7in)
   	- **4 -** [Lutris/Heroic oyunları için](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#lutrisheroic-oyunlar%C4%B1-i%C3%A7in)
 ### Terminal yöntemi

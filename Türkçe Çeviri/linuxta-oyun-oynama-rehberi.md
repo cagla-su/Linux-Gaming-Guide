@@ -109,7 +109,7 @@ Ekran kartınız için olan komutu oynamak istediğiniz oyunların başlatma se�
 ```
 DRI_PRIME=1 %command%
 ```
-- **NOT**: Eğer başka başlatma seçenekleri de kullanacaksanız ve oyunlarınızı harici ekran kartınızla çalıştıracaksanız, bütün komutların `%command%`'den önce yazıldığından emin olun:
+- **⚠️ -** Eğer başka başlatma seçenekleri de kullanacaksanız ve oyunlarınızı harici ekran kartınızla çalıştıracaksanız, bütün komutların `%command%`'den önce yazıldığından emin olun:
 ```
 DRI_PRIME=1 gamemoderun %command%
 ```

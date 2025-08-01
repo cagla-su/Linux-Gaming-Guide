@@ -2,7 +2,7 @@
 - [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#before-starting)	
  	- [How Linux Gaming Works](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#how-linux-gaming-works)
   	- [Warning for NVIDIA Users](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#warning-for-nvidia-users)
-	- [What are the Issues of Gaming on Linux?](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#what-are-the-issues-of-gaming-on-linux)
+	- [Issues of Linux Gaming](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#issues-of-linux-gaming)
 - [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#get-started)
 	- [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
 	- [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
@@ -54,7 +54,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 ## Warning for NVIDIA Users
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
-## What are the Issues of Gaming on Linux?
+## Issues of Linux Gaming
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**. Some examples of kernel-level anti-cheat systems are:
 	- **VANGUARD**
 	- **Easy Anti-Cheat**
@@ -64,7 +64,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - **Easy Anti-Cheat** and **BattlEye** have **Linux-compatible** versions. That's why some developers **may enable Linux compatibility** with their anti-cheat systems **specifically for WINE/Proton**.
 	- However, some games such as **Fortnite** and **Apex Legends** do not enable Linux support in their anti-cheat configuration. That's why **they do not run on Linux**.
 - In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.
-- Except **VANGUARD**, we cannot make a definitive statement about playability of a game using one of the anti-cheat systems mentioned above.
+- Except **VANGUARD**, we cannot make a definitive statement about playability of a game that uses one of the anti-cheat systems mentioned above.
 	- The case is different for VANGUARD because no games using VANGUARD are able to run on Linux. This is because VANGUARD is only used by the games of **Riot Games**, which **do not intend to support** Linux players at all.
 - To check the playability of a game, you can check [ProtonDB](https://www.protondb.com) as it is [mentioned in this guide](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#%EF%B8%8F).
 # Get Started

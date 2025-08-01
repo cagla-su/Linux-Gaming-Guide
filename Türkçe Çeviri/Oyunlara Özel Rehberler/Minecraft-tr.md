@@ -1,7 +1,9 @@
 # Minecraft
 Minecraft **OpenGL** ile çalışan **Linux uyumlu** bir sandbox oyunudur.
 ## Başlangıç
-Öncelikle, [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) kullanmanızı öneriyorum çünkü Prism Launcher **açık kaynaktır** ve resmi Minecraft başlatıcısından daha fazla seçenek sunmaktadır.
+- Öncelikle, [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) kullanmanızı öneriyorum çünkü Prism Launcher **açık kaynaktır** ve resmi Minecraft başlatıcısından daha fazla seçenek sunmaktadır.
+- [Linux'ta Oyun Oynama Rehberimde](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#ba%C5%9Flamadan-%C3%B6nce) önerdiğimin aksine Minecraft oynarken hem başlatıcının hem de oyunun dilini Türkçe kullanabilirsiniz. Bu bağlamda, bu rehberdeki uygulama içi ayarlardan bahsederken Türkçeye çevirilmiş adlarını kullandım.
+- Hazırsanız, başlayalım!
 ### Prism Launcher kurulumu
 Prism Launcher'ı yükleme adımlarına [buradaki bağlantıdan](https://prismlauncher.org/download/?from=button) ulaşabilirsiniz.
 ### Java kurulumu

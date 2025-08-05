@@ -62,10 +62,10 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/0ad0e25c-6775-4d17-95ba-b85353367888" /> Lutris.
 ## Warning for NVIDIA Users <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" />
 - <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
-- Also, you **should not use <img width="16" height="25" alt="wayland" src="https://github.com/user-attachments/assets/60246125-5de0-4506-b972-08b65882e92a" /> Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** is a better option for now.
+- Also, you **should not use <img width="16" height="25" alt="wayland" src="https://github.com/user-attachments/assets/60246125-5de0-4506-b972-08b65882e92a" /> Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using <img width="16" height="25" alt="x11" src="https://github.com/user-attachments/assets/8bcae848-67a0-4c0b-953b-691de65aa430" /> **X11** is a better option for now.
 ## Issues of Linux Gaming
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
-	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
+	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for <img width="16" height="25" alt="windows" src="https://github.com/user-attachments/assets/7657f3d7-2ea9-402c-b250-b3376a70f1f4" /> Windows**.
 - Some examples of kernel-level anti-cheat systems are:
 	- <img width="16" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **| VANGUARD**
 	- <img width="16" height="25" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **| Easy Anti-Cheat**
@@ -75,13 +75,13 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - <img width="16" height="25" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **Easy Anti-Cheat** and <img width="16" height="25" alt="battleye" src="https://github.com/user-attachments/assets/d24a9587-e4d8-4c4d-b5ff-a182b5e72377" /> **BattlEye** have **Linux-compatible** versions. That's why some developers **may enable Linux compatibility** with their anti-cheat systems **specifically for <img width="16" height="25" alt="wine" src="https://github.com/user-attachments/assets/82480520-15a6-4b43-b188-27f29d3e3f71" /> WINE/Proton**.
 	- However, some games such as <img width="16" height="25" alt="fortnite" src="https://github.com/user-attachments/assets/17d24518-9a9e-4fa0-a075-24f88e42fa89" /> **Fortnite** and <img width="16" height="25" alt="apexlegends" src="https://github.com/user-attachments/assets/1e092ebc-e76d-46b2-90b4-e08d7efcd836" /> **Apex Legends** do not enable Linux support in their anti-cheat configurations. That's why **they do not run on Linux**.
 - In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.
-- Except <img width="16" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **VANGUARD**, we cannot make a definitive statement about playability of a game that uses one of the anti-cheat systems mentioned above.
-	- The case is different for <img width="16" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> VANGUARD because no games using <img width="16" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> VANGUARD are able to run on Linux. This is because <img width="16" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> VANGUARD is only used by the games of <img width="16" height="25" alt="rito" src="https://github.com/user-attachments/assets/06511a6d-3434-4ae0-be6d-a4d5e0f6c8c8" /> **Riot Games**, which **do not intend to support** Linux players at all.
+- Except <img width="10" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **VANGUARD**, we cannot make a definitive statement about playability of a game that uses one of the anti-cheat systems mentioned above.
+	- The case is different for <img width="10" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> VANGUARD because no games using <img width="10" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> VANGUARD are able to run on Linux. This is because <img width="10" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> VANGUARD is only used by the games of <img width="16" height="25" alt="rito" src="https://github.com/user-attachments/assets/06511a6d-3434-4ae0-be6d-a4d5e0f6c8c8" /> **Riot Games**, which **do not intend to support** Linux players at all.
 # Get Started
 ## Installing Vulkan Drivers
 - This step is explained in <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/0ad0e25c-6775-4d17-95ba-b85353367888" /> [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
-- If you do not see your Linux distribution in the page, that probably means Mesa **(the default Intel/AMD GPU driver)** Vulkan drivers are preinstalled on your Linux distribution.
-	- However, if you do not see your distribution in the page and if you are using NVIDIA, I suggest that you find a different documentation for installation steps or switch to one of the distributions that are mentioned in the page.
+- If you do not see your Linux distribution in the page, that probably means Mesa **(the default <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/262e5a2c-6c88-4e6f-a0d1-d8428fb16504" /> <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> Intel/AMD GPU driver)** Vulkan drivers are preinstalled on your Linux distribution.
+	- However, if you do not see your distribution in the page and if you are using <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA, I suggest that you find a different documentation for installation steps or switch to one of the distributions that are mentioned in the page.
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
@@ -109,7 +109,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ## Ways to Run Games Through the Dedicated GPU
 - There are **four ways** of running games through your dedicated GPU:
 	- **1 -** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method-) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ae34a1ca-71fe-4bf4-b1df-ddee947edaf5" />
- 	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#desktop-shortcut-method-) 🖥️
+ 	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#desktop-shortcut-method-%EF%B8%8F) 🖥️
  	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games-) <img width="16" height="32" alt="steam" src="https://github.com/user-attachments/assets/6029f0c6-11d9-464a-ad41-ca5eae5d6154" />
   	- **4 -** [For Lutris & Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/README.md#for-lutris--heroic-games--) <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />
 ### Terminal Method <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/814656ce-8cb1-4f5d-bf18-ab56736dc781" />
@@ -119,7 +119,7 @@ DRI_PRIME=1 prismlauncher
 ```
 ### Desktop Shortcut Method 🖥️
 - Create a **.desktop** file on your desktop.
-- This is an example .desktop file content to run Prism Launcher through an NVIDIA GPU. The line you should pay attention is the line that starts with `Exec`:
+- This is an example .desktop file content to run Prism Launcher through an <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA GPU. The line you should pay attention is the line that starts with `Exec`:
 ```
 [Desktop Entry]
 Version=1.0
@@ -192,18 +192,18 @@ sudo mv gamemode.ini /etc/
 ## Performance-Increasing Launch Options
 You can use these launch options for better performance while gaming:
 - `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *Low impact on performance*
-- `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *High impact on performance*
-- `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**. - *High impact on performance*
+- `mesa_glthread=true` **-** It improves **OpenGL performance** on <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/315abff4-87d6-4779-b38d-08f07b8237a4" /> <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **Intel/AMD GPUs**. - *High impact on performance*
+- `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/cf335904-bc37-427e-a86d-c7f9df4bd852" /> **NVIDIA GPUs**. - *High impact on performance*
 - `DXVK_ASYNC=1` **-** It **displays frames without waiting for shaders to be compiled**. - *Variable impact depending on the game, generally low.*
-	- It works on Lutris and Heroic while it **does not work on Steam games**.
+	- It works on Lutris and Heroic while it **does not work on <img width="16" height="32" alt="steam" src="https://github.com/user-attachments/assets/6029f0c6-11d9-464a-ad41-ca5eae5d6154" /> Steam games**.
  	- Additionally, using DXVK Async can **get you banned from online games**. That's why, it is only recommended for **offline games**. 
 ### How Can You Use These Launch Options?
-- **Steam -** You can simply use these commands in launch options section that is [previously mentioned](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games).
-- **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
+- <img width="16" height="32" alt="steam" src="https://github.com/user-attachments/assets/6029f0c6-11d9-464a-ad41-ca5eae5d6154" /> **| Steam -** You can simply use these commands in launch options section that is [previously mentioned](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games).
+- <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/0ad0e25c-6775-4d17-95ba-b85353367888" /> **| Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 
 ## Disabling Compositor - X11 ONLY!!!
-**⚠️ -** If you are using **Wayland**, disabling the compositor is **not possible**. These steps are only available for **X11**.
+**⚠️ -** If you are using <img width="16" height="25" alt="wayland" src="https://github.com/user-attachments/assets/2749afc2-39d1-44d4-bb39-8ff3ac83864c" /> **Wayland**, disabling the compositor is **not possible**. These steps are only available for <img width="16" height="25" alt="x11" src="https://github.com/user-attachments/assets/3c5b4001-f737-440e-9bd3-fba33627b6e4" /> **X11**.
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.
 - This step is explained [in Linux Gaming wiki](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
 # Conclusion

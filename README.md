@@ -67,11 +67,11 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
 	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
 - Some examples of kernel-level anti-cheat systems are:
-	- <img width="16" height="16" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **|** **VANGUARD**
-	- <img width="16" height="16" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **|** **Easy Anti-Cheat**
-	- <img width="16" height="16" alt="battleye" src="https://github.com/user-attachments/assets/d24a9587-e4d8-4c4d-b5ff-a182b5e72377" /> **|** **BattlEye**
-	- <img width="16" height="16" alt="xigncode3" src="https://github.com/user-attachments/assets/592042ab-46dd-4373-bcf4-0f1dc5322fe6" /> **|** **XIGNCODE3**
-	- <img width="16" height="16" alt="nprotect" src="https://github.com/user-attachments/assets/8cb5f512-62fa-4c06-b73a-b987c25d85e5" /> **|** **nProtect GameGuard**
+	- <img width="16" height="32" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **|** **VANGUARD**
+	- <img width="16" height="32" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **|** **Easy Anti-Cheat**
+	- <img width="16" height="32" alt="battleye" src="https://github.com/user-attachments/assets/d24a9587-e4d8-4c4d-b5ff-a182b5e72377" /> **|** **BattlEye**
+	- <img width="16" height="32" alt="xigncode3" src="https://github.com/user-attachments/assets/592042ab-46dd-4373-bcf4-0f1dc5322fe6" /> **|** **XIGNCODE3**
+	- <img width="16" height="32" alt="nprotect" src="https://github.com/user-attachments/assets/8cb5f512-62fa-4c06-b73a-b987c25d85e5" /> **|** **nProtect GameGuard**
 - **Easy Anti-Cheat** and **BattlEye** have **Linux-compatible** versions. That's why some developers **may enable Linux compatibility** with their anti-cheat systems **specifically for WINE/Proton**.
 	- However, some games such as **Fortnite** and **Apex Legends** do not enable Linux support in their anti-cheat configurations. That's why **they do not run on Linux**.
 - In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.
@@ -85,20 +85,20 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
-	- <img width="16" height="16" alt="steam" src="https://github.com/user-attachments/assets/6029f0c6-11d9-464a-ad41-ca5eae5d6154" /> **|** [Steam](https://store.steampowered.com/)
-	- <img width="16" height="16" alt="heroic" src="https://github.com/user-attachments/assets/0b43d4df-ae49-4887-80eb-d4473ae22876" /> **|** [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a useful game launcher for playing games from **Epic Games, GOG and Prime Gaming** platforms.
-	- <img width="16" height="16" alt="lutris" src="https://github.com/user-attachments/assets/25cbd40d-21e9-4b04-a80e-7ca5d04ad42e" /> **|** [Lutris](https://lutris.net/) **-** Lutris is a feature-rich game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that are not tied to a certain platform.
+	- <img width="16" height="32" alt="steam" src="https://github.com/user-attachments/assets/6029f0c6-11d9-464a-ad41-ca5eae5d6154" /> **|** [Steam](https://store.steampowered.com/)
+	- <img width="16" height="32" alt="heroic" src="https://github.com/user-attachments/assets/0b43d4df-ae49-4887-80eb-d4473ae22876" /> **|** [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a useful game launcher for playing games from **Epic Games, GOG and Prime Gaming** platforms.
+	- <img width="16" height="32" alt="lutris" src="https://github.com/user-attachments/assets/25cbd40d-21e9-4b04-a80e-7ca5d04ad42e" /> **|** [Lutris](https://lutris.net/) **-** Lutris is a feature-rich game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that are not tied to a certain platform.
 		- Lutris provides **community-made installation scripts** for a large number of games and software.
 		- You can also install your games manually, including DVD games, if you have the setup files.
-	- <img width="16" height="16" alt="protonplus" src="https://github.com/user-attachments/assets/bc3cfd0e-d0a7-4b6d-9189-10129b0f348d" /> **|** [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
+	- <img width="16" height="32" alt="protonplus" src="https://github.com/user-attachments/assets/bc3cfd0e-d0a7-4b6d-9189-10129b0f348d" /> **|** [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
 ### ⚠️
 - You can install these software through either your **package manager** or [Flatpak](https://flatpak.org).
-- You can check <img width="16" height="16" alt="protondb" src="https://github.com/user-attachments/assets/53d10de4-f538-40f2-aac9-1a7c08033607" /> **|** [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
+- You can check <img width="16" height="32" alt="protondb" src="https://github.com/user-attachments/assets/53d10de4-f538-40f2-aac9-1a7c08033607" /> **|** [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
 	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
 # Hybrid Graphics Setup
 - If your system has **two GPUs (1 integrated + 1 dedicated)**, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
-- To run games using your dedicated  <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **AMD** GPU, use the following command:
+- To run games using your dedicated <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **AMD** GPU, use the following command:
 ```
 DRI_PRIME=1
 ```

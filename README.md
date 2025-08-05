@@ -98,7 +98,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
 # Hybrid Graphics Setup
 - If your system has **two GPUs (1 integrated + 1 dedicated)**, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
-- To run games using your dedicated <img width="16" height="24" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **|** **AMD** GPU, use the following command:
+- To run games using your dedicated <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **AMD** GPU, use the following command:
 ```
 DRI_PRIME=1
 ```

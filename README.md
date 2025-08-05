@@ -15,8 +15,8 @@
  		- [Reducing Game Resolution and Using the Lowest Graphics Settings](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#reducing-game-resolution-and-using-the-lowest-graphics-settings)
   		 - [Using a Performance Kernel](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#using-a-performance-kernel)
 		- [Gamemode](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#gamemode)
-		- [Performance-Increasing Environment Variables](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#performance-increasing-environment-variables)
-			- [How Can You Use These Environment Variables](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#how-can-you-use-these-environment-variables)
+		- [Performance-Increasing Launch Options](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#performance-increasing-launch-options)
+			- [How Can You Use These Launch Options](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#how-can-you-use-these-launch-options)
 		- [Disabling Compositor](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#disabling-compositor---x11-only)
 - [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#conclusion)
 ## Game-Specific Guides
@@ -32,16 +32,16 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - This guide aims to be useful for everyone who wants to play games on Linux but does not know where to start.
 - After reading this guide, feel free to check out the [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) section if any of the listed games interest you.
 ## How Linux Gaming Works
-- You can play Windows games on Linux. However, this **does not mean** that there are **no native Linux games**. **Some native Linux games** are:
+- You can play most of the Windows games on Linux. However, this **does not mean** that there are **no native Linux games**. **Some native Linux games** are:
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 and more
  	- Valve games such as Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
 - Generally, native Linux games **do not require** any extra steps **unless they do not require Vulkan**. If they do, you need to install Vulkan drivers which is explained in this guide.
 - Windows games require some **essential tools** in order to run on Linux and these tools are:
 	- [WINE](https://www.winehq.org/) / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is Valve's **fork of WINE** and it is specifically configured for **Steam games**.
-	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **included** in WINE, so you **do not need to install DXVK manually**.
+	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **not included** in WINE but you still **do not need to install DXVK manually** because most of the Linux gaming software include DXVK for users.
 		- There are some **other tools** that are used for **similar purposes** as DXVK, these tools are:
- 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot yet. VKD3D **serves as the fallback** if the game you are trying to play is a **DirectX 12 game**. Just like DXVK, VKD3D is **included** in WINE.
-			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d) **-** WINED3D translates **DirectX 8-11** calls into **OpenGL instead of Vulkan**. WINED3D **serves as the fallback** if your system **does not have Vulkan drivers installed**. However, since DirectX calls will be translated into OpenGL, you are likely to experience **poor performance** because OpenGL is **deprecated**. Just like DXVK and VKD3D, WINED3D is **included** in WINE.
+ 			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot yet. VKD3D **serves as the fallback** if the game you are trying to play is a **DirectX 12 game**. Just like DXVK, VKD3D is **automatically included** in gaming software.
+			- [WINED3D](https://gitlab.winehq.org/wine/wine/-/tree/master/dlls/wined3d) **-** WINED3D translates **DirectX 8-11** calls into **OpenGL instead of Vulkan**. WINED3D **serves as the fallback** if your system **does not have Vulkan drivers installed**. However, since DirectX calls will be translated into OpenGL, you are likely to experience **poor performance** because OpenGL is **deprecated**. Unlike DXVK and VKD3D, WINED3D is **included** in WINE.
 ```
 +------------------+   DirectX: Windows-specific graphics library
 |       WINE       |   Vulkan: Both Windows & Linux native graphics library
@@ -62,7 +62,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as Lutris.
 ## Warning for NVIDIA Users
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
-- Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and/or performance issues**. Using **X11** is a better option for now.
+- Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** is a better option for now.
 ## Issues of Linux Gaming
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
 	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
@@ -73,7 +73,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 	- **XIGNCODE3**
 	- **nProtect GameGuard**
 - **Easy Anti-Cheat** and **BattlEye** have **Linux-compatible** versions. That's why some developers **may enable Linux compatibility** with their anti-cheat systems **specifically for WINE/Proton**.
-	- However, some games such as **Fortnite** and **Apex Legends** do not enable Linux support in their anti-cheat configuration. That's why **they do not run on Linux**.
+	- However, some games such as **Fortnite** and **Apex Legends** do not enable Linux support in their anti-cheat configurations. That's why **they do not run on Linux**.
 - In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.
 - Except **VANGUARD**, we cannot make a definitive statement about playability of a game that uses one of the anti-cheat systems mentioned above.
 	- The case is different for VANGUARD because no games using VANGUARD are able to run on Linux. This is because VANGUARD is only used by the games of **Riot Games**, which **do not intend to support** Linux players at all.
@@ -85,8 +85,8 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
-	- [Steam](https://store.steampowered.com/) **-** Steam is natively supported on Linux.
-	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a useful game launcher for playing games from **Epic Games, GOG and Prime Gaming**.
+	- [Steam](https://store.steampowered.com/)
+	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a useful game launcher for playing games from **Epic Games, GOG and Prime Gaming** platforms.
 	- [Lutris](https://lutris.net/) **-** Lutris is a feature-rich game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that are not tied to a certain platform.
 		- Lutris provides **community-made installation scripts** for a large number of games and software.
 		- You can also install your games manually, including DVD games, if you have the setup files.
@@ -97,7 +97,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
 # Hybrid Graphics Setup
-- If your system has **two GPUs**, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
+- If your system has **two GPUs (1 integrated + 1 dedicated)**, it is recommended to install Vulkan drivers for both hardware and set games to run through your dedicated GPU.
 - To run games using your dedicated **AMD** GPU, use the following command:
 ```
 DRI_PRIME=1
@@ -133,7 +133,7 @@ Categories=Game;
 ```
 - Simply, you should add `env` first and the command for your GPU. Finally, the package name of the game.
 ### For Steam Games
-Add the command for your GPU in the launch options of the games you want to play. Do not forget to add `%command%` at last like in the example:
+Add the command for your GPU in the launch options of your games. Do not forget to add `%command%` at last like in the example:
 ```
 DRI_PRIME=1 %command%
 ```
@@ -175,7 +175,7 @@ DRI_PRIME=1 gamemoderun %command%
 ## Reducing Game Resolution and Using the Lowest Graphics Settings
 - When you reduce the resolution of a game, less pixels will be rendered and it will result in less loads on your hardware, leading to higher performance.
 - When you play with the lowest graphics settings, less details will be rendered, leading to higher performance.
-- Both ways are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
+- Both are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
 ## Using a Performance Kernel
 - **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
 - **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
@@ -189,7 +189,7 @@ gamemoderun %command%
 ```
 sudo mv gamemode.ini /etc/
 ```
-## Performance-Increasing Environment Variables
+## Performance-Increasing Launch Options
 You can use these environment variables for better performance while gaming:
 - `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *Low impact on performance*
 - `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *High impact on performance*
@@ -197,8 +197,8 @@ You can use these environment variables for better performance while gaming:
 - `DXVK_ASYNC=1` **-** It **displays frames without waiting for shaders to be compiled**. - *Variable impact depending on the game, generally low.*
 	- It works on Lutris and Heroic while it **does not work on Steam games**.
  	- Additionally, using DXVK Async can **get you banned from online games**. That's why, it is only recommended for **offline games**. 
-### How Can You Use These Environment Variables?
-- **Steam -** You can simply use these commands in launch options that is previously mentioned.
+### How Can You Use These Launch Options?
+- **Steam -** You can simply use these commands in launch options section that is [previously mentioned](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games).
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 

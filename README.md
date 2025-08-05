@@ -67,11 +67,11 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
 	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
 - Some examples of kernel-level anti-cheat systems are:
-	- <img width="16" height="32" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **|** **VANGUARD**
-	- <img width="16" height="32" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **|** **Easy Anti-Cheat**
-	- <img width="16" height="32" alt="battleye" src="https://github.com/user-attachments/assets/d24a9587-e4d8-4c4d-b5ff-a182b5e72377" /> **|** **BattlEye**
-	- <img width="16" height="32" alt="xigncode3" src="https://github.com/user-attachments/assets/592042ab-46dd-4373-bcf4-0f1dc5322fe6" /> **|** **XIGNCODE3**
-	- <img width="16" height="32" alt="nprotect" src="https://github.com/user-attachments/assets/8cb5f512-62fa-4c06-b73a-b987c25d85e5" /> **|** **nProtect GameGuard**
+	- <img width="16" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **VANGUARD**
+	- <img width="16" height="25" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **Easy Anti-Cheat**
+	- <img width="16" height="25" alt="battleye" src="https://github.com/user-attachments/assets/d24a9587-e4d8-4c4d-b5ff-a182b5e72377" /> **BattlEye**
+	- <img width="16" height="25" alt="xigncode3" src="https://github.com/user-attachments/assets/592042ab-46dd-4373-bcf4-0f1dc5322fe6" /> **XIGNCODE3**
+	- <img width="16" height="25" alt="nprotect" src="https://github.com/user-attachments/assets/8cb5f512-62fa-4c06-b73a-b987c25d85e5" /> **nProtect GameGuard**
 - **Easy Anti-Cheat** and **BattlEye** have **Linux-compatible** versions. That's why some developers **may enable Linux compatibility** with their anti-cheat systems **specifically for WINE/Proton**.
 	- However, some games such as **Fortnite** and **Apex Legends** do not enable Linux support in their anti-cheat configurations. That's why **they do not run on Linux**.
 - In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.

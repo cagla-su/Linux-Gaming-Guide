@@ -1,12 +1,12 @@
 # Table of Contents
 - [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#before-starting)	
- 	- [How Linux Gaming Works](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#how-linux-gaming-works)
+ 	- [How Linux Gaming Works <img width="16" height="25" alt="linux" src="https://github.com/user-attachments/assets/0a2bb976-b456-4aac-9e61-077c47838a45" />](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#how-linux-gaming-works)
   	- [Warning for <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/675b9126-59e6-4fbf-af53-1a023465daf7" /> NVIDIA Users](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#warning-for--nvidia-users)
-	- [Issues of Linux Gaming](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#issues-of-linux-gaming)
+	- [Issues of Linux Gaming <img width="16" height="25" alt="linux" src="https://github.com/user-attachments/assets/e6a0f578-29b9-4b7c-b97a-31aa9e9b1dca" />](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#issues-of-linux-gaming)
 - [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#get-started)
 	- [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
-	- [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
-	- [Hybrid Graphics Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics-setup)
+	- [Installing Gaming Software <img width="16" height="25" alt="steam" src="https://github.com/user-attachments/assets/12856837-4a13-4203-b42f-c4d80e702bd3" /> **|** <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> **|** <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
+	- [Hybrid Graphics Setup <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/e08c4e5e-47c8-40cc-81f6-cfabb2829198" /> **|** <img width="16" height="32" alt="nvidia" src="https://github.com/user-attachments/assets/13d0a891-100e-45d2-a579-cb3a76a5da06" />](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics-setup)
 		- [Ways to Run Games through the Dedicated GPU](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#ways-to-run-games-through-the-dedicated-gpu)
 	- [External Disk Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#external-disk-setup)
  		- [Get Started: <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" /> GParted](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#get-started--gparted)
@@ -93,7 +93,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 	- <img width="16" height="32" alt="protonplus" src="https://github.com/user-attachments/assets/bc3cfd0e-d0a7-4b6d-9189-10129b0f348d" /> **|** [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
 ### ⚠️
 - You can install these software through either your **package manager** or [Flatpak](https://flatpak.org).
-- You can check <img width="16" height="32" alt="protondb" src="https://github.com/user-attachments/assets/53d10de4-f538-40f2-aac9-1a7c08033607" /> **|** [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
+- You can check <img width="16" height="32" alt="protondb" src="https://github.com/user-attachments/assets/53d10de4-f538-40f2-aac9-1a7c08033607" /> [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
 	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
 # Hybrid Graphics Setup
@@ -111,7 +111,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 	- **1 -** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
  	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#desktop-shortcut-method)
  	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games)
-  	- **4 -** [For Lutris/Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutrisheroic-games)
+  	- **4 -** [For Lutris & Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutrisheroic-games)
 ### Terminal Method
 Simply, launch terminal and execute the command for your GPU like in the example:
 ```
@@ -132,7 +132,7 @@ Terminal=false
 Categories=Game;
 ```
 - Simply, you should add `env` first and the command for your GPU. Finally, the package name of the game.
-### For Steam Games
+### For Steam Games <img width="16" height="32" alt="steam" src="https://github.com/user-attachments/assets/6029f0c6-11d9-464a-ad41-ca5eae5d6154" />
 Add the command for your GPU in the launch options of your games. Do not forget to add `%command%` at last like in the example:
 ```
 DRI_PRIME=1 %command%
@@ -141,7 +141,7 @@ DRI_PRIME=1 %command%
 ```
 DRI_PRIME=1 gamemoderun %command%
 ```
-### For Lutris/Heroic Games
+### For Lutris & Heroic Games <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> **|** <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />
 - **Lutris -** On the left side bar, click the **settings icon** that appears when you point your mouse cursor on `Wine`.
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`

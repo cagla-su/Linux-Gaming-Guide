@@ -1,7 +1,7 @@
 # Table of Contents
 - [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#before-starting)	
  	- [How Linux Gaming Works](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#how-linux-gaming-works)
-  	- [Warning for <img width="16" height="25" alt="nvidiaa" src="https://github.com/user-attachments/assets/ad96da61-5194-4670-87a2-62507ad9c869" /> NVIDIA Users](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#warning-for--nvidia-users)
+  	- [Warning for <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/675b9126-59e6-4fbf-af53-1a023465daf7" /> NVIDIA Users](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#warning-for--nvidia-users)
 	- [Issues of Linux Gaming](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#issues-of-linux-gaming)
 - [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#get-started)
 	- [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
@@ -60,7 +60,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 
 ```
 - You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/0ad0e25c-6775-4d17-95ba-b85353367888" /> Lutris.
-## Warning for <img width="16" height="32" alt="nvidiaa" src="https://github.com/user-attachments/assets/a34ca0f0-f266-4214-b0a8-19bb48e72276" /> NVIDIA Users
+## Warning for <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA Users
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** is a better option for now.
 ## Issues of Linux Gaming
@@ -102,7 +102,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 ```
 DRI_PRIME=1
 ```
- - To run games using your <img width="16" height="32" alt="nvidiaa" src="https://github.com/user-attachments/assets/0917f397-047d-4ee3-94bb-88ab7263aa50" /> **NVIDIA** GPU, use the following command:
+ - To run games using your <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/cf335904-bc37-427e-a86d-c7f9df4bd852" /> **NVIDIA** GPU, use the following command:
 ```
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```

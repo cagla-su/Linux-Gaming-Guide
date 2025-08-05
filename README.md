@@ -5,8 +5,8 @@
 	- [Issues of Linux Gaming <img width="16" height="25" alt="linux" src="https://github.com/user-attachments/assets/e6a0f578-29b9-4b7c-b97a-31aa9e9b1dca" />](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#issues-of-linux-gaming)
 - [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#get-started)
 	- [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
-	- [Installing Gaming Software <img width="16" height="25" alt="steam" src="https://github.com/user-attachments/assets/12856837-4a13-4203-b42f-c4d80e702bd3" /> **|** <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> **|** <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
-	- [Hybrid Graphics Setup <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/e08c4e5e-47c8-40cc-81f6-cfabb2829198" /> **|** <img width="16" height="32" alt="nvidia" src="https://github.com/user-attachments/assets/13d0a891-100e-45d2-a579-cb3a76a5da06" />](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics-setup)
+	- [Installing Gaming Software <img width="16" height="25" alt="steam" src="https://github.com/user-attachments/assets/12856837-4a13-4203-b42f-c4d80e702bd3" /> <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
+	- [Hybrid Graphics Setup <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/e08c4e5e-47c8-40cc-81f6-cfabb2829198" /> <img width="16" height="32" alt="nvidia" src="https://github.com/user-attachments/assets/13d0a891-100e-45d2-a579-cb3a76a5da06" />](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics-setup)
 		- [Ways to Run Games through the Dedicated GPU](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#ways-to-run-games-through-the-dedicated-gpu)
 	- [External Disk Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#external-disk-setup)
  		- [Get Started: <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" /> GParted](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#get-started--gparted)
@@ -110,8 +110,8 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 - There are **four ways** of running games through your dedicated GPU:
 	- **1 -** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
  	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#desktop-shortcut-method)
- 	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games)
-  	- **4 -** [For Lutris & Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutrisheroic-games)
+ 	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games-)
+  	- **4 -** [For Lutris & Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/README.md#for-lutris--heroic-games---)
 ### Terminal Method
 Simply, launch terminal and execute the command for your GPU like in the example:
 ```
@@ -141,7 +141,7 @@ DRI_PRIME=1 %command%
 ```
 DRI_PRIME=1 gamemoderun %command%
 ```
-### For Lutris & Heroic Games <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> **|** <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />
+### For Lutris & Heroic Games <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />
 - **Lutris -** On the left side bar, click the **settings icon** that appears when you point your mouse cursor on `Wine`.
 	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
  - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`

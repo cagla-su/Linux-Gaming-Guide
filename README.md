@@ -1,7 +1,7 @@
 # Table of Contents
 - [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#before-starting)	
  	- [How Linux Gaming Works](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#how-linux-gaming-works) <img width="16" height="25" alt="linux" src="https://github.com/user-attachments/assets/0a2bb976-b456-4aac-9e61-077c47838a45" />
-  	- [Warning for NVIDIA Users](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#warning-for--nvidia-users) <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/675b9126-59e6-4fbf-af53-1a023465daf7" />
+  	- [Warning for NVIDIA Users](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#warning-for-nvidia-users-) <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/675b9126-59e6-4fbf-af53-1a023465daf7" />
 	- [Issues of Linux Gaming](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#issues-of-linux-gaming) <img width="16" height="25" alt="linux" src="https://github.com/user-attachments/assets/e6a0f578-29b9-4b7c-b97a-31aa9e9b1dca" />
 - [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#get-started)
 	- [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
@@ -9,7 +9,7 @@
 	- [Hybrid Graphics Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics-setup) <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/e08c4e5e-47c8-40cc-81f6-cfabb2829198" /> <img width="16" height="32" alt="nvidia" src="https://github.com/user-attachments/assets/13d0a891-100e-45d2-a579-cb3a76a5da06" />
 		- [Ways to Run Games through the Dedicated GPU](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#ways-to-run-games-through-the-dedicated-gpu)
 	- [External Disk Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#external-disk-setup)
- 		- [Get Started: GParted](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#get-started--gparted) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" />
+ 		- [Get Started: GParted](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#get-started-gparted-) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" />
    		- [How to Configure External Disks on Linux?](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#how-to-configure-external-disks-on-linux)
 	- [Optimization Tips](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#optimization-tips)
  		- [Reducing Game Resolution and Using the Lowest Graphics Settings](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#reducing-game-resolution-and-using-the-lowest-graphics-settings)
@@ -60,7 +60,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 
 ```
 - You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/0ad0e25c-6775-4d17-95ba-b85353367888" /> Lutris.
-## Warning for <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA Users
+## Warning for NVIDIA Users <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" />
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** is a better option for now.
 ## Issues of Linux Gaming
@@ -148,7 +148,7 @@ DRI_PRIME=1 gamemoderun %command%
 # External Disk Setup
 - If your external disk is **internally connected**, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
 - These steps also apply if your disk is **internally connected** but still **not working properly**.
-## Get Started: GParted
+## Get Started: GParted <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" />
 - If you would like to format your disk to change its file system from **NTFS** to a **Linux-compatible** one, install `gparted` using your package manager and follow the next steps, making sure your external disk is unmounted while it is physically connected.
 	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
  	- **Next -** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
@@ -177,9 +177,9 @@ DRI_PRIME=1 gamemoderun %command%
 - When you play with the lowest graphics settings, less details will be rendered, leading to higher performance.
 - Both are going to increase performance while reducing visual quality. You can experiment to find your own balanced settings.
 ## Using a Performance Kernel
-- **For Arch and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos)
-- **For Fedora and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
-- **For Debian/Ubuntu and Derivatives:** [XanMod Kernel](https://xanmod.org/)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/943b4b7c-5b29-46aa-b081-b5d5ecc8fec3" /> **| Arch Linux and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/48e91252-38ca-4a48-80b8-57423b90c5da" />
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/95bc6c6d-7d21-4c3a-ac08-31c85ddf8683" /> **| Fedora Linux and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a3d38d39-481b-4436-b22b-b877acc4a6ea" />
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c56a6d0a-133d-4bcf-a594-f4cd8b58e335" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7960ea90-ac89-4e3a-9839-cd77f9ec2b24" /> **| Debian/Ubuntu Linux and Derivatives:** [XanMod Kernel](https://xanmod.org/)
 ## Gamemode
 - [Gamemode](https://github.com/FeralInteractive/gamemode) is a tool that **temporarily** changes your system settings to increase performance during the gameplay. Generally, gaming software like Lutris enable it by default. But on Steam, you have to manually add a command in your game's launch options like in the example:
 ```

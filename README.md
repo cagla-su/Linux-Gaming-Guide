@@ -37,7 +37,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
  	- Valve games such as Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
 - Generally, native Linux games **do not require** any extra steps **unless they do not require Vulkan**. If they do, you need to install Vulkan drivers which is explained in this guide.
 - Windows games require some **essential tools** in order to run on Linux and these tools are:
-	- [WINE](https://www.winehq.org/) / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is Valve's **fork of WINE** and it is specifically configured for **Steam games**.
+	- [WINE](https://www.winehq.org/) <img width="16" height="16" alt="wine" src="https://github.com/user-attachments/assets/70912f69-f1f8-4691-9d54-1b2f6706ca62" /> / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is Valve's **fork of WINE** and it is specifically configured for **Steam games**.
 	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **not included** in WINE but you still **do not need to install DXVK manually** because most of the Linux gaming software include DXVK for users.
 		- There are some **other tools** that are used for **similar purposes** as DXVK, these tools are:
  			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot yet. VKD3D **serves as the fallback** if the game you are trying to play is a **DirectX 12 game**. Just like DXVK, VKD3D is **automatically included** in gaming software.
@@ -190,7 +190,7 @@ gamemoderun %command%
 sudo mv gamemode.ini /etc/
 ```
 ## Performance-Increasing Launch Options
-You can use these environment variables for better performance while gaming:
+You can use these launch options for better performance while gaming:
 - `WINEDEBUG=-all` **-** It suppresses all debug outputs of WINE. - *Low impact on performance*
 - `mesa_glthread=true` **-** It improves **OpenGL performance** on **Intel/AMD GPUs**. - *High impact on performance*
 - `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on **NVIDIA GPUs**. - *High impact on performance*

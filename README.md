@@ -26,18 +26,18 @@
 ## Türkçe Çeviri 🇹🇷
 Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
 # Linux Gaming Guide
-Hello! This guide will help you understand **how gaming on Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/ef8baa5a-7c64-44b6-9a15-7f4c1aa632cd" /> works**, **how to prepare your system**, and **how to optimize it for better performance**. If you are ready, let's begin!
+Hello! This guide will help you understand **how gaming on Linux works**, **how to prepare your system**, and **how to optimize it for better performance**. If you are ready, let's begin!
 # Before Starting
-- Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/02744f4d-035d-4c88-9ae4-508185bdd70a" />  gaming is swiftly improving. Every passing day, more users switch to Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/fd1a1450-f576-40b5-83bb-fa8d4bd80efe" />. In this context, the market share of Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/948330cc-bcb5-4e11-8c2c-05fd55392613" />  gaming is increasing.
-- This guide aims to be useful for everyone who wants to play games on Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/c05bd89f-838d-4a53-aad8-bb5a5cbb4a69" />  but does not know where to start.
+- Linux gaming is swiftly improving. Every passing day, more users switch to Linux. In this context, the market share of Linux gaming is increasing.
+- This guide aims to be useful for everyone who wants to play games on Linux but does not know where to start.
 - After reading this guide, feel free to check out the [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) section if any of the listed games interest you.
 ## How Linux Gaming Works
-- You can play most of the Windows <img width="16" height="18" alt="windows" src="https://github.com/user-attachments/assets/43054f3c-db9a-4348-8db9-2bbd982ef4c8" />  games on Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/00fc4b61-c03f-40e0-b1c9-7aa1f828ceb7" />. However, this **does not mean** that there are **no native Linux games**. **Some native Linux games** are:
+- You can play most of the Windows games on Linux. However, this **does not mean** that there are **no native Linux games**. **Some native Linux games** are:
 	- Minecraft, Terraria, Stardew Valley, Euro Truck Simulator 2 and more
  	- Valve games such as Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
 - Generally, native Linux games **do not require** any extra steps **unless they do not require Vulkan**. If they do, you need to install Vulkan drivers which is explained in this guide.
 - Windows games require some **essential tools** in order to run on Linux and these tools are:
-	- [WINE](https://www.winehq.org/) <img width="16" height="16" alt="wine" src="https://github.com/user-attachments/assets/70912f69-f1f8-4691-9d54-1b2f6706ca62" /> / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is Valve's **fork of WINE** and it is specifically configured for **Steam games**.
+	- [WINE](https://www.winehq.org/) / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is Valve's **fork of WINE** and it is specifically configured for **Steam games**.
 	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **not included** in WINE but you still **do not need to install DXVK manually** because most of the Linux gaming software include DXVK for users.
 		- There are some **other tools** that are used for **similar purposes** as DXVK, these tools are:
  			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot yet. VKD3D **serves as the fallback** if the game you are trying to play is a **DirectX 12 game**. Just like DXVK, VKD3D is **automatically included** in gaming software.
@@ -61,17 +61,17 @@ Hello! This guide will help you understand **how gaming on Linux <img width="16"
 ```
 - You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as Lutris.
 ## Warning for NVIDIA Users
-- NVIDIA <img width="16" height="16" alt="nvidia" src="https://github.com/user-attachments/assets/0fa2f9d6-f18b-43b5-8abc-dd1b2bf9306a" /> is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
-- Also, you **should not use Wayland** <img width="16" height="16" alt="wayland" src="https://github.com/user-attachments/assets/d3ff0233-9b7e-4470-8185-19182f9f0bdf" /> unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** <img width="16" height="16" alt="x11" src="https://github.com/user-attachments/assets/4ef12c31-5d69-4613-a442-a98e6a294fc2" /> is a better option for now.
+- NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
+- Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** is a better option for now.
 ## Issues of Linux Gaming
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
 	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
 - Some examples of kernel-level anti-cheat systems are:
-	- **VANGUARD**
-	- **Easy Anti-Cheat**
-	- **BattlEye**
-	- **XIGNCODE3**
-	- **nProtect GameGuard**
+	- <img width="16" height="21" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **VANGUARD**
+	- <img width="16" height="14" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **Easy Anti-Cheat**
+	- <img width="16" height="20" alt="battleye" src="https://github.com/user-attachments/assets/d24a9587-e4d8-4c4d-b5ff-a182b5e72377" /> **BattlEye**
+	- <img width="16" height="21" alt="xigncode3" src="https://github.com/user-attachments/assets/592042ab-46dd-4373-bcf4-0f1dc5322fe6" /> **XIGNCODE3**
+	- <img width="16" height="15" alt="nprotect" src="https://github.com/user-attachments/assets/8cb5f512-62fa-4c06-b73a-b987c25d85e5" /> **nProtect GameGuard**
 - **Easy Anti-Cheat** and **BattlEye** have **Linux-compatible** versions. That's why some developers **may enable Linux compatibility** with their anti-cheat systems **specifically for WINE/Proton**.
 	- However, some games such as **Fortnite** and **Apex Legends** do not enable Linux support in their anti-cheat configurations. That's why **they do not run on Linux**.
 - In addition to enabling Linux-compatible configurations, some games only use the **user-mode module** of these anti-cheat systems, which makes them playable on Linux.
@@ -85,15 +85,15 @@ Hello! This guide will help you understand **how gaming on Linux <img width="16"
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
-	- [Steam](https://store.steampowered.com/)
-	- [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a useful game launcher for playing games from **Epic Games, GOG and Prime Gaming** platforms.
-	- [Lutris](https://lutris.net/) **-** Lutris is a feature-rich game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that are not tied to a certain platform.
+	- <img width="16" height="16" alt="steam" src="https://github.com/user-attachments/assets/6029f0c6-11d9-464a-ad41-ca5eae5d6154" /> [Steam](https://store.steampowered.com/)
+	- <img width="16" height="16" alt="heroic" src="https://github.com/user-attachments/assets/0b43d4df-ae49-4887-80eb-d4473ae22876" /> [Heroic Games Launcher](https://heroicgameslauncher.com/) **-** Heroic is a useful game launcher for playing games from **Epic Games, GOG and Prime Gaming** platforms.
+	-<img width="16" height="16" alt="lutris" src="https://github.com/user-attachments/assets/25cbd40d-21e9-4b04-a80e-7ca5d04ad42e" /> [Lutris](https://lutris.net/) **-** Lutris is a feature-rich game launcher for playing Windows games. You can **directly** install some gaming platforms such as **Epic Games, Battle.net, Ubisoft etc.** and run them using Lutris but you can also play games that are not tied to a certain platform.
 		- Lutris provides **community-made installation scripts** for a large number of games and software.
 		- You can also install your games manually, including DVD games, if you have the setup files.
-	- [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
+	- <img width="16" height="16" alt="protonplus" src="https://github.com/user-attachments/assets/bc3cfd0e-d0a7-4b6d-9189-10129b0f348d" /> [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install custom WINE/Proton builds for better compatibility and performance using ProtonPlus. Custom WINE/Proton builds are supported by Lutris, Steam and Heroic.
 ### ⚠️
 - You can install these software through either your **package manager** or [Flatpak](https://flatpak.org).
-- You can check [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
+- You can check <img width="16" height="16" alt="protondb" src="https://github.com/user-attachments/assets/53d10de4-f538-40f2-aac9-1a7c08033607" /> [ProtonDB](https://www.protondb.com) to see whether your Steam games are playable on Linux.
 	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
 	- You can get optimization tips if there are any reviews written for your game. If you wish, you can write your own reviews for any Steam game you wish.
 # Hybrid Graphics Setup

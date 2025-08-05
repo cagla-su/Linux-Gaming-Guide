@@ -65,7 +65,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 - Also, you **should not use <img width="16" height="25" alt="wayland" src="https://github.com/user-attachments/assets/60246125-5de0-4506-b972-08b65882e92a" /> Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using <img width="16" height="25" alt="x11" src="https://github.com/user-attachments/assets/8bcae848-67a0-4c0b-953b-691de65aa430" /> **X11** is a better option for now.
 ## Issues of Linux Gaming
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
-	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for <img width="16" height="25" alt="windows" src="https://github.com/user-attachments/assets/7657f3d7-2ea9-402c-b250-b3376a70f1f4" /> Windows**.
+	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.
 - Some examples of kernel-level anti-cheat systems are:
 	- <img width="16" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **| VANGUARD**
 	- <img width="16" height="25" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **| Easy Anti-Cheat**

@@ -1,7 +1,7 @@
 # Table of Contents
 - [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#before-starting)	
  	- [How Linux Gaming Works](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#how-linux-gaming-works)
-  	- [Warning for NVIDIA Users](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#warning-for-nvidia-users)
+  	- [Warning for <img width="16" height="25" alt="nvidia" src="https://github.com/user-attachments/assets/cf08468b-60d1-43af-8331-160e5a4d9eed" /> NVIDIA Users](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#warning-for-nvidia-users)
 	- [Issues of Linux Gaming](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#issues-of-linux-gaming)
 - [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#get-started)
 	- [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
@@ -9,7 +9,7 @@
 	- [Hybrid Graphics Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics-setup)
 		- [Ways to Run Games through the Dedicated GPU](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#ways-to-run-games-through-the-dedicated-gpu)
 	- [External Disk Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#external-disk-setup)
- 		- [Get Started: GParted](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#get-started-gparted)
+ 		- [Get Started: <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" /> GParted](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#get-started-gparted)
    		- [How to Configure External Disks on Linux?](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#how-to-configure-external-disks-on-linux)
 	- [Optimization Tips](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#optimization-tips)
  		- [Reducing Game Resolution and Using the Lowest Graphics Settings](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#reducing-game-resolution-and-using-the-lowest-graphics-settings)
@@ -37,7 +37,7 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
  	- Valve games such as Counter-Strike series, Team Fortress 2, Dota 2, Portal etc.
 - Generally, native Linux games **do not require** any extra steps **unless they do not require Vulkan**. If they do, you need to install Vulkan drivers which is explained in this guide.
 - Windows games require some **essential tools** in order to run on Linux and these tools are:
-	- [WINE](https://www.winehq.org/) / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is Valve's **fork of WINE** and it is specifically configured for **Steam games**.
+	- <img width="16" height="25" alt="wine" src="https://github.com/user-attachments/assets/82480520-15a6-4b43-b188-27f29d3e3f71" /> [WINE](https://www.winehq.org/) / [Proton](https://github.com/ValveSoftware/Proton) **-** WINE is a compatibility layer which directs **Windows library files** into **Linux library files**. It works the same as **the compatibility mode on Windows**. Proton is Valve's **fork of WINE** and it is specifically configured for <img width="16" height="25" alt="steam" src="https://github.com/user-attachments/assets/ca0fc053-80ad-4bcd-82b8-6cdaa913cb43" /> **Steam games**.
 	- [DXVK](https://github.com/doitsujin/dxvk) **-** DXVK translates **DirectX 8-11** calls into **Vulkan** to make Windows games run on Linux. DXVK is **not included** in WINE but you still **do not need to install DXVK manually** because most of the Linux gaming software include DXVK for users.
 		- There are some **other tools** that are used for **similar purposes** as DXVK, these tools are:
  			- [VKD3D](https://gitlab.winehq.org/wine/vkd3d) **-** VKD3D translates **DirectX 12** calls into **Vulkan** which DXVK cannot yet. VKD3D **serves as the fallback** if the game you are trying to play is a **DirectX 12 game**. Just like DXVK, VKD3D is **automatically included** in gaming software.
@@ -59,8 +59,8 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 +--------------------------+
 
 ```
-- You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as Lutris.
-## Warning for NVIDIA Users
+- You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/0ad0e25c-6775-4d17-95ba-b85353367888" /> Lutris.
+## Warning for <img width="16" height="16" alt="nvidia" src="https://github.com/user-attachments/assets/bc5ef2c7-892c-4a2f-8415-7200a93142cf" /> NVIDIA Users
 - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
 - Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** is a better option for now.
 ## Issues of Linux Gaming

@@ -26,10 +26,10 @@
 ## Türkçe Çeviri 🇹🇷
 Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
 # Linux Gaming Guide
-Hello! This guide will help you understand **how gaming on Linux works**, **how to prepare your system**, and **how to optimize it for better performance**. If you are ready, let's begin!
+Hello! This guide will help you understand **how gaming on Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/ef8baa5a-7c64-44b6-9a15-7f4c1aa632cd" /> works**, **how to prepare your system**, and **how to optimize it for better performance**. If you are ready, let's begin!
 # Before Starting
-- Linux gaming is swiftly improving. Every passing day, more users switch to Linux. In this context, the market share of Linux gaming is increasing.
-- This guide aims to be useful for everyone who wants to play games on Linux but does not know where to start.
+- Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/02744f4d-035d-4c88-9ae4-508185bdd70a" /> gaming is swiftly improving. Every passing day, more users switch to Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/fd1a1450-f576-40b5-83bb-fa8d4bd80efe" />. In this context, the market share of Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/948330cc-bcb5-4e11-8c2c-05fd55392613" /> gaming is increasing.
+- This guide aims to be useful for everyone who wants to play games on Linux <img width="16" height="19" alt="linux" src="https://github.com/user-attachments/assets/c05bd89f-838d-4a53-aad8-bb5a5cbb4a69" /> but does not know where to start.
 - After reading this guide, feel free to check out the [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) section if any of the listed games interest you.
 ## How Linux Gaming Works
 - You can play most of the Windows games on Linux. However, this **does not mean** that there are **no native Linux games**. **Some native Linux games** are:
@@ -61,8 +61,8 @@ Hello! This guide will help you understand **how gaming on Linux works**, **how 
 ```
 - You **do not need to install WINE manually** because WINE is installed **automatically** when you install a gaming software such as Lutris.
 ## Warning for NVIDIA Users
-- NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
-- Also, you **should not use Wayland** unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** is a better option for now.
+- NVIDIA <img width="16" height="16" alt="nvidia" src="https://github.com/user-attachments/assets/0fa2f9d6-f18b-43b5-8abc-dd1b2bf9306a" /> is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
+- Also, you **should not use Wayland** <img width="16" height="16" alt="wayland" src="https://github.com/user-attachments/assets/d3ff0233-9b7e-4470-8185-19182f9f0bdf" /> unless you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using **X11** <img width="16" height="16" alt="x11" src="https://github.com/user-attachments/assets/4ef12c31-5d69-4613-a442-a98e6a294fc2" /> is a better option for now.
 ## Issues of Linux Gaming
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat systems**.
 	- These anti-cheat systems are not able to run on Linux because a kernel-level anti-cheat system that is developed for a Windows game means that the anti-cheat system **requires a kernel called "Windows NT" that is only available for Windows**.

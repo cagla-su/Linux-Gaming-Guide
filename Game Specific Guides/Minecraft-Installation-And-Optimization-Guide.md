@@ -75,7 +75,8 @@ These mods do not increase performance but they can enhance your gaming experien
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8c424367-bb07-472a-a6a6-58b1ae02dda9" /> [Fresh Animations: Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions)
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f2f43428-391e-46c0-ac10-8d53ecc5d1ee" /> [Trailer Player Animations](https://modrinth.com/resourcepack/fresh-player-animations)
     - Make sure the texture packs are placed accordingly like in the example:
-      - 
+      - <img width="387" height="505" alt="image" src="https://github.com/user-attachments/assets/0cced448-c8a0-48ef-8a7e-0f9a140449a7" />
+
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b6c27501-d819-4e0a-b3b4-cc17169fcac1" /> [Explosive Enhancement](https://modrinth.com/mod/explosive-enhancement)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/71bd5880-201b-41f8-bb5e-053949267b94" /> [Hold My Items](https://modrinth.com/mod/hold-my-items)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ce6dca60-a2d4-49c7-9f17-ba571558325f" /> [Iris Shaders](https://modrinth.com/mod/iris)

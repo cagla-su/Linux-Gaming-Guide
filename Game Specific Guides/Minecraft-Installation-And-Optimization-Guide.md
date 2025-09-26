@@ -1,33 +1,32 @@
 # Minecraft
-Minecraft is a **native Linux** sandbox game that works using **OpenGL**.
+<img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft is a sandbox game that works using **OpenGL**.
 ## Get Started
-First of all, I definitely suggest that you use [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the official Minecraft launcher.
+First of all, I definitely suggest that you use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher.
 ### Install Prism Launcher
-You can install Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/?from=button).
+You can install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/?from=button).
 ### Install Java
-Prism Launcher automatically installs Java for you.
+<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher automatically installs Java for you.
 ### Install Minecraft
-- Launch Prism Launcher and continue until the **memory allocation** step.
+- Launch <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher and continue until the **memory allocation** step.
 - Then, make sure to change `Maximum memory allocation` value. There is a rumor that if you allocate half your RAM, you are going to get good performance. However, this is wrong because:
-  - When you play Minecraft, the game, or Java, tries to free up allocated memory that is no longer used by objects to avoid memory issues. This is called **garbage collection**.
+  - When you play <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft, the game tries to free up allocated memory that is no longer used by objects to avoid memory issues. This is called **garbage collection**.
     - However, you **should not** allocate **too much or too little** RAM, because:
-      - If you allocate **too much** RAM, Java will wait longer between garbage collection cycles and each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
-      - If you allocate **too little** RAM, Java will perform garbage collection too often and this will cause big lag spikes again.
-    - When Minecraft uses between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. I suggest that you experiment different values yourself to find your ideal value. You can check RAM usage by pressing `F3` during the gameplay.
-- After completing quick setup, add your Microsoft account in the launcher.
+      - If you allocate **too much** RAM, the game will wait longer between garbage collection cycles and each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
+      - If you allocate **too little** RAM, the game will perform garbage collection too often and this will cause big lag spikes again.
+    - When <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft uses between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. I suggest that you experiment different values yourself to find your ideal value. You can check RAM usage by pressing `F3` during the gameplay.
+- After completing quick setup, add your <img width="16" height="25" alt="microsoft" src="https://github.com/user-attachments/assets/d19efd30-17c2-4af2-9147-121dd23ebda6" /> Microsoft account in the launcher.
 - **Next** : `Add Instance` **-** `Version` **-** `Select the version you desire and scroll down` **-** `Select "Fabric" as the mod loader` **-** `OK`
 ## Optimization
 - `Settings` **-** `Minecraft` **-** `Tweaks` **-** `Enable Feral GameMode` **&** `Use discrete GPU (only if you have two GPUs)`
 - `Settings` **-** `Environment Variables` **-** `Add` **-** `mesa_glthread=true`
 <img width="731" height="96" alt="image" src="https://github.com/user-attachments/assets/3cd34257-d1cf-4509-8967-d8499e61318a" />
 
-- If you are using NVIDIA, you should use the `__GL_THREADED_OPTIMIZATIONS=1` environment variable instead.
-- You are ready to play Minecraft now. However, the performance of the game can still be increased through performance mods and optimized in-game settings.
-## Sodium Method - Recommended For Version 1.16.3 and Later
+- If you are using <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/675b9126-59e6-4fbf-af53-1a023465daf7" /> **NVIDIA**, you should use the `__GL_THREADED_OPTIMIZATIONS=1` environment variable instead.
+- You are ready to play <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft now. However, the performance of the game can still be increased through performance mods and optimized in-game settings.
+## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium Method - Recommended for Version 1.16.3 and Later
 - `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
 - **Suggested Performance Mods and Dependencies**
-  - `Almanac`
-  - `Alternate Current`
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> **|** `Alternate Current`
   - `AsyncParticles`
   - `BadOptimizations`
   - `Better Biome Reblend`
@@ -59,13 +58,13 @@ Prism Launcher automatically installs Java for you.
   - `Remove Reloading Screen`
   - `Sodium`
   - `Sodium Extra`
-### Optifine Features Without Optifine
-In Optifine, there are some other nice features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. You can get the same features without Optifine through the mods below:
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Features without <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine
+In <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine, there are some other nice features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. You can get the same features without <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine through the mods below:
 - **Zooming Feature -** `Zoomify`
 - **Shaders Feature -** `Iris`
 - **Dynamic Lighting Feature -** `LambDynamicLights`
 - **Connected Textures Feature -** `Continuity`
-### Sodium - In Game Optimized Settings
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium - In-Game Optimized Settings
 - **If you are going to use Zoomify :** `Options` **-** `Controls` **-** `Key Binds` **-** `Change key bind of "Save Hotbar Activator" to something else` **-** `Done`
 - `Options` **-** `Resource Packs` **-** `Move "Default Connected Textures" and "Glass Pane Culling Fix" to the right section` **-** `Done`
 - `Options` **-** `Video Settings`
@@ -86,10 +85,10 @@ In Optifine, there are some other nice features that are not about increasing pe
     - `Distortion Effects` **:** 60%
     - `FOV Effects` **:** 60%
     - `Mipmap Levels` **:** 1x
-## Optifine Method - Recommended For Version 1.16.2 and Earlier
-- If you want to use Optifine, I suggest that you use **the official Minecraft launcher** instead because it is going to be hard and meaningless to use Optifine through Prism Launcher.
-- Simply, download [Optifine](https://optifine.net/downloads) for the Minecraft version you would like to play and click `Install` after running the **.jar** file you downloaded.
-### Optifine - In-Game Optimized Settings
+## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Method - Recommended for Version 1.16.2 and Earlier
+- If you want to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine, I suggest that you use **the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher** instead because it is going to be hard and meaningless to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher.
+- Simply, download <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine](https://optifine.net/downloads) for the <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft version you would like to play and click `Install` after running the **.jar** file you downloaded.
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - In-Game Optimized Settings
 - `Options`
   - **Video Settings**
     `Graphics` **:** Fast

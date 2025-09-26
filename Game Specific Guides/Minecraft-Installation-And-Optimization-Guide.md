@@ -115,9 +115,10 @@ These mods do not increase performance but they can enhance your gaming experien
     - `Distortion Effects` **:** 60%
     - `FOV Effects` **:** 60%
     - `Mipmap Levels` **:** 1x
-## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod Method - Recommended for Version 1.18.2 and Later (for GPUs that completely support Vulkan)
-`Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
-### Essential Mods for The Method
+## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod Method - Recommended for Version 1.18.2 and Later
+⚠️ - Please make sure that your GPU **completely supports Vulkan** before choosing this method. If you have either a very old computer or a GPU that does not completely support Vulkan, please try either <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium method or <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine method.
+- `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
+### Essential Mods
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> [VulkanMod](https://modrinth.com/mod/vulkanmod)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a1c77f17-1e27-4de5-8729-538a4d4f77a3" /> [VulkanMod Extra](https://modrinth.com/mod/vulkanmod-extra)
 - You can use all the mods that are mentioned in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium method **except:**

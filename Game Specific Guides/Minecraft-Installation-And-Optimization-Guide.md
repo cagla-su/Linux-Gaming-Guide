@@ -26,7 +26,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium Method - Recommended for Version 1.16.3 and Later
 - `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
 - **Suggested Performance Mods and Dependencies**
-  - `Alternate Current` **|** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" />
+  - `Alternate Current` **|** <img width="16" height="16" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" />
   - `AsyncParticles`
   - `BadOptimizations`
   - `Better Biome Reblend`

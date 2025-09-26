@@ -55,12 +55,39 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
   - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cfdb1b64-8465-43e5-abdf-9c87071d16f9" /> [ScalableLux](https://modrinth.com/mod/scalablelux)
   - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
   - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e1b5c91-ec49-4d00-a583-ad4f138416a0" /> [Sodium Extra](https://modrinth.com/mod/sodium-extra)
-### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Features without <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine
-In <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine, there are some other nice features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. You can get the same features without <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine through the mods below:
-- **Zooming Feature -** `Zoomify`
-- **Shaders Feature -** `Iris`
-- **Dynamic Lighting Feature -** `LambDynamicLights`
-- **Connected Textures Feature -** `Continuity`
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d8dc60e0-a46f-4b07-82d1-4aba5f26151c" /> [WayFix](https://modrinth.com/mod/wayfix) - *Use this mod only if you are using* **Linux (Wayland)**. After installing the mod, follow the next steps for full functionality:*
+    - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`
+### Quality of Life Mods
+These mods do not increase performance but they can enhance your gaming experience.
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/89647668-920c-4c1a-acda-bbbe3df37439" /> [Better Advancements](https://modrinth.com/mod/better-advancements)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/975a6695-c061-448a-a8b0-efb9febbb44d" /> [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/457a456b-6aa7-4d08-a763-596887b3fc1a" /> [BetterF3](https://modrinth.com/mod/betterf3)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/06629688-afe5-4c33-8b2e-cd216b8a3c03" /> [Chat Heads](https://modrinth.com/mod/chat-heads)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7a092471-2d3c-4750-b98a-5b03bba15d4a" /> [Continuity](https://modrinth.com/mod/continuity)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e15e0dd-f84d-4ab5-8de9-89bc83049848" /> [e4mc](https://modrinth.com/mod/e4mc)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/415b2b80-4f6c-46b9-b522-29abd57992db" /> [Entity Model Features](https://modrinth.com/mod/entity-model-features)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/280b9bcb-8abc-4e2a-998a-628fdfbaf919" /> [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
+  - You need to install some resource packs for **EMF** and **ETF** mods to work. These resource packs are:
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/5871c983-84ec-4dce-8e2e-70ff170f4327" /> [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/bc16bf62-c45a-4118-bd1e-86335e84ac57" /> [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player)
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8c424367-bb07-472a-a6a6-58b1ae02dda9" /> [Fresh Animations: Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions)
+    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f2f43428-391e-46c0-ac10-8d53ecc5d1ee" /> [Trailer Player Animations](https://modrinth.com/resourcepack/fresh-player-animations)
+    - Make sure the texture packs are placed accordingly like in the example:
+      - 
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b6c27501-d819-4e0a-b3b4-cc17169fcac1" /> [Explosive Enhancement](https://modrinth.com/mod/explosive-enhancement)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/71bd5880-201b-41f8-bb5e-053949267b94" /> [Hold My Items](https://modrinth.com/mod/hold-my-items)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ce6dca60-a2d4-49c7-9f17-ba571558325f" /> [Iris Shaders](https://modrinth.com/mod/iris)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/62a10ece-8839-4a3e-8307-797206324ec8" /> [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98ad55b0-d271-4246-ad19-a43a32da9853" /> [MinecraftCapes](https://modrinth.com/mod/minecraftcapes)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1cc81c04-523b-4baa-85aa-ca4ea87ef9e4" /> [Model Gap Fix](https://modrinth.com/mod/modelfix)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fb5b0718-ba49-4a70-8454-05f4dd6fd988" /> [Not Enough Animatons](https://modrinth.com/mod/not-enough-animations)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/77bf5030-673d-443c-8c62-2006b0d379ef" /> [Sit](https://modrinth.com/mod/bl4cks-sit)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc8149d9-567a-4a17-beed-c59407297cc1" /> [Smooth Scroll](https://modrinth.com/mod/smooth-scroll)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e42a5d2-c40e-4eba-8a97-533b4b1ab59b" /> [Subtle Effects](https://modrinth.com/mod/subtle-effects) - *disable* **Particle Core mod** *or disable* **particle culling feature** using **Mod Menu mod** *if you want to use this mod*
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8aa74f40-726c-4cd5-ae01-ce14aad9bd6a" /> [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/47669d5e-eb43-44cf-a8b3-225d7ed35cc2" /> [Zoomify](https://modrinth.com/mod/zoomify)
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium - In-Game Optimized Settings
 - **If you are going to use Zoomify :** `Options` **-** `Controls` **-** `Key Binds` **-** `Change key bind of "Save Hotbar Activator" to something else` **-** `Done`
 - `Options` **-** `Resource Packs` **-** `Move "Default Connected Textures" and "Glass Pane Culling Fix" to the right section` **-** `Done`

@@ -26,38 +26,36 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium Method - Recommended for Version 1.16.3 and Later
 - `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
 - **Suggested Performance Mods and Dependencies**
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> **|** `Alternate Current`
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> `Alternate Current`
   - `AsyncParticles`
   - `BadOptimizations`
   - `Better Biome Reblend`
-  - `Cloth Config`
-  - `Clumps`
   - `Concurrent Chunk Management Engine`
+  - `Debugify`
   - `Dynamic FPS`
-  - `EntityCulling`
   - `Fabric API`
   - `Fabric Language Kotlin`
+  - `Fadeless`
+  - `Fast IP Ping`
   - `Fast Item Frames`
   - `FastQuit`
   - `FerriteCore`
-  - `Forge Config API Port`
-  - `Fzzy Config`
+  - `GPU Tape`
   - `ImmediatelyFast`
   - `Krypton`
-  - `Ksyxis`
-  - `Let Me Despawn`
   - `Lithum`
-  - `Model Gap Fix`
-  - `No Telemetry`
+  - `Mod Menu`
+  - `ModernFix`
+  - `No Chat Reports`
   - `Noisium`
-  - `OptiGUI`
   - `PacketFixer`
   - `Particle Core`
-  - `Puzzles Lib`
   - `Reese's Sodium Options`
   - `Remove Reloading Screen`
+  - `ScalableLux`
   - `Sodium`
   - `Sodium Extra`
+  - `Very Many Players`
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Features without <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine
 In <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine, there are some other nice features that are not about increasing performance such as **zooming, being able to use shaders, dynamic lighting and connected textures**. You can get the same features without <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine through the mods below:
 - **Zooming Feature -** `Zoomify`

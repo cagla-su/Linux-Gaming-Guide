@@ -64,7 +64,7 @@ Hello! This guide aims to help you understand **how gaming on Linux works**, **h
 - Also, you **should not use** <img width="16" height="25" alt="wayland" src="https://github.com/user-attachments/assets/60246125-5de0-4506-b972-08b65882e92a" /> Wayland unless you use one of the recent <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using <img width="16" height="25" alt="x11" src="https://github.com/user-attachments/assets/8bcae848-67a0-4c0b-953b-691de65aa430" /> X11 is a better option for now.
 ## Issues of Linux Gaming
 - There are not too many issues when it comes to gaming on Linux. However, the main limitation is **kernel-level anti-cheat software**.
-	- These anti-cheat software are not able to run on Linux because a kernel-level anti-cheat software that is developed for a Windows game means that the anti-cheat software **requires a kernel called "Windows NT" that is only available for Windows**.
+	- These anti-cheat software are not able to run on Linux. The reason why is a kernel-level anti-cheat software that is developed for a Windows game means that the anti-cheat software **requires a kernel called "Windows NT", which is only available for Windows**.
 - Some examples of kernel-level anti-cheat software are:
 	- <img width="16" height="25" alt="vanguard" src="https://github.com/user-attachments/assets/6095bacf-fdfb-48a8-bab2-a0075af23509" /> **| VANGUARD**
 	- <img width="16" height="25" alt="easyac" src="https://github.com/user-attachments/assets/e2c376fe-15fb-40e6-a509-44bba91aa55f" /> **| Easy Anti-Cheat**
@@ -80,7 +80,7 @@ Hello! This guide aims to help you understand **how gaming on Linux works**, **h
 ## Installing Vulkan Drivers
 - This step is explained in <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/0ad0e25c-6775-4d17-95ba-b85353367888" /> [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
 - If you do not see your Linux distribution in the page, that probably means Mesa **(the default <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/262e5a2c-6c88-4e6f-a0d1-d8428fb16504" /> <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> Intel/AMD GPU driver)** Vulkan drivers are preinstalled on your Linux distribution.
-	- However, if you do not see your distribution in the page and if you are using <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA, I suggest that you find a **different documentation** for installation steps or **switch to one of the distributions** that are mentioned in the page.
+	- However, if you do not see your distribution in the page and if you are using <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> **NVIDIA**, I suggest that you find a **different documentation** for installation steps or **switch to one of the distributions** that are mentioned in the page.
 
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
@@ -187,8 +187,8 @@ gamemoderun %command%
 ```
 ## Performance-Increasing Launch Options
 You can use these launch options for higher performance while gaming:
-- `DXVK_LOG_LEVEL=none` **-** It suppresses all DXVK logs to keep game folders clean and increase performance as gaming software will not spend time processing and writing log data. - *Medium impact on performance*
-- `WINEDEBUG=-all` **-** It suppresses all debug outputs of <img width="16" height="25" alt="wine" src="https://github.com/user-attachments/assets/82480520-15a6-4b43-b188-27f29d3e3f71" /> WINE. - *Low impact on performance*
+- `DXVK_LOG_LEVEL=none` **-** It **suppresses all DXVK logs** to keep game folders clean and increase performance as gaming software **will not spend time processing and writing log data**. - *Medium impact on performance*
+- `WINEDEBUG=-all` **-** It **suppresses all debug outputs of <img width="16" height="25" alt="wine" src="https://github.com/user-attachments/assets/82480520-15a6-4b43-b188-27f29d3e3f71" /> WINE**. - *Low impact on performance*
 - `mesa_glthread=true` **-** It improves **OpenGL performance** on <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/315abff4-87d6-4779-b38d-08f07b8237a4" /> <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **Intel/AMD GPUs**. - *High impact on performance*
 - `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/cf335904-bc37-427e-a86d-c7f9df4bd852" /> **NVIDIA GPUs**. - *High impact on performance*
 - `DXVK_ASYNC=1` **-** It **displays frames without waiting for shaders to be compiled**. - *Variable impact depending on the game, generally low.*

@@ -55,7 +55,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
   - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cfdb1b64-8465-43e5-abdf-9c87071d16f9" /> [ScalableLux](https://modrinth.com/mod/scalablelux)
   - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
   - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e1b5c91-ec49-4d00-a583-ad4f138416a0" /> [Sodium Extra](https://modrinth.com/mod/sodium-extra)
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d8dc60e0-a46f-4b07-82d1-4aba5f26151c" /> [WayFix](https://modrinth.com/mod/wayfix) - *Use this mod only if you are using* **Linux (Wayland)**. After installing the mod, follow the next steps for full functionality:*
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d8dc60e0-a46f-4b07-82d1-4aba5f26151c" /> [WayFix](https://modrinth.com/mod/wayfix) - *Use this mod only if you are using* **Linux (Wayland)**. *After installing the mod, follow the next steps for full functionality:*
     - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`
 ### Quality of Life Mods
 These mods do not increase performance but they can enhance your gaming experience.
@@ -75,6 +75,7 @@ These mods do not increase performance but they can enhance your gaming experien
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8c424367-bb07-472a-a6a6-58b1ae02dda9" /> [Fresh Animations: Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions)
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f2f43428-391e-46c0-ac10-8d53ecc5d1ee" /> [Trailer Player Animations](https://modrinth.com/resourcepack/fresh-player-animations)
     - Make sure the texture packs are placed accordingly like in the example:
+
       - <img width="387" height="505" alt="image" src="https://github.com/user-attachments/assets/0cced448-c8a0-48ef-8a7e-0f9a140449a7" />
 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b6c27501-d819-4e0a-b3b4-cc17169fcac1" /> [Explosive Enhancement](https://modrinth.com/mod/explosive-enhancement)

@@ -48,18 +48,14 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium Method - Recommended for Version 1.16.3 and Later
 `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
 ### Essential Performance-Increasing Mods and Dependencies
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> [Alternate Current](https://modrinth.com/mod/alternate-current)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7132b796-85f6-49a8-9c96-213106a6be3f" /> [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1f386453-e995-452e-a87f-95157f3fe3fe" /> [BadOptimizations](https://modrinth.com/mod/badoptimizations)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f4ae3ef-99b3-4533-8bf6-978b0cf1e877" /> [Better Biome Reblend](https://modrinth.com/mod/bbrb)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/15cd42eb-fa80-4855-b21a-07538165dd9a" /> [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/232977c7-0ac0-4d8e-a877-e7f7794a9874" /> [Debugify](https://modrinth.com/mod/debugify)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4373d9ec-48b8-4bb4-92dc-719962e4dc43" /> [Dynamic FPS](https://modrinth.com/mod/dynamic-fps)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f8b036c0-221c-4f12-bf58-385a4804b6ff" /> [Fabric API](https://modrinth.com/mod/fabric-api)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/48535102-153e-446d-829c-ed27fb4391fb" /> [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/28a987ce-fdac-4843-9c96-bbcd971bf9aa" /> [Fadeless](https://modrinth.com/mod/fadeless)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2471f744-dead-4151-93fa-151fe138b842" /> [Fast IP Ping](https://modrinth.com/mod/fast-ip-ping)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3fffc2a4-0e63-40f9-9719-e379cfdaf9ce" /> [Fast Item Frames](https://modrinth.com/mod/fast-item-frames)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ba1d30cd-e721-46b9-9e62-65543c643b12" /> [FastQuit](https://modrinth.com/mod/fastquit)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a7ddd1e-8664-42e2-b8ac-d4aece4e5292" /> [FerriteCore](https://modrinth.com/mod/ferrite-core)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3269b8ed-7731-410d-a581-7a8144c06e12" /> [GPU Tape](https://modrinth.com/mod/gputape)
@@ -78,8 +74,12 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e1b5c91-ec49-4d00-a583-ad4f138416a0" /> [Sodium Extra](https://modrinth.com/mod/sodium-extra)
 ### Optional Performance-Increasing Mods
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> [Alternate Current](https://modrinth.com/mod/alternate-current)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f4ae3ef-99b3-4533-8bf6-978b0cf1e877" /> [Better Biome Reblend](https://modrinth.com/mod/bbrb)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e891a10e-feed-4897-8807-ebf071ad506e" /> [Clumps](https://modrinth.com/mod/clumps/versions)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/28a987ce-fdac-4843-9c96-bbcd971bf9aa" /> [Fadeless](https://modrinth.com/mod/fadeless)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3fffc2a4-0e63-40f9-9719-e379cfdaf9ce" /> [Fast Item Frames](https://modrinth.com/mod/fast-item-frames)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/254a83a8-2c31-4d3b-9055-635face279fd" /> [Let Me Despawn](https://modrinth.com/plugin/lmd)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d8dc60e0-a46f-4b07-82d1-4aba5f26151c" /> [WayFix](https://modrinth.com/mod/wayfix) - *Use this mod only if you are using* <img width="16" height="25" alt="wayland" src="https://github.com/user-attachments/assets/60246125-5de0-4506-b972-08b65882e92a" /> **Wayland**. *After installing the mod, follow the next steps for full functionality:*
     - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`

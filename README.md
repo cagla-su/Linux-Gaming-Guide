@@ -149,13 +149,14 @@ DRI_PRIME=1 gamemoderun %command%
 - If your external disk is **internally connected**, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
 - These steps also apply if your disk is **internally connected** but still **not working properly**.
 ## Get Started: GParted <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" />
-- If you would like to format your disk to change its file system from **NTFS** to a **Linux-compatible** one, install `gparted` using your package manager and follow the next steps, **making sure** your external disk is **unmounted** while it is **physically connected**.
+⚠️ - I **strongly suggest** that you **format your disk** to change its file system from **NTFS** to a **Linux-compatible one** because **write support for NTFS** is **experimental** on Linux and it **might corrupt** your drive!!! You have been warned.
+- Install `gparted` using your package manager and follow the next steps, **making sure** your external disk is **unmounted** while it is **physically connected**.
 	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
  	- **Next -** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
   	- **Finally -** `Apply All Operations`
 ## How to Configure External Disks on Linux?
 - First of all, install `gnome-disk-utility` package using your package manager.
-	- Also, if you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, make sure to install `ntfs-3g` package using your package manager.
+	- If you **insist** about using your external disk **as NTFS** anyway, additionally install `ntfs-3g` package using your package manager.
 - After the installation, launch `Disks` app from your application launcher.
 - Then, find your external disk from the menu on the left and click this button under `Volumes`.
 <img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
@@ -165,7 +166,7 @@ DRI_PRIME=1 gamemoderun %command%
   - Now disable `User Session Defaults` and check `Mount at system startup`.
   - Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
   	- `nofail,x-gvfs-show,rw,user,exec`
-   - If you are going to use your previous external disk that you were using on Windows, in other words **as NTFS**, you should also include this option:
+   - If you are going to use your external disk **as NTFS**, you should additionally include `ntfs-3g` option like in the example:
         - `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
    - Finally, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
 <img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />

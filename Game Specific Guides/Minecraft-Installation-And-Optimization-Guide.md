@@ -12,12 +12,12 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher automatically installs <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/84503488-e733-4547-8113-97e9f3efc9db" /> Java for you.
 ### Install Minecraft
 - Launch <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher and continue until the **memory allocation** step.
-- Then, make sure to change `Maximum memory allocation` value. There is a rumor that if you allocate half your RAM, you are going to get good performance. However, this is wrong because:
-  - When you play <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft, the game tries to free up allocated memory that is no longer used by objects to avoid memory issues. This is called **garbage collection**.
+- Then, make sure to change `Maximum memory allocation` value. There is a rumor that if you allocate **half your RAM**, you are going to get **good performance**. However, this is **wrong** because:
+  - When you play <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft, the game tries to **free up allocated memory** that is no longer used by objects to **avoid memory issues**. This is called **garbage collection**.
     - However, you **should not** allocate **too much or too little** RAM, because:
-      - If you allocate **too much** RAM, the game will wait longer between garbage collection cycles and each cycle will take longer to complete, that's why you are going to get bigger lag spikes.
-      - If you allocate **too little** RAM, the game will perform garbage collection too often and this will cause big lag spikes again.
-    - When <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft uses between `50-75%` of allocated RAM, it is the ideal value for smaller lag spikes. I suggest that you experiment different values yourself to find your ideal value. You can check RAM usage by pressing `F3` during the gameplay.
+      - If you allocate **too much** RAM, the game will **wait longer** between **garbage collection cycles** and each cycle will **take longer to complete**, that's why you are going to get **bigger lag spikes**.
+      - If you allocate **too little** RAM, the game will **perform garbage collection too often** and this will cause **big lag spikes** again.
+    - When <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft uses between `50-75%` of allocated RAM, it is **the ideal value** for **smaller lag spikes**. I suggest that you experiment different values yourself to find your ideal value. You can check RAM usage by pressing `F3` during the gameplay.
 - After completing quick setup, add your <img width="16" height="25" alt="microsoft" src="https://github.com/user-attachments/assets/d19efd30-17c2-4af2-9147-121dd23ebda6" /> Microsoft account in the launcher.
 - **Next** : `Add Instance` **-** `Version` **-** `Select the version you desire and scroll down` **-** `Select "Fabric" as the mod loader` **-** `OK`
 ## Optimization
@@ -26,7 +26,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 <img width="731" height="96" alt="image" src="https://github.com/user-attachments/assets/3cd34257-d1cf-4509-8967-d8499e61318a" />
 
 - If you are using <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/675b9126-59e6-4fbf-af53-1a023465daf7" /> **NVIDIA**, you should use the `__GL_THREADED_OPTIMIZATIONS=1` environment variable instead.
-- You are ready to play <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft now. However, the performance of the game can still be increased through performance mods and optimized in-game settings.
+- You are ready to play <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft now. However, the performance of the game can still **be increased** through **performance mods** and **optimized in-game settings**.
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium Method - Recommended for Version 1.16.3 and Later
 `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
 ### Essential Performance-Increasing Mods and Dependencies
@@ -66,7 +66,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d8dc60e0-a46f-4b07-82d1-4aba5f26151c" /> [WayFix](https://modrinth.com/mod/wayfix) - *Use this mod only if you are using* <img width="16" height="25" alt="wayland" src="https://github.com/user-attachments/assets/60246125-5de0-4506-b972-08b65882e92a" /> **Wayland**. *After installing the mod, follow the next steps for full functionality:*
     - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`
 ### Quality of Life Mods
-These mods do not increase performance but they can enhance your gaming experience.
+These mods **do not increase performance** but they can **enhance** your gaming experience. However, you should keep in mind that some of these mods **might reduce your performance**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/89647668-920c-4c1a-acda-bbbe3df37439" /> [Better Advancements](https://modrinth.com/mod/better-advancements)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
@@ -82,7 +82,7 @@ These mods do not increase performance but they can enhance your gaming experien
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/bc16bf62-c45a-4118-bd1e-86335e84ac57" /> [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player)
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8c424367-bb07-472a-a6a6-58b1ae02dda9" /> [Fresh Animations: Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions)
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f2f43428-391e-46c0-ac10-8d53ecc5d1ee" /> [Trailer Player Animations](https://modrinth.com/resourcepack/fresh-player-animations)
-    - Make sure the texture packs are placed accordingly like in the example:
+    - Make sure the texture packs are **placed accordingly** like in the example:
 
       - <img width="187" height="305" alt="image" src="https://github.com/user-attachments/assets/0cced448-c8a0-48ef-8a7e-0f9a140449a7" />
 
@@ -120,21 +120,21 @@ These mods do not increase performance but they can enhance your gaming experien
     - `FOV Effects` **:** 60%
     - `Mipmap Levels` **:** 1x
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod Method - Recommended for Version 1.18.2 and Later
-⚠️ - Please make sure that your GPU **completely supports Vulkan** before choosing this method. If you have either a very old computer or a GPU that does not completely support Vulkan, please try either <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium method or <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine method.
-- If your GPU completely supports Vulkan, follow [this guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) to install Vulkan drivers.
+⚠️ - Please make sure that your GPU **completely supports Vulkan** before choosing this method. If you have either a **very old computer** or a **GPU** that **does not completely support Vulkan**, please try either <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> **Sodium method** or <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> **Optifine method**.
+- If your **GPU completely supports Vulkan**, follow [this guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) to install Vulkan drivers.
 - `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
 ### Essential Mods
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> [VulkanMod](https://modrinth.com/mod/vulkanmod)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a1c77f17-1e27-4de5-8729-538a4d4f77a3" /> [VulkanMod Extra](https://modrinth.com/mod/vulkanmod-extra)
 - You can use all the mods that are mentioned in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium method **except:**
-  - Better Clouds
-  - Exordium
-  - ImmediatelyFast
-  - Iris Shaders
-  - Sodium
-  - SodiumExtra
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium)
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ab8c6ab5-9494-455e-914d-bed1a097ad83" /> [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ce6dca60-a2d4-49c7-9f17-ba571558325f" /> [Iris Shaders](https://modrinth.com/mod/iris)
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
+  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e1b5c91-ec49-4d00-a583-ad4f138416a0" /> [Sodium Extra](https://modrinth.com/mod/sodium-extra)
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Method - Recommended for Version 1.16.2 and Earlier
-- If you want to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine, I suggest that you use **the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher** instead because it is going to be hard and meaningless to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher.
+- If you want to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine, I suggest that you use **the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher** instead because it is going to be **hard and meaningless** to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher.
 - Simply, download <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine](https://optifine.net/downloads) for the <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft version you would like to play and click `Install` after running the **.jar** file you downloaded.
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - In-Game Optimized Settings
 - `Options`

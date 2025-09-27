@@ -1,5 +1,9 @@
 # Minecraft
-<img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft is a sandbox game that works using **OpenGL**.
+- <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft is a sandbox game.
+- It has **two editions** which are **Java** and **Bedrock** editions.
+- Linux natively supports **Java edition**. When it comes to **Bedrock**, Linux can run **Pocket Edition (Android)**, which is also **Bedrock**. However, Linux cannot run **Bedrock Edition (PC)**.
+  - The reason why is that **Bedrock Edition (PC)** is a **UWP** app which is **unable to run** through <img width="16" height="25" alt="wine" src="https://github.com/user-attachments/assets/82480520-15a6-4b43-b188-27f29d3e3f71" /> WINE. So, the only way to play **Bedrock Edition** is to play the **Android version**. That also means **you should purchase** the game from **Google Play Store**.
+    - If you would like to play **Pocket Edition**, you can install it from [Flathub](https://flathub.org/en/apps/io.mrarm.mcpelauncher) and simply start playing. For **Java Edition**, please keep reading the guide. If you are ready, let's begin!
 ## Get Started
 First of all, I definitely suggest that you use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher.
 ### Install Prism Launcher

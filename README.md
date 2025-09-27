@@ -111,7 +111,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 	- **1 -** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method-) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ae34a1ca-71fe-4bf4-b1df-ddee947edaf5" />
  	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#desktop-shortcut-method-%EF%B8%8F) 🖥️
  	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games-) <img width="16" height="32" alt="steam" src="https://github.com/user-attachments/assets/6029f0c6-11d9-464a-ad41-ca5eae5d6154" />
-  	- **4 -** [For Lutris & Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/README.md#for-lutris--heroic-games--) <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />
+  	- **4 -** [For Lutris & Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutris--heroic-games--) <img width="16" height="25" alt="lutris" src="https://github.com/user-attachments/assets/32c3ec95-9d99-40f7-8177-24f93a5a02a5" /> <img width="16" height="25" alt="heroic" src="https://github.com/user-attachments/assets/86014c6a-73f9-477d-bd98-c7be204546f8" />
 ### Terminal Method <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/814656ce-8cb1-4f5d-bf18-ab56736dc781" />
 Simply, launch terminal and execute the command for your GPU like in the example:
 ```

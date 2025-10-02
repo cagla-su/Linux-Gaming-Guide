@@ -138,7 +138,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df95298b-6972-4c3c-8e65-bd81b53db5a5" /> [PDB3D's Blocky Armor Stands - Arms Version](https://modrinth.com/resourcepack/blocky-armor-stands)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f47daf16-986f-48ca-97a3-3c4f061b9034" /> [Recolourful Containers](https://modrinth.com/resourcepack/recolourful-containers-gui)
   - This texture pack requires <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) mod.
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e3605b91-faed-48d4-b11b-0916928bd8cc" /> [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6291623d-a333-4a7b-9b58-f23f4c4e0c88" /> [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d24b0a16-ea18-435a-936e-ef12eef32790" /> [Visible Ores](https://modrinth.com/resourcepack/visible-ores)
 
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium - In-Game Optimized Settings

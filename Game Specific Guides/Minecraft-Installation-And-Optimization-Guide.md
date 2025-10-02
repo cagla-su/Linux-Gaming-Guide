@@ -74,7 +74,6 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df48f692-fceb-43b8-8d9a-ca0c8631c068" /> [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4c2d1972-8856-4877-b338-f70dd49ac6b9" /> [Noisium](https://modrinth.com/mod/noisium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8673044d-ad8c-4d9e-a8da-973fd47fbfdd" /> [PacketFixer](https://modrinth.com/mod/packet-fixer)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6fb44882-8266-4436-b72f-187c8e314bf5" /> [Particle Core](https://modrinth.com/mod/particle-core)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/be35e263-1f27-4503-9473-2ac0df093585" /> [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc05d450-b282-484c-8ccb-b435a5862132" /> [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
@@ -122,7 +121,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc8149d9-567a-4a17-beed-c59407297cc1" /> [Smooth Scrolling](https://modrinth.com/mod/smooth-scroll)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e42a5d2-c40e-4eba-8a97-533b4b1ab59b" /> [Subtle Effects](https://modrinth.com/mod/subtle-effects)
   - This mod **might reduce** your in-game **performance**.
-  - If you decided to use the mod anyway, make sure to either disable **Particle Core mod** or disable **particle culling feature** using **Mod Menu mod**.
+  - If you decided to use the mod anyway, make sure to disable **particle culling feature** of Subtle Effects using **Mod Menu mod** if you are already using **AsyncParticles mod**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8aa74f40-726c-4cd5-ae01-ce14aad9bd6a" /> [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/47669d5e-eb43-44cf-a8b3-225d7ed35cc2" /> [Zoomify](https://modrinth.com/mod/zoomify)
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium - In-Game Optimized Settings

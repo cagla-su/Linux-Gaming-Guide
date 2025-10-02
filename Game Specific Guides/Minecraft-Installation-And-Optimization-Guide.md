@@ -65,19 +65,18 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2471f744-dead-4151-93fa-151fe138b842" /> [Fast IP Ping](https://modrinth.com/mod/fast-ip-ping)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ba1d30cd-e721-46b9-9e62-65543c643b12" /> [FastQuit](https://modrinth.com/mod/fastquit)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a7ddd1e-8664-42e2-b8ac-d4aece4e5292" /> [FerriteCore](https://modrinth.com/mod/ferrite-core)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3269b8ed-7731-410d-a581-7a8144c06e12" /> [GPU Booster](https://modrinth.com/mod/gputape)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ab8c6ab5-9494-455e-914d-bed1a097ad83" /> [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98609414-ff79-4be0-ac62-b84d7076ba25" /> [Krypton](https://modrinth.com/mod/krypton)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c1a3edac-6ef7-48ec-beef-b0b6201f3f8a" /> [Lithum](https://modrinth.com/mod/lithium)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c1a3edac-6ef7-48ec-beef-b0b6201f3f8a" /> [Lithium](https://modrinth.com/mod/lithium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4a02bad-226a-4c02-8e2d-05b38ab423cd" /> [Mod Menu](https://modrinth.com/mod/modmenu)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/54448033-1b48-4da5-ac3a-8929b6a86591" /> [ModernFix](https://modrinth.com/mod/modernfix)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2eff6c7b-2d86-4e16-9754-ef0406bc98ae" /> [More Culling](https://modrinth.com/mod/moreculling)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df48f692-fceb-43b8-8d9a-ca0c8631c068" /> [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4c2d1972-8856-4877-b338-f70dd49ac6b9" /> [Noisium](https://modrinth.com/mod/noisium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8673044d-ad8c-4d9e-a8da-973fd47fbfdd" /> [PacketFixer](https://modrinth.com/mod/packet-fixer)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6fb44882-8266-4436-b72f-187c8e314bf5" /> [Particle Core](https://modrinth.com/mod/particle-core)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/be35e263-1f27-4503-9473-2ac0df093585" /> [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc05d450-b282-484c-8ccb-b435a5862132" /> [Remove Reloading Screen](https://modrinth.com/mod/rrls)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cfdb1b64-8465-43e5-abdf-9c87071d16f9" /> [ScalableLux](https://modrinth.com/mod/scalablelux)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e1b5c91-ec49-4d00-a583-ad4f138416a0" /> [Sodium Extra](https://modrinth.com/mod/sodium-extra)
 ### Optional Performance-Increasing Mods
@@ -92,6 +91,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
     - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`
 ### Quality of Life Mods
 These mods **do not increase performance** but they can **enhance** your gaming experience. However, you should keep in mind that some of these mods **might reduce your performance**.
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> [Alan's Unified UI](https://modrinth.com/mod/alan-unified-ui)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/89647668-920c-4c1a-acda-bbbe3df37439" /> [Better Advancements](https://modrinth.com/mod/better-advancements)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
@@ -105,14 +105,14 @@ These mods **do not increase performance** but they can **enhance** your gaming 
   - You need to install some resource packs for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/415b2b80-4f6c-46b9-b522-29abd57992db" /> **EMF** and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/280b9bcb-8abc-4e2a-998a-628fdfbaf919" /> **ETF** mods to work. These resource packs are:
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/5871c983-84ec-4dce-8e2e-70ff170f4327" /> [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/bc16bf62-c45a-4118-bd1e-86335e84ac57" /> [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player)
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8c424367-bb07-472a-a6a6-58b1ae02dda9" /> [Fresh Animations: Extensions](https://modrinth.com/resourcepack/fresh-animations-extensions)
     - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f2f43428-391e-46c0-ac10-8d53ecc5d1ee" /> [Trailer Player Animations](https://modrinth.com/resourcepack/fresh-player-animations)
     - Make sure the texture packs are **placed accordingly** like in the example:
 
-      - <img width="187" height="305" alt="image" src="https://github.com/user-attachments/assets/0cced448-c8a0-48ef-8a7e-0f9a140449a7" />
+      - <img width="382" height="358" alt="image" src="https://github.com/user-attachments/assets/5d0ce894-49a0-4fcb-b709-6cf3d9edbab6" />
 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b6c27501-d819-4e0a-b3b4-cc17169fcac1" /> [Explosive Enhancement](https://modrinth.com/mod/explosive-enhancement)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/71bd5880-201b-41f8-bb5e-053949267b94" /> [Hold My Items](https://modrinth.com/mod/hold-my-items)
+  - This mod **might reduce** your in-game **performance**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ce6dca60-a2d4-49c7-9f17-ba571558325f" /> [Iris Shaders](https://modrinth.com/mod/iris)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/62a10ece-8839-4a3e-8307-797206324ec8" /> [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98ad55b0-d271-4246-ad19-a43a32da9853" /> [MinecraftCapes](https://modrinth.com/mod/minecraftcapes)
@@ -120,7 +120,9 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fb5b0718-ba49-4a70-8454-05f4dd6fd988" /> [Not Enough Animatons](https://modrinth.com/mod/not-enough-animations)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/77bf5030-673d-443c-8c62-2006b0d379ef" /> [Sit](https://modrinth.com/mod/bl4cks-sit)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc8149d9-567a-4a17-beed-c59407297cc1" /> [Smooth Scrolling](https://modrinth.com/mod/smooth-scroll)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e42a5d2-c40e-4eba-8a97-533b4b1ab59b" /> [Subtle Effects](https://modrinth.com/mod/subtle-effects) - *disable* **Particle Core mod** *or disable* **particle culling feature** using **Mod Menu mod** *if you want to use this mod*
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e42a5d2-c40e-4eba-8a97-533b4b1ab59b" /> [Subtle Effects](https://modrinth.com/mod/subtle-effects)
+  - This mod **might reduce** your in-game **performance**.
+  - If you decided to use the mod anyway, make sure to either disable **Particle Core mod** or disable **particle culling feature** using **Mod Menu mod**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8aa74f40-726c-4cd5-ae01-ce14aad9bd6a" /> [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/47669d5e-eb43-44cf-a8b3-225d7ed35cc2" /> [Zoomify](https://modrinth.com/mod/zoomify)
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium - In-Game Optimized Settings
@@ -129,7 +131,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 - `Options` **-** `Video Settings`
   - **General**
     - `Render Distance` **:** 6 chunks
-    - `Simulation Distance` **:** 5 chunks
+    - `Simulation Distance` **:** 8 chunks
     - `VSync` **:** OFF
     - `Max Framerate` **:** Same value as your **monitor's refresh rate**. If your monitor's refresh rate is **lower than 144 Hz**, try either *unlimited* (might cause overheating) or *double your monitor's refresh rate* (e.g., 120 FPS for 60 Hz screen)
   - **Quality**
@@ -170,7 +172,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
     - `Smooth Lighting` **:** ON
     - `Smooth Lighting Level` **:** 50%
     - `Render Distance` **:** 6 chunks
-    - `Simulation Distance` **:** 5 chunks
+    - `Simulation Distance` **:** 8 chunks
     - `Max Framerate` **:** Same value as your **monitor's refresh rate**. If your monitor's refresh rate is **lower than 144 Hz**, try either *unlimited* (might cause overheating) or *double your monitor's refresh rate* (e.g., 120 FPS for 60 Hz screen)
     - `Entity Shadows` **:** OFF
     - **Quality...**

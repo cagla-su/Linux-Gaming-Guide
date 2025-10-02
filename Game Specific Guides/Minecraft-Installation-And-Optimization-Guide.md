@@ -124,6 +124,23 @@ These mods **do not increase performance** but they can **enhance** your gaming 
   - If you decided to use the mod anyway, make sure to disable **particle culling feature** of Subtle Effects using **Mod Menu mod** if you are already using **AsyncParticles mod**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8aa74f40-726c-4cd5-ae01-ce14aad9bd6a" /> [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/47669d5e-eb43-44cf-a8b3-225d7ed35cc2" /> [Zoomify](https://modrinth.com/mod/zoomify)
+### Quality of Life Texture Packs
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/10fbdce5-7a64-4d9e-85a5-cf6092bcb9b7" /> [Better Lanterns](https://modrinth.com/resourcepack/better-lanterns)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/50d5312c-5d12-4555-ad08-11984594c3bf" /> [Better Leaves](https://modrinth.com/resourcepack/better-leaves)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/05f6ecd5-d4c8-48f7-996e-3b04cf48ffcc" /> [Enchantment Outlines](https://modrinth.com/resourcepack/glowing-glints)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6be45fa3-ab7a-4ce6-abc9-f55239dd93bb" /> [Fancy Beds](https://modrinth.com/resourcepack/fancy-beds)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e9da7882-49b6-4578-8f7b-f9d6405edf62" /> [Fine Armoury](https://modrinth.com/resourcepack/fine-armoury)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c2868b99-367a-4563-9f22-c6bce88fd03f" /> [Flowering Crops](https://modrinth.com/resourcepack/flowering-crops)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/69682ef5-eaef-47e4-8505-71952cbcdfb3" /> [Flowering Lily Pads](https://modrinth.com/resourcepack/flowering-lily-pads)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/78753ab9-3ffc-4420-b88a-569c2df47bcc" /> [Fluffy Carpets and Wool](https://modrinth.com/resourcepack/fluffy-carpets)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/84f71d7f-f67a-471a-ae09-bae1e6b13312" /> [Fresh Skeleton Physics](https://modrinth.com/resourcepack/fresh-skeleton-physics)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/20282b8e-7455-4782-9513-64bf9df188bd" /> [Improved Fences](https://modrinth.com/resourcepack/improved-fences)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df95298b-6972-4c3c-8e65-bd81b53db5a5" /> [PDB3D's Blocky Armor Stands - Arms Version](https://modrinth.com/resourcepack/blocky-armor-stands)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f47daf16-986f-48ca-97a3-3c4f061b9034" /> [Recolourful Containers](https://modrinth.com/resourcepack/recolourful-containers-gui)
+  - This texture pack requires <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) mod.
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e3605b91-faed-48d4-b11b-0916928bd8cc" /> [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d24b0a16-ea18-435a-936e-ef12eef32790" /> [Visible Ores](https://modrinth.com/resourcepack/visible-ores)
+
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium - In-Game Optimized Settings
 - **If you are going to use Zoomify :** `Options` **-** `Controls` **-** `Key Binds` **-** `Change key bind of "Save Hotbar Activator" to something else` **-** `Done`
 - `Options` **-** `Resource Packs` **-** `Move "Default Connected Textures" and "Glass Pane Culling Fix" to the right section` **-** `Done`

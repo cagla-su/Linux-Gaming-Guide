@@ -65,6 +65,8 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2471f744-dead-4151-93fa-151fe138b842" /> [Fast IP Ping](https://modrinth.com/mod/fast-ip-ping)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ba1d30cd-e721-46b9-9e62-65543c643b12" /> [FastQuit](https://modrinth.com/mod/fastquit)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a7ddd1e-8664-42e2-b8ac-d4aece4e5292" /> [FerriteCore](https://modrinth.com/mod/ferrite-core)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/0692f81f-6244-40df-82d6-2a551d8b13b9" /> [GPUBooster](https://modrinth.com/mod/gputape)
+  - If you use <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> **NVIDIA 16xx and newer series**, you can use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8fb22a05-4aec-49c9-a608-ebc19a94b8ef" /> [NVidium](https://modrinth.com/mod/nvidium) instead.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ab8c6ab5-9494-455e-914d-bed1a097ad83" /> [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98609414-ff79-4be0-ac62-b84d7076ba25" /> [Krypton](https://modrinth.com/mod/krypton)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c1a3edac-6ef7-48ec-beef-b0b6201f3f8a" /> [Lithium](https://modrinth.com/mod/lithium)

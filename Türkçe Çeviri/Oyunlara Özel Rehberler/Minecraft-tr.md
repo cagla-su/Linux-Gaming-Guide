@@ -188,53 +188,46 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Yöntemi - 1.16.2 ve Önceki Sürümler İçin Önerilir
 - Eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine kullanmak isterseniz, **resmi <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft başlatıcısını** kullanmanızı tavsiye ederim çünkü <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine'ı <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher ile kullanmak **zor ve anlamsızdır**.
 - Kısaca, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine](https://optifine.net/downloads)'ın oynamak istediğiniz <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft sürümü ile uyumlu olan bir sürümünü indirip kurun.
-### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - Oyun İçi En İyileştirilmiş Ayarlar
-- `Options`
-  - **Video Settings**
-    `Graphics` **:** Fast
-    - `Smooth Lighting` **:** ON
-    - `Smooth Lighting Level` **:** 50%
-    - `Render Distance` **:** 6 chunks
-    - `Simulation Distance` **:** 8 chunks
-    - `Max Framerate` **:** Same value as your **monitor's refresh rate**. If your monitor's refresh rate is **lower than 144 Hz**, try either *unlimited* (might cause overheating) or *double your monitor's refresh rate* (e.g., 120 FPS for 60 Hz screen)
-    - `Entity Shadows` **:** OFF
-    - **Quality...**
-      - `Mipmap Levels` **:** 1
-      - `Emissive Textures` **:** OFF
-      - `Custom Fonts` **:** OFF
-      - `Connected Textures` **:** Fast
-      - `Custom Sky` **:** OFF
-      - `Custom Entity Models` **:** OFF
-      - `Random Entities` **:** OFF
-      - `Custom Colors` **:** OFF
-      - `Natural Textures` **:** OFF
-      - `Custom Items` **:** OFF
-      - `Custom GUIs` **:** OFF
-      - `Distortion Effects` **:** 60%
-      - `FOV Effects` **:** 60%
-    - **Details...**
-      - `Clouds` **:** OFF
-      - `Trees` **:** Fast
-      - `Fog` **:** OFF
-      - `View Bobbing` **:** OFF
-      - `Vignette` **:** Fast
-      - `Rain & Snow` **:** Fast
-      - `Stars` **:** Subjective
-      - `Swamp Colors` **:** OFF
-      - `Alternate Blocks` **:** OFF
-      - `Entity Distance` **:** 50%
-      - `Biome Blend` **:** 3x3
-    - **Performance...**
-      - `Render Regions` **:** OFF
-      - `Smart Animations` **:** ON
-      - `Smooth FPS` **:** ON
-      - `Fast Render` **:** ON
-      - `Fast Math` **:** ON
-      - `Smooth World` **:** ON
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - Oyun İçi En İyileştirilmiş Ayarlar (Sürümden sürüme Türkçe çevirisi değişebilir)
+- `Seçenekler`
+  - **Görüntü Ayarları**
+    `Grafikler` **:** Hızlı
+    - `Yumuşak Aydınlatma` **:** Açık
+    - `Pürüzsüz Gölgelendirme` **:** 50%
+    - `Görüş Mesafesi` **:** 6 yığın
+    - `Simülasyon Mesafesi` **:** 8 yığın
+    - `Maks. Kare hızı: ` **:** **Monitörünüzün ekran yenileme hızıyla** aynı değer. Eğer monitörünüzün yenileme hızı **144 Hz'den daha düşükse**, *Sınırsız* (aşırı ısınmaya yol açabilir) veya *monitörünüzün yenileme hızının iki katı bir değer* girin (örneğin 60 Hz için 120 FPS).
+    - `Varlık Gölgeleri` **:** Kapalı
+    - **Kalite...**
+      - `Mipmap Düzeyleri` **:** 1
+      - `Işık Yayan Dokular` **:** Kapalı
+      - `Bağlı Dokular` **:** Hızlı
+      - `Özel Gökyüzü` **:** Kapalı
+      - `Özel Varlık Modelleri` **:** Kapalı
+      - `Rastgele Varlıklar` **:** Kapalı
+      - `Özel Renkler` **:** Kapalı
+      - `Doğal Dokular` **:** Kapalı
+      - `Özel Eşyalar` **:** Kapalı
+      - `Çarpıtma Efektleri` **:** 60%
+      - `Görüş Açısı Efektleri` **:** 60%
+    - **Detaylar...**
+      - `Bulutlar` **:** Kapalı
+      - `Ağaçlar` **:** Gerçekçi
+      - `Sis` **:** Hızlı
+      - `Yağmur & Kar` **:** Hızlı
+      - `Alternatif Bloklar` **:** Kapalı
+      - `Varlık Mesafesi` **:** 50%
+      - `Biyom Karışımı` **:** 3x3
+    - **Performans...**
+      - `Bölgesel İşleme` **:** Kapalı
+      - `Akıllı Animasyonlar` **:** Açık
+      - `Kare Hızını Dengeleme` **:** Açık
+      - `Hızlı İşleme` **:** Açık
+      - `Hızlı Hesap` **:** Açık
+      - `Dünya Dengeleme` **:** Açık
     - **Animations...**
-      - `Textures Animated` **:** OFF
-      - `Particles` **:** Decreased
+      - `Parçacıklar` **:** Azaltılmış
     - **Other...**
-      - `Telemetry` **:** OFF
-# Conclusion
-This guide was about Minecraft installation and optimization on Linux. I hope the guide has been useful. Thank you for reading, happy gaming! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+      - `Telemetri` **:** Kapalı
+# Kapanış
+Bu rehber Minecraft yükleme ve performans bakımından en iyi hâle getirme hakkındaydı. Umarım rehber sizin için faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />

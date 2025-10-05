@@ -1,3 +1,9 @@
+# Table of Contents
+- [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#before-starting)
+- [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#get-started)
+  - [Graphics Rules Maker Setup](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#graphics-rules-maker-setup-) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" />
+- [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#conclusion)
+
 # Before Starting
 - You can now purchase <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims™ 2: Legacy Collection** from various gaming platforms **without the need of any tweaks**. However, this guide is written for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** is abandonware, which means it is **legally unobtainable**. So, you should either have the **setup file** or **the DVD** to install the game.

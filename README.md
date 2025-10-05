@@ -180,6 +180,10 @@ DRI_PRIME=1 gamemoderun %command%
 - When you reduce the resolution of a game, **less pixels will be rendered** and it will result in **less loads** on your hardware, leading to **higher performance**.
 - When you play with the lowest graphics settings, **less details will be rendered**, leading to **higher performance**.
 - Both are going to **increase performance** while **reducing visual quality**. You can experiment to find your own balanced settings.
+### Lossless Scaling <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/074227ed-e80f-4dea-a770-4866500c5931" />
+It is possible to play your games in **lower resolutions** while **not losing anything from visual quality** thanks to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/074227ed-e80f-4dea-a770-4866500c5931" /> [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/). However, you **must purchase** the app from <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam to be able to use it.
+- After purchasing <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/074227ed-e80f-4dea-a770-4866500c5931" /> Lossless Scaling, you should **install [lsfg-vk](https://github.com/PancakeTAS/lsfg-vk)** to be able to use it on Linux.
+	- However, your **GPU must support Vulkan** and your **system must have Vulkan drivers installed** in order to use this feature!
 ## Using a Performance Kernel
 **Up-to-date kernels** generally **perform well** compared to custom performance kernels. However, you can still try a custom performance kernel, in case **it might perform better**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/943b4b7c-5b29-46aa-b081-b5d5ecc8fec3" /> **| Arch Linux and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/48e91252-38ca-4a48-80b8-57423b90c5da" />

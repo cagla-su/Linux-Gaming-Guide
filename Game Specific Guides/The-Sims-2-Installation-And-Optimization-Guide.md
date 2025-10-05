@@ -5,7 +5,7 @@
 ## Get Started
 - First of all, **extract the files** from your DVD into a folder and **open <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris**.
 - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: The Sims 2` **-** `Continue until the "Select the setup file" step` **-** `Select the setup file` **-** `Complete the installation`
-- After **installation is complete**, make sure the game is **located correctly**. To do so:
+- After **the installation has completed**, make sure the game is **located correctly**. To do so:
   - `Right click The Sims 2` **-** `Configure` **-** `Game Options` **-** `Executable`
     - The location is generally `~/Games/the-sims-2/drive_c/Program Files (x86)/The Sims 2 Ultimate Collection/The Sims 2 Mansion and Garden Stuff/TSBin/Sims2EP9.exe` 
 ## Graphics Rules Maker Setup <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" />

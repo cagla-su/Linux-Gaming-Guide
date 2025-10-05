@@ -211,6 +211,9 @@ You can use these launch options for higher performance while gaming:
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> **| Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cf4a5ae3-5348-4199-bf47-21a1c2efe2df" /> **| Heroic -** `Settings` **-** `Game Defaults` **-** `ADVANCED` **-** `Environment Variables` **-** `+`
+<img width="513" height="180" alt="image" src="https://github.com/user-attachments/assets/557adebe-23e7-4c8b-93e2-0378cb38faae" />
+
 ## Disabling Compositor - X11 ONLY!!! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
 **⚠️ -** If you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, disabling the compositor is **not possible**. These steps are only available for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11.
 - A disabled compositor simply means disabled animations and transparency. Also, it causes screen tearing which **reduces visual quality while improving performance**.

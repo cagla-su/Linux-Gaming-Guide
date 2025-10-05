@@ -195,6 +195,7 @@ gamemoderun %command%
 You can use these launch options for higher performance while gaming:
 - `DXVK_LOG_LEVEL=none` **-** It **suppresses all DXVK logs** to increase performance as gaming software **will not spend time processing and writing log data**. - *Medium impact on performance*
 - `WINEDEBUG=-all` **-** It **suppresses all debug outputs of <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/465d07fc-c39e-4193-8182-f82eb9fa3464" /> WINE**. - *Low impact on performance*
+- `WINE_LARGE_ADDRESS_AWARE=1` **-** It **allows 32-bit applications to consume up to 4 GB RAM instead of 2 GB**. - *Variable impact depending on the game, generally medium.*
 - `mesa_glthread=true` **-** It improves **OpenGL performance** on <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/315abff4-87d6-4779-b38d-08f07b8237a4" /> <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **Intel/AMD GPUs**. - *High impact on performance*
 - `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/cf335904-bc37-427e-a86d-c7f9df4bd852" /> **NVIDIA GPUs**. - *High impact on performance*
 - `DXVK_ASYNC=1` **-** It **displays frames without waiting for shaders to be compiled**. - *Variable impact depending on the game, generally low.*

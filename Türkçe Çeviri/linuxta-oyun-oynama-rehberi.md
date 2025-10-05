@@ -209,6 +209,7 @@ Oyun oynarken daha yüksek performans almak için bu başlatma seçeneklerini ku
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> **| Steam -** Bu komutları daha önceden bahsedildiği üzere başlatma seçeneklerinde kullanabilirsiniz.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> **| Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
+
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cf4a5ae3-5348-4199-bf47-21a1c2efe2df" /> **| Heroic -** `Settings` **-** `Game Defaults` **-** `ADVANCED` **-** `Environment Variables` **-** `+`
 <img width="513" height="180" alt="image" src="https://github.com/user-attachments/assets/557adebe-23e7-4c8b-93e2-0378cb38faae" />
 

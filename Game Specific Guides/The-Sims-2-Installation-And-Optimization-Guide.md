@@ -16,9 +16,10 @@
     - `Right click Graphics Rules Maker` **-** `Configure` **-** `Game Options` **-** `Executable`
     - The location is `~/Games/the-sims-2/drive_c/Program Files/Graphics Rules Maker/bin/GraphicsRulesMakerUi.exe`
   - If you have **two GPUs**, make sure <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris is running <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" /> Graphics Rules Maker through your **dedicated GPU**, you can check my <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" /> [Linux Gaming Guide](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#hybrid-graphics-setup) to see how to play games through your dedicated GPU.
-    - I suggest that you read the whole guide for optimization tips.
-  - After <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" /> Graphics Rules Maker has launched, select `The Sims 2` from the `Game` tab. It should detect your Sims folder automatically but if it cannot, try `Mansion and Garden Stuff` folder.
-  - `Auto-detect` **-** `Save Files...`
+    - I suggest that you read **the whole guide** for optimization tips.
+  - After <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" /> Graphics Rules Maker has launched, select `The Sims 2` from the `Game` tab.
+    - It should detect your Sims folder automatically but if it cannot, try `Mansion and Garden Stuff` folder.
+  - **Next -** `Auto-detect` **-** `Save Files...`
     - Do not forget to perform the same steps for `The Sims 2 Body Shop`.
 - Now you are ready to play <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> The Sims 2!
 # Conclusion

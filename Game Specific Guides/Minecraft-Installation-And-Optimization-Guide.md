@@ -195,7 +195,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - In-Game Optimized Settings
 - `Options`
   - **Video Settings**
-    `Graphics` **:** Fast
+    - `Graphics` **:** Fast
     - `Smooth Lighting` **:** ON
     - `Smooth Lighting Level` **:** 50%
     - `Render Distance` **:** 6 chunks
@@ -205,26 +205,19 @@ These mods **do not increase performance** but they can **enhance** your gaming 
     - **Quality...**
       - `Mipmap Levels` **:** 1
       - `Emissive Textures` **:** OFF
-      - `Custom Fonts` **:** OFF
       - `Connected Textures` **:** Fast
       - `Custom Sky` **:** OFF
-      - `Custom Entity Models` **:** OFF
       - `Random Entities` **:** OFF
       - `Custom Colors` **:** OFF
       - `Natural Textures` **:** OFF
       - `Custom Items` **:** OFF
-      - `Custom GUIs` **:** OFF
       - `Distortion Effects` **:** 60%
       - `FOV Effects` **:** 60%
     - **Details...**
       - `Clouds` **:** OFF
       - `Trees` **:** Fast
       - `Fog` **:** OFF
-      - `View Bobbing` **:** OFF
-      - `Vignette` **:** Fast
       - `Rain & Snow` **:** Fast
-      - `Stars` **:** Subjective
-      - `Swamp Colors` **:** OFF
       - `Alternate Blocks` **:** OFF
       - `Entity Distance` **:** 50%
       - `Biome Blend` **:** 3x3
@@ -236,7 +229,6 @@ These mods **do not increase performance** but they can **enhance** your gaming 
       - `Fast Math` **:** ON
       - `Smooth World` **:** ON
     - **Animations...**
-      - `Textures Animated` **:** OFF
       - `Particles` **:** Decreased
     - **Other...**
       - `Telemetry` **:** OFF

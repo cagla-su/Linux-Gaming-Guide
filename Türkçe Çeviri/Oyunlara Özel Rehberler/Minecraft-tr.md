@@ -1,4 +1,4 @@
-# Table of Contents
+# İçindekiler
 - [Minecraft](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#minecraft-) <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" />
 - [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#ba%C5%9Flang%C4%B1%C3%A7)
   - [Prism Launcher'ı Yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#prism-launcher%C4%B1-y%C3%BCkleme-) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" />
@@ -192,7 +192,7 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - Oyun İçi En İyileştirilmiş Ayarlar (Sürümden sürüme Türkçe çevirisi değişebilir)
 - `Seçenekler`
   - **Görüntü Ayarları**
-    `Grafikler` **:** Hızlı
+    - `Grafikler` **:** Hızlı
     - `Yumuşak Aydınlatma` **:** Açık
     - `Pürüzsüz Gölgelendirme` **:** 50%
     - `Görüş Mesafesi` **:** 6 yığın
@@ -204,7 +204,6 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
       - `Işık Yayan Dokular` **:** Kapalı
       - `Bağlı Dokular` **:** Hızlı
       - `Özel Gökyüzü` **:** Kapalı
-      - `Özel Varlık Modelleri` **:** Kapalı
       - `Rastgele Varlıklar` **:** Kapalı
       - `Özel Renkler` **:** Kapalı
       - `Doğal Dokular` **:** Kapalı

@@ -1,8 +1,8 @@
 # İçindekiler
-- [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#before-starting)
-- [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#get-started)
-  - [Graphics Rules Maker Setup](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#graphics-rules-maker-setup-) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" />
-- [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#conclusion)
+- [Başlamadan Önce](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#ba%C5%9Flamadan-%C3%B6nce)
+- [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#ba%C5%9Flang%C4%B1%C3%A7)
+  - [Graphics Rules Maker Kurulumu](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#graphics-rules-maker-kurulumu-) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" />
+- [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#kapan%C4%B1%C5%9F)
 
 # Başlamadan Önce
 - Artık <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims™ 2: Legacy Collection'ı** çeşitli platformlardan **herhangi bir ayar yapmadan** satın alabilirsiniz. Ancak bu rehber <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** için yazılmıştır.
@@ -30,4 +30,4 @@
     - Aynı adımları `The Sims 2 Body Shop` için yapmayı unutmayın.
 - Artık <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> The Sims 2 oynamak için hazırsınız!
 # Kapanış
-This guide was about The Sims 2 installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming! 🐧 Bu rehber The Sims 2 kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+Bu rehber The Sims 2 kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />

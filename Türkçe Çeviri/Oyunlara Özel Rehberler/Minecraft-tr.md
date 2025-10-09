@@ -51,22 +51,92 @@
 ## Performans Arttırma
 - `Ayarlar` **-** `Minecraft` **-** `İnce Ayarlar` **-** `Feral GameMode'u etkinleştir` **&** `Ayrık GPU kullan (yalnızca iki ekran kartına sahipseniz)`
 - **Aynı menüden** : `Ortam Değişkenleri` **-** `Ekle` **-** `MESA_GLTHREAD=true`
-<img width="731" height="96" alt="image" src="https://github.com/user-attachments/assets/3cd34257-d1cf-4509-8967-d8499e61318a" />
+<img width="727" height="93" alt="image" src="https://github.com/user-attachments/assets/6c145cf0-e763-4dca-8272-ff97aed36a92" />
 
 - Eğer <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/675b9126-59e6-4fbf-af53-1a023465daf7" /> **NVIDIA** kullanıyorsanız, onun yerine `__GL_THREADED_OPTIMIZATIONS=1` ortam değişkenini kullanmalısınız.
 - Artık <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft oynamak için hazırsınız.
 - Ancak, oyunun performansını bazı **performans modları** ve **en iyileştirilmiş oyun içi ayarlar** sayesinde **arttırılabilir**.
+## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Yöntemi - 1.16.2 ve Önceki Sürümler İçin Önerilir
+- Eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine kullanmak isterseniz, **resmi <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft başlatıcısını** kullanmanızı tavsiye ederim çünkü <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine'ı <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher ile kullanmak **zor ve anlamsızdır**.
+- Kısaca, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine](https://optifine.net/downloads)'ın oynamak istediğiniz <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft sürümü ile uyumlu olan bir sürümünü indirip kurun.
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - Oyun İçi En İyileştirilmiş Ayarlar (Sürümden sürüme Türkçe çevirisi değişebilir)
+- `Seçenekler`
+  - **Görüntü Ayarları**
+    - `Grafikler` **:** Hızlı
+    - `Yumuşak Aydınlatma` **:** Açık
+    - `Pürüzsüz Gölgelendirme` **:** 50%
+    - `Görüş Mesafesi` **:** 6 yığın
+    - `Simülasyon Mesafesi` **:** 8 yığın
+    - `Maks. Kare hızı: ` **:** **Monitörünüzün ekran yenileme hızıyla** aynı değer. Eğer monitörünüzün yenileme hızı **144 Hz'den daha düşükse**, *Sınırsız* (aşırı ısınmaya yol açabilir) veya *monitörünüzün yenileme hızının iki katı bir değer* girin (örneğin 60 Hz için 120 FPS).
+    - `Varlık Gölgeleri` **:** Kapalı
+    - **Kalite...**
+      - `Mipmap Düzeyleri` **:** 1
+      - `Bağlı Dokular` **:** Hızlı
+      - `Çarpıtma Efektleri` **:** 60%
+      - `Görüş Açısı Efektleri` **:** 60%
+    - **Detaylar...**
+      - `Bulutlar` **:** Kapalı
+      - `Ağaçlar` **:** Gerçekçi
+      - `Sis` **:** Hızlı
+      - `Yağmur & Kar` **:** Hızlı
+      - `Varlık Mesafesi` **:** 50%
+      - `Biyom Karışımı` **:** 3x3
+    - **Performans...**
+      - `Bölgesel İşleme` **:** Kapalı
+      - `Akıllı Animasyonlar` **:** Açık
+      - `Kare Hızını Dengeleme` **:** Açık
+      - `Hızlı İşleme` **:** Açık
+      - `Hızlı Hesap` **:** Açık
+      - `Dünya Dengeleme` **:** Açık
+    - **Animations...**
+      - `Parçacıklar` **:** Azaltılmış
+    - **Other...**
+      - `Telemetri` **:** Kapalı
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium Yöntemi - 1.16.3 ve Sonraki Sürümler İçin Önerilir
 `Minecraft oturumunuza sağ tıklayın` **-** `Düzenle` **-** `Modlar` **-** `Mod İndir`
-### Gerekli Performans Arttıran Modlar ve Bağımlı Paketleri
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium'u Kullanabilmek İçin İhtiyacınız Olan Modlar
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/be35e263-1f27-4503-9473-2ac0df093585" /> [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e1b5c91-ec49-4d00-a583-ad4f138416a0" /> [Sodium Extra](https://modrinth.com/mod/sodium-extra)
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium - Oyun İçi En İyileştirilmiş Ayarlar (Sodium'un Türkçe desteği henüz %100 değildir)
+- **Eğer Zoomify modunu kullanacaksanız :** `Ayarlar` **-** `Kontroller` **-** `Tuş Atamaları` **-** `Herhangi çakışan tuş atamasını düzeltin` **-** `Bitti`
+- `Ayarlar` **-** `Görüntü Ayarları...`
+  - **Genel**
+    - `Görüş Mesafesi` **:** 6 Yığın
+    - `Simülasyon Mesafes` **:** 8 Yığın
+    - `Dikey Senkronizasyon` **:** KAPALI
+    - `En Fazla Kare Hızı` **:** **Monitörünüzün ekran yenileme hızıyla** aynı değer. Eğer monitörünüzün yenileme hızı **144 Hz'den daha düşükse**, *Sınırsız* (aşırı ısınmaya yol açabilir) veya *monitörünüzün yenileme hızının iki katı bir değer* girin (örneğin 60 Hz için 120 FPS).
+  - **Quality**
+    - `Grafikler` **:** Hızlı
+    - `Bulutlar` **:** KAPALI
+    - `Hava Durumu` **:** Fast
+    - `Leaves` **:** Fancy
+    - `Parçacıklar` **:** Azaltılmış
+    - `Biyom Karışımı` **:** Hiçbiri
+    - `Varlık Mesafesi` **:** 50%
+    - `Varlık Gölgeleri` **:** KAPALI
+    - `Çarpıtma Efektleri` **:** 60%
+    - `Görüş Açısı EFektleri` **:** 60%
+    - `Mipmap Düzeyleri` **:** 1x
+## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod Yöntemi - 1.18.2 ve Sonraki Sürümler İçin Önerilir
+⚠️ - Bu yöntemi denemeden önce lütfen ekran kartınızın **Vulkan'ı tamamen desteklediğinden** emin olun. Eğer ekran kartınız **Vulkan'ı tamamen desteklemiyorsa**, lütfen <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium yöntemini](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#-sodium-y%C3%B6ntemi---1163-ve-sonraki-s%C3%BCr%C3%BCmler-i%CC%87%C3%A7in-%C3%B6nerilir) veya <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine yöntemini](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#-optifine-y%C3%B6ntemi---1162-ve-%C3%B6nceki-s%C3%BCr%C3%BCmler-i%CC%87%C3%A7in-%C3%B6nerilir) deneyin.
+- Eğer **ekran kartınız Vulkan'ı tamamen destekliyorsa**, Vulkan sürücülerini yüklemek için [bu rehberi](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) takip edin.
+- **Vulkan'ı tamamen destekleyen** modern ekran kartlarında bu mod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine'dan **daha iyi performans gösterebilir** çünkü bu mod **OpenGL yerine Vulkan** kullanır.
+- `Minecraft oturumunuza sağ tıklayın` **-** `Düzenle` **-** `Modlar` **-** `Mod İndir`
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod'u Kullanabilmek İçin İhtiyacınız Olan Modlar
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f8b036c0-221c-4f12-bf58-385a4804b6ff" /> [Fabric API](https://modrinth.com/mod/fabric-api)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> [VulkanMod](https://modrinth.com/mod/vulkanmod)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a1c77f17-1e27-4de5-8729-538a4d4f77a3" /> [VulkanMod Extra](https://modrinth.com/mod/vulkanmod-extra)
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod - Oyun İçi En İyileştirilmiş Ayarlar
+<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ile benzer ayarlara sahiptir. Lütfen <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium Oyun İçi Ayarlara](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#-sodium---oyun-i%CC%87%C3%A7i-en-i%CC%87yile%C5%9Ftirilmi%C5%9F-ayarlar-sodiumun-t%C3%BCrk%C3%A7e-deste%C4%9Fi-hen%C3%BCz-100-de%C4%9Fildir) bakın.
+## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod İçin Gerekli Performans Arttıran Modlar
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7132b796-85f6-49a8-9c96-213106a6be3f" /> [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1f386453-e995-452e-a87f-95157f3fe3fe" /> [BadOptimizations](https://modrinth.com/mod/badoptimizations)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f4ae3ef-99b3-4533-8bf6-978b0cf1e877" /> [Better Biome Reblend](https://modrinth.com/mod/bbrb)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/15cd42eb-fa80-4855-b21a-07538165dd9a" /> [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/232977c7-0ac0-4d8e-a877-e7f7794a9874" /> [Debugify](https://modrinth.com/mod/debugify)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4373d9ec-48b8-4bb4-92dc-719962e4dc43" /> [Dynamic FPS](https://modrinth.com/mod/dynamic-fps)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/12b0e43a-b197-41b1-9ad4-29c47dca43cc" /> [Entity Culling](https://modrinth.com/mod/entityculling)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f8b036c0-221c-4f12-bf58-385a4804b6ff" /> [Fabric API](https://modrinth.com/mod/fabric-api)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/48535102-153e-446d-829c-ed27fb4391fb" /> [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2471f744-dead-4151-93fa-151fe138b842" /> [Fast IP Ping](https://modrinth.com/mod/fast-ip-ping)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ba1d30cd-e721-46b9-9e62-65543c643b12" /> [FastQuit](https://modrinth.com/mod/fastquit)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a7ddd1e-8664-42e2-b8ac-d4aece4e5292" /> [FerriteCore](https://modrinth.com/mod/ferrite-core)
@@ -81,21 +151,16 @@
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df48f692-fceb-43b8-8d9a-ca0c8631c068" /> [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4c2d1972-8856-4877-b338-f70dd49ac6b9" /> [Noisium](https://modrinth.com/mod/noisium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8673044d-ad8c-4d9e-a8da-973fd47fbfdd" /> [PacketFixer](https://modrinth.com/mod/packet-fixer)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/be35e263-1f27-4503-9473-2ac0df093585" /> [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc05d450-b282-484c-8ccb-b435a5862132" /> [Remove Reloading Screen](https://modrinth.com/mod/rrls)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e1b5c91-ec49-4d00-a583-ad4f138416a0" /> [Sodium Extra](https://modrinth.com/mod/sodium-extra)
-### İsteğe Bağlı Performans Arttıran Modlar
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod İçin İsteğe Bağlı Performans Arttıran Modlar
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> [Alternate Current](https://modrinth.com/mod/alternate-current)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f4ae3ef-99b3-4533-8bf6-978b0cf1e877" /> [Better Biome Reblend](https://modrinth.com/mod/bbrb)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e891a10e-feed-4897-8807-ebf071ad506e" /> [Clumps](https://modrinth.com/mod/clumps/versions)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/28a987ce-fdac-4843-9c96-bbcd971bf9aa" /> [Fadeless](https://modrinth.com/mod/fadeless)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3fffc2a4-0e63-40f9-9719-e379cfdaf9ce" /> [Fast Item Frames](https://modrinth.com/mod/fast-item-frames)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/254a83a8-2c31-4d3b-9055-635face279fd" /> [Let Me Despawn](https://modrinth.com/plugin/lmd)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d8dc60e0-a46f-4b07-82d1-4aba5f26151c" /> [WayFix](https://modrinth.com/mod/wayfix) - *Bu modu yalnızca* <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> **Wayland** *kullanıyorsanız yükleyin. Modu yükledikten sonra, tam çalışması için aşağıdaki adımları uygulayın:*
     - `Minecraft oturumunuza sağ tıklayın` **-** `Düzenle` **-** `Ayarlar` **-** `Geçici çözümler` **-** `"Yerel kitaplıklar"ı etkinleştirin` **-** `"GLFW'nin sistem kurulumunu kullan"ı etkinleştirin`
-### Oyun Kalitesini Arttıran Modlar
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod İçin Oyun Kalitesini Arttıran Modlar
 Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iyi** kılabilirler. Ancak, bu modlardan bazılarının **performansınızı düşürebileceğini** de aklınızda tutmalısınız.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> [Alan's Unified UI](https://modrinth.com/mod/alan-unified-ui)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
@@ -144,90 +209,8 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/20282b8e-7455-4782-9513-64bf9df188bd" /> [Improved Fences](https://modrinth.com/resourcepack/improved-fences)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df95298b-6972-4c3c-8e65-bd81b53db5a5" /> [PDB3D's Blocky Armor Stands - Arms Version](https://modrinth.com/resourcepack/blocky-armor-stands)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a83d8a4-5b53-4a93-b7d5-9e9f22514076" /> [Recolourful Containers (Dark)](https://modrinth.com/resourcepack/recolourful-containers-gui-hud-dark)
-  - Bu doku paketi <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) modunu yüklemeden çalışmaz.
+  - Bu doku paketi <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> **Optifine** veya <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) modunu yüklemeden çalışmaz.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6291623d-a333-4a7b-9b58-f23f4c4e0c88" /> [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d24b0a16-ea18-435a-936e-ef12eef32790" /> [Visible Ores](https://modrinth.com/resourcepack/visible-ores)
-
-### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium - Oyun İçi En İyileştirilmiş Ayarlar (Sodium'un Türkçe desteği henüz %100 değildir)
-- **Eğer Zoomify modunu kullanacaksanız :** `Ayarlar` **-** `Kontroller` **-** `Tuş Atamaları` **-** `Herhangi çakışan tuş atamasını düzeltin` **-** `Bitti`
-- `Ayarlar` **-** `Görüntü Ayarları...`
-  - **Genel**
-    - `Görüş Mesafesi` **:** 6 Yığın
-    - `Simülasyon Mesafes` **:** 8 Yığın
-    - `Dikey Senkronizasyon` **:** KAPALI
-    - `En Fazla Kare Hızı` **:** **Monitörünüzün ekran yenileme hızıyla** aynı değer. Eğer monitörünüzün yenileme hızı **144 Hz'den daha düşükse**, *Sınırsız* (aşırı ısınmaya yol açabilir) veya *monitörünüzün yenileme hızının iki katı bir değer* girin (örneğin 60 Hz için 120 FPS).
-  - **Quality**
-    - `Grafikler` **:** Hızlı
-    - `Bulutlar` **:** KAPALI
-    - `Hava Durumu` **:** Fast
-    - `Leaves` **:** Fancy
-    - `Parçacıklar` **:** Azaltılmış
-    - `Biyom Karışımı` **:** Hiçbiri
-    - `Varlık Mesafesi` **:** 50%
-    - `Varlık Gölgeleri` **:** KAPALI
-    - `Çarpıtma Efektleri` **:** 60%
-    - `Görüş Açısı EFektleri` **:** 60%
-    - `Mipmap Düzeyleri` **:** 1x
-## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod Yöntemi - 1.18.2 ve Sonraki Sürümler İçin Önerilir
-⚠️ - Bu yöntemi denemeden önce lütfen ekran kartınızın **Vulkan'ı tamamen desteklediğinden** emin olun. Eğer **çok eski** veya **Vulkan'ı tamamen desteklemeyen** bir ekran kartınız varsa, lütfen <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> **Sodium yöntemini** veya <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> **Optifine yöntemini** deneyin.
-- Eğer **ekran kartınız Vulkan'ı tamamen destekliyorsa**, Vulkan sürücülerini yüklemek için [bu rehberi](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) takip edin.
-- `Minecraft oturumunuza sağ tıklayın` **-** `Düzenle` **-** `Modlar` **-** `Mod İndir`
-### Gerekli Modlar
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> [VulkanMod](https://modrinth.com/mod/vulkanmod)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a1c77f17-1e27-4de5-8729-538a4d4f77a3" /> [VulkanMod Extra](https://modrinth.com/mod/vulkanmod-extra)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium yönteminde bahsedilen tüm modları kullanabilirsiniz. **Şunların dışında:**
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f4ae3ef-99b3-4533-8bf6-978b0cf1e877" /> [Better Biome Reblend](https://modrinth.com/mod/bbrb)
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium)
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ab8c6ab5-9494-455e-914d-bed1a097ad83" /> [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ce6dca60-a2d4-49c7-9f17-ba571558325f" /> [Iris Shaders](https://modrinth.com/mod/iris)
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium](https://modrinth.com/mod/sodium)
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e1b5c91-ec49-4d00-a583-ad4f138416a0" /> [Sodium Extra](https://modrinth.com/mod/sodium-extra)
-  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a83d8a4-5b53-4a93-b7d5-9e9f22514076" /> [Recolourful Containers (Dark)](https://modrinth.com/resourcepack/recolourful-containers-gui-hud-dark)
-### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod - Oyun İçi En İyileştirilmiş Ayarlar
-<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ile benzer ayarlara sahiptir. Lütfen <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium Oyun İçi Ayarlara](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium---in-game-optimized-settings) bakın.
-## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Yöntemi - 1.16.2 ve Önceki Sürümler İçin Önerilir
-- Eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine kullanmak isterseniz, **resmi <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft başlatıcısını** kullanmanızı tavsiye ederim çünkü <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine'ı <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher ile kullanmak **zor ve anlamsızdır**.
-- Kısaca, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine](https://optifine.net/downloads)'ın oynamak istediğiniz <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft sürümü ile uyumlu olan bir sürümünü indirip kurun.
-### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - Oyun İçi En İyileştirilmiş Ayarlar (Sürümden sürüme Türkçe çevirisi değişebilir)
-- `Seçenekler`
-  - **Görüntü Ayarları**
-    - `Grafikler` **:** Hızlı
-    - `Yumuşak Aydınlatma` **:** Açık
-    - `Pürüzsüz Gölgelendirme` **:** 50%
-    - `Görüş Mesafesi` **:** 6 yığın
-    - `Simülasyon Mesafesi` **:** 8 yığın
-    - `Maks. Kare hızı: ` **:** **Monitörünüzün ekran yenileme hızıyla** aynı değer. Eğer monitörünüzün yenileme hızı **144 Hz'den daha düşükse**, *Sınırsız* (aşırı ısınmaya yol açabilir) veya *monitörünüzün yenileme hızının iki katı bir değer* girin (örneğin 60 Hz için 120 FPS).
-    - `Varlık Gölgeleri` **:** Kapalı
-    - **Kalite...**
-      - `Mipmap Düzeyleri` **:** 1
-      - `Işık Yayan Dokular` **:** Kapalı
-      - `Bağlı Dokular` **:** Hızlı
-      - `Özel Gökyüzü` **:** Kapalı
-      - `Rastgele Varlıklar` **:** Kapalı
-      - `Özel Renkler` **:** Kapalı
-      - `Doğal Dokular` **:** Kapalı
-      - `Özel Eşyalar` **:** Kapalı
-      - `Çarpıtma Efektleri` **:** 60%
-      - `Görüş Açısı Efektleri` **:** 60%
-    - **Detaylar...**
-      - `Bulutlar` **:** Kapalı
-      - `Ağaçlar` **:** Gerçekçi
-      - `Sis` **:** Hızlı
-      - `Yağmur & Kar` **:** Hızlı
-      - `Alternatif Bloklar` **:** Kapalı
-      - `Varlık Mesafesi` **:** 50%
-      - `Biyom Karışımı` **:** 3x3
-    - **Performans...**
-      - `Bölgesel İşleme` **:** Kapalı
-      - `Akıllı Animasyonlar` **:** Açık
-      - `Kare Hızını Dengeleme` **:** Açık
-      - `Hızlı İşleme` **:** Açık
-      - `Hızlı Hesap` **:** Açık
-      - `Dünya Dengeleme` **:** Açık
-    - **Animations...**
-      - `Parçacıklar` **:** Azaltılmış
-    - **Other...**
-      - `Telemetri` **:** Kapalı
 # Kapanış
 Bu rehber Minecraft yükleme ve performans bakımından en iyi hâle getirme hakkındaydı. Umarım rehber sizin için faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />

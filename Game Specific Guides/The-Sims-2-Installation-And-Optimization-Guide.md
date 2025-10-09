@@ -29,4 +29,4 @@
     - Do not forget to perform the same steps for `The Sims 2 Body Shop`.
 - Now you are ready to play <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> The Sims 2!
 # Conclusion
-This guide was about The Sims 2 installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming! 🐧
+This guide was about The Sims 2 installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />

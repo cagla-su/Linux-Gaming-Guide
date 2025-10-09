@@ -60,6 +60,42 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - If you are using <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/675b9126-59e6-4fbf-af53-1a023465daf7" /> **NVIDIA**, you should use the `__GL_THREADED_OPTIMIZATIONS=1` environment variable instead.
 - You are ready to play <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft now.
 - However, the performance of the game can still **be increased** through **performance mods** and **optimized in-game settings**.
+## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Method - Recommended for Version 1.16.2 and Earlier
+- If you want to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine, I suggest that you use **the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher** instead because it is going to be **hard and meaningless** to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher.
+- Simply, download <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine](https://optifine.net/downloads) for the <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft version you would like to play and click `Install` after running the **.jar** file you downloaded.
+### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - In-Game Optimized Settings
+- `Options`
+  - **Video Settings**
+    - `Graphics` **:** Fast
+    - `Smooth Lighting` **:** ON
+    - `Smooth Lighting Level` **:** 50%
+    - `Render Distance` **:** 6 chunks
+    - `Simulation Distance` **:** 8 chunks
+    - `Max Framerate` **:** Same value as your **monitor's refresh rate**. If your monitor's refresh rate is **lower than 144 Hz**, try either *unlimited* (might cause overheating) or *double your monitor's refresh rate* (e.g., 120 FPS for 60 Hz screen)
+    - `Entity Shadows` **:** OFF
+    - **Quality...**
+      - `Mipmap Levels` **:** 1
+      - `Connected Textures` **:** Fast
+      - `Distortion Effects` **:** 60%
+      - `FOV Effects` **:** 60%
+    - **Details...**
+      - `Clouds` **:** OFF
+      - `Trees` **:** Fast
+      - `Fog` **:** OFF
+      - `Rain & Snow` **:** Fast
+      - `Entity Distance` **:** 50%
+      - `Biome Blend` **:** 3x3
+    - **Performance...**
+      - `Render Regions` **:** OFF
+      - `Smart Animations` **:** ON
+      - `Smooth FPS` **:** ON
+      - `Fast Render` **:** ON
+      - `Fast Math` **:** ON
+      - `Smooth World` **:** ON
+    - **Animations...**
+      - `Particles` **:** Decreased
+    - **Other...**
+      - `Telemetry` **:** OFF
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium Method - Recommended for Version 1.16.3 and Later
 `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
 ### Mods That You Need to Use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium
@@ -97,42 +133,6 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a1c77f17-1e27-4de5-8729-538a4d4f77a3" /> [VulkanMod Extra](https://modrinth.com/mod/vulkanmod-extra)
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod - In-Game Optimized Settings
 <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod has similar settings with <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium. Please check <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium In-Game Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium---in-game-optimized-settings).
-## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine Method - Recommended for Version 1.16.2 and Earlier
-- If you want to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine, I suggest that you use **the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher** instead because it is going to be **hard and meaningless** to use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher.
-- Simply, download <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine](https://optifine.net/downloads) for the <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft version you would like to play and click `Install` after running the **.jar** file you downloaded.
-### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> Optifine - In-Game Optimized Settings
-- `Options`
-  - **Video Settings**
-    - `Graphics` **:** Fast
-    - `Smooth Lighting` **:** ON
-    - `Smooth Lighting Level` **:** 50%
-    - `Render Distance` **:** 6 chunks
-    - `Simulation Distance` **:** 8 chunks
-    - `Max Framerate` **:** Same value as your **monitor's refresh rate**. If your monitor's refresh rate is **lower than 144 Hz**, try either *unlimited* (might cause overheating) or *double your monitor's refresh rate* (e.g., 120 FPS for 60 Hz screen)
-    - `Entity Shadows` **:** OFF
-    - **Quality...**
-      - `Mipmap Levels` **:** 1
-      - `Connected Textures` **:** Fast
-      - `Distortion Effects` **:** 60%
-      - `FOV Effects` **:** 60%
-    - **Details...**
-      - `Clouds` **:** OFF
-      - `Trees` **:** Fast
-      - `Fog` **:** OFF
-      - `Rain & Snow` **:** Fast
-      - `Entity Distance` **:** 50%
-      - `Biome Blend` **:** 3x3
-    - **Performance...**
-      - `Render Regions` **:** OFF
-      - `Smart Animations` **:** ON
-      - `Smooth FPS` **:** ON
-      - `Fast Render` **:** ON
-      - `Fast Math` **:** ON
-      - `Smooth World` **:** ON
-    - **Animations...**
-      - `Particles` **:** Decreased
-    - **Other...**
-      - `Telemetry` **:** OFF
 ## Essential Performance-Increasing Mods for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7132b796-85f6-49a8-9c96-213106a6be3f" /> [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1f386453-e995-452e-a87f-95157f3fe3fe" /> [BadOptimizations](https://modrinth.com/mod/badoptimizations)

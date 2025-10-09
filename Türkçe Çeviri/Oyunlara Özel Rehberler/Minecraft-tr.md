@@ -133,16 +133,21 @@
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7132b796-85f6-49a8-9c96-213106a6be3f" /> [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1f386453-e995-452e-a87f-95157f3fe3fe" /> [BadOptimizations](https://modrinth.com/mod/badoptimizations)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f4ae3ef-99b3-4533-8bf6-978b0cf1e877" /> [Better Biome Reblend](https://modrinth.com/mod/bbrb)
+  - Bu mod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod ile **uyumsuzdur**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/15cd42eb-fa80-4855-b21a-07538165dd9a" /> [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/232977c7-0ac0-4d8e-a877-e7f7794a9874" /> [Debugify](https://modrinth.com/mod/debugify)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/12b0e43a-b197-41b1-9ad4-29c47dca43cc" /> [Entity Culling](https://modrinth.com/mod/entityculling)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium)
+  - Bu mod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod ile **uyumsuzdur**.
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f8b036c0-221c-4f12-bf58-385a4804b6ff" /> [Fabric API](https://modrinth.com/mod/fabric-api)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/48535102-153e-446d-829c-ed27fb4391fb" /> [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2471f744-dead-4151-93fa-151fe138b842" /> [Fast IP Ping](https://modrinth.com/mod/fast-ip-ping)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ba1d30cd-e721-46b9-9e62-65543c643b12" /> [FastQuit](https://modrinth.com/mod/fastquit)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a7ddd1e-8664-42e2-b8ac-d4aece4e5292" /> [FerriteCore](https://modrinth.com/mod/ferrite-core)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/0692f81f-6244-40df-82d6-2a551d8b13b9" /> [GPUBooster](https://modrinth.com/mod/gputape)
   - Eğer <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> **NVIDIA 16xx ve daha yeni serilerinden birini kullanıyorsanız**, onun yerine <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8fb22a05-4aec-49c9-a608-ebc19a94b8ef" /> [Nvidium](https://modrinth.com/mod/nvidium) modunu kullanabilirsiniz.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ab8c6ab5-9494-455e-914d-bed1a097ad83" /> [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
+  - Bu mod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod ile **uyumsuzdur**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98609414-ff79-4be0-ac62-b84d7076ba25" /> [Krypton](https://modrinth.com/mod/krypton)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c1a3edac-6ef7-48ec-beef-b0b6201f3f8a" /> [Lithium](https://modrinth.com/mod/lithium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4a02bad-226a-4c02-8e2d-05b38ab423cd" /> [Mod Menu](https://modrinth.com/mod/modmenu)
@@ -166,6 +171,7 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/89647668-920c-4c1a-acda-bbbe3df37439" /> [Better Advancements](https://modrinth.com/mod/better-advancements)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
+  - Bu mod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod ile **uyumsuzdur**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/975a6695-c061-448a-a8b0-efb9febbb44d" /> [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/457a456b-6aa7-4d08-a763-596887b3fc1a" /> [BetterF3](https://modrinth.com/mod/betterf3)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/06629688-afe5-4c33-8b2e-cd216b8a3c03" /> [Chat Heads](https://modrinth.com/mod/chat-heads)
@@ -185,6 +191,7 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/71bd5880-201b-41f8-bb5e-053949267b94" /> [Hold My Items](https://modrinth.com/mod/hold-my-items)
   - Bu mod oyun içi performansınızı **düşürebilir**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ce6dca60-a2d4-49c7-9f17-ba571558325f" /> [Iris Shaders](https://modrinth.com/mod/iris)
+  - Bu mod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod ile **uyumsuzdur**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/62a10ece-8839-4a3e-8307-797206324ec8" /> [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/98ad55b0-d271-4246-ad19-a43a32da9853" /> [MinecraftCapes](https://modrinth.com/mod/minecraftcapes)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1cc81c04-523b-4baa-85aa-ca4ea87ef9e4" /> [Model Gap Fix](https://modrinth.com/mod/modelfix)
@@ -209,7 +216,8 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/20282b8e-7455-4782-9513-64bf9df188bd" /> [Improved Fences](https://modrinth.com/resourcepack/improved-fences)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df95298b-6972-4c3c-8e65-bd81b53db5a5" /> [PDB3D's Blocky Armor Stands - Arms Version](https://modrinth.com/resourcepack/blocky-armor-stands)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a83d8a4-5b53-4a93-b7d5-9e9f22514076" /> [Recolourful Containers (Dark)](https://modrinth.com/resourcepack/recolourful-containers-gui-hud-dark)
-  - Bu doku paketi <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> **Optifine** veya <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) modunu yüklemeden çalışmaz.
+  - Bu kaynak paketi <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod ile **uyumsuzdur**.
+  - Son olarak, bu kaynak paketi <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> **Optifine** veya <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) modunu yüklemeden çalışmaz.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6291623d-a333-4a7b-9b58-f23f4c4e0c88" /> [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d24b0a16-ea18-435a-936e-ef12eef32790" /> [Visible Ores](https://modrinth.com/resourcepack/visible-ores)
 # Kapanış

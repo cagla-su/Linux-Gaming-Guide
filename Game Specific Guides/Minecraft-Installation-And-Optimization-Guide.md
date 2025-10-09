@@ -6,16 +6,17 @@
   - [Installing Minecraft](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#installing-minecraft-) <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" />
 - [Optimization](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optimization)
   - [Sodium Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium-method---recommended-for-version-1163-and-later) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" />
-    - [Performance-Increasing Mods](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#essential-performance-increasing-mods-and-dependencies)
-    - [Optional Performance-Increasing Mods](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optional-performance-increasing-mods)
-    - [Quality of Life Mods](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#quality-of-life-mods)
-    - [Quality of Life Texture Packs](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#quality-of-life-texture-packs)
+    - [Mods That You Need to Use Sodium](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#mods-that-you-need-to-use--sodium) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" />
     - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium---in-game-optimized-settings)
   - [VulkanMod Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-vulkanmod-method---recommended-for-version-1182-and-later) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" />
-    - [Performance-Increasing Mods](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#essential-mods)
+    - [Mods That You Need to Use VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#mods-that-you-need-to-use--vulkanmod) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" />
     - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-vulkanmod---in-game-optimized-settings)
   - [Optifine Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-optifine-method---recommended-for-version-1162-and-earlier) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" />
     - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-optifine---in-game-optimized-settings)
+  - [Essential Performance-Increasing Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#essential-performance-increasing-mods-for--sodium-and--vulkanmod) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" />
+  - [Optional Performance-Increasing Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optional-performance-increasing-mods-for--sodium-and--vulkanmod) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" />
+  - [Quality of Life Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#quality-of-life-mods-for--sodium-and--vulkanmod) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" />
+  - [Quality of Life Texture Packs for All Methods](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#quality-of-life-texture-packs-for-all-methods) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" />
 - [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#conclusion)
 # Minecraft <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" />
 - <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft is a sandbox game.
@@ -111,13 +112,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
     - `Entity Shadows` **:** OFF
     - **Quality...**
       - `Mipmap Levels` **:** 1
-      - `Emissive Textures` **:** OFF
       - `Connected Textures` **:** Fast
-      - `Custom Sky` **:** OFF
-      - `Random Entities` **:** OFF
-      - `Custom Colors` **:** OFF
-      - `Natural Textures` **:** OFF
-      - `Custom Items` **:** OFF
       - `Distortion Effects` **:** 60%
       - `FOV Effects` **:** 60%
     - **Details...**
@@ -125,7 +120,6 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
       - `Trees` **:** Fast
       - `Fog` **:** OFF
       - `Rain & Snow` **:** Fast
-      - `Alternate Blocks` **:** OFF
       - `Entity Distance` **:** 50%
       - `Biome Blend` **:** 3x3
     - **Performance...**
@@ -213,7 +207,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
   - If you decided to use the mod anyway, make sure to disable **particle culling feature** of Subtle Effects using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4a02bad-226a-4c02-8e2d-05b38ab423cd" /> [Mod Menu](https://modrinth.com/mod/modmenu) mod if you are already using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7132b796-85f6-49a8-9c96-213106a6be3f" /> [AsyncParticles](https://modrinth.com/mod/asyncparticles) mod.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8aa74f40-726c-4cd5-ae01-ce14aad9bd6a" /> [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/47669d5e-eb43-44cf-a8b3-225d7ed35cc2" /> [Zoomify](https://modrinth.com/mod/zoomify)
-## Quality of Life Texture Packs for ALL METHODS
+## Quality of Life Texture Packs for All Methods <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" />
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/10fbdce5-7a64-4d9e-85a5-cf6092bcb9b7" /> [Better Lanterns](https://modrinth.com/resourcepack/better-lanterns)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/50d5312c-5d12-4555-ad08-11984594c3bf" /> [Better Leaves](https://modrinth.com/resourcepack/better-leaves)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/05f6ecd5-d4c8-48f7-996e-3b04cf48ffcc" /> [Enchantment Outlines](https://modrinth.com/resourcepack/glowing-glints)
@@ -227,7 +221,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df95298b-6972-4c3c-8e65-bd81b53db5a5" /> [PDB3D's Blocky Armor Stands - Arms Version](https://modrinth.com/resourcepack/blocky-armor-stands)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a83d8a4-5b53-4a93-b7d5-9e9f22514076" /> [Recolourful Containers (Dark)](https://modrinth.com/resourcepack/recolourful-containers-gui-hud-dark)
   - This texture pack is **incompatible with** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod.
-  - Lastly, this texture pack requires <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) mod.
+  - Lastly, this texture pack requires either <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> **Optifine** or <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) mod.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6291623d-a333-4a7b-9b58-f23f4c4e0c88" /> [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d24b0a16-ea18-435a-936e-ef12eef32790" /> [Visible Ores](https://modrinth.com/resourcepack/visible-ores)
 # Conclusion

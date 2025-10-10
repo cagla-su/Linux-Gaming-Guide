@@ -158,6 +158,7 @@
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4c2d1972-8856-4877-b338-f70dd49ac6b9" /> [Noisium](https://modrinth.com/mod/noisium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8673044d-ad8c-4d9e-a8da-973fd47fbfdd" /> [PacketFixer](https://modrinth.com/mod/packet-fixer)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc05d450-b282-484c-8ccb-b435a5862132" /> [Remove Reloading Screen](https://modrinth.com/mod/rrls)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/711b6bc9-29c0-457e-87b8-22ad6e72b8d3" /> [ScalableLux](https://modrinth.com/mod/scalablelux)
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod İçin İsteğe Bağlı Performans Arttıran Modlar
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> [Alternate Current](https://modrinth.com/mod/alternate-current)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e891a10e-feed-4897-8807-ebf071ad506e" /> [Clumps](https://modrinth.com/mod/clumps/versions)

@@ -176,6 +176,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/89647668-920c-4c1a-acda-bbbe3df37439" /> [Better Advancements](https://modrinth.com/mod/better-advancements)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
+  - This mod **might reduce** your in-game **performance**.
   - This mod is **incompatible with** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/975a6695-c061-448a-a8b0-efb9febbb44d" /> [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/457a456b-6aa7-4d08-a763-596887b3fc1a" /> [BetterF3](https://modrinth.com/mod/betterf3)
@@ -206,7 +207,6 @@ These mods **do not increase performance** but they can **enhance** your gaming 
   - If you want to use this mod, **disable** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium) as it reduces FPS of GUI.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e42a5d2-c40e-4eba-8a97-533b4b1ab59b" /> [Subtle Effects](https://modrinth.com/mod/subtle-effects)
   - This mod **might reduce** your in-game **performance**.
-  - If you decided to use the mod anyway, make sure to disable **particle culling feature** of Subtle Effects using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4a02bad-226a-4c02-8e2d-05b38ab423cd" /> [Mod Menu](https://modrinth.com/mod/modmenu) mod if you are already using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7132b796-85f6-49a8-9c96-213106a6be3f" /> [AsyncParticles](https://modrinth.com/mod/asyncparticles) mod.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8aa74f40-726c-4cd5-ae01-ce14aad9bd6a" /> [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/47669d5e-eb43-44cf-a8b3-225d7ed35cc2" /> [Zoomify](https://modrinth.com/mod/zoomify)
 ## Quality of Life Resource Packs for All Methods <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" />

@@ -7,7 +7,7 @@
 # Başlamadan Önce
 - Artık <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims™ 2: Legacy Collection'ı** çeşitli platformlardan **herhangi bir ayar yapmadan** satın alabilirsiniz. Ancak bu rehber <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** için yazılmıştır.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** artık satılmayan bir oyundur, yani oyunu **yasal olarak elde edemezsiniz**. Bu yüzden **kurulum dosyasına** veya **DVD'ye** sahip olmalısınız.
-- Son olarak, Linux sisteminizi Türkçe kullanmayı tercih etseniz bile size programlar için Türkçe dilini tercih etmenizi tavsiye ederim, çünkü **programların Türkçe desteği tam değildir**.
+- Son olarak, Linux sisteminizi Türkçe kullanmayı tercih etseniz bile size programlar için İngilizce dilini tercih etmenizi tavsiye ederim, çünkü **programların Türkçe desteği tam değildir**.
 - Hazırsanız, başlayalım!
 ## Başlangıç
 - Öncelikle, DVD'nizden **dosyaları klasöre çıkarın** ve **<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris'i** çalıştırın.

@@ -168,7 +168,7 @@ DRI_PRIME=1 gamemoderun %command%
 - Then, find your external disk from the menu on the left and click this button under `Volumes`:
 <img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
 
-- From the menu, click `Take Ownership` and confirm.
+- From the menu, click `Take Ownership (Recursive)` and confirm.
 - After taking the ownership, open the same menu and click `Edit Mount Options`.
   - Now disable `User Session Defaults` and check `Mount at system startup`.
   - Next, find the box that does not have a label that is under `Symbolic Icon Name` box and make sure you only have these mount options:
@@ -178,11 +178,6 @@ DRI_PRIME=1 gamemoderun %command%
    - Finally, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
 <img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
 
-### A Little Note
-Sometimes, even though you complete the steps above, you might be unable to create files or download games in your external disk. In this case, executing the command below in your terminal might solve the issue:
-```
-sudo chown -R $USER:$USER /location/of/your/disk # if you chose "/dev/disk/by-label/your-disk" previously, then your disk's location should be "/mnt/your-disk"
-```
 - Now you are ready to use your external disk(s)! 
 
 # Optimization Tips

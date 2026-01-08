@@ -214,6 +214,7 @@ These mods **do not increase performance** but they can **enhance** your **gamin
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/035d665d-3fc2-4222-af07-e3047e2b7580" /> [Better Lily Pads](https://modrinth.com/resourcepack/better-lily-pads_)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/50d5312c-5d12-4555-ad08-11984594c3bf" /> [Better Leaves](https://modrinth.com/resourcepack/better-leaves)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/08afda96-6029-4b5c-926d-7be399f6ef5d" /> [Cat Creepers](https://modrinth.com/resourcepack/cat-creepers)
+  - Make sure to check this resource pack's description before using as it **requires some dependencies**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8bf882fd-8c11-474c-99c1-49e32535e32c" /> [Cubic Sun & Moon](https://modrinth.com/resourcepack/cubic-sun-moon)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c4779893-1b7a-4158-b088-95aa7f367cf8" /> [Extra Flowery GUI](https://modrinth.com/resourcepack/extra-flowery-gui)
   - If you use this resource pack, I suggest that you do not use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> [Alan's Unified UI](https://modrinth.com/mod/alan-unified-ui) mod because they both basically do the same thing so you might face some conflicts.

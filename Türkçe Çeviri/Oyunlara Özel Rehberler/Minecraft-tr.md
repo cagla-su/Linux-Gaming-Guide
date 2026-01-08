@@ -235,4 +235,4 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b7c9f974-6493-414d-bdcf-b92d2ef89017" /> [Undopia 3D Sugar Cane](https://modrinth.com/resourcepack/undopia-3d-sugar-cane)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d24b0a16-ea18-435a-936e-ef12eef32790" /> [Visible Ores](https://modrinth.com/resourcepack/visible-ores)
 # Kapanış
-Bu rehber Minecraft yükleme ve performans bakımından en iyi hâle getirme hakkındaydı. Umarım rehber sizin için faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+Bu rehber Minecraft yükleme ve performans bakımından en iyi hâle getirme hakkındaydı. Umarım bu rehber sizin için faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />

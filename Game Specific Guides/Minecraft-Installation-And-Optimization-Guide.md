@@ -143,6 +143,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/12b0e43a-b197-41b1-9ad4-29c47dca43cc" /> [Entity Culling](https://modrinth.com/mod/entityculling)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium)
   - This mod is **incompatible with** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod.
+  - This mod **is not necessary anymore** starting from **version 1.21.10 and later**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f8b036c0-221c-4f12-bf58-385a4804b6ff" /> [Fabric API](https://modrinth.com/mod/fabric-api)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/48535102-153e-446d-829c-ed27fb4391fb" /> [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2471f744-dead-4151-93fa-151fe138b842" /> [Fast IP Ping](https://modrinth.com/mod/fast-ip-ping)
@@ -156,10 +157,11 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c1a3edac-6ef7-48ec-beef-b0b6201f3f8a" /> [Lithium](https://modrinth.com/mod/lithium)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4a02bad-226a-4c02-8e2d-05b38ab423cd" /> [Mod Menu](https://modrinth.com/mod/modmenu)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/54448033-1b48-4da5-ac3a-8929b6a86591" /> [ModernFix](https://modrinth.com/mod/modernfix)
+  - This mod does not support newer versions. In this case, you might want to get its **forked version**: <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/431fea29-0747-47d0-9b36-620074a88739" /> [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2eff6c7b-2d86-4e16-9754-ef0406bc98ae" /> [More Culling](https://modrinth.com/mod/moreculling)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df48f692-fceb-43b8-8d9a-ca0c8631c068" /> [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4c2d1972-8856-4877-b338-f70dd49ac6b9" /> [Noisium](https://modrinth.com/mod/noisium)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8673044d-ad8c-4d9e-a8da-973fd47fbfdd" /> [PacketFixer](https://modrinth.com/mod/packet-fixer)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4c2d1972-8856-4877-b338-f70dd49ac6b9" /> [NoisiumForked](https://modrinth.com/mod/noisiumforked)
+  - The official mod has been **archived**, that's why you should use the **forked version**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc05d450-b282-484c-8ccb-b435a5862132" /> [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/711b6bc9-29c0-457e-87b8-22ad6e72b8d3" /> [ScalableLux](https://modrinth.com/mod/scalablelux)
 ### Optional Performance-Increasing Mods for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod
@@ -167,11 +169,12 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e891a10e-feed-4897-8807-ebf071ad506e" /> [Clumps](https://modrinth.com/mod/clumps/versions)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/28a987ce-fdac-4843-9c96-bbcd971bf9aa" /> [Fadeless](https://modrinth.com/mod/fadeless)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3fffc2a4-0e63-40f9-9719-e379cfdaf9ce" /> [Fast Item Frames](https://modrinth.com/mod/fast-item-frames)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b3be7e7c-61f4-4547-9ab8-aea8d9f7313f" /> [FastChest](https://modrinth.com/mod/fastchest)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/254a83a8-2c31-4d3b-9055-635face279fd" /> [Let Me Despawn](https://modrinth.com/plugin/lmd)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d8dc60e0-a46f-4b07-82d1-4aba5f26151c" /> [WayFix](https://modrinth.com/mod/wayfix) - *Use this mod only if you are using* <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> **Wayland**. *After installing the mod, follow the next steps for full functionality:*
     - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`
 ## Quality of Life Mods for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod
-These mods **do not increase performance** but they can **enhance** your gaming experience. However, you should keep in mind that some of these mods **might reduce your performance**.
+These mods **do not increase performance** but they can **enhance** your **gaming experience**. However, you should keep in mind that some of these mods **might reduce your performance**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> [Alan's Unified UI](https://modrinth.com/mod/alan-unified-ui)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/89647668-920c-4c1a-acda-bbbe3df37439" /> [Better Advancements](https://modrinth.com/mod/better-advancements)
@@ -185,14 +188,7 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e15e0dd-f84d-4ab5-8de9-89bc83049848" /> [e4mc](https://modrinth.com/mod/e4mc)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/415b2b80-4f6c-46b9-b522-29abd57992db" /> [Entity Model Features](https://modrinth.com/mod/entity-model-features)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/280b9bcb-8abc-4e2a-998a-628fdfbaf919" /> [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
-  - You need to install some resource packs for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/415b2b80-4f6c-46b9-b522-29abd57992db" /> **EMF** and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/280b9bcb-8abc-4e2a-998a-628fdfbaf919" /> **ETF** mods to work. These resource packs are:
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/5871c983-84ec-4dce-8e2e-70ff170f4327" /> [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/bc16bf62-c45a-4118-bd1e-86335e84ac57" /> [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player)
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f2f43428-391e-46c0-ac10-8d53ecc5d1ee" /> [Trailer Player Animations](https://modrinth.com/resourcepack/fresh-player-animations)
-    - Make sure the texture packs are **placed accordingly** like in the example:
-
-      - <img width="382" height="358" alt="image" src="https://github.com/user-attachments/assets/5d0ce894-49a0-4fcb-b709-6cf3d9edbab6" />
-
+  - You can install a resource pack to benefit the effects of <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/415b2b80-4f6c-46b9-b522-29abd57992db" /> **EMF** and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/280b9bcb-8abc-4e2a-998a-628fdfbaf919" /> **ETF** mods: <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/5871c983-84ec-4dce-8e2e-70ff170f4327" /> [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b6c27501-d819-4e0a-b3b4-cc17169fcac1" /> [Explosive Enhancement](https://modrinth.com/mod/explosive-enhancement)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/71bd5880-201b-41f8-bb5e-053949267b94" /> [Hold My Items](https://modrinth.com/mod/hold-my-items)
   - This mod **might reduce** your in-game **performance**.
@@ -204,27 +200,39 @@ These mods **do not increase performance** but they can **enhance** your gaming 
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fb5b0718-ba49-4a70-8454-05f4dd6fd988" /> [Not Enough Animatons](https://modrinth.com/mod/not-enough-animations)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/77bf5030-673d-443c-8c62-2006b0d379ef" /> [Sit](https://modrinth.com/mod/bl4cks-sit)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc8149d9-567a-4a17-beed-c59407297cc1" /> [Smooth Scrolling](https://modrinth.com/mod/smooth-scroll)
-  - If you want to use this mod, **disable** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium) as it reduces FPS of GUI.
+  - If you want to use this mod, **disable** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a41952e1-e8b7-4c72-82db-a49df053213b" /> [Exordium](https://modrinth.com/mod/exordium) as it reduces the FPS of GUI.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3e42a5d2-c40e-4eba-8a97-533b4b1ab59b" /> [Subtle Effects](https://modrinth.com/mod/subtle-effects)
   - This mod **might reduce** your in-game **performance**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8aa74f40-726c-4cd5-ae01-ce14aad9bd6a" /> [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/47669d5e-eb43-44cf-a8b3-225d7ed35cc2" /> [Zoomify](https://modrinth.com/mod/zoomify)
 ## Quality of Life Resource Packs for All Methods <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" />
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/31962b75-fb8f-43f4-bddd-f31d2a09ba46" /> [3D Ladders](https://modrinth.com/resourcepack/3d-ladders)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/bd3dc5f2-ea1a-4bda-b3c0-ce97d3b61eff" /> [Armored Legacy](https://modrinth.com/resourcepack/armored-legacy)
+  - Make sure to check this resource pack's description before using as it **requires some dependencies**.
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ad5796cf-7e57-4f3f-be38-243ff3cc0a0e" /> [Better Boat](https://modrinth.com/resourcepack/better-boat)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/10fbdce5-7a64-4d9e-85a5-cf6092bcb9b7" /> [Better Lanterns](https://modrinth.com/resourcepack/better-lanterns)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/035d665d-3fc2-4222-af07-e3047e2b7580" /> [Better Lily Pads](https://modrinth.com/resourcepack/better-lily-pads_)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/50d5312c-5d12-4555-ad08-11984594c3bf" /> [Better Leaves](https://modrinth.com/resourcepack/better-leaves)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/05f6ecd5-d4c8-48f7-996e-3b04cf48ffcc" /> [Enchantment Outlines](https://modrinth.com/resourcepack/glowing-glints)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8bf882fd-8c11-474c-99c1-49e32535e32c" /> [Cubic Sun & Moon](https://modrinth.com/resourcepack/cubic-sun-moon)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c4779893-1b7a-4158-b088-95aa7f367cf8" /> [Extra Flowery GUI](https://modrinth.com/resourcepack/extra-flowery-gui)
+  - If you use this resource pack, I suggest that you do not use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> [Alan's Unified UI](https://modrinth.com/mod/alan-unified-ui) mod because they both basically do the same thing so you might face some conflicts.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6be45fa3-ab7a-4ce6-abc9-f55239dd93bb" /> [Fancy Beds](https://modrinth.com/resourcepack/fancy-beds)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e9da7882-49b6-4578-8f7b-f9d6405edf62" /> [Fine Armoury](https://modrinth.com/resourcepack/fine-armoury)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c2868b99-367a-4563-9f22-c6bce88fd03f" /> [Flowering Crops](https://modrinth.com/resourcepack/flowering-crops)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/69682ef5-eaef-47e4-8505-71952cbcdfb3" /> [Flowering Lily Pads](https://modrinth.com/resourcepack/flowering-lily-pads)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/78753ab9-3ffc-4420-b88a-569c2df47bcc" /> [Fluffy Carpets and Wool](https://modrinth.com/resourcepack/fluffy-carpets)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b527879f-edf6-43a2-b356-b712fca565ea" /> [Better Cats x Fresh Animations](https://modrinth.com/resourcepack/better-cats-x-fresh-animations)
+  - You should use this resource pack with <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/5871c983-84ec-4dce-8e2e-70ff170f4327" /> [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) resource pack.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/84f71d7f-f67a-471a-ae09-bae1e6b13312" /> [Fresh Skeleton Physics](https://modrinth.com/resourcepack/fresh-skeleton-physics)
+  - You should use this resource pack with <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/5871c983-84ec-4dce-8e2e-70ff170f4327" /> [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) resource pack.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/20282b8e-7455-4782-9513-64bf9df188bd" /> [Improved Fences](https://modrinth.com/resourcepack/improved-fences)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/53f4ea49-a06a-4fc2-bf0f-f2466a65d759" /> [Multi-Color Flowering Vines](https://modrinth.com/resourcepack/multi-color-flowering-vines)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a79189e3-160d-4727-9b99-b8696dd43323" /> [Overdetailed Saplings](https://modrinth.com/resourcepack/overdetailed-saplings)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/df95298b-6972-4c3c-8e65-bd81b53db5a5" /> [PDB3D's Blocky Armor Stands - Arms Version](https://modrinth.com/resourcepack/blocky-armor-stands)
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2a83d8a4-5b53-4a93-b7d5-9e9f22514076" /> [Recolourful Containers (Dark)](https://modrinth.com/resourcepack/recolourful-containers-gui-hud-dark)
-  - This resource pack is **incompatible with** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod.
-  - Lastly, this resource pack requires either <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> **Optifine** or <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/55509668-7b77-44e5-9040-9693f14fa74d" /> [OptiGUI](https://modrinth.com/mod/optigui) mod.
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a4842d39-1b55-48f1-bc89-b14bf42ad4c0" /> [Rainbow XP Bar](https://modrinth.com/resourcepack/rainbow-xp-bar)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b88f30f8-ffb3-4eb0-9f58-13964f2dfb7a" /> [Remodeled Cactus](https://modrinth.com/resourcepack/remodeled-cactus)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/20f8c2c4-8bd8-4dfe-bda7-a6bb9e07474d" /> [Remodeled Doors 3D](https://modrinth.com/resourcepack/remodeled-doors)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6291623d-a333-4a7b-9b58-f23f4c4e0c88" /> [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/892311c3-17c3-4e92-b77d-84219769da3c" /> [Torches Reimagined](https://modrinth.com/resourcepack/torches-reimagined)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b7c9f974-6493-414d-bdcf-b92d2ef89017" /> [Undopia 3D Sugar Cane](https://modrinth.com/resourcepack/undopia-3d-sugar-cane)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d24b0a16-ea18-435a-936e-ef12eef32790" /> [Visible Ores](https://modrinth.com/resourcepack/visible-ores)
 # Conclusion
 This guide was about Minecraft installation and optimization on Linux. I hope the guide has been useful. Thank you for reading, happy gaming! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />

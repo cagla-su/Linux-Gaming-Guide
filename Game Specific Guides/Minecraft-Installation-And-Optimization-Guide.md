@@ -26,7 +26,7 @@
   - The reason why is that **Bedrock Edition (PC)** is a **UWP** app which is even **unable to run** through <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/465d07fc-c39e-4193-8182-f82eb9fa3464" /> WINE.
   - So, the only way to play **Bedrock Edition** is to play the <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> **Android version**.
   - This also means **you should purchase** the game from **<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/abd68b9b-79ab-4062-a28c-54edff49e54e" /> Google Play Store**.
-    - If you would like to play **Pocket Edition**, you can install it from [Flathub](https://flathub.org/en/apps/io.mrarm.mcpelauncher) and simply start playing.
+    - If you would like to play **Pocket Edition**, you can install it from [Flathub](https://flathub.org/en/apps/io.mrarm.mcpelauncher) and start playing.
     - For <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/84503488-e733-4547-8113-97e9f3efc9db" /> **Java Edition**, please keep reading the guide. If you are ready, let's begin!
 ## Get Started
 First of all, I definitely suggest that you use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher.

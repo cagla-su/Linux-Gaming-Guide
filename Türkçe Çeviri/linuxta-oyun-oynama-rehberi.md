@@ -167,7 +167,7 @@ DRI_PRIME=1 gamemoderun %command%
 - Ardından, soldaki menüden harici diskinizi bulun ve `Volumes` kısmının altında bulunan şu tuşa tıklayın:
 <img width="258" height="192" alt="imageee" src="https://github.com/user-attachments/assets/4eee726f-25e2-42d1-9051-22ab18bd08d0" />
 
-- Çıkan menüde bulunan `Take Ownership` seçeneğine tıklayıp onay verin.
+- Çıkan menüde bulunan `Take Ownership (Recursive)` seçeneğine tıklayıp onay verin.
 - Sahiplik yetkisini aldıktan sonra aynı menüyü yeniden açın ve `Edit Mount Options` seçeneğine tıklayın.
   - Şimdi `User Session Defaults` seçeneğini devre dışı bırakın ve `Mount at system startup` seçeneğini etkinleştirin.
   - Sonrasında `Symbolic Icon Name` kutusunun altında bulunan ve herhangi bir başlığı olmayan kutuyu bulun ve içinde yalnızca şu başlatma seçeneklerinin olduğundan emin olun:

@@ -177,6 +177,7 @@ DRI_PRIME=1 gamemoderun %command%
         - `nofail,x-gvfs-show,rw,user,exec,ntfs-3g`
    - Finally, change `Identify As` value to `/dev/disk/by-label/your-disk` and click OK.
 <img width="904" height="493" alt="imagee" src="https://github.com/user-attachments/assets/56cf7ae7-d9f7-42fc-81de-b23b671622d2" />
+
 ### A Little Note
 Sometimes, even though you complete the steps above, you might be unable to create files or download games in your external disk. In this case, executing the command below in your terminal might solve the issue:
 ```

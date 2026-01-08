@@ -183,6 +183,7 @@ Sometimes, even though you complete the steps above, you might be unable to crea
 sudo chown -R $USER:$USER /location/of/your/disk # if you chose "/dev/disk/by-label/your-disk" previously, then your disk's location should be "/mnt/your-disk"
 ```
 - Now you are ready to use your external disk(s)! 
+
 # Optimization Tips
 ## Reducing Game Resolution and Using the Lowest Graphics Settings
 - When you reduce the resolution of a game, **less pixels will be rendered** and it will result in **less loads** on your hardware, leading to **higher performance**.

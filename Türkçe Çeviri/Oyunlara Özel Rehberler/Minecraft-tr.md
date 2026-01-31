@@ -135,7 +135,6 @@
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7132b796-85f6-49a8-9c96-213106a6be3f" /> [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1f386453-e995-452e-a87f-95157f3fe3fe" /> [BadOptimizations](https://modrinth.com/mod/badoptimizations)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f4ae3ef-99b3-4533-8bf6-978b0cf1e877" /> [Better Biome Reblend](https://modrinth.com/mod/bbrb)
-  - Bu mod <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod ile **uyumsuzdur**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/15cd42eb-fa80-4855-b21a-07538165dd9a" /> [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/232977c7-0ac0-4d8e-a877-e7f7794a9874" /> [Debugify](https://modrinth.com/mod/debugify)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/12b0e43a-b197-41b1-9ad4-29c47dca43cc" /> [Entity Culling](https://modrinth.com/mod/entityculling)
@@ -161,6 +160,10 @@
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4c2d1972-8856-4877-b338-f70dd49ac6b9" /> [NoisiumForked](https://modrinth.com/mod/noisiumforked)
   - Resmi mod **arşivlendi**, bu yüzden **çatallanmış** sürümünü kullanmalısınız.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc05d450-b282-484c-8ccb-b435a5862132" /> [Remove Reloading Screen](https://modrinth.com/mod/rrls)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f572e627-ff24-4faf-9d25-d99d58d4adb0" /> [RenderScale](https://modrinth.com/mod/renderscale)
+  - Bu modun çalışabilmesi için <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4a02bad-226a-4c02-8e2d-05b38ab423cd" /> Mod Menu aracılığıyla **elle yapılandırma** yapmalısınız.
+    - `Minecraft` **-** `Modlar` **-** `RenderScale'e iki kez tıklayın` **-** `değeri değiştirin`
+      - Genellikle, `0.5` performansı arttırırken gözleri yormayan **en kabul edilebilir değerdir**. Ancak, 0.5 gözlerinizi yorarsa `0.6`'yı da tercih edebilirsiniz.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/711b6bc9-29c0-457e-87b8-22ad6e72b8d3" /> [ScalableLux](https://modrinth.com/mod/scalablelux)
 ### <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod İçin İsteğe Bağlı Performans Arttıran Modlar
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> [Alternate Current](https://modrinth.com/mod/alternate-current)
@@ -173,7 +176,6 @@
     - `Minecraft oturumunuza sağ tıklayın` **-** `Düzenle` **-** `Ayarlar` **-** `Geçici çözümler` **-** `"Yerel kitaplıklar"ı etkinleştirin` **-** `"GLFW'nin sistem kurulumunu kullan"ı etkinleştirin`
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod İçin Oyun Kalitesini Arttıran Modlar
 Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iyi** kılabilirler. Ancak, bu modlardan bazılarının **performansınızı düşürebileceğini** de aklınızda tutmalısınız.
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> [Alan's Unified UI](https://modrinth.com/mod/alan-unified-ui)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/89647668-920c-4c1a-acda-bbbe3df37439" /> [Better Advancements](https://modrinth.com/mod/better-advancements)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
@@ -215,7 +217,6 @@ Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iy
   - Bu kaynak paketini <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/5871c983-84ec-4dce-8e2e-70ff170f4327" /> **Fresh Animations** kaynak paketiyle birlikte kullanmalısınız.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8bf882fd-8c11-474c-99c1-49e32535e32c" /> [Cubic Sun & Moon](https://modrinth.com/resourcepack/cubic-sun-moon)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c4779893-1b7a-4158-b088-95aa7f367cf8" /> [Extra Flowery GUI](https://modrinth.com/resourcepack/extra-flowery-gui)
-  - Bu kaynak paketini kullanıyorsanız, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> **Alan's Unified UI** modunu kullanmamanızı tavsiye ederim çünkü ikisi de aynı şeyi yapıyor, bu yüzden bazı çakışmalarla karşılaşabilirsiniz.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6be45fa3-ab7a-4ce6-abc9-f55239dd93bb" /> [Fancy Beds](https://modrinth.com/resourcepack/fancy-beds)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c2868b99-367a-4563-9f22-c6bce88fd03f" /> [Flowering Crops](https://modrinth.com/resourcepack/flowering-crops)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/78753ab9-3ffc-4420-b88a-569c2df47bcc" /> [Fluffy Carpets and Wool](https://modrinth.com/resourcepack/fluffy-carpets)

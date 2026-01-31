@@ -138,7 +138,6 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7132b796-85f6-49a8-9c96-213106a6be3f" /> [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1f386453-e995-452e-a87f-95157f3fe3fe" /> [BadOptimizations](https://modrinth.com/mod/badoptimizations)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f4ae3ef-99b3-4533-8bf6-978b0cf1e877" /> [Better Biome Reblend](https://modrinth.com/mod/bbrb)
-  - This mod is **incompatible with** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/15cd42eb-fa80-4855-b21a-07538165dd9a" /> [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/232977c7-0ac0-4d8e-a877-e7f7794a9874" /> [Debugify](https://modrinth.com/mod/debugify)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/12b0e43a-b197-41b1-9ad4-29c47dca43cc" /> [Entity Culling](https://modrinth.com/mod/entityculling)
@@ -164,6 +163,10 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/4c2d1972-8856-4877-b338-f70dd49ac6b9" /> [NoisiumForked](https://modrinth.com/mod/noisiumforked)
   - The official mod has been **archived**, that's why you should use the **forked version**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/fc05d450-b282-484c-8ccb-b435a5862132" /> [Remove Reloading Screen](https://modrinth.com/mod/rrls)
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/04dd3862-e340-4a3c-adca-cdfc8a3152f2" /> [RenderScale](https://modrinth.com/mod/renderscale)
+  - You should **manually configure** this mod in order to make it work using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4a02bad-226a-4c02-8e2d-05b38ab423cd" /> Mod Menu.
+    - `Minecraft` **-** `Mods` **-** `double click RenderScale` **-** `change the value`
+      - Usually, `0.5` is **the most acceptable value** that will not strain the eyes while improving performance. However, you can prefer `0.6` if 0.5 strains your eyes.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/711b6bc9-29c0-457e-87b8-22ad6e72b8d3" /> [ScalableLux](https://modrinth.com/mod/scalablelux)
 ### Optional Performance-Increasing Mods for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92248b98-184c-4276-b0fa-fcda3fe75472" /> [Alternate Current](https://modrinth.com/mod/alternate-current)
@@ -176,7 +179,6 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
     - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`
 ## Quality of Life Mods for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod
 These mods **do not increase performance** but they can **enhance** your **gaming experience**. However, you should keep in mind that some of these mods **might reduce your performance**.
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> [Alan's Unified UI](https://modrinth.com/mod/alan-unified-ui)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f4416a16-ef2b-484b-beb9-14bcf8739749" /> [AppleSkin](https://modrinth.com/mod/appleskin)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/89647668-920c-4c1a-acda-bbbe3df37439" /> [Better Advancements](https://modrinth.com/mod/better-advancements)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/65ebc980-673d-443a-af1a-58491bae4320" /> [Better Clouds](https://modrinth.com/mod/better-clouds)
@@ -219,7 +221,6 @@ These mods **do not increase performance** but they can **enhance** your **gamin
   - You should use this resource pack with <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/5871c983-84ec-4dce-8e2e-70ff170f4327" /> **Fresh Animations** resource pack.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8bf882fd-8c11-474c-99c1-49e32535e32c" /> [Cubic Sun & Moon](https://modrinth.com/resourcepack/cubic-sun-moon)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c4779893-1b7a-4158-b088-95aa7f367cf8" /> [Extra Flowery GUI](https://modrinth.com/resourcepack/extra-flowery-gui)
-  - If you use this resource pack, I suggest that you do not use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9ceb8cd1-8453-46ea-9f91-c1fc1c40845f" /> **Alan's Unified UI** mod because they both basically do the same thing so you might face some conflicts.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6be45fa3-ab7a-4ce6-abc9-f55239dd93bb" /> [Fancy Beds](https://modrinth.com/resourcepack/fancy-beds)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c2868b99-367a-4563-9f22-c6bce88fd03f" /> [Flowering Crops](https://modrinth.com/resourcepack/flowering-crops)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/78753ab9-3ffc-4420-b88a-569c2df47bcc" /> [Fluffy Carpets and Wool](https://modrinth.com/resourcepack/fluffy-carpets)

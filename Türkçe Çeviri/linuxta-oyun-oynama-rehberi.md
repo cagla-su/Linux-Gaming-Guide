@@ -20,6 +20,7 @@
 		- [Kompozitörü Devre Dışı Bırakma](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#kompozit%C3%B6r%C3%BC-devre-d%C4%B1%C5%9F%C4%B1-b%C4%B1rakma---yalnizca-x11-i%CC%87%C3%A7i%CC%87n-ge%C3%A7erli%CC%87di%CC%87r-)
 - [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#kapan%C4%B1%C5%9F)
 ## Oyunlara Özel Rehberler
+- <img width="16" height="25" alt="GI" src="https://github.com/user-attachments/assets/792d4ba5-6c64-48a5-a1e8-56e96b918e1f" /> **Genshin Impact -** [Genshin Impact Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md)
 - <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> **Minecraft -** [Minecraft Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2 -** [The Sims 2 Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md)
 # Linux'ta Oyun Oynama Rehberi

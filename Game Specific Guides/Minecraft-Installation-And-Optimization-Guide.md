@@ -29,7 +29,7 @@
 >    - If you would like to play **Pocket Edition**, you can install it from [Flathub](https://flathub.org/en/apps/io.mrarm.mcpelauncher) and start playing.
 >    - For <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/84503488-e733-4547-8113-97e9f3efc9db" /> **Java Edition**, please keep reading the guide. If you are ready, let's begin!
 ## Get Started
-> [!!TIP]
+> [!TIP]
 > I definitely suggest that you use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) because it is **open source** and it provides more options than the official <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft launcher.
 ### Installing Prism Launcher <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" />
 You can install <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher following [these steps according to your distribution](https://prismlauncher.org/download/?from=button).
@@ -132,6 +132,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 ## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod Method - Recommended for Version 1.18.2 and Later
 > [!CAUTION]
 > Please make sure that your GPU **completely supports Vulkan** before trying this method. If your **GPU does not completely support Vulkan**, please try either <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> [Sodium method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium-method---recommended-for-version-1163-and-later) or <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7f6b0e27-e777-46c7-a6e0-bc443b0679e0" /> [Optifine method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-optifine-method---recommended-for-version-1162-and-earlier).
+
 > [!NOTE]
 > - If your **GPU completely supports Vulkan**, follow [this guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) to install Vulkan drivers before starting.
 > [!TIP]
@@ -186,8 +187,7 @@ You can install <img width="16" height="25" alt="image" src="https://github.com/
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b3be7e7c-61f4-4547-9ab8-aea8d9f7313f" /> [FastChest](https://modrinth.com/mod/fastchest)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/254a83a8-2c31-4d3b-9055-635face279fd" /> [Let Me Despawn](https://modrinth.com/plugin/lmd)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d8dc60e0-a46f-4b07-82d1-4aba5f26151c" /> [WayFix](https://modrinth.com/mod/wayfix)
-> [!CAUTION]
-> - *Use this mod only if you are using* <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> **Wayland**. *After installing the mod, follow the next steps for full functionality:*
+  - *Use this mod only if you are using* <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> **Wayland**. *After installing the mod, follow the next steps for full functionality:*
 >    - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`
 ## Quality of Life Mods for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6cf43b97-0cc2-4867-afd8-078e2921fc2b" /> Sodium and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d0f7a6ff-9f07-4c91-b88d-02440fa1e87e" /> VulkanMod
 > [!NOTE]

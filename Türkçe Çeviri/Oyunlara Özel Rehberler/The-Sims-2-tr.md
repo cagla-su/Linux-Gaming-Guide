@@ -5,10 +5,11 @@
 - [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#kapan%C4%B1%C5%9F)
 
 # Başlamadan Önce
-- Artık <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims™ 2: Legacy Collection'ı** çeşitli platformlardan **herhangi bir ayar yapmadan** satın alabilirsiniz. Ancak bu rehber <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** için yazılmıştır.
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** artık satılmayan bir oyundur, yani oyunu **yasal olarak elde edemezsiniz**. Bu yüzden **kurulum dosyasına** veya **DVD'ye** sahip olmalısınız.
-- Son olarak, Linux sisteminizi Türkçe kullanmayı tercih etseniz bile size programlar için İngilizce dilini tercih etmenizi tavsiye ederim, çünkü **programların Türkçe desteği tam değildir**.
-- Hazırsanız, başlayalım!
+> [!NOTE]
+> - Artık <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims™ 2: Legacy Collection'ı** çeşitli platformlardan **herhangi bir ayar yapmadan** satın alabilirsiniz. Ancak bu rehber <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** için yazılmıştır.
+> - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** artık satılmayan bir oyundur, yani oyunu **yasal olarak elde edemezsiniz**. Bu yüzden **kurulum dosyasına** veya **DVD'ye** sahip olmalısınız.
+> - Son olarak, Linux sisteminizi Türkçe kullanmayı tercih etseniz bile size programlar için İngilizce dilini tercih etmenizi tavsiye ederim, çünkü **programların Türkçe desteği tam değildir**.
+> - Hazırsanız, başlayalım!
 ## Başlangıç
 - Öncelikle, DVD'nizden **dosyaları klasöre çıkarın** ve **<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris'i** çalıştırın.
 - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: The Sims 2` **-** `"Select the setup file" adımına kadar devam edin` **-** `Kurulum dosyasını seçin` **-** `Kurulumu tamamlayın`
@@ -22,8 +23,9 @@
   - Uygulamanın **doğru şekilde konumlandırıldığından** emin olun. Bunu yapmak için <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris içerisinde şunları yapın:
     - `Graphics Rules Maker'a sağ tıklayın` **-** `Configure` **-** `Game Options` **-** `Executable`
     - Konum genellikle şudur: `~/Games/the-sims-2/drive_c/Program Files/Graphics Rules Maker/bin/GraphicsRulesMakerUi.exe`
-  - **İki ekran kartı kullanıyorsanız**, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris'in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" /> Graphics Rules Maker'ı **harici ekran kartınızla** çalıştırdığından emin olun. Oyunları harici ekran kartıyla çalıştırmanın yollarını görmek için [Linux'ta oyun oynama rehberime](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#%C3%A7ift-grafikli-sistem-yap%C4%B1land%C4%B1rmas%C4%B1) bakabilirsiniz.
-    - Performans arttırma tavsiyeleri için **tüm rehberi** okumanızı tavsiye ederim.
+> [!NOTE]
+> - **İki ekran kartı kullanıyorsanız**, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris'in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" /> Graphics Rules Maker'ı **harici ekran kartınızla** çalıştırdığından emin olun. Oyunları harici ekran kartıyla çalıştırmanın yollarını görmek için [Linux'ta oyun oynama rehberime](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#%C3%A7ift-grafikli-sistem-yap%C4%B1land%C4%B1rmas%C4%B1) bakabilirsiniz.
+>    - Performans arttırma tavsiyeleri için **tüm rehberi** okumanızı tavsiye ederim.
   - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e12537af-da95-4c38-8185-d16ecdc85776" /> Graphics Rules Maker'ı çalıştırdıktan sonra, `Game` kısmından `The Sims 2`'yi seçin.
     - Eğer uygulama Sims klasörünüzü otomatik olarak algılayamıyorsa, `Mansion and Garden Stuff` klasörünü deneyin.
   - **Sonrasında -** `Auto-detect` **-** `Save Files...`

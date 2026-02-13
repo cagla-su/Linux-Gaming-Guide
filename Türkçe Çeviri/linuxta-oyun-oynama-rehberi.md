@@ -159,7 +159,7 @@ DRI_PRIME=1 gamemoderun %command%
 > - Harici diskiniz **anakarta bağlıysa**, Linux dağıtımınıza bağlı olarak onu doğrudan kullanabilme ihtimaliniz vardır. Ancak, harici diskinizi **bir SSD kutusu (USB) aracılığıyla** kullanıyorsanız, onu elle yapılandırmalısınız.
 > - Bu adımlar diskiniz **anakarta bağlı olduğu hâlde düzgün bir şekilde çalışmıyorsa** da geçerlidir.
 ## Başlangıç: GParted <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" />
-> [!WARNING]
+> [!CAUTION]
 > **Kesinlikle ve kesinlikle** diskinizin dosya sistemini **NTFS yerine Linux ile uyumlu başka bir dosya sistemi** olarak değiştirmenizi tavsiye ediyorum çünkü Linux'ta **NTFS için write (yazma) desteği hâlâ deneyseldir** ve bu **diskinizi bozabilir!!!** Bu konuda uyarıldınız.
 - Paket yöneticinizi kullanarak `gparted` paketini yükleyin ve harici diskinizin **fiziksel olarak bağlıyken yazılım tarafında bağlı olmadığından emin olarak** sıradaki adımları takip edin:
 	- `GParted'ı çalıştırın` **-** `sağ üstten harici diskinizi seçin` **-** `tüm dizinleri silin` **-** `Add`

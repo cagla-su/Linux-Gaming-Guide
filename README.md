@@ -163,7 +163,7 @@ DRI_PRIME=1 gamemoderun %command%
 > - If your external disk is **internally connected**, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
 > - These steps also apply if your disk is **internally connected** but still **not working properly**.
 ## Get Started: GParted <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" />
-> [!WARNING]
+> [!CAUTION]
 > - I **strongly suggest** that you **format your disk** to change its file system from **NTFS** to a **Linux-compatible one** because **write support for NTFS** is **experimental** on Linux and it **might corrupt** your drive!!! You have been warned.
 - Install `gparted` using your package manager and follow the next steps, **making sure** your external disk is **unmounted** while it is **physically connected**.
 	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`

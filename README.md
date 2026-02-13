@@ -24,13 +24,16 @@
 - <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> **Minecraft -** [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2 -** [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
 ## Türkçe Çeviri 🇹🇷
-Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
+> [!NOTE]
+> Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
 # Linux Gaming Guide
-Hello! This guide aims to help you understand **how gaming on Linux works**, **how to prepare your system for gaming** and **how to optimize your system for higher performance**. If you are ready, let's begin!
+- Hello! This guide aims to help you understand **how gaming on Linux works**, **how to prepare your system for gaming** and **how to optimize your system for higher performance**.
+- If you are ready, let's begin!
 # Before Starting
-- Linux gaming is **swiftly improving**. Every passing day, more users switch to Linux. In this context, the **market share** of Linux gaming is **increasing**.
-- This guide aims to be useful for everyone who wants to **play games** on Linux but **does not know** where to start.
-- After reading this guide, feel free to check out [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) if any of the listed games interest you.
+> [!NOTE]
+> - Linux gaming is **swiftly improving**. Every passing day, more users switch to Linux. In this context, the **market share** of Linux gaming is **increasing**.
+> - This guide aims to be useful for everyone who wants to **play games** on Linux but **does not know** where to start.
+> - After reading this guide, feel free to check out [Game-Specific Guides](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#game-specific-guides) if any of the listed games interest you.
 ## How Does Linux Gaming Work?
 - You can play **most of the Windows games** on Linux. However, this **does not mean** that there are **no native Linux games**. **Some native Linux games** are:
 	- <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> Minecraft, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/79d93d2e-2f58-4575-b2f9-f7fc66d0b0cd" /> Terraria, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/791afaf0-7f92-486e-8e2b-baeaf54155f9" /> Stardew Valley, <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/bf7d4ca4-aedf-460e-819d-6f8d6a8475d3" /> Euro Truck Simulator 2 and more
@@ -60,10 +63,13 @@ Hello! This guide aims to help you understand **how gaming on Linux works**, **h
 +--------------------------+
 
 ```
-- You **do not need to manually install** <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/465d07fc-c39e-4193-8182-f82eb9fa3464" /> WINE because <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/465d07fc-c39e-4193-8182-f82eb9fa3464" /> WINE is installed **automatically** when you install a gaming software such as <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris.
-## Warning for NVIDIA Users <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" />
-- <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA is attempting to be **more open source** for their **recent and future cards**. However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
-- Also, you **should not use** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland **unless** you use one of the recent <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11 is a **better option** for now.
+> [!NOTE]
+> You **do not need to manually install** <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/465d07fc-c39e-4193-8182-f82eb9fa3464" /> WINE because <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/465d07fc-c39e-4193-8182-f82eb9fa3464" /> WINE is installed **automatically** when you install a gaming software such as <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris.
+
+> [!WARNING]
+> - <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA is attempting to be **more open source** for their **recent and future cards**.
+> - However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
+> - Also, you **should not use** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland **unless** you use one of the recent <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11 is a **better option** for now.
 ## Issues of Linux Gaming
 - There are **not too many issues** when it comes to gaming on Linux. However, the **main limitation** is **kernel-level anti-cheat software**. These anti-cheat software **are not able to run** on Linux.
 	- The reason why is a kernel-level anti-cheat software that is developed for a Windows game means that the anti-cheat software **requires a kernel called "Windows NT", which is only available for Windows**.
@@ -80,10 +86,9 @@ Hello! This guide aims to help you understand **how gaming on Linux works**, **h
 	- The case is **different for <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/4f90b991-8cca-481c-8324-a9b497fd8687" /> VANGUARD** because **no games** using <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/4f90b991-8cca-481c-8324-a9b497fd8687" /> VANGUARD are able to run on Linux. This is because <img width="10" height="25" alt="image" src="https://github.com/user-attachments/assets/4f90b991-8cca-481c-8324-a9b497fd8687" /> VANGUARD is only used by the games of <img width="16" height="25" alt="rito" src="https://github.com/user-attachments/assets/06511a6d-3434-4ae0-be6d-a4d5e0f6c8c8" /> Riot Games, which **do not intend to support** Linux players at all.
 # Get Started
 ## Installing Vulkan Drivers
-- This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
-- If you **cannot see your Linux distribution** in the page, that probably means Mesa **(the default <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/262e5a2c-6c88-4e6f-a0d1-d8428fb16504" /> <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> Intel/AMD GPU driver)** Vulkan drivers are **preinstalled** on your Linux distribution.
-	- However, if you **cannot** see your distribution in the page and if you are using <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> **NVIDIA**, I suggest that you find a **different documentation** for installation steps or **switch to one of the distributions** that are mentioned in the page.
-
+> [!NOTE]
+> - If you are using <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/f75e206c-3d24-4e00-9d40-ce190c27b9b3" /> **NVIDIA**, please follow <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> [Lutris' Community Guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md).
+> - If you use <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/262e5a2c-6c88-4e6f-a0d1-d8428fb16504" /> <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **Intel/AMD**, you get your Vulkan drivers **preinstalled** when you install a **gaming software** such as <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> **Steam** using your package manager.
 ## Installing Gaming Software
 - Some popular gaming software that are available on Linux are:
 	- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> **|** [Steam](https://store.steampowered.com/)
@@ -95,14 +100,15 @@ Hello! This guide aims to help you understand **how gaming on Linux works**, **h
 	- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cdfc27d4-44f6-4a7a-810a-70ebfde3c440" /> **|** [Sober](https://sober.vinegarhq.org) **-** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cdfc27d4-44f6-4a7a-810a-70ebfde3c440" /> Sober is a game launcher for playing <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/26dec68d-79c7-4f82-875a-ab1a21bb11f5" /> **Roblox's** <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android version on Linux. In the past, it was possible to run the Windows version of <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/26dec68d-79c7-4f82-875a-ab1a21bb11f5" /> Roblox through <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/2e1571a7-9ec9-42eb-8238-c6931941b506" /> **VinegarHQ**. However, it is **borked** now due to the **anti-cheat configuration**. That's why <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cdfc27d4-44f6-4a7a-810a-70ebfde3c440" /> **Sober** is the new way of playing <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/26dec68d-79c7-4f82-875a-ab1a21bb11f5" /> Roblox on Linux.
 	- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> [Prism Launcher](https://prismlauncher.org) **-** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/d627b381-7fa3-4f3e-850a-7d0644116c7b" /> Prism Launcher is a feature-rich game launcher for playing <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> **Minecraft**.
  		- I have a <img width="16" height="25" alt="mc" src="https://github.com/user-attachments/assets/b48ac714-01b3-4aaf-bb00-348e811eb0d5" /> [Minecraft guide](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md) for configuring and optimizing Minecraft, if you are interested.
+	- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/81c9d276-a075-47fe-89ac-d99c8a8b14db" /> [AAGL](https://github.com/an-anime-team/an-anime-game-launcher) **-** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/81c9d276-a075-47fe-89ac-d99c8a8b14db" /> AAGL (An Anime Game Launher) is a feature-rich game launcher for playing anime games like <img width="16" height="25" alt="GI" src="https://github.com/user-attachments/assets/e1216d3f-2ffb-4267-9ff2-273d51b0c577" />
+ **Genshin Impact**, which **disables telemetry** and **applies patches automatically** to keep the games working.
 	- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> [Waydroid](https://waydro.id/) **-** <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid is is a **container-based compatibility layer** that **allows <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android to run on Linux**. So you can play <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android games on Linux using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> Waydroid.
  		- I have a <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/92f8c7dc-7a41-4a92-bc71-0d69bd2d22b9" /> [Waydroid guide](https://github.com/cagla-su/Waydroid-Guide) for your questions in mind, installation and configuration steps, if you are interested.
-
-### ⚠️
-- You can install these software through either your **package manager** or [Flatpak](https://flatpak.org).
-- You can check <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1ee2ed23-e831-463b-8ada-87e8cd5d4fc7" /> [ProtonDB](https://www.protondb.com) to see whether your <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam games are playable on Linux.
-	- If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
-	- You can get **optimization tips** if there are any reviews written for your game. If you wish, you can write your own reviews for any <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam game you wish.
+> [!TIP]
+> - You can install these software through either your **package manager** or [Flatpak](https://flatpak.org).
+> - You can check <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1ee2ed23-e831-463b-8ada-87e8cd5d4fc7" /> [ProtonDB](https://www.protondb.com) to see whether your <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam games are playable on Linux.
+>   - If the game you searched is ranked **lower than silver**, that means it is **unplayable**.
+>	- You can get **optimization tips** if there are any reviews written for your game. If you wish, you can write your own reviews for any <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam game you wish.
 # Hybrid Graphics Setup
 - If your system has **two GPUs (1 integrated + 1 dedicated)**, it is recommended to **install Vulkan drivers for both hardware** and set games to run through your dedicated GPU.
 - To run games using your dedicated <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **AMD** GPU, use the following command:
@@ -150,16 +156,18 @@ DRI_PRIME=1 gamemoderun %command%
 ```
 ### For Lutris & Heroic Games <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cf4a5ae3-5348-4199-bf47-21a1c2efe2df" />
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> **| Lutris -** On the left side bar, click the **settings icon** that appears when you point your mouse cursor on `Wine`.
-	- `System Options` **-** `Enable Advanced` **-** `Use Discrete Graphics`
+	- `System Options` **-** `Enable Advanced` **-** `Display` **-** `GPU`
  - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cf4a5ae3-5348-4199-bf47-21a1c2efe2df" /> **| Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
 # External Disk Setup
-- If your external disk is **internally connected**, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
-- These steps also apply if your disk is **internally connected** but still **not working properly**.
+> [!NOTE]
+> - If your external disk is **internally connected**, you might be able to use it **out of the box** depending on your Linux distribution. However, if you are using your external disk **through an SSD case (USB)**, you should configure it manually.
+> - These steps also apply if your disk is **internally connected** but still **not working properly**.
 ## Get Started: GParted <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/8119e97a-f45c-4859-bbf2-2b9b26b542a5" />
-⚠️ - I **strongly suggest** that you **format your disk** to change its file system from **NTFS** to a **Linux-compatible one** because **write support for NTFS** is **experimental** on Linux and it **might corrupt** your drive!!! You have been warned.
+> [!WARNING]
+> - I **strongly suggest** that you **format your disk** to change its file system from **NTFS** to a **Linux-compatible one** because **write support for NTFS** is **experimental** on Linux and it **might corrupt** your drive!!! You have been warned.
 - Install `gparted` using your package manager and follow the next steps, **making sure** your external disk is **unmounted** while it is **physically connected**.
 	- `Launch GParted` **-** `select your external disk from the top right` **-** `delete all the partitions` **-** `Add`
- 	- **Next -** `File system: ext4` **-** `Label: anything you wish` **-** `Add`
+ 	- **Next -** `File system: ext4 (or xfs, if you wish)` **-** `Label: anything you wish` **-** `Add`
   	- **Finally -** `Apply All Operations`
 ## How to Configure External Disks on Linux?
 - First of all, install `gnome-disk-utility` package using your package manager.
@@ -182,21 +190,23 @@ DRI_PRIME=1 gamemoderun %command%
 
 # Optimization Tips
 ## Reducing Game Resolution and Using the Lowest Graphics Settings
-- When you reduce the resolution of a game, **less pixels will be rendered** and it will result in **less loads** on your hardware, leading to **higher performance**.
-- When you play with the lowest graphics settings, **less details will be rendered**, leading to **higher performance**.
-- Both are going to **increase performance** while **reducing visual quality**. You can experiment to find your own balanced settings.
+> [!TIP]
+> - When you reduce the resolution of a game, **less pixels will be rendered** and it will result in **less loads** on your hardware, leading to **higher performance**.
+> - When you play with the lowest graphics settings, **less details will be rendered**, leading to **higher performance**.
+> - Both are going to **increase performance** while **reducing visual quality**. You can experiment to find your own balanced settings.
 ### Lossless Scaling <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/074227ed-e80f-4dea-a770-4866500c5931" />
 It is possible to play your games in **lower resolutions** while **not losing anything from visual quality** thanks to <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/074227ed-e80f-4dea-a770-4866500c5931" /> [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/). However, you **must purchase** the app from <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam to be able to use it.
 - After purchasing <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/074227ed-e80f-4dea-a770-4866500c5931" /> Lossless Scaling, you should **install [lsfg-vk](https://github.com/PancakeTAS/lsfg-vk)** to be able to use it on Linux.
 	- However, your **GPU must support Vulkan** and your **system must have Vulkan drivers installed** in order to use this feature!
 ## Using a Performance Kernel
-**Up-to-date kernels** generally **perform well** compared to custom performance kernels. However, you can still try a custom performance kernel, in case **it might perform better**.
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/943b4b7c-5b29-46aa-b081-b5d5ecc8fec3" /> **| Arch Linux and Derivatives:** [CachyOS Kernel](https://github.com/CachyOS/linux-cachyos) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/48e91252-38ca-4a48-80b8-57423b90c5da" />
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/95bc6c6d-7d21-4c3a-ac08-31c85ddf8683" /> **| Fedora Linux and Derivatives:** [CachyOS Kernel Port For Fedora](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a3d38d39-481b-4436-b22b-b877acc4a6ea" />
+- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/95bc6c6d-7d21-4c3a-ac08-31c85ddf8683" /> **| Fedora Linux and Derivatives:** [CachyOS Kernel Port For Fedora](https://github.com/CachyOS/copr-linux-cachyos) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a3d38d39-481b-4436-b22b-b877acc4a6ea" />
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c56a6d0a-133d-4bcf-a594-f4cd8b58e335" /> <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/7960ea90-ac89-4e3a-9839-cd77f9ec2b24" /> **| Debian/Ubuntu Linux and Derivatives:** [XanMod Kernel](https://xanmod.org/) <img width="16" height="25" alt="xanmod" src="https://github.com/user-attachments/assets/d3afbdc8-439a-426b-b5b1-9206f03fea05" />
 ## Gamemode
 - [Gamemode](https://github.com/FeralInteractive/gamemode) is a tool that **temporarily changes** your **system configurations** to increase performance during the gameplay.
-	- Generally, gaming software like <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris **enable it by default**. But on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam, you should **manually add a command** in your game's launch options like in the example:
+> [!NOTE]
+> - Generally, gaming software like <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris **enable it by default**.
+> - However on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam, you should **manually add a command** in your game's launch options like in the example:
 ```
 gamemoderun %command%
 ```
@@ -207,9 +217,6 @@ You can use these launch options for higher performance while gaming:
 - `WINE_LARGE_ADDRESS_AWARE=1` **-** It **allows 32-bit applications to consume up to 4 GB RAM instead of 2 GB**. - *Variable impact depending on the game, generally medium.*
 - `MESA_GLTHREAD=true` **-** It improves **OpenGL performance** on <img width="16" height="25" alt="intel" src="https://github.com/user-attachments/assets/315abff4-87d6-4779-b38d-08f07b8237a4" /> <img width="16" height="32" alt="image" src="https://github.com/user-attachments/assets/bea33d54-3560-4d14-a706-6a4edef4e8a6" /> **Intel/AMD GPUs**. - *High impact on performance*
 - `__GL_THREADED_OPTIMIZATIONS=1` **-** It improves **OpenGL performance** on <img width="16" height="28" alt="nvidia" src="https://github.com/user-attachments/assets/cf335904-bc37-427e-a86d-c7f9df4bd852" /> **NVIDIA GPUs**. - *High impact on performance*
-- `DXVK_ASYNC=1` **-** It **displays frames without waiting for shaders to be compiled**. - *Variable impact depending on the game, generally low.*
-	- It works on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris and <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cf4a5ae3-5348-4199-bf47-21a1c2efe2df" /> Heroic while it **does not work on <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> Steam games**.
- 	- Additionally, using DXVK Async can **get you banned from online games**. That's why, it is only recommended for **offline games**. 
 ### How Can You Use These Launch Options?
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/e593fe4c-a595-40e2-b2fd-bcd6cb743c7e" /> **| Steam -** You can simply use these commands in launch options section that is [previously mentioned](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games-).
 - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> **| Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
@@ -219,7 +226,8 @@ You can use these launch options for higher performance while gaming:
 <img width="513" height="180" alt="image" src="https://github.com/user-attachments/assets/557adebe-23e7-4c8b-93e2-0378cb38faae" />
 
 ## Disabling Compositor - X11 ONLY!!! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" />
-**⚠️ -** If you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, disabling the compositor is **not possible**. These steps are only available for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11.
+> [!WARNING]
+> If you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, disabling the compositor is **not possible**. These steps are only available for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/3dd1cec2-812d-4367-856a-0c008cbd7ede" /> X11.
 - A disabled compositor **simply means disabled animations and transparency**. Also, it causes screen tearing which **reduces visual quality while improving performance**.
 - This step is explained in <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" /> [Linux Gaming wiki](https://linux-gaming.kwindu.eu/index.php?title=Compositor_(X11)).
 # Conclusion

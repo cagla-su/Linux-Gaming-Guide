@@ -19,7 +19,7 @@
 ### Launcher Settings
 > [!NOTE]
 > - Launcher settings **may not increase performance** if you have a **strong system**.
-> - However if you have a **low-end (weak) system**, slight changes can **enhance** your experience.
+> - However if you have a **low-end (weak) system**, slight changes can **enhance** your gaming experience.
 - In the launcher, click `Settings` icon next to `Launch` button.
   - Scroll down and go to `Launcher behavior`.
     - If you have **at least 16 GB RAM**, you can keep it as `Hide`.
@@ -55,10 +55,9 @@
 <img width="894" height="322" alt="image" src="https://github.com/user-attachments/assets/851bba7e-10f2-4796-8d23-e39677ec63a1" />
 
 
-- **For a balance of visual quality and performance V2** - *For laptops with slightly strong CPUs without a dedicated GPU such as i5-8265U + Intel UHD 620*
+- **For a balance of visual quality and performance V2** - *For computers with slightly strong CPUs without a dedicated GPU such as i5-8265U + Intel UHD 620*
 <img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/90fdaa7e-7ff1-4db2-b1ac-f24cad059efa" />
 <img width="894" height="318" alt="image" src="https://github.com/user-attachments/assets/51b84c24-c719-411a-9e0d-1cc8eeedd674" />
-<img width="894" height="318" alt="image" src="https://github.com/user-attachments/assets/857dd3e4-54a1-4123-9f9e-0b05962dd76e" />
 
 ### Other In-Game Settings
 - `Settings` **-** `Audio` **-** `Dynamic Range` **-** `Limited`

@@ -22,19 +22,19 @@
 > - However if you have a **low-end (weak) system**, slight changes can **enhance** your experience.
 - In the launcher, click `Settings` icon next to `Launch` button.
   - Scroll down and go to `Launcher behavior`.
-    - If you have at least 16 GB RAM, you can keep it as `Hide`.
-    - If you have 12 GB or less RAM, change it to `Close`.
+    - If you have **at least 16 GB RAM**, you can keep it as `Hide`.
+    - If you have **12 GB or less RAM**, change it to `Close`.
   - Now go to `Components` and make sure that the `Selected version` is a `Spritz-Wine-TKG` build. If not, you can install it from the same page.
   - Scroll down and go to `Gplasync`.
-    - Install the latest version and change your `DXVK version` to the one you installed.
+    - Install **the latest** version and change your `DXVK version` to the one you installed.
 - Go back from `Components` and go to `Enhancements` that is on top.
   - Under `Wine` section, change `Synchronization` to `None` and go to `Environment`.
   - In `Environment`, make sure your environment part looks like this:
 <img width="612" height="573" alt="image" src="https://github.com/user-attachments/assets/6a70e344-e977-49c5-b146-5bd6f42cd7d8" />
 
 > [!NOTE]
-> - If you are **not** using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, do not include the `env -u DISPLAY %command%` part.
->   - If you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, go back and enable `Borderless window` under `Wine` section if <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland's window decoration discomforts you.
+> - If you are **not** using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, **do not include** the `env -u DISPLAY %command%` part.
+>   - If you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, go back and enable `Borderless window` under `Wine` section **if <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland's window decoration discomforts you**.
 
 ### In-Game Settings
 - `Esc` **-** `Settings` **-** `Graphics`

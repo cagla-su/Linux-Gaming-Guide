@@ -9,7 +9,7 @@
 > - You can now purchase <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims™ 2: Legacy Collection** from various gaming platforms **without the need of any tweaks**. However, this guide is written for <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection**.
 > - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** is abandonware, which means it is **legally unobtainable**. So, you should either have the **setup file** or **the DVD** to install the game.
 > - If you are ready, let's begin!
-## Get Started
+# Get Started
 - First of all, **extract the files** from your DVD into a folder and **open <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris**.
 - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: The Sims 2` **-** `Continue until the "Select the setup file" step` **-** `Select the setup file` **-** `Complete the installation`
 - After **the installation has completed**, make sure the game is **located correctly**. To do so, open <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris and:

@@ -29,3 +29,7 @@
 >   - If you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, go back and enable `Borderless window` under `Wine` section if <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland's window decoration discomforts you.
 
 ### In-Game Settings
+- `Esc` **-** `Settings` **-** `Graphics`
+- **For high-end computers** - *Gaming PCs*
+<img width="894" height="622" alt="image" src="https://github.com/user-attachments/assets/24f631ef-4cdc-4863-a5b5-fe3102c502fc" />
+<img width="894" height="319" alt="image" src="https://github.com/user-attachments/assets/e915c866-72bd-4064-b8b6-f2ea54ecfd9e" />

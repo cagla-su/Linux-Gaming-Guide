@@ -37,33 +37,33 @@
 >   - Eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland kullanıyorsanız ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> **Wayland'in pencere süslemesi sizi rahatsız ediyorsa**, geri dönüp `Wine` bölümünün altında bulunan `Köşesiz Pencere` seçeneğini etkinleştirin.
 
 ### Oyun İçi Ayarlar
-- `Esc` **-** `Settings` **-** `Graphics`
+- `Esc` **-** `Ayarlar` **-** `Grafikler`
 
 
-- **For the optimal visual quality** - *For gaming PCs and strong systems*
+- **En uygun görsel kalite için** - *Oyun oynama bilgisayarları ve güçlü sistemler için*
 <img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/2dea7cf5-a2a4-493a-a45f-9a3e517d6f08" />
 <img width="894" height="319" alt="image" src="https://github.com/user-attachments/assets/e915c866-72bd-4064-b8b6-f2ea54ecfd9e" />
 
 
-- **For the best performance** - *For low-end devices or highest performance enjoyers*
+- **En iyi performans için** - *Zayıf bilgisayarlar ve en yüksek performans sevenler için*
 <img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/8686b8fc-0e88-41c6-9b96-00500f352eb6" />
 <img width="894" height="319" alt="image" src="https://github.com/user-attachments/assets/485e9dd3-1192-4bd5-ba58-2a2604c19f7e" />
 
 
-- **For a balance of visual quality and performance** - *For mid-range computers*
+- **Görsel kalite ve performans dengesi için** - *Orta özellikli bilgisayarlar için*
 <img width="894" height="610" alt="image" src="https://github.com/user-attachments/assets/57e32bf1-8296-4bc4-b602-c596692fa488" />
 <img width="894" height="322" alt="image" src="https://github.com/user-attachments/assets/851bba7e-10f2-4796-8d23-e39677ec63a1" />
 
 
-- **For a balance of visual quality and performance V2** - *For laptops with slightly strong CPUs without a dedicated GPU such as i5-8265U + Intel UHD 620*
+- **Görsel kalite ve performans dengesi için V2** - *Harici ekran kartı olmayan biraz güçlü işlemciye sahip bilgisayarlar için. Örn. i5-8265U + Intel UHD 620*
 <img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/90fdaa7e-7ff1-4db2-b1ac-f24cad059efa" />
 <img width="894" height="318" alt="image" src="https://github.com/user-attachments/assets/51b84c24-c719-411a-9e0d-1cc8eeedd674" />
 <img width="894" height="318" alt="image" src="https://github.com/user-attachments/assets/857dd3e4-54a1-4123-9f9e-0b05962dd76e" />
 
-### Other In-Game Settings
-- `Settings` **-** `Audio` **-** `Dynamic Range` **-** `Limited`
-- `Settings` **-** `Other` **-** `Mini-Map Settings` **-** `Fixed`
+### Diğer Oyun İçi Ayarlar
+- `Ayarlar` **-** `Ses` **-** `Dinamik Aralık` **-** `Sınırlı`
+- `Ayarlar` **-** `Diğer` **-** `Mini Harita Ayarları` **-** `Sabit`
 
-# Conclusion
-This guide was about Genshin Impact installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+# Kapanış
+Bu rehber Genshin Impact kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
 

@@ -10,7 +10,7 @@
 > - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/35809d93-5960-4e2b-bc5d-2639cb667c04" /> **The Sims 2: Ultimate Collection** artık satılmayan bir oyundur, yani oyunu **yasal olarak elde edemezsiniz**. Bu yüzden **kurulum dosyasına** veya **DVD'ye** sahip olmalısınız.
 > - Son olarak, Linux sisteminizi Türkçe kullanmayı tercih etseniz bile size programlar için İngilizce dilini tercih etmenizi tavsiye ederim, çünkü **programların Türkçe desteği tam değildir**.
 > - Hazırsanız, başlayalım!
-## Başlangıç
+# Başlangıç
 - Öncelikle, DVD'nizden **dosyaları klasöre çıkarın** ve **<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris'i** çalıştırın.
 - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: The Sims 2` **-** `"Select the setup file" adımına kadar devam edin` **-** `Kurulum dosyasını seçin` **-** `Kurulumu tamamlayın`
 - **Kurulum bittikten** sonra oyunun **doğru şekilde konumlandırıldığından** emin olun. Bunu yapmak için <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/1e14870a-70af-4e70-833b-6703dd9e9701" /> Lutris içerisinde şunları yapın:

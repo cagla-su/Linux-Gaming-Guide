@@ -41,24 +41,24 @@
 
 
 - **En uygun görsel kalite için** - *Oyun oynama bilgisayarları ve güçlü sistemler için*
-<img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/2dea7cf5-a2a4-493a-a45f-9a3e517d6f08" />
-<img width="894" height="319" alt="image" src="https://github.com/user-attachments/assets/e915c866-72bd-4064-b8b6-f2ea54ecfd9e" />
+<img width="903" height="613" alt="image" src="https://github.com/user-attachments/assets/b153c20e-4eab-4f25-ba4c-ce89fe4a8a89" />
+<img width="903" height="316" alt="image" src="https://github.com/user-attachments/assets/4ac238a9-dcc6-4133-81c4-292bf8bbbe2e" />
 
 
 - **En iyi performans için** - *Zayıf bilgisayarlar ve en yüksek performans sevenler için*
-<img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/8686b8fc-0e88-41c6-9b96-00500f352eb6" />
-<img width="894" height="319" alt="image" src="https://github.com/user-attachments/assets/485e9dd3-1192-4bd5-ba58-2a2604c19f7e" />
+<img width="903" height="616" alt="image" src="https://github.com/user-attachments/assets/4fcd73f3-6061-4f50-824c-3391dabea8f1" />
+<img width="903" height="320" alt="image" src="https://github.com/user-attachments/assets/c152a7f5-5621-4020-8f30-c74b73402592" />
 
 
 - **Görsel kalite ve performans dengesi için** - *Orta özellikli bilgisayarlar için*
-<img width="894" height="610" alt="image" src="https://github.com/user-attachments/assets/57e32bf1-8296-4bc4-b602-c596692fa488" />
-<img width="894" height="322" alt="image" src="https://github.com/user-attachments/assets/851bba7e-10f2-4796-8d23-e39677ec63a1" />
+<img width="903" height="615" alt="image" src="https://github.com/user-attachments/assets/72f7c7e8-4e29-4f4c-aa76-6ddc5a8fffa9" />
+<img width="903" height="318" alt="image" src="https://github.com/user-attachments/assets/d2501720-41dd-43a5-a61f-d542fa18844e" />
 
 
 - **Görsel kalite ve performans dengesi için V2** - *Harici ekran kartı olmayan biraz güçlü işlemciye sahip bilgisayarlar için. Örn. i5-8265U + Intel UHD 620*
-<img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/90fdaa7e-7ff1-4db2-b1ac-f24cad059efa" />
-<img width="894" height="318" alt="image" src="https://github.com/user-attachments/assets/51b84c24-c719-411a-9e0d-1cc8eeedd674" />
-<img width="894" height="318" alt="image" src="https://github.com/user-attachments/assets/857dd3e4-54a1-4123-9f9e-0b05962dd76e" />
+<img width="903" height="609" alt="image" src="https://github.com/user-attachments/assets/00b836b0-6b0b-45a7-a1f6-8199ce1891fd" />
+<img width="903" height="319" alt="image" src="https://github.com/user-attachments/assets/df0ab682-26ac-4ee9-a8b2-b65a62853945" />
+
 
 ### Diğer Oyun İçi Ayarlar
 - `Ayarlar` **-** `Ses` **-** `Dinamik Aralık` **-** `Sınırlı`

@@ -41,8 +41,8 @@
 
 ---
 - **For the optimal visual quality** - *For gaming PCs and strong systems*
-<img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/2dea7cf5-a2a4-493a-a45f-9a3e517d6f08" />
-<img width="894" height="319" alt="image" src="https://github.com/user-attachments/assets/e915c866-72bd-4064-b8b6-f2ea54ecfd9e" />
+<img width="898" height="621" alt="image" src="https://github.com/user-attachments/assets/8e3d808d-bdda-448c-95e3-87dfd1f5ae6c" />
+<img width="898" height="316" alt="image" src="https://github.com/user-attachments/assets/1eded108-b17e-42be-af88-beb3c8f9bda1" />
 
 ---
 - **For the best performance** - *For low-end devices or highest performance enjoyers*
@@ -51,13 +51,13 @@
 
 ---
 - **For a balance of visual quality and performance** - *For mid-range computers*
-<img width="894" height="610" alt="image" src="https://github.com/user-attachments/assets/57e32bf1-8296-4bc4-b602-c596692fa488" />
-<img width="894" height="322" alt="image" src="https://github.com/user-attachments/assets/851bba7e-10f2-4796-8d23-e39677ec63a1" />
+<img width="898" height="616" alt="image" src="https://github.com/user-attachments/assets/edc3da89-a64c-4a02-9ccb-58d5a8f303e6" />
+<img width="898" height="318" alt="image" src="https://github.com/user-attachments/assets/71aaf7b9-cb44-45f3-832b-260798dad8e9" />
 
 ---
 - **For a balance of visual quality and performance V2** - *For computers with slightly strong CPUs without a dedicated GPU such as i5-8265U + Intel UHD 620*
-<img width="894" height="609" alt="image" src="https://github.com/user-attachments/assets/90fdaa7e-7ff1-4db2-b1ac-f24cad059efa" />
-<img width="894" height="318" alt="image" src="https://github.com/user-attachments/assets/51b84c24-c719-411a-9e0d-1cc8eeedd674" />
+<img width="898" height="614" alt="image" src="https://github.com/user-attachments/assets/77230870-79d7-4ac6-add9-246437cb5cbb" />
+<img width="898" height="320" alt="image" src="https://github.com/user-attachments/assets/b852b652-3dda-4f21-adc6-92fe7c1650f7" />
 
 ### Other In-Game Settings
 - `Settings` **-** `Audio` **-** `Dynamic Range` **-** `Limited`

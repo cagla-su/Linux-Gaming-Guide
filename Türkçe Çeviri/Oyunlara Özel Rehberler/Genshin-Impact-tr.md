@@ -41,8 +41,8 @@
 
 ---
 - **En uygun görsel kalite için** - *Oyun oynama bilgisayarları ve güçlü sistemler için*
-<img width="903" height="613" alt="image" src="https://github.com/user-attachments/assets/b153c20e-4eab-4f25-ba4c-ce89fe4a8a89" />
-<img width="903" height="316" alt="image" src="https://github.com/user-attachments/assets/4ac238a9-dcc6-4133-81c4-292bf8bbbe2e" />
+<img width="897" height="615" alt="image" src="https://github.com/user-attachments/assets/29b57225-0baa-48b6-b77f-2c9c0db16a14" />
+<img width="897" height="316" alt="image" src="https://github.com/user-attachments/assets/f6a08a72-31c2-46b4-a783-e637c446be41" />
 
 ---
 - **En iyi performans için** - *Zayıf bilgisayarlar ve en yüksek performans sevenler için*
@@ -51,13 +51,14 @@
 
 ---
 - **Görsel kalite ve performans dengesi için** - *Orta özellikli bilgisayarlar için*
-<img width="903" height="615" alt="image" src="https://github.com/user-attachments/assets/72f7c7e8-4e29-4f4c-aa76-6ddc5a8fffa9" />
-<img width="903" height="318" alt="image" src="https://github.com/user-attachments/assets/d2501720-41dd-43a5-a61f-d542fa18844e" />
+<img width="897" height="611" alt="image" src="https://github.com/user-attachments/assets/5f8c0f59-8164-4af1-afab-1e05c5fea398" />
+<img width="897" height="316" alt="image" src="https://github.com/user-attachments/assets/64504d76-9292-42e0-995d-2f77e57178c6" />
+
 
 ---
 - **Görsel kalite ve performans dengesi için V2** - *Harici ekran kartı olmayan biraz güçlü işlemciye sahip bilgisayarlar için. Örn. i5-8265U + Intel UHD 620*
-<img width="903" height="609" alt="image" src="https://github.com/user-attachments/assets/00b836b0-6b0b-45a7-a1f6-8199ce1891fd" />
-<img width="903" height="319" alt="image" src="https://github.com/user-attachments/assets/df0ab682-26ac-4ee9-a8b2-b65a62853945" />
+<img width="897" height="615" alt="image" src="https://github.com/user-attachments/assets/386ab2ec-f1dc-4a63-8885-6d72e585c00f" />
+<img width="896" height="316" alt="image" src="https://github.com/user-attachments/assets/5de943e5-5959-4ce7-bba5-e15906156374" />
 
 
 ### Diğer Oyun İçi Ayarlar

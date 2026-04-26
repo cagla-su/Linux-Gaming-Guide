@@ -5,14 +5,14 @@
   - [Installing Java](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#installing-java)
   - [Installing Minecraft](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#installing-minecraft)
 - [Optimization](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optimization)
-  - [Optifine Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-optifine-method-recommended-for-version-1162-and-earlier)
-    - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-optifine-in-game-optimized-settings)
-  - [Sodium Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium-method-recommended-for-version-1163-and-later)
+  - [Optifine Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-optifine---method-recommended-for-version-1162-and-earlier)
+    - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-optifine---in-game-optimized-settings)
+  - [Sodium Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium-method---recommended-for-version-1163-and-later)
     - [Mods That You Need to Use Sodium](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#mods-that-you-need-to-use-sodium)
-    - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium-in-game-optimized-settings)
-  - [VulkanMod Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-vulkanmod-method-recommended-for-version-1182-and-later)
+    - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium---in-game-optimized-settings)
+  - [VulkanMod Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-vulkanmod-method---recommended-for-version-1182-and-later)
     - [Mods That You Need to Use VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#mods-that-you-need-to-use-vulkanmod)
-    - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-vulkanmod-in-game-optimized-settings)
+    - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-vulkanmod---in-game-optimized-settings)
   - [Essential Performance-Increasing Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#essential-performance-increasing-mods-for-sodium-and-vulkanmod)
     - [Optional Performance-Increasing Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optional-performance-increasing-mods-for-sodium-and-vulkanmod)
   - [Quality of Life Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#quality-of-life-mods-for-sodium-and-vulkanmod)
@@ -138,10 +138,9 @@ You can install Prism Launcher following [these steps according to your distribu
 > [!TIP]
 > - For modern GPUs that **completely support Vulkan**, this mod can **perform better** than Sodium and Optifine as this mod uses **Vulkan instead of OpenGL**.
 - `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
-### VulkanMod
+### Mods That You Need to Use VulkanMod
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [VulkanMod](https://modrinth.com/mod/vulkanmod)
-- [VulkanMod Extra](https://modrinth.com/mod/vulkanmod-extra)
 ### VulkanMod - In-Game Optimized Settings
 > [!NOTE]
 > VulkanMod has similar settings with Sodium. Please check [Sodium In-Game Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium---in-game-optimized-settings).

@@ -8,12 +8,12 @@
 - [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md#conclusion)
 # Before Starting
 > [!NOTE]
-> - The software we will be using in order to play <img width="16" height="25" alt="GI" src="https://github.com/user-attachments/assets/5b348860-e317-42c5-b684-275fa9187545" /> Genshin Impact on Linux is <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f50ef5c1-e0e0-4ab8-9a38-b687b8f9c08c" /> [AAGL](https://github.com/an-anime-team/an-anime-game-launcher).
+> - The software we will be using in order to play Genshin Impact on Linux is [AAGL](https://github.com/an-anime-team/an-anime-game-launcher).
 > - If you are ready, let's begin!
 # Get Started
-- First of all, **launch <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f50ef5c1-e0e0-4ab8-9a38-b687b8f9c08c" /> AAGL** and complete installation steps.
+- First of all, **launch AAGL** and complete installation steps.
 > [!NOTE]
-> - Once you see the `Launch` button, you are **officially ready to play** <img width="16" height="25" alt="GI" src="https://github.com/user-attachments/assets/5b348860-e317-42c5-b684-275fa9187545" /> Genshin Impact.
+> - Once you see the `Launch` button, you are **officially ready to play** Genshin Impact.
 > - However, the performance **will not be the same** as Windows. So you might want to keep reading the guide for optimization tips.
 ## Optimization Tips
 ### Launcher Settings
@@ -33,8 +33,8 @@
 <img width="612" height="573" alt="image" src="https://github.com/user-attachments/assets/6a70e344-e977-49c5-b146-5bd6f42cd7d8" />
 
 > [!NOTE]
-> - If you are **not** using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, **do not include** the `env -u DISPLAY %command%` part.
->   - If you are using <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland, go back and enable `Borderless window` under `Wine` section **if <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland's window decoration discomforts you**.
+> - If you are **not** using Wayland, **do not include** the `env -u DISPLAY %command%` part.
+>   - If you are using Wayland, go back and enable `Borderless window` under `Wine` section **if Wayland's window decoration discomforts you**.
 
 ### In-Game Settings
 - `Esc` **-** `Settings` **-** `Graphics`
@@ -64,4 +64,4 @@
 - `Settings` **-** `Other` **-** `Mini-Map Settings` **-** `Fixed`
 
 # Conclusion
-This guide was about Genshin Impact installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+This guide was about Genshin Impact installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming!

@@ -154,7 +154,7 @@ DRI_PRIME=1 gamemoderun %command%
 ### Lutris & Heroic Oyunları İçin
 - **Lutris -** Soldaki kısımda `Wine` yazan yere fare imlecinizi götürdükten sonra beliren **ayarlar simgesine** tıklayın.
 	- `System Options` **-** `Advanced seçeneğini etkinleştirin` **-** `Display` **-** `GPU`
- - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/cf4a5ae3-5348-4199-bf47-21a1c2efe2df" /> **| Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
+ - **Heroic -** `Settings` **-** `Game Defaults` **-** `Other` **-** `Use Dedicated Graphics Card`
 # Harici Disk Yapılandırması
 > [!NOTE]
 > - Harici diskiniz **anakarta bağlıysa**, Linux dağıtımınıza bağlı olarak onu doğrudan kullanabilme ihtimaliniz vardır. Ancak, harici diskinizi **bir SSD kutusu (USB) aracılığıyla** kullanıyorsanız, onu elle yapılandırmalısınız.

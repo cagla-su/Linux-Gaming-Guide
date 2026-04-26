@@ -197,7 +197,7 @@ DRI_PRIME=1 gamemoderun %command%
 > - When you reduce the resolution of a game, **less pixels will be rendered** and it will result in **less loads** on your hardware, leading to **higher performance**.
 > - When you play with the lowest graphics settings, **less details will be rendered**, leading to **higher performance**.
 > - Both are going to **increase performance** while **reducing visual quality**. You can experiment to find your own balanced settings.
-### Lossless Scaling <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/074227ed-e80f-4dea-a770-4866500c5931" />
+### Lossless Scaling
 It is possible to play your games in **lower resolutions** while **not losing anything from visual quality** thanks to [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/). However, you **must purchase** the app from Steam to be able to use it.
 - After purchasing Lossless Scaling, you should **install [lsfg-vk](https://github.com/PancakeTAS/lsfg-vk)** to be able to use it on Linux.
 	- However, your **GPU must support Vulkan** and your **system must have Vulkan drivers installed** in order to use this feature!

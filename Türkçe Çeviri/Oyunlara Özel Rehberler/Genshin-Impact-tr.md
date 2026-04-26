@@ -8,12 +8,12 @@
 - [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#kapan%C4%B1%C5%9F)
 # Başlamadan Önce
 > [!NOTE]
-> - Linux'ta <img width="16" height="25" alt="GI" src="https://github.com/user-attachments/assets/5b348860-e317-42c5-b684-275fa9187545" /> Genshin Impact oynamak için kullanacağımız yazılım <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f50ef5c1-e0e0-4ab8-9a38-b687b8f9c08c" /> [AAGL](https://github.com/an-anime-team/an-anime-game-launcher)'dir.
+> - Linux'ta Genshin Impact oynamak için kullanacağımız yazılım [AAGL](https://github.com/an-anime-team/an-anime-game-launcher)'dir.
 > - Hazırsanız, başlayalım!
 # Başlangıç
-- Öncelikle, **<img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/f50ef5c1-e0e0-4ab8-9a38-b687b8f9c08c" /> AAGL'i başlatın** ve yükleme adımlarını tamamlayın.
+- Öncelikle, **AAGL'i başlatın** ve yükleme adımlarını tamamlayın.
 > [!NOTE]
-> - `Çalıştır` tuşunu gördüğünüzde, **resmi olarak** <img width="16" height="25" alt="GI" src="https://github.com/user-attachments/assets/5b348860-e317-42c5-b684-275fa9187545" /> Genshin Impact **oynamak için hazırsınız** demektir.
+> - `Çalıştır` tuşunu gördüğünüzde, **resmi olarak** Genshin Impact **oynamak için hazırsınız** demektir.
 > - Ancak, oyunun performansı Windows'takiyle **aynı olmayacaktır**. Bu yüzden performans arttırma tavsiyeleri için rehberin devamını okumak isteyebilirsiniz.
 ## Performans Arttırma Tavsiyeleri
 ### Başlatıcı Ayarları
@@ -33,8 +33,8 @@
 <img width="581" height="547" alt="image" src="https://github.com/user-attachments/assets/f94d0e3f-7b2c-44cc-885b-16c13f3c695e" />
 
 > [!NOTE]
-> - Eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland **kullanmıyorsanız** `env -u DISPLAY %command%` kısmını **dahil etmeyin**.
->   - Eğer <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> Wayland kullanıyorsanız ve <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/6f97a779-0aa8-4ce8-adb0-ed680534e9af" /> **Wayland'in pencere süslemesi sizi rahatsız ediyorsa**, geri dönüp `Wine` bölümünün altında bulunan `Köşesiz Pencere` seçeneğini etkinleştirin.
+> - Eğer Wayland **kullanmıyorsanız** `env -u DISPLAY %command%` kısmını **dahil etmeyin**.
+>   - Eğer Wayland kullanıyorsanız ve **Wayland'in pencere süslemesi sizi rahatsız ediyorsa**, geri dönüp `Wine` bölümünün altında bulunan `Köşesiz Pencere` seçeneğini etkinleştirin.
 
 ### Oyun İçi Ayarlar
 - `Esc` **-** `Ayarlar` **-** `Grafikler`
@@ -66,5 +66,5 @@
 - `Ayarlar` **-** `Diğer` **-** `Mini Harita Ayarları` **-** `Sabit`
 
 # Kapanış
-Bu rehber Genshin Impact kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+Bu rehber Genshin Impact kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar!
 

@@ -38,6 +38,8 @@
 
 ## In-Game Settings
 - `Settings` **-** `Graphics`
+
+---
 ### Optimal Visual Quality: For Strong Systems & Gaming Computers
 - **Display Mode** `:` `Your native resolution Fullscreen`
 - **FPS** `:` `60`
@@ -56,6 +58,8 @@
 - **Co-Op Teammate Effects** `:` `On`
 - **Subsurface Scattering** `:` `High`
 - **Anisotropic Filtering** `:` `1x`
+
+---
 ### Balance of Quality and Performance: For Mid-Range Computers
 - **Display Mode** `:` `Your native resolution Fullscreen`
 - **FPS** `:` `60`
@@ -74,6 +78,8 @@
 - **Co-Op Teammate Effects** `:` `On`
 - **Subsurface Scattering** `:` `Off`
 - **Anisotropic Filtering** `:` `1x`
+
+---
 ### Balance of Quality and Performance: For Low-End Computers with Dedicated GPU
 - **Display Mode** `:` `1280x720 Fullscreen`
 - **FPS** `:` `60`
@@ -92,6 +98,8 @@
 - **Co-Op Teammate Effects** `:` `On`
 - **Subsurface Scattering** `:` `Off`
 - **Anisotropic Filtering** `:` `1x`
+
+---
 ### Balance of Quality and Performance: For Low-End Computers without Dedicated GPU
 - **Display Mode** `:` `1280x720 Fullscreen (reduce to 960x540 Windowed if you want to reach near 60 FPS)`
 - **FPS** `:` `60 - reduce to 30 if you selected 720p`
@@ -110,6 +118,8 @@
 - **Co-Op Teammate Effects** `:` `Partially Off`
 - **Subsurface Scattering** `:` `Off`
 - **Anisotropic Filtering** `:` `1x`
+
+---
 ### Highest Performance: For Toasters and Low Graphics Enjoyers
 - **Display Mode** `:` `1280x720 Fullscreen (reduce to 960x540 Windowed if your system struggles)`
 - Click `Compatibility Mode` at the bottom and **do not change anything else**.

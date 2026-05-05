@@ -5,6 +5,7 @@
     - [Başlatıcı Ayarları](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#ba%C5%9Flat%C4%B1c%C4%B1-ayarlar%C4%B1)
     - [Oyun İçi Ayarlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#oyun-i%CC%87%C3%A7i-ayarlar)
     - [Diğer Oyun İçi Ayarlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#di%C4%9Fer-oyun-i%CC%87%C3%A7i-ayarlar)
+    - [Aşırı Eski Bilgisayar Kullanıcıları için Tavsiyeler](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#a%C5%9F%C4%B1r%C4%B1-eski-bilgisayar-kullan%C4%B1c%C4%B1lar%C4%B1-i%C3%A7in-tavsiyeler)
 - [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#kapan%C4%B1%C5%9F)
 # Başlamadan Önce
 > [!NOTE]

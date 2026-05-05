@@ -89,7 +89,7 @@
 - **Motion Blur** `:` `Low`
 - **Bloom** `:` `On`
 - **Crowd Density** `:` `Low`
-- **Co-Op Teammate Effects** `:` `Partially Off`
+- **Co-Op Teammate Effects** `:` `On`
 - **Subsurface Scattering** `:` `Off`
 - **Anisotropic Filtering** `:` `1x`
 ### Balance of Quality and Performance: For Low-End Computers without Dedicated GPU

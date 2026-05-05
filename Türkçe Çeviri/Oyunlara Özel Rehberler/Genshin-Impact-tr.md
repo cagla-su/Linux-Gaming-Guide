@@ -36,35 +36,99 @@
 > - Eğer Wayland **kullanmıyorsanız** `env -u DISPLAY %command%` kısmını **dahil etmeyin**.
 >   - Eğer Wayland kullanıyorsanız ve **Wayland'in pencere süslemesi sizi rahatsız ediyorsa**, geri dönüp `Wine` bölümünün altında bulunan `Köşesiz Pencere` seçeneğini etkinleştirin.
 
-### Oyun İçi Ayarlar
-- `Esc` **-** `Ayarlar` **-** `Grafikler`
+## Oyun İçi Ayarlar
+- `Ayarlar` **-** `Grafikler`
 
 ---
-- **En uygun görsel kalite için** - *Oyun oynama bilgisayarları ve güçlü sistemler için*
-<img width="897" height="615" alt="image" src="https://github.com/user-attachments/assets/29b57225-0baa-48b6-b77f-2c9c0db16a14" />
-<img width="897" height="316" alt="image" src="https://github.com/user-attachments/assets/f6a08a72-31c2-46b4-a783-e637c446be41" />
+### En Uygun Görsel Kalite: Güçlü Sistemler ve Oyun Oynama Bilgisayarları için
+- **Görüntüleme Modu** `:` `Kendi Ekran Çözünürlüğünüz Tam Ekran`
+- **FPS** `:` `60`
+- **Dikey Senkronizasyon** `:` `Kapalı`
+- **Modelleme Çözünürlüğü** `:` `1.0`
+- **Gölge Kalitesi** `:` `Orta`
+- **Görsel Efektler** `:` `Yüksek`
+- **Efekt Kalitesi** `:` `Yüksek`
+- **Çevre Ayrıntısı** `:` `Orta`
+- **Anti-Aliasing** `:` `FSR2`
+- **Hacimsel Işıklandırma** `:` `Açık`
+- **Yansımalar** `:` `On`
+- **Hareket Bulanıklığı** `:` `Ekstrem`
+- **Işıklandırma** `:` `Açık`
+- **Kalabalık Yoğunluğu** `:` `Yüksek`
+- **Eşli Takım Arkadaşı Etkileri** `:` `Açık`
+- **Yüzey Altı Saçılımı** `:` `Yüksek`
+- **Doku Filtreleme** `:` `1x`
 
 ---
-- **En iyi performans için** - *Zayıf bilgisayarlar ve en yüksek performans sevenler için*
-<img width="903" height="616" alt="image" src="https://github.com/user-attachments/assets/4fcd73f3-6061-4f50-824c-3391dabea8f1" />
-<img width="903" height="320" alt="image" src="https://github.com/user-attachments/assets/c152a7f5-5621-4020-8f30-c74b73402592" />
+### Kalite ve Performans Dengesi: Orta Özellikli Bilgisayarlar için
+- **Görüntüleme Modu** `:` `Kendi Ekran Çözünürlüğünüz Tam Ekran`
+- **FPS** `:` `60`
+- **Dikey Senkronizasyon** `:` `Kapalı`
+- **Modelleme Çözünürlüğü** `:` `0.8`
+- **Gölge Kalitesi** `:` `Orta`
+- **Görsel Efektler** `:` `Düşük`
+- **Efekt Kalitesi** `:` `Orta`
+- **Çevre Ayrıntısı** `:` `Düşük`
+- **Anti-Aliasing** `:` `FSR2`
+- **Hacimsel Işıklandırma** `:` `Açık`
+- **Yansımalar** `:` `Açık`
+- **Hareket Bulanıklığı** `:` `Orta`
+- **Işıklandırma** `:` `Açık`
+- **Kalabalık Yoğunluğu** `:` `Yüksek`
+- **Eşli Takım Arkadaşı Etkileri** `:` `Açık`
+- **Yüzey Altı Saçılımı** `:` `Kapalı`
+- **Doku Filtreleme** `:` `1x`
 
 ---
-- **Görsel kalite ve performans dengesi için** - *Orta özellikli bilgisayarlar için*
-<img width="897" height="611" alt="image" src="https://github.com/user-attachments/assets/5f8c0f59-8164-4af1-afab-1e05c5fea398" />
-<img width="897" height="316" alt="image" src="https://github.com/user-attachments/assets/64504d76-9292-42e0-995d-2f77e57178c6" />
-
+### Kalite ve Performans Dengesi: Harici Ekran Kartı Olan Düşük Özellikli Bilgisayarlar için
+- **Görüntüleme Modu** `:` `1280x720 Tam Ekran`
+- **FPS** `:` `60`
+- **Dikey Senkronizasyon** `:` `Kapalı`
+- **Modelleme Çözünürlüğü** `:` `0.6`
+- **Gölge Kalitesi** `:` `Düşük`
+- **Görsel Efektler** `:` `En Düşük`
+- **Efekt Kalitesi** `:` `Orta`
+- **Çevre Ayrıntısı** `:` `En Düşük`
+- **Anti-Aliasing** `:` `FSR2`
+- **Hacimsel Işıklandırma** `:` `Kapalı`
+- **Yansımalar** `:` `Kapalı`
+- **Hareket Bulanıklığı** `:` `Düşük`
+- **Işıklandırma** `:` `Açık`
+- **Kalabalık Yoğunluğu** `:` `Düşük`
+- **Eşli Takım Arkadaşı Etkileri** `:` `Açık`
+- **Yüzey Altı Saçılımı** `:` `Kapalı`
+- **Doku Filtreleme** `:` `1x`
 
 ---
-- **Görsel kalite ve performans dengesi için V2** - *Harici ekran kartı olmayan biraz güçlü işlemciye sahip bilgisayarlar için. Örn. i5-8265U + Intel UHD 620*
-<img width="897" height="615" alt="image" src="https://github.com/user-attachments/assets/386ab2ec-f1dc-4a63-8885-6d72e585c00f" />
-<img width="896" height="316" alt="image" src="https://github.com/user-attachments/assets/5de943e5-5959-4ce7-bba5-e15906156374" />
+### Kalite ve Performans Dengesi: Harici Ekran Kartı Olmayan Düşük Özellikli Bilgisayarlar için
+- **Görüntüleme Modu** `:` `1280x720 Tam Ekran (60 FPS'e yaklaşmak için 960x540 Pencereli'ye düşürün)`
+- **FPS** `:` `60 - 720p çözünürlük seçtiyseniz 30'a düşürün`
+- **Dikey Senkronizasyon** `:` `Kapalı`
+- **Modelleme Çözünürlüğü** `:` `0.6`
+- **Gölge Kalitesi** `:` `En Düşük`
+- **Görsel Efektler** `:` `En Düşük`
+- **Efekt Kalitesi** `:` `Düşük`
+- **Çevre Ayrıntısı** `:` `En Düşük`
+- **Anti-Aliasing** `:` `FSR2`
+- **Hacimsel Işıklandırma** `:` `Kapalı`
+- **Yansımalar** `:` `Kapalı`
+- **Hareket Bulanıklığı** `:` `Kapalı`
+- **Işıklandırma** `:` `Açık`
+- **Kalabalık Yoğunluğu** `:` `Düşük`
+- **Eşli Takım Arkadaşı Etkileri** `:` `Kısmen Kapalı`
+- **Yüzey Altı Saçılımı** `:` `Kapalı`
+- **Doku Filtreleme** `:` `1x`
 
-
-### Diğer Oyun İçi Ayarlar
+---
+### En Yüksek Performans: Aşırı Eski Bilgisayarlar ve Düşük Grafiklerde Oynamayı Sevenler için
+- **Görüntüleme Modu** `:` `1280x720 Tam Ekran (sisteminiz zorlanıyorsa 960x540 Pencereli'ye düşürün)`
+- En aşağıdaki `Uyumluluk Modu`na tıklayın ve **başka hiçbir şeyi değiştirmeyin**.
+## Diğer Oyun İçi Ayarlar
 - `Ayarlar` **-** `Ses` **-** `Dinamik Aralık` **-** `Sınırlı`
 - `Ayarlar` **-** `Diğer` **-** `Mini Harita Ayarları` **-** `Sabit`
-
+## Aşırı Eski Bilgisayar Kullanıcıları için Tavsiyeler
+- En iyi performansı alabilmek için, özellikle sisteminizde sadece **dahili bir ekran kartı** varsa, **CachyOS XFCE** kullanmalısınız ve **kompozitörü devre dışı** bırakmalısınız.
+  - CachyOS içinden `SchedExt GUI Manager`ı çalıştırın ve `scx_lavd` yöntemini seçtikten sonra `Gaming` profilini seçin. **Değişiklikleri kaydetmeyi** unutmayın.
 # Kapanış
 Bu rehber Genshin Impact kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar!
 

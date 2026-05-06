@@ -31,7 +31,7 @@
 - `Bileşenler`den geriye gidin ve yukarıda bulunan `Geliştirmeler` kısmına gidin.
   - `Wine` bölümünün altından `Eşleme` değerini `Boş` olarak değiştirin ve `Ortam`a gidin.
   - `Ortam` bölümünde ayarlarınızın böyle göründüğünden emin olun:
-<img width="581" height="547" alt="image" src="https://github.com/user-attachments/assets/f94d0e3f-7b2c-44cc-885b-16c13f3c695e" />
+<img width="578" height="600" alt="image" src="https://github.com/user-attachments/assets/b09d2e73-6cc2-42db-a828-c6e4a4f10979" />
 
 > [!NOTE]
 > - Eğer Wayland **kullanmıyorsanız** `env -u DISPLAY %command%` kısmını **dahil etmeyin**.

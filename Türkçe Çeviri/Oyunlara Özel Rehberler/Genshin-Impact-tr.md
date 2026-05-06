@@ -130,6 +130,7 @@
 ## Aşırı Eski Bilgisayar Kullanıcıları için Tavsiyeler
 - En iyi performansı alabilmek için, özellikle sisteminizde sadece **dahili bir ekran kartı** varsa, **CachyOS XFCE** kullanmalısınız ve **kompozitörü devre dışı** bırakmalısınız.
   - CachyOS içinden `SchedExt GUI Manager`ı çalıştırın ve `scx_lavd` yöntemini seçtikten sonra `Gaming` profilini seçin. **Değişiklikleri kaydetmeyi** unutmayın.
+  - Son olarak, `CachyOS Hello` **-** `Uygulamalar/İyileştirmeler` **-** `Install VRAM Management`
 # Kapanış
 Bu rehber Genshin Impact kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar!
 

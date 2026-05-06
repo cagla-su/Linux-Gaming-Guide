@@ -130,5 +130,6 @@
 ## Tips for Actual Toaster Users
 - For the best performance possible, especially if you **only** have an **integrated GPU**, you should use **CachyOS XFCE with compositor disabled**.
   - In CachyOS, launch `SchedExt GUI Manager` and select `scx_lavd` with `Gaming` scheduler profile. Make sure to **apply changes**.
+  - Lastly, launch `CachyOS Hello` **-** `Apps/Tweaks` **-** `Install VRAM Management`
 # Conclusion
 This guide was about Genshin Impact installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming!

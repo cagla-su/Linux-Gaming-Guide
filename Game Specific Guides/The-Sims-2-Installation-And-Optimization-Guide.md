@@ -18,17 +18,14 @@
 ## Graphics Rules Maker Setup
 - To **prevent or fix compatibility issues**, you should download [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
 - After downloading Graphics Rules Maker, launch Lutris and follow the steps below:
-  - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: *anything you wish*` **-** `Change the installation directory as "~/Games/the-sims-2/")` **-** `Select the setup file` **-** `Complete the installation (without launching the app)`
-  - Make sure the app is **located correctly**. To do so:
-    - `Right click Graphics Rules Maker` **-** `Configure` **-** `Game Options` **-** `Executable`
-    - The location is `~/Games/the-sims-2/drive_c/Program Files/Graphics Rules Maker/bin/GraphicsRulesMakerUi.exe`
+  - ` Select The Sims 2` **-** `Click the *triangle* icon next to WINE below` **-** `Run EXE inside Wine prefix` **-** `Select the GRM setup file and launch after installation`
+<img width="299" height="390" alt="image" src="https://github.com/user-attachments/assets/62907f66-32be-4911-93c3-6aac8aa4d8cf" />
+
+  - `Game: The Sims 2` **-** `Auto-detect` **-** `Force texture memory: 2048 (Intel GPUs only, do not touch it if you use NVIDIA/AMD)` **-** `Save Files`
+  - `Game: The Sims 2 Body Shop` **-** `Same steps above` **-** `Save Files`
 > [!NOTE]
 > - If you have **two GPUs**, make sure Lutris is running Graphics Rules Maker through your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#hybrid-graphics-setup) to see how to play games through your dedicated GPU.
 >    - I suggest that you read **the whole guide** for optimization tips.
-  - After Graphics Rules Maker has launched, select `The Sims 2` from the `Game` tab.
-    - It should detect your Sims folder automatically but if it cannot, try `Mansion and Garden Stuff` folder.
-  - **Next -** `Auto-detect` **-** `Save Files...`
-    - Do not forget to perform the same steps for `The Sims 2 Body Shop`.
 - Now you are ready to play The Sims 2!
 # Conclusion
 This guide was about The Sims 2 installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming!

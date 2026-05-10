@@ -10,13 +10,13 @@
 > - **The Sims 2: Ultimate Collection** is abandonware, which means it is **legally unobtainable**. So, you should either have the **setup file** or **the DVD** to install the game.
 > - If you are ready, let's begin!
 # Get Started
-- First of all, **extract the files** from your DVD into a folder and **open Lutris**.
+- First of all, **extract the files** from your DVD into a folder and **launch Lutris**.
 - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: The Sims 2` **-** `Continue until the "Select the setup file" step` **-** `Select the setup file` **-** `Complete the installation`
 - After **the installation has completed**, make sure the game is **located correctly**. To do so, open Lutris and:
   - `Right click The Sims 2` **-** `Configure` **-** `Game Options` **-** `Executable`
     - The location is generally `~/Games/the-sims-2/drive_c/Program Files (x86)/The Sims 2 Ultimate Collection/The Sims 2 Mansion and Garden Stuff/TSBin/Sims2EP9.exe` 
 ## Graphics Rules Maker Setup
-- To **prevent or fix compatibility issues**, you should download [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
+- To **prevent or fix compatibility issues**, you should install [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
 - After downloading Graphics Rules Maker, launch Lutris and follow the steps below:
   - `Select The Sims 2` **-** `Click the triangle icon next to WINE icon below` **-** `Run EXE inside Wine prefix` **-** `Select the GRM setup file and launch the app after installation`
 <img width="299" height="390" alt="image" src="https://github.com/user-attachments/assets/62907f66-32be-4911-93c3-6aac8aa4d8cf" />

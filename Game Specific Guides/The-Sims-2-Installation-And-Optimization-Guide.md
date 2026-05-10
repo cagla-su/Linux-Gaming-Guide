@@ -18,8 +18,9 @@
 ## Graphics Rules Maker Setup
 - To **prevent or fix compatibility issues**, you should download [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
 - After downloading Graphics Rules Maker, launch Lutris and follow the steps below:
-  - ` Select The Sims 2` **-** `Click the *triangle* icon next to WINE below` **-** `Run EXE inside Wine prefix` **-** `Select the GRM setup file and launch after installation`
+  - `Select The Sims 2` **-** `Click the triangle icon next to WINE icon below` **-** `Run EXE inside Wine prefix` **-** `Select the GRM setup file and launch the app after installation`
 <img width="299" height="390" alt="image" src="https://github.com/user-attachments/assets/62907f66-32be-4911-93c3-6aac8aa4d8cf" />
+
 
   - `Game: The Sims 2` **-** `Auto-detect` **-** `Force texture memory: 2048 (Intel GPUs only, do not touch it if you use NVIDIA/AMD)` **-** `Save Files`
   - `Game: The Sims 2 Body Shop` **-** `Same steps above` **-** `Save Files`

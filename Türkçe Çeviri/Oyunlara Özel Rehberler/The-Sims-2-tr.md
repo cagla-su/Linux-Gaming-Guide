@@ -19,17 +19,14 @@
 ## Graphics Rules Maker Kurulumu
 - **Uyumluluk sorunlarını önlemek veya çözmek için**, [Graphics Rules Maker'ı](https://www.simsnetwork.com/tools/graphics-rules-maker) yüklemelisiniz.
 - Graphics Rules Maker'ı indirdikten sonra, Lutris'i çalıştırın ve aşağıdaki adımları takip edin:
-  - `(+)` **-** `Install a Windows game from an executable` **-** `Game name: *Graphics Rules Maker*` **-** `Kurulum konumunu "~/Games/the-sims-2/" yapın)` **-** `Kurulum dosyasını seçin` **-** `Uygulamayı çalıştırmadan kurulumu tamamlayın`
-  - Uygulamanın **doğru şekilde konumlandırıldığından** emin olun. Bunu yapmak için Lutris içerisinde şunları yapın:
-    - `Graphics Rules Maker'a sağ tıklayın` **-** `Configure` **-** `Game Options` **-** `Executable`
-    - Konum genellikle şudur: `~/Games/the-sims-2/drive_c/Program Files/Graphics Rules Maker/bin/GraphicsRulesMakerUi.exe`
+  - `The Sims 2'yi seçin` **-** `Aşağıda bulunan WINE simgesinin yanındaki üçgen simgesine tıklayın` **-** `Run EXE inside Wine prefix` **-** `GRM kurulum dosyasını seçin ve kurulum sonrasında uygulamayı açın`
+<img width="299" height="390" alt="image" src="https://github.com/user-attachments/assets/7ab5afea-1709-4a77-8d9a-669996946178" />
+
+  - `Game: The Sims 2` **-** `Auto-detect` **-** `Force texture memory: 2048 (sadece Intel ekran kartları için bu ayarı yapın, NVIDIA/AMD kullanıyorsanız bu ayara dokunmayın)` **-** `Save Files`
+  - `Game: The Sims 2 Body Shop` **-** `Yukarıdaki adımların aynısını uygulayın` **-** `Save Files`
 > [!NOTE]
 > - **İki ekran kartı kullanıyorsanız**, Lutris'in Graphics Rules Maker'ı **harici ekran kartınızla** çalıştırdığından emin olun. Oyunları harici ekran kartıyla çalıştırmanın yollarını görmek için [Linux'ta oyun oynama rehberime](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#%C3%A7ift-grafikli-sistem-yap%C4%B1land%C4%B1rmas%C4%B1) bakabilirsiniz.
 >    - Performans arttırma tavsiyeleri için **tüm rehberi** okumanızı tavsiye ederim.
-  - Graphics Rules Maker'ı çalıştırdıktan sonra, `Game` kısmından `The Sims 2`'yi seçin.
-    - Eğer uygulama Sims klasörünüzü otomatik olarak algılayamıyorsa, `Mansion and Garden Stuff` klasörünü deneyin.
-  - **Sonrasında -** `Auto-detect` **-** `Save Files...`
-    - Aynı adımları `The Sims 2 Body Shop` için yapmayı unutmayın.
 - Artık The Sims 2 oynamak için hazırsınız!
 # Kapanış
 Bu rehber The Sims 2 kurulumu ve yapılandırması hakkındaydı. Umarım rehber faydalı olmuştur. Okuduğunuz için teşekkürler, iyi oyunlar!

@@ -20,7 +20,7 @@
 - **Uyumluluk sorunlarını önlemek veya çözmek için**, [Graphics Rules Maker'ı](https://www.simsnetwork.com/tools/graphics-rules-maker) yüklemelisiniz.
 - Graphics Rules Maker'ı indirdikten sonra, Lutris'i çalıştırın ve aşağıdaki adımları takip edin:
   - `The Sims 2'yi seçin` **-** `Aşağıda bulunan WINE simgesinin yanındaki üçgen simgesine tıklayın` **-** `Run EXE inside Wine prefix` **-** `GRM kurulum dosyasını seçin ve kurulum sonrasında uygulamayı açın`
-<img width="299" height="390" alt="image" src="https://github.com/user-attachments/assets/7ab5afea-1709-4a77-8d9a-669996946178" />
+<img width="299" height="390" alt="image psd" src="https://github.com/user-attachments/assets/087b27f7-24ae-443f-8f20-4b9411ab1290" />
 
   - `Game: The Sims 2` **-** `Auto-detect` **-** `Force texture memory: 2048 (sadece Intel ekran kartları için bu ayarı yapın, NVIDIA/AMD kullanıyorsanız bu ayara dokunmayın)` **-** `Save Files`
   - `Game: The Sims 2 Body Shop` **-** `Yukarıdaki adımların aynısını uygulayın` **-** `Save Files`

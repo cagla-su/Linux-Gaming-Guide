@@ -19,7 +19,7 @@
 - To **prevent or fix compatibility issues**, you should install [Graphics Rules Maker](https://www.simsnetwork.com/tools/graphics-rules-maker).
 - After downloading Graphics Rules Maker, launch Lutris and follow the steps below:
   - `Select The Sims 2` **-** `Click the triangle icon next to WINE icon below` **-** `Run EXE inside Wine prefix` **-** `Select the GRM setup file and launch the app after installation`
-<img width="299" height="390" alt="image" src="https://github.com/user-attachments/assets/62907f66-32be-4911-93c3-6aac8aa4d8cf" />
+<img width="299" height="390" alt="image psd" src="https://github.com/user-attachments/assets/67e5d9f5-9b62-42a3-b7c3-f26025ddd2e3" />
 
 
   - `Game: The Sims 2` **-** `Auto-detect` **-** `Force texture memory: 2048 (Intel GPUs only, do not touch it if you use NVIDIA/AMD)` **-** `Save Files`

@@ -123,7 +123,7 @@
 ---
 ### Highest Performance: For Toasters and Low Graphics Enjoyers
 - **Display Mode** `:` `1280x720 Fullscreen (reduce to 960x540 Windowed if your system struggles)`
-- Set all the settings to the lowest option possible
+- `Set all the settings to the lowest option possible`
   - If you are using a very old system, such as a 5th Gen and earlier Intel CPU, click `Compatibility Mode` at the bottom and **do not change anything else**. However, **do not** use compatibility mode if you have **modern hardware**. This option **stabilizes performance** so it might **reduce performance** on **modern systems**.
 ## Other In-Game Settings
 - `Settings` **-** `Audio` **-** `Dynamic Range` **-** `Limited`

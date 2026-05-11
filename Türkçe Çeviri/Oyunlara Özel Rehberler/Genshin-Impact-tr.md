@@ -123,7 +123,8 @@
 ---
 ### En Yüksek Performans: Aşırı Eski Bilgisayarlar ve Düşük Grafiklerde Oynamayı Sevenler için
 - **Görüntüleme Modu** `:` `1280x720 Tam Ekran (sisteminiz zorlanıyorsa 960x540 Pencereli'ye düşürün)`
-- En aşağıdaki `Uyumluluk Modu`na tıklayın ve **başka hiçbir şeyi değiştirmeyin**.
+- `Diğer tüm ayarları mümkün olan en düşük ayara çekin`
+- Eğer çok eski bir sisteme sahipseniz, örneğin **5.nesil ya da daha eski bir Intel işlemci**, en aşağıdaki `Uyumluluk Modu`na tıklayın ve **başka hiçbir şeyi değiştirmeyin**. Ancak, uyumluluk modunu **modern bir sistem** kullanıyorsanız **kullanmayın**. Uyumluluk modu **eski donanımlar için performansı dengeler**, yani **modern sistemlerde performansı düşürebilir**.
 ## Diğer Oyun İçi Ayarlar
 - `Ayarlar` **-** `Ses` **-** `Dinamik Aralık` **-** `Sınırlı`
 - `Ayarlar` **-** `Diğer` **-** `Mini Harita Ayarları` **-** `Sabit`

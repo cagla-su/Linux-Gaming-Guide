@@ -25,17 +25,15 @@
   - Scroll down and go to `Launcher behavior`.
     - If you have **at least 16 GB RAM**, you can keep it as `Hide`.
     - If you have **12 GB or less RAM**, change it to `Close`.
-  - Now go to `Components` and make sure that the `Selected version` is a `Spritz-Wine-TKG` build. If not, you can install it from the same page.
+  - Now go to `Components` and make sure that the `Selected version` is a `Spritz-CachyOS` build. If not, you can install it from the same page.
   - Scroll down and go to `Gplasync`.
     - Install **the latest** version and change your `DXVK version` to the one you installed.
 - Go back from `Components` and go to `Enhancements` that is on top.
-  - Under `Wine` section, change `Synchronization` to `None` and go to `Environment`.
+  - Under `Wine` section, change `Synchronization` to `None`.
+  - Lastly, if you use Wayland, enable `Enable Winewayland`.
+    - Also if Wayland's window decoration discomforts you, enable `Borderless window`.
   - In `Environment`, make sure your environment part looks like this:
-<img width="612" height="573" alt="image" src="https://github.com/user-attachments/assets/6a70e344-e977-49c5-b146-5bd6f42cd7d8" />
-
-> [!NOTE]
-> - If you are **not** using Wayland, **do not include** the `env -u DISPLAY %command%` part.
->   - If you are using Wayland, go back and enable `Borderless window` under `Wine` section **if Wayland's window decoration discomforts you**.
+<img width="569" height="549" alt="image" src="https://github.com/user-attachments/assets/378245bc-225c-460b-ae86-7fbc4cd0fe69" />
 
 ## In-Game Settings
 - `Settings` **-** `Graphics`

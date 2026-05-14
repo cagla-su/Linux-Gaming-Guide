@@ -25,17 +25,15 @@
   - Aşağı kaydırın ve `İstemci davranışı`na gidin.
     - Eğer **en az 16 GB RAM'e** sahipseniz, bu değeri `Gizle` olarak tutabilirsiniz.
     - Eğer **12 GB veya daha az RAM'e** sahipseniz, bu değeri `Kapat` olarak değiştirin.
-  - Şimdi `Bileşenler`e gidin ve `Seçilmiş versiyon`un bir `Spritz-Wine-TKG` yapısı olduğundan emin olun. Eğer değilse, aynı sayfadan yükleyebilirsiniz.
+  - Şimdi `Bileşenler`e gidin ve `Seçilmiş versiyon`un bir `Spritz-CachyOS` yapısı olduğundan emin olun. Eğer değilse, aynı sayfadan yükleyebilirsiniz.
   - Aşağı kaydırın ve `Gplasync`'e gidin.
     - **En son** sürümü yükleyin ve `DXVK sürümü`nüzü yüklediğiniz sürüm olarak değiştirin.
 - `Bileşenler`den geriye gidin ve yukarıda bulunan `Geliştirmeler` kısmına gidin.
-  - `Wine` bölümünün altından `Eşleme` değerini `Boş` olarak değiştirin ve `Ortam`a gidin.
-  - `Ortam` bölümünde ayarlarınızın böyle göründüğünden emin olun:
-<img width="578" height="600" alt="image" src="https://github.com/user-attachments/assets/b09d2e73-6cc2-42db-a828-c6e4a4f10979" />
-
-> [!NOTE]
-> - Eğer Wayland **kullanmıyorsanız** `env -u DISPLAY %command%` kısmını **dahil etmeyin**.
->   - Eğer Wayland kullanıyorsanız ve **Wayland'in pencere süslemesi sizi rahatsız ediyorsa**, geri dönüp `Wine` bölümünün altında bulunan `Köşesiz Pencere` seçeneğini etkinleştirin.
+  - `Wine` bölümünün altından `Eşleme` değerini `Boş` olarak değiştirin.
+  - Son olarak, eğer **Wayland** kullanıyorsanız, `WineWayland kullan` seçeneğini etkinleştirin.
+    - Wayland'in pencere süslemeleri sizi rahatsız ediyorsa, `Kenarlıksız Pencere`yi etkinleştirin.
+  - `Ortam` bölümüne gidin ve ayarlarınızın böyle göründüğünden emin olun:
+<img width="570" height="591" alt="image" src="https://github.com/user-attachments/assets/02af318b-7ae7-4838-8925-f813c4cde389" />
 
 ## Oyun İçi Ayarlar
 - `Ayarlar` **-** `Grafikler`

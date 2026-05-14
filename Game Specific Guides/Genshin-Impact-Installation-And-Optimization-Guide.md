@@ -124,7 +124,7 @@
 ### Highest Performance: For Toasters and Low Graphics Enjoyers
 - **Display Mode** `:` `1280x720 Fullscreen (reduce to 960x540 Windowed if your system struggles)`
 - `Set all the settings to the lowest option possible`
-- If you have a low-end system, such as **my laptop with i5-8265U + Intel UHD 620 (no dGPU)**, click `Compatibility Mode` at the bottom and **do not change anything else**.
+- If you have a low-end system, click `Compatibility Mode` at the bottom and **do not change anything else**.
   - This option **offloads** a portion of your **GPU workload** to your **CPU**, which is **beneficial** for systems that **struggle with GPU bottleneck** while playing Genshin Impact. However, if you have a system **without GPU bottleneck issue**, you **cannot** benefit from modern optimizations, leading to **reduced performance**. So use this option if you really need it.
 ## Other In-Game Settings
 - `Settings` **-** `Audio` **-** `Dynamic Range` **-** `Limited`

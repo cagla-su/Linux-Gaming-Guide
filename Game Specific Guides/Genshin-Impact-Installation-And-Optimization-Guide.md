@@ -1,4 +1,4 @@
-<img width="890" height="557" alt="image" src="https://github.com/user-attachments/assets/5094eada-883d-43d2-918c-e87da9e1c6fc" /># Table of Contents
+# Table of Contents
 - [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md#before-starting)
 - [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md#get-started)
   - [Optimization Tips](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md#optimization-tips)

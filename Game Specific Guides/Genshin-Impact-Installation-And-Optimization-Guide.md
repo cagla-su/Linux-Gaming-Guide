@@ -1,4 +1,4 @@
-# Table of Contents
+<img width="890" height="557" alt="image" src="https://github.com/user-attachments/assets/5094eada-883d-43d2-918c-e87da9e1c6fc" /># Table of Contents
 - [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md#before-starting)
 - [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md#get-started)
   - [Optimization Tips](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md#optimization-tips)
@@ -124,7 +124,8 @@
 ### Highest Performance: For Toasters and Low Graphics Enjoyers
 - **Display Mode** `:` `1280x720 Fullscreen (reduce to 960x540 Windowed if your system struggles)`
 - `Set all the settings to the lowest option possible`
-- If have a very old system, such as **a 5th Gen or an older Intel CPU**, click `Compatibility Mode` at the bottom and **do not change anything else**. However, **do not** use compatibility mode if you have **modern hardware**. This option **balances performance** so it might **reduce performance** on **modern systems**.
+- If you have a low-end system, such as **my laptop with i5-8265U + Intel UHD 620 (no dGPU)**, click `Compatibility Mode` at the bottom and **do not change anything else**.
+  - This option **offloads** a portion of your **GPU workload** to your **CPU**, which is **beneficial** for systems that **struggle with GPU bottleneck** while playing Genshin Impact. However, if you have a system **without GPU bottleneck issue**, you **cannot** benefit from modern optimizations, leading to **reduced performance**. So use this option if you really need it.
 ## Other In-Game Settings
 - `Settings` **-** `Audio` **-** `Dynamic Range` **-** `Limited`
 - `Settings` **-** `Other` **-** `Mini-Map Settings` **-** `Fixed`

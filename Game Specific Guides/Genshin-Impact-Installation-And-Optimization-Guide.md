@@ -30,9 +30,10 @@
     - Install **the latest** version and change your `DXVK version` to the one you installed.
 - Go back from `Components` and go to `Enhancements` that is on top.
   - Under `Wine` section, change `Synchronization` to `None`.
-  - Lastly, if you use **Wayland**, enable `Enable Winewayland`.
+  - If you use **Wayland**, enable `Enable Winewayland`.
     - Also if Wayland's window decoration discomforts you, enable `Borderless window`.
-- Go to `Environment` and make sure your environment part looks like this:
+  - Lastly, under `Game` section, enable `Gamemode`
+- Now scroll up, go to `Environment` and make sure your environment part looks like this:
 <img width="569" height="549" alt="image" src="https://github.com/user-attachments/assets/378245bc-225c-460b-ae86-7fbc4cd0fe69" />
 
 ## In-Game Settings

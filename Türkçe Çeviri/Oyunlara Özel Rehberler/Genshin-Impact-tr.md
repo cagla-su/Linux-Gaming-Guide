@@ -30,10 +30,10 @@
     - **En son** sürümü yükleyin ve `DXVK sürümü`nüzü yüklediğiniz sürüm olarak değiştirin.
 - `Bileşenler`den geriye gidin ve yukarıda bulunan `Geliştirmeler` kısmına gidin.
   - `Wine` bölümünün altından `Eşleme` değerini `Boş` olarak değiştirin.
-  - Son olarak, eğer **Wayland** kullanıyorsanız, `WineWayland kullan` seçeneğini etkinleştirin.
+  - Eğer **Wayland** kullanıyorsanız, `WineWayland kullan` seçeneğini etkinleştirin.
     - Wayland'in pencere süslemeleri sizi rahatsız ediyorsa, `Kenarlıksız Pencere`yi etkinleştirin.
-  - `Oyun` bölümünün altından `Oyun modu`nu etkinleştirin.
-- Yukarı kaydırın, `Ortam` bölümüne gidin ve ayarlarınızın böyle göründüğünden emin olun:
+  - Son olarak `Oyun` bölümünün altından `Oyun modu`nu etkinleştirin.
+- Şimdi yukarı kaydırın, `Ortam` bölümüne gidin ve ayarlarınızın böyle göründüğünden emin olun:
 <img width="570" height="591" alt="image" src="https://github.com/user-attachments/assets/02af318b-7ae7-4838-8925-f813c4cde389" />
 
 ## Oyun İçi Ayarlar

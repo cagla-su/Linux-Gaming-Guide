@@ -89,7 +89,7 @@
 - **Görsel Efektler** `:` `En Düşük`
 - **Efekt Kalitesi** `:` `Orta`
 - **Çevre Ayrıntısı** `:` `En Düşük`
-- **Anti-Aliasing** `:` `FSR2`
+- **Anti-Aliasing** `:` `SMAA`
 - **Hacimsel Işıklandırma** `:` `Kapalı`
 - **Yansımalar** `:` `Kapalı`
 - **Hareket Bulanıklığı** `:` `Düşük`
@@ -109,7 +109,7 @@
 - **Görsel Efektler** `:` `En Düşük`
 - **Efekt Kalitesi** `:` `Düşük`
 - **Çevre Ayrıntısı** `:` `En Düşük`
-- **Anti-Aliasing** `:` `FSR2`
+- **Anti-Aliasing** `:` `SMAA`
 - **Hacimsel Işıklandırma** `:` `Kapalı`
 - **Yansımalar** `:` `Kapalı`
 - **Hareket Bulanıklığı** `:` `Kapalı`

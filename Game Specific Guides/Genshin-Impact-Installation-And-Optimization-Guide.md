@@ -89,7 +89,7 @@
 - **Visual Effects** `:` `Lowest`
 - **SFX Quality** `:` `Medium`
 - **Environment Detail** `:` `Lowest`
-- **Anti-Aliasing** `:` `FSR2`
+- **Anti-Aliasing** `:` `SMAA`
 - **Volumetric Fog** `:` `Off`
 - **Reflections** `:` `Off`
 - **Motion Blur** `:` `Low`
@@ -109,7 +109,7 @@
 - **Visual Effects** `:` `Lowest`
 - **SFX Quality** `:` `Low`
 - **Environment Detail** `:` `Lowest`
-- **Anti-Aliasing** `:` `FSR2`
+- **Anti-Aliasing** `:` `SMAA`
 - **Volumetric Fog** `:` `Off`
 - **Reflections** `:` `Off`
 - **Motion Blur** `:` `Off`

@@ -136,7 +136,7 @@ Type=Application
 Name=Prism Launcher
 Comment=Prism Launcher
 Exec=env __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia prismlauncher
-Icon=/path/to/your/game/icon.png
+Icon=/oyun/simgesine/giden/yol.png
 Terminal=false
 Categories=Game;
 ```

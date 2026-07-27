@@ -135,6 +135,7 @@ You can install Prism Launcher following [these steps according to your distribu
 
 > [!NOTE]
 > - If your **GPU completely supports Vulkan**, follow [this guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) to install Vulkan drivers before starting.
+
 > [!TIP]
 > - For modern GPUs that **completely support Vulkan**, this mod can **perform better** than Sodium and Optifine as this mod uses **Vulkan instead of OpenGL**.
 - `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`

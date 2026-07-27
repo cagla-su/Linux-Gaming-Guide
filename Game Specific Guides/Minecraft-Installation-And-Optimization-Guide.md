@@ -10,13 +10,10 @@
   - [Sodium Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#sodium-method---recommended-for-version-1163-and-later)
     - [Mods That You Need to Use Sodium](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#mods-that-you-need-to-use-sodium)
     - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#sodium---in-game-optimized-settings)
-  - [VulkanMod Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#vulkanmod-method---recommended-for-version-1182-and-later)
-    - [Mods That You Need to Use VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#mods-that-you-need-to-use-vulkanmod)
-    - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#vulkanmod---in-game-optimized-settings)
-  - [Essential Performance-Increasing Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#essential-performance-increasing-mods-for-sodium-and-vulkanmod)
-    - [Optional Performance-Increasing Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optional-performance-increasing-mods-for-sodium-and-vulkanmod)
-  - [Quality of Life Mods for Sodium and VulkanMod](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#quality-of-life-mods-for-sodium-and-vulkanmod)
-  - [Quality of Life Resource Packs for All Methods](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#quality-of-life-resource-packs-for-all-methods)
+  - [Essential Performance-Increasing Mods for Sodium](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#essential-performance-increasing-mods-for-sodium)
+    - [Optional Performance-Increasing Mods for Sodium](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optional-performance-increasing-mods-for-sodium)
+  - [Quality of Life Mods for Sodium](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#quality-of-life-mods-for-sodium)
+  - [Global Quality of Life Resource Packs](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#global-quality-of-life-resource-packs)
 - [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#conclusion)
 # Before Starting
 > [!NOTE]
@@ -117,35 +114,16 @@ You can install Prism Launcher following [these steps according to your distribu
     - `Simulation Distance` **:** 8 chunks
     - `VSync` **:** OFF
     - `Max Framerate` **:** Same value as your **monitor's refresh rate**. If your monitor's refresh rate is **lower than 144 Hz**, try either *unlimited* (might cause overheating) or *double your monitor's refresh rate* (e.g., 120 FPS for 60 Hz screen)
+    - `Graphics API` **:** Prefer OpenGL - *you can prefer Vulkan as well but you might face mod incompatibilities*
   - **Quality**
-    - `Graphics` **:** Fast
     - `Clouds` **:** OFF
-    - `Weather` **:** Fast
-    - `Leaves` **:** Fast
     - `Particles` **:** Decreased
-    - `Biome Blend` **:** 1 block(s)
+    - `Biome Blend` **:** 3x3 Blocks
     - `Entity Distance` **:** 50%
     - `Entity Shadows` **:** OFF
-    - `Distortion Effects` **:** 60%
-    - `FOV Effects` **:** 60%
     - `Mipmap Levels` **:** 1x
-## VulkanMod Method - Recommended for Version 1.18.2 and Later
-> [!CAUTION]
-> Please make sure that your GPU **completely supports Vulkan** before trying this method. If your **GPU does not completely support Vulkan**, please try either [Sodium method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium-method---recommended-for-version-1163-and-later) or [Optifine method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-optifine-method---recommended-for-version-1162-and-earlier).
-
-> [!NOTE]
-> - If your **GPU completely supports Vulkan**, follow [this guide](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) to install Vulkan drivers before starting.
-
-> [!TIP]
-> - For modern GPUs that **completely support Vulkan**, this mod can **perform better** than Sodium and Optifine as this mod uses **Vulkan instead of OpenGL**.
-- `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
-### Mods That You Need to Use VulkanMod
-- [Fabric API](https://modrinth.com/mod/fabric-api)
-- [VulkanMod](https://modrinth.com/mod/vulkanmod)
-### VulkanMod - In-Game Optimized Settings
-> [!NOTE]
-> VulkanMod has similar settings with Sodium. Please check [Sodium In-Game Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#-sodium---in-game-optimized-settings).
-## Essential Performance-Increasing Mods for Sodium and VulkanMod
+    - `Texture Filtering` **:** None
+## Essential Performance-Increasing Mods for Sodium
 - [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations)
 - [Better Biome Reblend](https://modrinth.com/mod/bbrb)
@@ -153,7 +131,6 @@ You can install Prism Launcher following [these steps according to your distribu
 - [Debugify](https://modrinth.com/mod/debugify)
 - [Entity Culling](https://modrinth.com/mod/entityculling)
 - [Exordium](https://modrinth.com/mod/exordium)
-  - This mod is **incompatible with** VulkanMod.
   - This mod **is not necessary anymore** starting from **version 1.21.10 and later**.
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
@@ -163,7 +140,6 @@ You can install Prism Launcher following [these steps according to your distribu
 - [GPUBooster](https://modrinth.com/mod/gputape)
   - If you use **NVIDIA 16xx and newer series**, you can use [Nvidium](https://modrinth.com/mod/nvidium) instead.
 - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
-  - This mod is **incompatible with** VulkanMod.
 - [Krypton](https://modrinth.com/mod/krypton)
 - [Lithium](https://modrinth.com/mod/lithium)
 - [Mod Menu](https://modrinth.com/mod/modmenu)
@@ -176,27 +152,23 @@ You can install Prism Launcher following [these steps according to your distribu
 - [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [RenderScale](https://modrinth.com/mod/renderscale)
   - You should **manually configure** this mod in order to make it work using Mod Menu.
-    - `Minecraft` **-** `Mods` **-** `double click RenderScale` **-** `change the value`
-      - Usually, `0.5` is **the most acceptable value** that will not strain the eyes while improving performance. However, you can prefer `0.6` if 0.5 strains your eyes.
+    - `Minecraft` **-** `Options...` **-** `Video Settings...` **-** `RenderScale` **-** `General` **-** `Scale factor`
+      - Usually, `50%` is **the most acceptable value** that will not strain the eyes while improving performance. However, you can prefer `60%` as well if 50% strains your eyes.
 - [ScalableLux](https://modrinth.com/mod/scalablelux)
-### Optional Performance-Increasing Mods for Sodium and VulkanMod
+### Optional Performance-Increasing Mods for Sodium
 - [Alternate Current](https://modrinth.com/mod/alternate-current)
 - [Clumps](https://modrinth.com/mod/clumps/versions)
 - [Fadeless](https://modrinth.com/mod/fadeless)
 - [Fast Item Frames](https://modrinth.com/mod/fast-item-frames)
 - [FastChest](https://modrinth.com/mod/fastchest)
 - [Let Me Despawn](https://modrinth.com/plugin/lmd)
-- [WayFix](https://modrinth.com/mod/wayfix)
-  - *Use this mod only if you are using* **Wayland**. *After installing the mod, follow the next steps for full functionality:*
-    - `Right click your Minecraft instance` **-** `Edit` **-** `Settings` **-** `Workarounds` **-** `Check "Native libraries"` **-** `Check "Use system installation of GLFW"`
-## Quality of Life Mods for Sodium and VulkanMod
+## Quality of Life Mods for Sodium
 > [!NOTE]
 > These mods **do not increase performance** but they can **enhance** your **gaming experience**. However, you should keep in mind that some of these mods **might reduce your performance**.
 - [AppleSkin](https://modrinth.com/mod/appleskin)
 - [Better Advancements](https://modrinth.com/mod/better-advancements)
 - [Better Clouds](https://modrinth.com/mod/better-clouds)
   - This mod **might reduce** your in-game **performance**.
-  - This mod is **incompatible with** VulkanMod.
 - [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
 - [BetterF3](https://modrinth.com/mod/betterf3)
   - If you are using **Exordium** mod, you might want to either not use it or disable the animations of **BetterF3** because **Exordium** reduces the FPS of GUI in order to increase game performance.
@@ -210,7 +182,6 @@ You can install Prism Launcher following [these steps according to your distribu
 - [Hold My Items](https://modrinth.com/mod/hold-my-items)
   - This mod **might reduce** your in-game **performance**.
 - [Iris Shaders](https://modrinth.com/mod/iris)
-  - This mod is **incompatible with VulkanMod**.
 - [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights)
 - [MinecraftCapes](https://modrinth.com/mod/minecraftcapes)
 - [Model Gap Fix](https://modrinth.com/mod/modelfix)
@@ -222,7 +193,7 @@ You can install Prism Launcher following [these steps according to your distribu
   - This mod **might reduce** your in-game **performance**.
 - [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
 - [Zoomify](https://modrinth.com/mod/zoomify)
-## Quality of Life Resource Packs for All Methods
+## Global Quality of Life Resource Packs
 - [3D Ladders](https://modrinth.com/resourcepack/3d-ladders)
 - [Armored Legacy](https://modrinth.com/resourcepack/armored-legacy)
   - Make sure to check this resource pack's description before using as it **requires some dependencies**.

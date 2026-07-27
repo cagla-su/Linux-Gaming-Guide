@@ -107,7 +107,6 @@ You can install Prism Launcher following [these steps according to your distribu
 - [Sodium](https://modrinth.com/mod/sodium)
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
 ### Sodium - In-Game Optimized Settings
-- **If you are going to use Zoomify :** `Options` **-** `Controls` **-** `Key Binds` **-** `Fix any conflicting key binds` **-** `Done`
 - `Options` **-** `Video Settings`
   - **General**
     - `Render Distance` **:** 6 chunks
@@ -134,13 +133,11 @@ You can install Prism Launcher following [these steps according to your distribu
   - This mod **is not necessary anymore** starting from **version 1.21.10 and later**.
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
-- [Fast IP Ping](https://modrinth.com/mod/fast-ip-ping)
 - [FastQuit](https://modrinth.com/mod/fastquit)
 - [FerriteCore](https://modrinth.com/mod/ferrite-core)
 - [GPUBooster](https://modrinth.com/mod/gputape)
   - If you use **NVIDIA 16xx and newer series**, you can use [Nvidium](https://modrinth.com/mod/nvidium) instead.
 - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
-- [Krypton](https://modrinth.com/mod/krypton)
 - [Lithium](https://modrinth.com/mod/lithium)
 - [Mod Menu](https://modrinth.com/mod/modmenu)
 - [ModernFix](https://modrinth.com/mod/modernfix)
@@ -166,7 +163,6 @@ You can install Prism Launcher following [these steps according to your distribu
 > [!NOTE]
 > These mods **do not increase performance** but they can **enhance** your **gaming experience**. However, you should keep in mind that some of these mods **might reduce your performance**.
 - [AppleSkin](https://modrinth.com/mod/appleskin)
-- [Better Advancements](https://modrinth.com/mod/better-advancements)
 - [Better Clouds](https://modrinth.com/mod/better-clouds)
   - This mod **might reduce** your in-game **performance**.
 - [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
@@ -174,7 +170,6 @@ You can install Prism Launcher following [these steps according to your distribu
   - If you are using **Exordium** mod, you might want to either not use it or disable the animations of **BetterF3** because **Exordium** reduces the FPS of GUI in order to increase game performance.
 - [Chat Heads](https://modrinth.com/mod/chat-heads)
 - [Continuity](https://modrinth.com/mod/continuity)
-- [e4mc](https://modrinth.com/mod/e4mc)
 - [Entity Model Features](https://modrinth.com/mod/entity-model-features)
 - [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
   - You can install a resource pack to benefit the effects of **EMF** and **ETF** mods: [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
@@ -184,9 +179,7 @@ You can install Prism Launcher following [these steps according to your distribu
 - [Iris Shaders](https://modrinth.com/mod/iris)
 - [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights)
 - [MinecraftCapes](https://modrinth.com/mod/minecraftcapes)
-- [Model Gap Fix](https://modrinth.com/mod/modelfix)
 - [Not Enough Animatons](https://modrinth.com/mod/not-enough-animations)
-- [Sit](https://modrinth.com/mod/bl4cks-sit)
 - [Smooth Scrolling](https://modrinth.com/mod/smooth-scroll)
   - If you want to use this mod, **disable** **Exordium** because **Exordium** reduces the FPS of GUI in order to increase game performance.
 - [Subtle Effects](https://modrinth.com/mod/subtle-effects)

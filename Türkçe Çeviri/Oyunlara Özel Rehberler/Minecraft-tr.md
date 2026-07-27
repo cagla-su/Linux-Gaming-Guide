@@ -10,13 +10,10 @@
   - [Sodium Yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-y%C3%B6ntemi---1163-ve-sonraki-s%C3%BCr%C3%BCmler-i%CC%87%C3%A7in-%C3%B6nerilir)
     - [Sodium'u Kullanabilmek İçin İhtiyacınız Olan Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodiumu-kullanabilmek-i%CC%87%C3%A7in-i%CC%87htiyac%C4%B1n%C4%B1z-olan-modlar)
     - [Oyun İçi En İyileştirilmiş Ayarlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium---oyun-i%CC%87%C3%A7i-en-i%CC%87yile%C5%9Ftirilmi%C5%9F-ayarlar-sodiumun-t%C3%BCrk%C3%A7e-deste%C4%9Fi-hen%C3%BCz-100-de%C4%9Fildir)
-  - [VulkanMod Yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#vulkanmod-y%C3%B6ntemi---1182-ve-sonraki-s%C3%BCr%C3%BCmler-i%CC%87%C3%A7in-%C3%B6nerilir)
-    - [VulkanMod'u Kullanabilmek İçin İhtiyacınız Olan Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#vulkanmodu-kullanabilmek-i%CC%87%C3%A7in-i%CC%87htiyac%C4%B1n%C4%B1z-olan-modlar)
-    - [Oyun İçi En İyileştirilmiş Ayarlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#vulkanmod---oyun-i%CC%87%C3%A7i-en-i%CC%87yile%C5%9Ftirilmi%C5%9F-ayarlar)
-  - [Sodium ve VulkanMod İçin Gerekli Performans Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-ve-vulkanmod-i%CC%87%C3%A7in-gerekli-performans-artt%C4%B1ran-modlar)
-    - [Sodium ve VulkanMod İçin İsteğe Bağlı Performans Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-ve-vulkanmod-i%CC%87%C3%A7in-i%CC%87ste%C4%9Fe-ba%C4%9Fl%C4%B1-performans-artt%C4%B1ran-modlar)
-  - [Sodium ve VulkanMod İçin Oyun Kalitesini Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-ve-vulkanmod-i%CC%87%C3%A7in-oyun-kalitesini-artt%C4%B1ran-modlar)
-  - [Tüm Yöntemler İçin Oyun Kalitesini Arttıran Kaynak Paketleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#t%C3%BCm-y%C3%B6ntemler-i%CC%87%C3%A7in-oyun-kalitesini-artt%C4%B1ran-kaynak-paketleri)
+  - [Gerekli Performans Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-i%CC%87%C3%A7in-gerekli-performans-artt%C4%B1ran-modlar)
+    - [İsteğe Bağlı Performans Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-i%CC%87%C3%A7in-i%CC%87ste%C4%9Fe-ba%C4%9Fl%C4%B1-performans-artt%C4%B1ran-modlar)
+  - [Oyun Kalitesini Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-i%CC%87%C3%A7in-oyun-kalitesini-artt%C4%B1ran-modlar)
+  - [Her İki Yöntem İçin Oyun Kalitesini Arttıran Kaynak Paketleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#her-iki-y%C3%B6ntem-i%CC%87%C3%A7in-oyun-kalitesini-artt%C4%B1ran-kaynak-paketleri)
 - [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#kapan%C4%B1%C5%9F)
 # Başlamadan Önce
 > [!NOTE]
@@ -110,11 +107,10 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
 - [Sodium](https://modrinth.com/mod/sodium)
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
 ### Sodium - Oyun İçi En İyileştirilmiş Ayarlar (Sodium'un Türkçe desteği henüz %100 değildir)
-- **Eğer Zoomify modunu kullanacaksanız :** `Ayarlar` **-** `Kontroller` **-** `Tuş Atamaları` **-** `Herhangi çakışan tuş atamasını düzeltin` **-** `Bitti`
 - `Ayarlar` **-** `Görüntü Ayarları...`
   - **Genel**
     - `Görüş Mesafesi` **:** 6 Yığın
-    - `Simülasyon Mesafes` **:** 8 Yığın
+    - `Simülasyon Mesafesi` **:** 8 Yığın
     - `Dikey Senkronizasyon` **:** KAPALI
     - `En Fazla Kare Hızı` **:** **Monitörünüzün ekran yenileme hızıyla** aynı değer. Eğer monitörünüzün yenileme hızı **144 Hz'den daha düşükse**, *Sınırsız* (aşırı ısınmaya yol açabilir) veya *monitörünüzün yenileme hızının iki katı bir değer* girin (örneğin 60 Hz için 120 FPS).
   - **Quality**
@@ -129,21 +125,7 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
     - `Çarpıtma Efektleri` **:** 60%
     - `Görüş Açısı EFektleri` **:** 60%
     - `Mipmap Düzeyleri` **:** 1x
-## VulkanMod Yöntemi - 1.18.2 ve Sonraki Sürümler İçin Önerilir
-> [!CAUTION]
-> Bu yöntemi denemeden önce lütfen ekran kartınızın **Vulkan'ı tamamen desteklediğinden** emin olun. Eğer ekran kartınız **Vulkan'ı tamamen desteklemiyorsa**, lütfen [Sodium yöntemini](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#-sodium-y%C3%B6ntemi---1163-ve-sonraki-s%C3%BCr%C3%BCmler-i%CC%87%C3%A7in-%C3%B6nerilir) veya [Optifine yöntemini](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#-optifine-y%C3%B6ntemi---1162-ve-%C3%B6nceki-s%C3%BCr%C3%BCmler-i%CC%87%C3%A7in-%C3%B6nerilir) deneyin.
-
-> [!NOTE]
-> - Eğer **ekran kartınız Vulkan'ı tamamen destekliyorsa**, Vulkan sürücülerini yüklemek için [bu rehberi](https://github.com/lutris/docs/blob/master/InstallingDrivers.md) takip edin.
-> - **Vulkan'ı tamamen destekleyen** modern ekran kartlarında bu mod Sodium ve Optifine'dan **daha iyi performans gösterebilir** çünkü bu mod **OpenGL yerine Vulkan** kullanır.
-- `Minecraft oturumunuza sağ tıklayın` **-** `Düzenle` **-** `Modlar` **-** `Mod İndir`
-### VulkanMod'u Kullanabilmek İçin İhtiyacınız Olan Modlar
-- [Fabric API](https://modrinth.com/mod/fabric-api)
-- [VulkanMod](https://modrinth.com/mod/vulkanmod)
-### VulkanMod - Oyun İçi En İyileştirilmiş Ayarlar
-> [!NOTE]
-> VulkanMod, Sodium ile benzer ayarlara sahiptir. Lütfen [Sodium Oyun İçi Ayarlara](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#-sodium---oyun-i%CC%87%C3%A7i-en-i%CC%87yile%C5%9Ftirilmi%C5%9F-ayarlar-sodiumun-t%C3%BCrk%C3%A7e-deste%C4%9Fi-hen%C3%BCz-100-de%C4%9Fildir) bakın.
-## Sodium ve VulkanMod İçin Gerekli Performans Arttıran Modlar
+## Sodium İçin Gerekli Performans Arttıran Modlar
 - [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations)
 - [Better Biome Reblend](https://modrinth.com/mod/bbrb)
@@ -151,7 +133,6 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
 - [Debugify](https://modrinth.com/mod/debugify)
 - [Entity Culling](https://modrinth.com/mod/entityculling)
 - [Exordium](https://modrinth.com/mod/exordium)
-  - Bu mod VulkanMod ile **uyumsuzdur**.
   - Bu mod **1.21.10 ve sonraki sürümler** için **artık gerekli değildir**.
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
@@ -161,7 +142,6 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
 - [GPUBooster](https://modrinth.com/mod/gputape)
   - Eğer **NVIDIA 16xx ve daha yeni serilerinden birini kullanıyorsanız**, onun yerine [Nvidium](https://modrinth.com/mod/nvidium) modunu kullanabilirsiniz.
 - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
-  - Bu mod VulkanMod ile **uyumsuzdur**.
 - [Krypton](https://modrinth.com/mod/krypton)
 - [Lithium](https://modrinth.com/mod/lithium)
 - [Mod Menu](https://modrinth.com/mod/modmenu)
@@ -177,7 +157,7 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
     - `Minecraft` **-** `Modlar` **-** `RenderScale'e iki kez tıklayın` **-** `değeri değiştirin`
       - Genellikle, `0.5` performansı arttırırken gözleri yormayan **en kabul edilebilir değerdir**. Ancak, 0.5 gözlerinizi yorarsa `0.6`'yı da tercih edebilirsiniz.
 - [ScalableLux](https://modrinth.com/mod/scalablelux)
-### Sodium ve VulkanMod İçin İsteğe Bağlı Performans Arttıran Modlar
+### Sodium İçin İsteğe Bağlı Performans Arttıran Modlar
 - [Alternate Current](https://modrinth.com/mod/alternate-current)
 - [Clumps](https://modrinth.com/mod/clumps/versions)
 - [Fadeless](https://modrinth.com/mod/fadeless)
@@ -186,13 +166,12 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
 - [Let Me Despawn](https://modrinth.com/plugin/lmd)
 - [WayFix](https://modrinth.com/mod/wayfix) - *Bu modu yalnızca* **Wayland** *kullanıyorsanız yükleyin. Modu yükledikten sonra, tam çalışması için aşağıdaki adımları uygulayın:*
     - `Minecraft oturumunuza sağ tıklayın` **-** `Düzenle` **-** `Ayarlar` **-** `Geçici çözümler` **-** `"Yerel kitaplıklar"ı etkinleştirin` **-** `"GLFW'nin sistem kurulumunu kullan"ı etkinleştirin`
-## Sodium ve VulkanMod İçin Oyun Kalitesini Arttıran Modlar
+## Sodium İçin Oyun Kalitesini Arttıran Modlar
 > [!NOTE]
 > Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iyi** kılabilirler. Ancak, bu modlardan bazılarının **performansınızı düşürebileceğini** de aklınızda tutmalısınız.
 - [AppleSkin](https://modrinth.com/mod/appleskin)
 - [Better Advancements](https://modrinth.com/mod/better-advancements)
 - [Better Clouds](https://modrinth.com/mod/better-clouds)
-  - Bu mod VulkanMod ile **uyumsuzdur**.
 - [Better Mount HUD](https://modrinth.com/mod/better-mount-hud)
 - [BetterF3](https://modrinth.com/mod/betterf3)
   - Eğer **Exordium** modunu kullanıyorsanız, ya devre dışı bırakın ya da **BetterF3** modunun animasyonlarını devre dışı bırakın, çünkü **Exordium** kullanıcı arayüzünün FPS'ini düşürürerek oyun performansını arttırmayı amaçlar.
@@ -206,7 +185,6 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
 - [Hold My Items](https://modrinth.com/mod/hold-my-items)
   - Bu mod oyun içi performansınızı **düşürebilir**.
 - [Iris Shaders](https://modrinth.com/mod/iris)
-  - Bu mod VulkanMod ile **uyumsuzdur**.
 - [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights)
 - [MinecraftCapes](https://modrinth.com/mod/minecraftcapes)
 - [Model Gap Fix](https://modrinth.com/mod/modelfix)
@@ -218,7 +196,7 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
   - Bu mod oyun içi performansınızı **düşürebilir**.
 - [ViaFabricPlus](https://modrinth.com/mod/viafabricplus)
 - [Zoomify](https://modrinth.com/mod/zoomify)
-## Tüm Yöntemler İçin Oyun Kalitesini Arttıran Kaynak Paketleri
+## Her İki Yöntem İçin Oyun Kalitesini Arttıran Kaynak Paketleri
 - [3D Ladders](https://modrinth.com/resourcepack/3d-ladders)
 - [Armored Legacy](https://modrinth.com/resourcepack/armored-legacy)
   - Bu kaynak paketini kullanmadan önce açıklamasını okumayı ihmal etmeyin çünkü **bazı bağımlı modlar kurmanız gerekmektedir**.

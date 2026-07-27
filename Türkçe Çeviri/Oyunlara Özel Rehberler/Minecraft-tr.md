@@ -151,8 +151,8 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
 - [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [RenderScale](https://modrinth.com/mod/renderscale)
   - Bu modun çalışabilmesi için Mod Menu aracılığıyla **elle yapılandırma** yapmalısınız.
-    - `Minecraft` **-** `Modlar` **-** `RenderScale'e iki kez tıklayın` **-** `değeri değiştirin`
-      - Genellikle, `0.5` performansı arttırırken gözleri yormayan **en kabul edilebilir değerdir**. Ancak, 0.5 gözlerinizi yorarsa `0.6`'yı da tercih edebilirsiniz.
+    - `Minecraft` **-** `Ayarlar...` **-** `Görüntü Ayarları...` **-** `RenderScale` **-** `General` **-** `Scale factor`
+      - Genellikle, `%50` performansı arttırırken gözleri yormayan **en kabul edilebilir değerdir**. Ancak, %50 gözlerinizi yorarsa `%60`'ı da tercih edebilirsiniz.
 - [ScalableLux](https://modrinth.com/mod/scalablelux)
 ### Sodium İçin İsteğe Bağlı Performans Arttıran Modlar
 - [Alternate Current](https://modrinth.com/mod/alternate-current)

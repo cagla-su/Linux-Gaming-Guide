@@ -8,7 +8,7 @@
   - [Optifine Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optifine-method---recommended-for-version-1162-and-earlier)
     - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optifine---in-game-optimized-settings)
   - [Sodium Method](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#sodium-method---recommended-for-version-1163-and-later)
-    - [Required Mods to Use Sodium](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#mods-that-you-need-to-use-sodium)
+    - [Required Mods to Use Sodium](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#required-mods-to-use-sodium)
     - [In-Game Optimized Settings](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#sodium---in-game-optimized-settings)
     - [Essential Performance-Increasing Mods](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#essential-performance-increasing-mods-for-sodium)
     - [Optional Performance-Increasing Mods](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md#optional-performance-increasing-mods-for-sodium)
@@ -102,7 +102,7 @@ You can install Prism Launcher following [these steps according to your distribu
       - `Telemetry` **:** OFF
 ## Sodium Method - Recommended for Version 1.16.3 and Later
 `Right click Minecraft instance` **-** `Edit` **-** `Mods` **-** `Download mods`
-### Mods That You Need to Use Sodium
+### Required Mods to Use Sodium
 - [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
 - [Sodium](https://modrinth.com/mod/sodium)
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)

@@ -13,7 +13,7 @@
   - [Gerekli Performans Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-i%CC%87%C3%A7in-gerekli-performans-artt%C4%B1ran-modlar)
     - [İsteğe Bağlı Performans Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-i%CC%87%C3%A7in-i%CC%87ste%C4%9Fe-ba%C4%9Fl%C4%B1-performans-artt%C4%B1ran-modlar)
   - [Oyun Kalitesini Arttıran Modlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#sodium-i%CC%87%C3%A7in-oyun-kalitesini-artt%C4%B1ran-modlar)
-  - [Her İki Yöntem İçin Oyun Kalitesini Arttıran Kaynak Paketleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#her-iki-y%C3%B6ntem-i%CC%87%C3%A7in-oyun-kalitesini-artt%C4%B1ran-kaynak-paketleri)
+  - [Her İki Yöntem İçin Oyun Kalitesini Arttıran Kaynak Paketleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#her-i%CC%87ki-y%C3%B6ntem-i%CC%87%C3%A7in-oyun-kalitesini-artt%C4%B1ran-kaynak-paketleri)
 - [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md#kapan%C4%B1%C5%9F)
 # Başlamadan Önce
 > [!NOTE]

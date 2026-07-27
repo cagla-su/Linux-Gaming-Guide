@@ -35,7 +35,7 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
 > - Prism Launcher **Java'yı sizin için kendiliğinden kurar**.
 > - Ek olarak, Prism Launcher daha iyi performans gösteren **özel Java yapıları yüklemenize de** olanak sağlar.
 > - Benim tavsiyem [Eclipse Temurin](https://adoptium.net)'dir. [Eclipse Temurin](https://adoptium.net)'i yüklemek için sıradaki adımları takip edin:
-> - `Ayarlar` **-** `Java` **-** `General` **-** `"Mojang Java'yı otomatik indir" seçeneğini devre dışı bırakın` **-** `Yönetim` **-** `İndir` **-** `Adoptium` **-** `Oynadığınız Minecraft versiyonu ile uyumlu Java sürümünü indirin`
+> - `Ayarlar` **-** `Java` **-** `General` **-** `"Mojang Java'yı otomatik indir" seçeneğini devre dışı bırakın` **-** `Yüklemeler` **-** `İndir` **-** `Adoptium` **-** `Oynadığınız Minecraft versiyonu ile uyumlu Java sürümünü indirin`
 > - Hangi Java sürümünü indirmeniz gerektiğini **bilmiyorsanız**, aşağıdaki listede **Minecraft sürümleri** ve **ihtiyaç duydukları Java sürümleri** bulunmaktadır:
 >   - **Minecraft 1.16.5 ve Önceki Sürümler -** `Java 8`
 >   - **Minecraft 1.17-1.20.4 Arası Sürümler -** `Java 17`
@@ -113,18 +113,15 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
     - `Simülasyon Mesafesi` **:** 8 Yığın
     - `Dikey Senkronizasyon` **:** KAPALI
     - `En Fazla Kare Hızı` **:** **Monitörünüzün ekran yenileme hızıyla** aynı değer. Eğer monitörünüzün yenileme hızı **144 Hz'den daha düşükse**, *Sınırsız* (aşırı ısınmaya yol açabilir) veya *monitörünüzün yenileme hızının iki katı bir değer* girin (örneğin 60 Hz için 120 FPS).
+    - `Grafik API'ı` **:** OpenGL'i Tercih Et - *Vulkan da tercih edebilirsiniz ama mod uyumluluk sorunlarıyla karşılaşabilirsiniz*
   - **Quality**
-    - `Grafikler` **:** Hızlı
     - `Bulutlar` **:** KAPALI
-    - `Hava Durumu` **:** Fast
-    - `Leaves` **:** Fancy
     - `Parçacıklar` **:** Azaltılmış
-    - `Biyom Karışımı` **:** Hiçbiri
+    - `Biyom Karışımı` **:** 3x3 Blocks
     - `Varlık Mesafesi` **:** 50%
     - `Varlık Gölgeleri` **:** KAPALI
-    - `Çarpıtma Efektleri` **:** 60%
-    - `Görüş Açısı EFektleri` **:** 60%
     - `Mipmap Düzeyleri` **:** 1x
+    - `Doku Filtreleme` **:** Yok
 ## Sodium İçin Gerekli Performans Arttıran Modlar
 - [AsyncParticles](https://modrinth.com/mod/asyncparticles)
 - [BadOptimizations](https://modrinth.com/mod/badoptimizations)
@@ -164,8 +161,6 @@ Prism Launcher'ı [kullandığınız Linux dağıtımına göre](https://prismla
 - [Fast Item Frames](https://modrinth.com/mod/fast-item-frames)
 - [FastChest](https://modrinth.com/mod/fastchest)
 - [Let Me Despawn](https://modrinth.com/plugin/lmd)
-- [WayFix](https://modrinth.com/mod/wayfix) - *Bu modu yalnızca* **Wayland** *kullanıyorsanız yükleyin. Modu yükledikten sonra, tam çalışması için aşağıdaki adımları uygulayın:*
-    - `Minecraft oturumunuza sağ tıklayın` **-** `Düzenle` **-** `Ayarlar` **-** `Geçici çözümler` **-** `"Yerel kitaplıklar"ı etkinleştirin` **-** `"GLFW'nin sistem kurulumunu kullan"ı etkinleştirin`
 ## Sodium İçin Oyun Kalitesini Arttıran Modlar
 > [!NOTE]
 > Bu modlar **performansınızı arttırmazlar** fakat oyun deneyiminizi **daha iyi** kılabilirler. Ancak, bu modlardan bazılarının **performansınızı düşürebileceğini** de aklınızda tutmalısınız.

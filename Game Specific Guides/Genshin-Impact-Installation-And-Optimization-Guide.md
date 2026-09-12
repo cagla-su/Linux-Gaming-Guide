@@ -25,16 +25,17 @@
   - Scroll down and go to `Launcher behavior`.
     - If you have **at least 16 GB RAM**, you can keep it as `Hide`.
     - If you have **12 GB or less RAM**, change it to `Close`.
-  - Now go to `Components` and make sure that the `Selected version` is a `Spritz-CachyOS` build. If not, you can install it from the same page.
+  - Now go to `Components` and make sure that the `Selected version` is a `wine-dwproton` build. If not, you can install it from the same page.
   - Scroll down and go to `Gplasync`.
     - Install **the latest** version and change your `DXVK version` to the one you installed.
 - Go back from `Components` and go to `Enhancements` that is on top.
-  - Under `Wine` section, change `Synchronization` to `None`.
+  - Under `Wine` section, change `Synchronization` to `NTSync`.
   - If you use **Wayland**, enable `Enable Winewayland`.
+    - This option may be **grayed out** if you installed AAGL from **Flathub**. You need to install **Flatseal** from Flathub and **enable Wayland support** for AAGL.
     - Also if Wayland's window decoration discomforts you, enable `Borderless window`.
   - Lastly, under `Game` section, enable `Gamemode`
 - Now scroll up, go to `Environment` and make sure your environment part looks like this:
-<img width="569" height="549" alt="image" src="https://github.com/user-attachments/assets/378245bc-225c-460b-ae86-7fbc4cd0fe69" />
+<img width="597" height="518" alt="image" src="https://github.com/user-attachments/assets/d32da05c-3a9c-4808-a13d-603dc1b6a66c" />
 
 ## In-Game Settings
 - `Settings` **-** `Graphics`
@@ -128,9 +129,5 @@
 ## Other In-Game Settings
 - `Settings` **-** `Audio` **-** `Dynamic Range` **-** `Limited`
 - `Settings` **-** `Other` **-** `Mini-Map Settings` **-** `Fixed`
-## Tips for Actual Toaster Users
-- For the best performance possible, especially if you **only** have an **integrated GPU**, you should use **CachyOS XFCE with compositor disabled**.
-  - In CachyOS, launch `SchedExt GUI Manager` and select `scx_lavd` with `Gaming` scheduler profile. Make sure to **apply changes**.
-  - Lastly, launch `CachyOS Hello` **-** `Apps/Tweaks` **-** `Install VRAM Management`
 # Conclusion
 This guide was about Genshin Impact installation and optimization! I hope the guide has been useful. Thank you for reading, happy gaming!

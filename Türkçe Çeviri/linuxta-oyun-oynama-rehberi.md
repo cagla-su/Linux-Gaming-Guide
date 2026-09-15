@@ -65,7 +65,7 @@ Esenlikler. Bu rehber size **Linux'ta oyunların nasıl çalıştığını, sist
 > [!WARNING]
 > - NVIDIA, **4xxx** ve **5xxx** serileri için **özel mülkiyet** sürücülerini **aşamalı olarak terk ediyor** çünkü NVIDIA **yeni çıkan ve gelecekte çıkacak olan kartları** için **daha fazla açık kaynak** olmaya çalışıyor.
 > - Ancak, **eski kartlarda daha iyi uyumluluk ve performans için** hâlâ **özel mülkiyet** sürücüleri kullanmalısınız.
-- Ayrıca, yukarıda bahsedilen güncel NVIDIA ekran kartlarından birini **kullanmıyorsanız** Wayland **kullanmamalısınız** çünkü bu durumda **görsel bozukluklar ve performans sorunları** ile karşılaşmanız olasıdır. Şimdilik **X11 kullanmak daha iyi bir seçenektir**.
+- Ayrıca, yukarıda bahsedilen **güncel NVIDIA ekran kartlarından** birini veya **özel mülkiyet sürücü güncellemeleri** almaya devam eden **eski kartlarından** birini **kullanmıyorsanız** Wayland **kullanmamalısınız** çünkü bu durumda **görsel bozukluklar ve performans sorunları** ile karşılaşmanız olasıdır. Şimdilik **X11 kullanmak daha iyi bir seçenektir**.
 ## Linux'ta Oyun Oynamanın Zorlukları
 - Linux'ta oyun oynarken **pek fazla sorun yoktur**. Ancak, **esas sorun çekirdek seviyesinde çalışan anti-hile yazılımlarıdır**. Bu anti-hile yazılımları **Linux'ta çalışamazlar**.
 	- Sebebi ise bir Windows oyunu için geliştirilmiş çekirdek seviyesinde çalışan bir anti-hile yazılımının **"Windows NT" adı verilen bir çekirdek gerektirmesi** ve bu çekirdeğin **yalnızca Windows için mevcut olmasıdır**.

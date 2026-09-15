@@ -69,7 +69,7 @@
 > [!WARNING]
 > - NVIDIA is **phasing out** the **proprietary** drivers for their **4xxx** and **5xxx** series because NVIDIA is attempting to be **more open source** for their **recent and future cards**.
 > - However, **for older cards**, you still have to use **proprietary** drivers for **better compatibility and performance**.
-> - Also, you **should not use** Wayland **unless** you use one of the recent NVIDIA GPUs that are mentioned above because it is likely for you to experience **glitches and performance issues**. Using X11 is a **better option** for now.
+> - Also, you **should not use** Wayland **unless** you use one of the **recent NVIDIA GPUs** that are mentioned above, or **older cards** that still get **proprietary driver updates** because it is likely for you to experience **glitches and performance issues**. Using X11 is a **better option** for now.
 ## Issues of Linux Gaming
 - There are **not too many issues** when it comes to gaming on Linux. However, the **main limitation** is **kernel-level anti-cheat software**. These anti-cheat software **are not able to run** on Linux.
 	- The reason why is a kernel-level anti-cheat software that is developed for a Windows game means that the anti-cheat software **requires a kernel called "Windows NT", which is only available for Windows**.

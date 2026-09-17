@@ -1,35 +1,35 @@
 # İçindekiler
-- [Başlamadan Önce](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#ba%C5%9Flamadan-%C3%B6nce)	
- 	- [Linux'ta Oyunlar Nasıl Çalışır?](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#linuxta-oyunlar-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r)
-	- [Linux'ta Oyun Oynamanın Zorlukları](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#linuxta-oyun-oynaman%C4%B1n-zorluklar%C4%B1)
-- [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#ba%C5%9Flang%C4%B1%C3%A7)
-	- [Vulkan Sürücülerini Yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#vulkan-s%C3%BCr%C3%BCc%C3%BClerini-y%C3%BCkleme)
-	- [Oyun Oynama Yazılımı Yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyun-oynama-yaz%C4%B1l%C4%B1m%C4%B1-y%C3%BCkleme)
-	- [Çift Grafikli Sistem Yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#%C3%A7ift-grafikli-sistem-yap%C4%B1land%C4%B1rmas%C4%B1)
-		- [Oyunları Harici Ekran Kartıyla Çalıştırmanın Yolları](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyunlar%C4%B1-harici-ekran-kart%C4%B1yla-%C3%A7al%C4%B1%C5%9Ft%C4%B1rman%C4%B1n-yollar%C4%B1)
-	- [Harici Disk Yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#harici-disk-yap%C4%B1land%C4%B1rmas%C4%B1)
- 		- [Başlangıç: GParted](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#ba%C5%9Flang%C4%B1%C3%A7-gparted)
-   		- [Linux'ta Harici Diskler Nasıl Yapılandırılır?](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#linuxta-harici-diskler-nas%C4%B1l-yap%C4%B1land%C4%B1r%C4%B1l%C4%B1r)
-	- [Performans Arttırma Tavsiyeleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#performans-artt%C4%B1rma-tavsiyeleri)
- 		- [Oyun Çözünürlüğünü Düşürme ve En Düşük Grafik Ayarlarını Kullanma](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyun-%C3%A7%C3%B6z%C3%BCn%C3%BCrl%C3%BC%C4%9F%C3%BCn%C3%BC-d%C3%BC%C5%9F%C3%BCrme-ve-en-d%C3%BC%C5%9F%C3%BCk-grafik-ayarlar%C4%B1n%C4%B1-kullanma)
-   			- [Lossless Scaling](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#lossless-scaling)
-  		- [Performans Çekirdeği Kullanmak](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#performans-%C3%A7ekirde%C4%9Fi-kullanmak)
-		- [Gamemode](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#gamemode)
-		- [Performans Arttıran Başlatma Seçenekleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#performans-artt%C4%B1ran-ba%C5%9Flatma-se%C3%A7enekleri)
-			- [Bu Başlatma Seçeneklerini Nasıl Kullanabilirsiniz?](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#bu-ba%C5%9Flatma-se%C3%A7eneklerini-nas%C4%B1l-kullanabilirsiniz)
-		- [Kompozitörü Devre Dışı Bırakma](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#kompozit%C3%B6r%C3%BC-devre-d%C4%B1%C5%9F%C4%B1-b%C4%B1rakma---yalnizca-x11-i%CC%87%C3%A7i%CC%87n-ge%C3%A7erli%CC%87di%CC%87r)
-- [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#kapan%C4%B1%C5%9F)
+- [Başlamadan Önce](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#ba%C5%9Flamadan-%C3%B6nce)	
+ 	- [Linux'ta Oyunlar Nasıl Çalışır?](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#linuxta-oyunlar-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r)
+	- [Linux'ta Oyun Oynamanın Zorlukları](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#linuxta-oyun-oynaman%C4%B1n-zorluklar%C4%B1)
+- [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#ba%C5%9Flang%C4%B1%C3%A7)
+	- [Vulkan Sürücülerini Yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#vulkan-s%C3%BCr%C3%BCc%C3%BClerini-y%C3%BCkleme)
+	- [Oyun Oynama Yazılımı Yükleme](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyun-oynama-yaz%C4%B1l%C4%B1m%C4%B1-y%C3%BCkleme)
+	- [Çift Grafikli Sistem Yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#%C3%A7ift-grafikli-sistem-yap%C4%B1land%C4%B1rmas%C4%B1)
+		- [Oyunları Harici Ekran Kartıyla Çalıştırmanın Yolları](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyunlar%C4%B1-harici-ekran-kart%C4%B1yla-%C3%A7al%C4%B1%C5%9Ft%C4%B1rman%C4%B1n-yollar%C4%B1)
+	- [Harici Disk Yapılandırması](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#harici-disk-yap%C4%B1land%C4%B1rmas%C4%B1)
+ 		- [Başlangıç: GParted](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#ba%C5%9Flang%C4%B1%C3%A7-gparted)
+   		- [Linux'ta Harici Diskler Nasıl Yapılandırılır?](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#linuxta-harici-diskler-nas%C4%B1l-yap%C4%B1land%C4%B1r%C4%B1l%C4%B1r)
+	- [Performans Arttırma Tavsiyeleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#performans-artt%C4%B1rma-tavsiyeleri)
+ 		- [Oyun Çözünürlüğünü Düşürme ve En Düşük Grafik Ayarlarını Kullanma](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyun-%C3%A7%C3%B6z%C3%BCn%C3%BCrl%C3%BC%C4%9F%C3%BCn%C3%BC-d%C3%BC%C5%9F%C3%BCrme-ve-en-d%C3%BC%C5%9F%C3%BCk-grafik-ayarlar%C4%B1n%C4%B1-kullanma)
+   			- [Lossless Scaling](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#lossless-scaling)
+  		- [Performans Çekirdeği Kullanmak](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#performans-%C3%A7ekirde%C4%9Fi-kullanmak)
+		- [Gamemode](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#gamemode)
+		- [Performans Arttıran Başlatma Seçenekleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#performans-artt%C4%B1ran-ba%C5%9Flatma-se%C3%A7enekleri)
+			- [Bu Başlatma Seçeneklerini Nasıl Kullanabilirsiniz?](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#bu-ba%C5%9Flatma-se%C3%A7eneklerini-nas%C4%B1l-kullanabilirsiniz)
+		- [Kompozitörü Devre Dışı Bırakma](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#kompozit%C3%B6r%C3%BC-devre-d%C4%B1%C5%9F%C4%B1-b%C4%B1rakma---yalnizca-x11-i%CC%87%C3%A7i%CC%87n-ge%C3%A7erli%CC%87di%CC%87r)
+- [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#kapan%C4%B1%C5%9F)
 ## Oyunlara Özel Rehberler
-- **Genshin Impact -** [Genshin Impact Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md)
-- **Minecraft -** [Minecraft Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md)
-- **The Sims 2 -** [The Sims 2 Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md)
+- **Genshin Impact -** [Genshin Impact Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md)
+- **Minecraft -** [Minecraft Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Minecraft-tr.md)
+- **The Sims 2 -** [The Sims 2 Linux Rehberi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md)
 # Linux'ta Oyun Oynama Rehberi
 Esenlikler. Bu rehber size **Linux'ta oyunların nasıl çalıştığını, sisteminizi oyun oynamak için nasıl hazırlayabileceğinizi** ve **sisteminizi daha yüksek performans için nasıl en iyi hâle getirebileceğinizi** anlama konusunda yardımcı olmayı amaçlayan bir rehberdir. Hazırsanız, başlayalım!
 # Başlamadan Önce
 > [!NOTE]
 > - Linux'ta oyun oynama dünyası **hızla gelişiyor**. Her geçen gün, daha fazla kullanıcı Linux'a geçiyor. Bu bağlamda da Linux'un **pazar payı** da **artıyor**.
 > - Bu rehber, Linux'ta **oyun oynamak** isteyen fakat **nereden başlayacağını bilmeyen** herkes için faydalı olmayı amaçlıyor.
-> - Eğer bu rehberi okuduktan sonra içinde bulunan herhangi bir oyun ilginizi çektiyse [Oyunlara Özel Rehberler](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyunlara-%C3%B6zel-rehberler) bölümüne de bakmanızı tavsiye ederim.
+> - Eğer bu rehberi okuduktan sonra içinde bulunan herhangi bir oyun ilginizi çektiyse [Oyunlara Özel Rehberler](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#oyunlara-%C3%B6zel-rehberler) bölümüne de bakmanızı tavsiye ederim.
 > - Son olarak, bu rehberde bazı uygulama içi ayarlardan bahsedildi ve **bu ayarların hepsi İngilizce olarak verildi**. Bunun sebebi ise Linux masaüstü ortamlarının büyük kısmının Türkçeye **tamamen çevrilmiş olmasına rağmen** Türkçe çeviri desteğinin **diğer yazılımlarda tam olmamasıdır**. Size tavsiyem **sisteminizi İngilizce olarak kullanmanızdır**.
 ## Linux'ta Oyunlar Nasıl Çalışır?
 - Linux'ta **Windows oyunlarının birçoğunu** oynayabilirsiniz. Fakat, bu **Linux ile doğrudan uyumlu hiçbir oyunun mevcut olmadığı anlamına gelmez**. Bazı **Linux ile doğrudan uyumlu oyunlar** şunlardır:
@@ -117,10 +117,10 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ```
 ## Oyunları Harici Ekran Kartıyla Çalıştırmanın Yolları
 - Oyunları harici ekran kartıyla çalıştırmanın **dört yolu** vardır:
-	- **1 -** [Terminal Yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#terminal-y%C3%B6ntemi)
- 	- **2 -** [Masaüstü Kısayolu Yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#masa%C3%BCst%C3%BC-k%C4%B1sayolu-y%C3%B6ntemi-%EF%B8%8F)
- 	- **3 -** [Steam Oyunları İçin](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#steam-oyunlar%C4%B1-i%C3%A7in)
-  	- **4 -** [Lutris & Heroic Oyunları İçin](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#lutris--heroic-oyunlar%C4%B1-i%CC%87%C3%A7in)
+	- **1 -** [Terminal Yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#terminal-y%C3%B6ntemi)
+ 	- **2 -** [Masaüstü Kısayolu Yöntemi](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#masa%C3%BCst%C3%BC-k%C4%B1sayolu-y%C3%B6ntemi)
+ 	- **3 -** [Steam Oyunları İçin](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#steam-oyunlar%C4%B1-i%C3%A7in)
+  	- **4 -** [Lutris & Heroic Oyunları İçin](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#lutris--heroic-oyunlar%C4%B1-i%CC%87%C3%A7in)
 ### Terminal Yöntemi
 Kısaca, terminali çalıştırın ve örnekte olduğu gibi ekran kartınız için olan komutu çalıştırın:
 ```
@@ -215,7 +215,7 @@ Oyun oynarken daha yüksek performans almak için bu başlatma seçeneklerini ku
 - `MESA_GLTHREAD=true` **-** **Intel/AMD ekran kartlarının OpenGL performansını** arttırır. - *Performansa etkisi yüksektir*
 - `__GL_THREADED_OPTIMIZATIONS=1` **-** **NVIDIA ekran kartlarının OpenGL performansını** arttırır. - *Performansa etkisi yüksektir*
 ### Bu Başlatma Seçeneklerini Nasıl Kullanabilirsiniz?
-- **Steam -** Bu komutları [daha önceden bahsedildiği üzere](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#steam-oyunlar%C4%B1-i%C3%A7in-) başlatma seçeneklerinde kullanabilirsiniz.
+- **Steam -** Bu komutları [daha önceden bahsedildiği üzere](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#steam-oyunlar%C4%B1-i%C3%A7in-) başlatma seçeneklerinde kullanabilirsiniz.
 - **Lutris -** `System Options` **-** `Environment Variables` **-** `Add`
 <img width="811" height="278" alt="image" src="https://github.com/user-attachments/assets/fda799aa-a02d-408c-9d0e-54c3a19dca1a" />
 

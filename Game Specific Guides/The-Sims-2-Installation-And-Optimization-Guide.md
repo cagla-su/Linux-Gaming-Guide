@@ -1,8 +1,8 @@
 # Table of Contents
-- [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#before-starting)
-- [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#get-started)
-  - [Graphics Rules Maker Setup](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#graphics-rules-maker-setup)
-- [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#conclusion)
+- [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#before-starting)
+- [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#get-started)
+  - [Graphics Rules Maker Setup](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#graphics-rules-maker-setup)
+- [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md#conclusion)
 
 # Before Starting
 > [!NOTE]
@@ -25,7 +25,7 @@
   - `Game: The Sims 2` **-** `Auto-detect` **-** `Force texture memory: 2048 (Intel GPUs only, do not touch it if you use NVIDIA/AMD)` **-** `Save Files`
   - `Game: The Sims 2 Body Shop` **-** `Same steps above` **-** `Save Files`
 > [!NOTE]
-> - If you have **two GPUs**, make sure Lutris is running Graphics Rules Maker through your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#hybrid-graphics-setup) to see how to play games through your dedicated GPU.
+> - If you have **two GPUs**, make sure Lutris is running Graphics Rules Maker through your **dedicated GPU**, you can check my [Linux Gaming Guide](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#hybrid-graphics-setup) to see how to play games through your dedicated GPU.
 >    - I suggest that you read **the whole guide** for optimization tips.
 - Now you are ready to play The Sims 2!
 # Conclusion

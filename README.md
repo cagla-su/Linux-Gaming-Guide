@@ -121,7 +121,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ## Ways to Run Games Through the Dedicated GPU
 - There are **four ways** of running games through your dedicated GPU:
 	- **1 -** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
- 	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#desktop-shortcut-method-%EF%B8%8F)
+ 	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#desktop-shortcut-method)
  	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games)
   	- **4 -** [For Lutris & Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutris--heroic-games)
 ### Terminal Method

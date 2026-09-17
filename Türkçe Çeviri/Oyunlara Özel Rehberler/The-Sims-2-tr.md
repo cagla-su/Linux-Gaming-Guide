@@ -1,8 +1,8 @@
 # İçindekiler
-- [Başlamadan Önce](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#ba%C5%9Flamadan-%C3%B6nce)
-- [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#ba%C5%9Flang%C4%B1%C3%A7)
-  - [Graphics Rules Maker Kurulumu](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#graphics-rules-maker-kurulumu)
-- [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#kapan%C4%B1%C5%9F)
+- [Başlamadan Önce](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#ba%C5%9Flamadan-%C3%B6nce)
+- [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#ba%C5%9Flang%C4%B1%C3%A7)
+  - [Graphics Rules Maker Kurulumu](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#graphics-rules-maker-kurulumu)
+- [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/The-Sims-2-tr.md#kapan%C4%B1%C5%9F)
 
 # Başlamadan Önce
 > [!NOTE]
@@ -25,7 +25,7 @@
   - `Game: The Sims 2` **-** `Auto-detect` **-** `Force texture memory: 2048 (sadece Intel ekran kartları için bu ayarı yapın, NVIDIA/AMD kullanıyorsanız bu ayara dokunmayın)` **-** `Save Files`
   - `Game: The Sims 2 Body Shop` **-** `Yukarıdaki adımların aynısını uygulayın` **-** `Save Files`
 > [!NOTE]
-> - **İki ekran kartı kullanıyorsanız**, Lutris'in Graphics Rules Maker'ı **harici ekran kartınızla** çalıştırdığından emin olun. Oyunları harici ekran kartıyla çalıştırmanın yollarını görmek için [Linux'ta oyun oynama rehberime](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#%C3%A7ift-grafikli-sistem-yap%C4%B1land%C4%B1rmas%C4%B1) bakabilirsiniz.
+> - **İki ekran kartı kullanıyorsanız**, Lutris'in Graphics Rules Maker'ı **harici ekran kartınızla** çalıştırdığından emin olun. Oyunları harici ekran kartıyla çalıştırmanın yollarını görmek için [Linux'ta oyun oynama rehberime](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md#%C3%A7ift-grafikli-sistem-yap%C4%B1land%C4%B1rmas%C4%B1) bakabilirsiniz.
 >    - Performans arttırma tavsiyeleri için **tüm rehberi** okumanızı tavsiye ederim.
 - Artık The Sims 2 oynamak için hazırsınız!
 # Kapanış

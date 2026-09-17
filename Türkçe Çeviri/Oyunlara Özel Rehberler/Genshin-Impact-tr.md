@@ -1,11 +1,11 @@
 # İçindekiler
-- [Başlamadan Önce](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#ba%C5%9Flamadan-%C3%B6nce)
-- [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#ba%C5%9Flang%C4%B1%C3%A7)
-  - [Performans Arttırma Tavsiyeleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#performans-artt%C4%B1rma-tavsiyeleri)
-    - [Başlatıcı Ayarları](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#ba%C5%9Flat%C4%B1c%C4%B1-ayarlar%C4%B1)
-    - [Oyun İçi Ayarlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#oyun-i%CC%87%C3%A7i-ayarlar)
-    - [Diğer Oyun İçi Ayarlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#di%C4%9Fer-oyun-i%CC%87%C3%A7i-ayarlar)
-- [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#kapan%C4%B1%C5%9F)
+- [Başlamadan Önce](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#ba%C5%9Flamadan-%C3%B6nce)
+- [Başlangıç](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#ba%C5%9Flang%C4%B1%C3%A7)
+  - [Performans Arttırma Tavsiyeleri](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#performans-artt%C4%B1rma-tavsiyeleri)
+    - [Başlatıcı Ayarları](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#ba%C5%9Flat%C4%B1c%C4%B1-ayarlar%C4%B1)
+    - [Oyun İçi Ayarlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#oyun-i%CC%87%C3%A7i-ayarlar)
+    - [Diğer Oyun İçi Ayarlar](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#di%C4%9Fer-oyun-i%CC%87%C3%A7i-ayarlar)
+- [Kapanış](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/Oyunlara%20%C3%96zel%20Rehberler/Genshin-Impact-tr.md#kapan%C4%B1%C5%9F)
 # Başlamadan Önce
 > [!NOTE]
 > - Linux'ta Genshin Impact oynamak için kullanacağımız yazılım [AAGL](https://github.com/an-anime-team/an-anime-game-launcher)'dir.

@@ -20,9 +20,9 @@
 		- [Disabling Compositor](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#disabling-compositor---x11-only)
 - [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#conclusion)
 ## Game-Specific Guides
-- **Genshin Impact -** [Genshin Impact Linux Guide](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md)
-- **Minecraft -** [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
-- **The Sims 2 -** [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
+- **Genshin Impact -** [Genshin Impact Linux Guide](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md)
+- **Minecraft -** [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
+- **The Sims 2 -** [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
 ## Türkçe Çeviri 🇹🇷
 > [!NOTE]
 > Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.

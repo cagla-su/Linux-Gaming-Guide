@@ -1,31 +1,31 @@
 # Table of Contents
-- [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#before-starting)	
+- [Before Starting](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#before-starting)	
  	- [How Does Linux Gaming Work?](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#how-does-linux-gaming-work)
-	- [Issues of Linux Gaming](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#issues-of-linux-gaming)
-- [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?search=1#get-started)
+	- [Issues of Linux Gaming](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#issues-of-linux-gaming)
+- [Get Started](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?search=1#get-started)
 	- [Installing Vulkan Drivers](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-vulkan-drivers)
 	- [Installing Gaming Software](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#installing-gaming-software)
 	- [Hybrid Graphics Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#hybrid-graphics-setup)
-		- [Ways to Run Games through the Dedicated GPU](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#ways-to-run-games-through-the-dedicated-gpu)
+		- [Ways to Run Games through the Dedicated GPU](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#ways-to-run-games-through-the-dedicated-gpu)
 	- [External Disk Setup](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#external-disk-setup)
- 		- [Get Started: GParted](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#get-started-gparted)
-   		- [How to Configure External Disks on Linux?](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#how-to-configure-external-disks-on-linux)
+ 		- [Get Started: GParted](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#get-started-gparted)
+   		- [How to Configure External Disks on Linux?](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#how-to-configure-external-disks-on-linux)
 	- [Optimization Tips](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#optimization-tips)
- 		- [Reducing Game Resolution and Using the Lowest Graphics Settings](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#reducing-game-resolution-and-using-the-lowest-graphics-settings)
-   			- [Lossless Scaling](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#lossless-scaling)
-  		- [Using a Performance Kernel](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#using-a-performance-kernel)
-		- [Gamemode](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#gamemode)
-		- [Performance-Increasing Launch Options](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#performance-increasing-launch-options)
-			- [How Can You Use These Launch Options?](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#how-can-you-use-these-launch-options)
-		- [Disabling Compositor](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#disabling-compositor---x11-only)
-- [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#conclusion)
+ 		- [Reducing Game Resolution and Using the Lowest Graphics Settings](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#reducing-game-resolution-and-using-the-lowest-graphics-settings)
+   			- [Lossless Scaling](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#lossless-scaling)
+  		- [Using a Performance Kernel](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#using-a-performance-kernel)
+		- [Gamemode](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#gamemode)
+		- [Performance-Increasing Launch Options](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#performance-increasing-launch-options)
+			- [How Can You Use These Launch Options?](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#how-can-you-use-these-launch-options)
+		- [Disabling Compositor](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#disabling-compositor---x11-only)
+- [Conclusion](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#conclusion)
 ## Game-Specific Guides
 - **Genshin Impact -** [Genshin Impact Linux Guide](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/Genshin-Impact-Installation-And-Optimization-Guide.md)
 - **Minecraft -** [Minecraft Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md)
 - **The Sims 2 -** [The Sims 2 Linux Guide](https://github.com/cutiepenguins/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/The-Sims-2-Installation-And-Optimization-Guide.md)
 ## Türkçe Çeviri 🇹🇷
 > [!NOTE]
-> Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
+> Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md). Birebir çeviri değildir fakat içerik aynıdır.
 # Linux Gaming Guide
 - Hello! This guide aims to help you understand **how gaming on Linux works**, **how to prepare your system for gaming** and **how to optimize your system for higher performance**.
 - If you are ready, let's begin!
@@ -100,7 +100,7 @@
 	- [ProtonPlus](https://protonplus.vysp3r.com/) **-** You can install **custom WINE/Proton builds** for **better compatibility** and **performance** using ProtonPlus. Custom WINE/Proton builds **are supported** by Lutris, Steam and Heroic.
 	- [Sober](https://sober.vinegarhq.org) **-** Sober is a game launcher for playing **Roblox's** Android version on Linux. In the past, it was possible to run the Windows version of Roblox through **VinegarHQ**. However, it is **borked** now due to the **anti-cheat configuration**. That's why **Sober** is the new way of playing Roblox on Linux.
 	- [Prism Launcher](https://prismlauncher.org) **-** Prism Launcher is a feature-rich game launcher for playing **Minecraft**.
- 		- I have a [Minecraft guide](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md) for configuring and optimizing Minecraft, if you are interested.
+ 		- I have a [Minecraft guide](https://github.com/cagla-su/Linux-Gaming-Guide/blob/guide/Game%20Specific%20Guides/Minecraft-Installation-And-Optimization-Guide.md) for configuring and optimizing Minecraft, if you are interested.
 	- [Waydroid](https://waydro.id/) **-** Waydroid is is a **container-based compatibility layer** that **allows Android to run on Linux**. So you can play Android games on Linux using Waydroid.
  		- I have a [Waydroid guide](https://github.com/cagla-su/Waydroid-Guide) for your questions in mind, installation and configuration steps, if you are interested.
 > [!TIP]
@@ -121,7 +121,7 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia
 ## Ways to Run Games Through the Dedicated GPU
 - There are **four ways** of running games through your dedicated GPU:
 	- **1 -** [Terminal Method](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#terminal-method)
- 	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide/tree/main?tab=readme-ov-file#desktop-shortcut-method-%EF%B8%8F)
+ 	- **2 -** [Desktop Shortcut Method](https://github.com/cagla-su/Linux-Gaming-Guide/tree/guide?tab=readme-ov-file#desktop-shortcut-method-%EF%B8%8F)
  	- **3 -** [For Steam Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-steam-games)
   	- **4 -** [For Lutris & Heroic Games](https://github.com/cagla-su/Linux-Gaming-Guide?tab=readme-ov-file#for-lutris--heroic-games)
 ### Terminal Method
